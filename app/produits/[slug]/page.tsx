@@ -1,0 +1,9 @@
+import {notFound} from 'next/navigation';
+import Link from 'next/link';
+import {products,money} from '@/lib/catalogue';
+import Appliance from '@/components/Appliance';
+import {AddButton} from '@/components/Shell';
+import ProductCard from '@/components/ProductCard';
+export function generateStaticParams(){return products.map(p=>({slug:p.slug}))}
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const {slug}=await params;return {title:products.find(p=>p.slug===slug)?.name||'Produit'}}
+export default async function Page({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const p=products.find(p=>p.slug===slug);if(!p)notFound();return <div className="container page-section"><div className="breadcrumbs"><Link href="/">Accueil</Link><span>/</span><Link href="/produits/">Nos produits</Link><span>/</span>{p.name}</div><div className="product-detail"><div className="detail-art"><span className="product-tag">Produit fictif · Illustration</span><Appliance type={p.image}/></div><div className="detail-copy"><span className="eyebrow">{p.category}</span><h1>{p.name}</h1><p>{p.description}</p><strong className="detail-price">{money(p.price)}</strong><span className="fine">Prix fictif · Disponibilité non contractuelle</span><AddButton slug={p.slug}/><Link className="under-link" href="/contact/?profil=revendeur">Vous commandez en volume ? Parlons-en.</Link><dl>{Object.entries(p.specs).map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><p className="fine">Cette fiche est un exemple. Les caractéristiques, le tarif et la disponibilité devront être remplacés par les données du fournisseur.</p></div></div><section className="section"><h2>À découvrir aussi.</h2><div className="products-grid">{products.filter(x=>x.slug!==slug).slice(0,4).map(p=><ProductCard key={p.slug} product={p}/>)}</div></section></div>}

@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <section className="container page-section empty"><span className="eyebrow">PAGE INTROUVABLE</span><h1>Reprenons le bon chemin.</h1><p>Cette page n’existe pas ou a été déplacée.</p><Link className="button" href="/">Retour à l’accueil</Link></section>}
