@@ -1,5 +1,12 @@
 # Aura Volt — Décisions du prototype
 
+## Structure actuelle
+
+La version de revue couvre neuf familles, treize références fictives et huit guides, avec trois parcours professionnels, une demande de catalogue, disponibilité ou devis, et des pages séparées pour la livraison et la garantie. Les marque-pages de la première version restent utilisables. Les pages marques et réalisations sont conditionnées à la confirmation des marques vendues et à des projets documentés.
+
+### Notes de la première version
+
+
 ## Brief repris
 
 Priorité commerciale B2B : revendeurs/magasins au Maroc, promoteurs et hôtels/riads. Parcours particuliers conservé. Commandes de gros dès 50 000 DH. Les délais et conditions nécessitent confirmation sur devis. Ne pas attribuer automatiquement l’histoire « depuis 1970 » à la nouvelle marque Aura Volt sans validation de la relation juridique/commerciale.

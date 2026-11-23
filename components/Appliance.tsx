@@ -1,4 +1,8 @@
+import { Utensils, Heater, CookingPot, Snowflake, Fan } from 'lucide-react';
+const additional = {'lave-vaisselle':Utensils,'chauffe-eau':Heater,'plaques-de-cuisson':CookingPot,congelateurs:Snowflake,hottes:Fan};
 export default function Appliance({type, className = ''}: {type:string;className?:string}) {
+const Icon = additional[type as keyof typeof additional];
+if (Icon) return <Icon className={className} role="img" aria-label={type} strokeWidth={1} style={{padding:'18%'}}/>;
 return <svg viewBox="0 0 300 300" className={className} role="img" aria-label={{fridge:'Réfrigérateur inox',washer:'Lave-linge argent',oven:'Four encastrable',vacuum:'Aspirateur noir'}[type] || 'Électroménager'}>
 <defs><linearGradient id={`metal-${type}`}><stop stopColor="#a3a5a5"/><stop offset=".3" stopColor="#f0f0ec"/><stop offset=".6" stopColor="#b8b9b6"/><stop offset="1" stopColor="#777c7c"/></linearGradient><linearGradient id={`dark-${type}`} x2=".8" y2="1"><stop stopColor="#49525b"/><stop offset=".45" stopColor="#111e28"/><stop offset="1" stopColor="#02090d"/></linearGradient><radialGradient id={`glass-${type}`}><stop stopColor="#58707a"/><stop offset=".7" stopColor="#162a35"/><stop offset="1" stopColor="#050b11"/></radialGradient><filter id={`shadow-${type}`}><feGaussianBlur stdDeviation="6"/></filter></defs>
 <ellipse cx="153" cy="274" rx="83" ry="8" fill="#12202a" opacity=".17" filter={`url(#shadow-${type})`}/>

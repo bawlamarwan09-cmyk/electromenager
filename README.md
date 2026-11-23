@@ -1,5 +1,12 @@
 # Aura Volt — Électroménager
 
+## Structure actuelle
+
+La version de revue couvre neuf familles, treize références fictives et huit guides, avec trois parcours professionnels, une demande de catalogue, disponibilité ou devis, et des pages séparées pour la livraison et la garantie. Les marque-pages de la première version restent utilisables. Les pages marques et réalisations sont conditionnées à la confirmation des marques vendues et à des projets documentés.
+
+### Notes de la première version
+
+
 Prototype responsive de la boutique Aura Volt, réalisé dans le dépôt `electromenager` avec Next.js 16, React 19 et TypeScript. Interface en français, identité issue du logo fourni, catalogue fictif et parcours B2B dédiés.
 
 ## Démarrage
