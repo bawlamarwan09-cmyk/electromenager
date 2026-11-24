@@ -25,7 +25,7 @@ def connect():
         raise FileNotFoundError(path)
     with contextlib.closing(sqlite3.connect(':memory:' if demo else path.resolve().as_uri()+'?mode=ro', uri=not demo)) as db:
         if demo:
-            for script in [*sorted((ROOT/'database').glob('[0-9]*.sql')), ROOT/'database/demo.sql', ROOT/'database/demo_offers.sql']:
+            for script in [*sorted((ROOT/'database').glob('[0-9]*.sql')), ROOT/'database/demo.sql', ROOT/'database/demo_offers.sql', ROOT/'database/demo_kitchen.sql']:
                 db.executescript(script.read_text())
         db.execute('BEGIN')
         yield db

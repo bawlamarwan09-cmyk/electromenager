@@ -224,7 +224,7 @@ class Dashboard(BaseHTTPRequestHandler):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('command',choices=['init','create-admin','serve'])
+    parser.add_argument('command',choices=['init','create-admin','serve','demo-kitchen'])
     parser.add_argument('--demo',action='store_true')
     args=parser.parse_args()
     if args.command=='serve':
@@ -232,7 +232,9 @@ if __name__=='__main__':
     else:
         with database() as db:
             if args.command=='init':
-                for path in SCHEMA+([ROOT/'database/demo.sql',ROOT/'database/demo_articles.sql',ROOT/'database/demo_offers.sql'] if args.demo else []): script(db,path)
+                for path in SCHEMA+([ROOT/'database/demo.sql',ROOT/'database/demo_articles.sql',ROOT/'database/demo_offers.sql',ROOT/'database/demo_kitchen.sql'] if args.demo else []): script(db,path)
+            elif args.command=='demo-kitchen':
+                script(db, ROOT/'database/demo_kitchen.sql')
             else:
                 email=input('E-mail administrateur : ').strip().lower()
                 pwd=getpass.getpass('Mot de passe (12 caractères minimum) : ')
