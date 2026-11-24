@@ -3,8 +3,20 @@ import { Store, Building2, BedDouble, PackageCheck, Check, ChevronRight } from '
 import Appliance from '@/components/Appliance';
 import KitchenHero from '@/components/KitchenHero';
 import HomeCatalogue from '@/components/HomeCatalogue';
+export const metadata = {
+  title: 'Électroménager au Maroc · Vente en gros et au détail',
+  description: 'Aura Volt, un savoir-faire familial depuis 1970. Découvrez notre électroménager pour la maison, les revendeurs, les hôtels et les projets immobiliers au Maroc.',
+};
 export default function Home(){return <>
-<KitchenHero/>
+<section className="hero-editorial" aria-labelledby="home-title">
+  <div className="hero-editorial-copy">
+    <span className="hero-signature">AURA VOLT</span>
+    <h1 id="home-title">L’électroménager pour vos maisons et vos projets.</h1>
+    <p>Un savoir-faire familial depuis 1970.</p>
+    <Link href="/produits/">Explorer le catalogue</Link>
+  </div>
+  <KitchenHero/>
+</section>
 <div className="intro-line container"><p>Un projet, un besoin, <strong>le bon équipement.</strong></p><span>Vente en gros & au détail</span></div>
 <HomeCatalogue/>
 <section className="professional-section"><div className="container pro-inner"><div className="pro-intro"><span className="eyebrow">AURA VOLT · PARTENAIRE DES PROFESSIONNELS</span><h2>Vos ambitions.<br/>Notre engagement.</h2><p>Un magasin à approvisionner ? Des logements à équiper ? Un établissement à préparer ? Construisons une offre autour de votre besoin.</p><Link className="button light" href="/professionnels/">Découvrir l’offre professionnelle</Link></div><div className="pro-list">{[[Store,'Revendeurs & magasins','Une sélection pour vos clients, des conditions pour votre activité.','revendeurs'],[Building2,'Promoteurs immobiliers','Des équipements cohérents pour l’ensemble de vos logements.','promoteurs-immobiliers'],[BedDouble,'Hôtels & riads','Des solutions adaptées à vos espaces et à vos usages.','hotels-riads']].map(([Icon,title,text,slug],i)=>{const I=Icon as typeof Store;return <Link href={`/professionnels/${slug}/`} key={i}><I size={30} strokeWidth={1.25}/><div><h3>{String(title)}</h3><p>{String(text)}</p></div><ChevronRight size={20}/></Link>})}</div></div></section>
