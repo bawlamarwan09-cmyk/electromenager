@@ -37,7 +37,7 @@ export default function KitchenHero() {
     if (family || paused) return;
     const timer=window.setTimeout(()=>{
       setRoom(rooms[(rooms.indexOf(room)+1)%rooms.length]);
-    },3000);
+    },5000);
     return ()=>window.clearTimeout(timer);
   },[room,family,paused]);
   const active=groups.find(g=>g.family===family);
@@ -54,10 +54,12 @@ export default function KitchenHero() {
     onKeyDown={event=>{if(event.key==='Escape' && active) close()}}>
     <div className="kitchen-main">
     <div className="kitchen-scene" inert={!!active}>
-      <img className="kitchen-room" src={`/images/kitchen/${room.photo}.webp`} alt={room.alt} fetchPriority="high"/>
-      {groups.filter(g=>g.room===room.photo).map(g=><button key={g.family} type="button" className={'kitchen-pin pin-'+g.family} style={{left:g.x+'%',top:g.y+'%'}}
+      {rooms.map(r=><div key={r.photo} className="room-slide" data-current={room===r} inert={room!==r} aria-hidden={room!==r}>
+      <img className="kitchen-room" src={`/images/kitchen/${r.photo}.webp`} alt={r.alt} fetchPriority={r===rooms[0]?'high':'auto'}/>
+      {groups.filter(g=>g.room===r.photo).map(g=><button key={g.family} type="button" className={'kitchen-pin pin-'+g.family} style={{left:g.x+'%',top:g.y+'%'}}
         aria-label={g.label} title={g.label}
         onClick={event=>{trigger.current=event.currentTarget;setFamily(g.family);setIndex(0)}}><span><Hand size={17} aria-hidden="true"/></span></button>)}
+      </div>)}
     </div>
     {!active && <span className="room-hint"><Hand size={16}/> Touchez un appareil</span>}
     {active && model && <div className="kitchen-stage" onClick={event=>{if(event.target===event.currentTarget) close()}}>
