@@ -1,57 +1,49 @@
 body:has(.kitchen)>.topbar,body:has(.kitchen)>header{display:none}
-.kitchen{position:relative;isolation:isolate;overflow:hidden;aspect-ratio:16/9;background:#392a20;color:#fff}
-.kitchen-scene{position:absolute;width:100%;aspect-ratio:1;top:50%;transform:translateY(-50%)}
-.kitchen-room{display:block;width:100%;height:auto}
-.kitchen-pin{position:absolute;transform:translate(-50%,-50%);display:grid;place-items:center;width:12%;height:16%;min-width:44px;min-height:44px;padding:0;background:transparent;color:#17232a}
-.pin-refrigerateurs{width:20%;height:39%}.pin-machines-a-laver{width:15%;height:20%}.pin-aspirateurs{width:9%;height:33%}.pin-machines-a-cafe,.pin-appareils-a-panini{height:10%}
-.kitchen-pin span{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#ffffffe0;box-shadow:0 2px 10px #0004}
-.kitchen-stage{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:12px;background:#281c1380;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
-.kitchen-object{width:min(50%,440px);height:52%;min-height:0;pointer-events:none;animation:kitchen-appear .3s ease-out}
-.kitchen-object img,.kitchen-object>svg{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 14px 10px #0007)}
-.kitchen-close{position:absolute;right:15px;top:15px;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;color:#fff;background:#271b15aa}
-.kitchen-card{width:min(100%,350px)}
-.kitchen-card{padding:clamp(14px,1.8vw,28px);background:#332a22a6;border:1px solid #fff5;border-radius:20px;box-shadow:0 10px 30px #0002}
-.kitchen-card h2{font-size:clamp(19px,2.2vw,42px);margin:2px 0;line-height:1.1;color:white}.kitchen-card strong{font-size:clamp(16px,1.7vw,34px)}
-.kitchen-actions{display:flex;align-items:center;gap:10px;margin-top:12px;font-size:.9rem}
-.kitchen-actions button{display:grid;place-items:center;background:transparent;color:white;border:1px solid #fff7;border-radius:8px;min-height:40px;min-width:38px}.kitchen-actions a{margin-left:auto;text-decoration:underline;text-underline-offset:4px}
-@keyframes kitchen-appear{from{opacity:.35;transform:translateY(7px) scale(.95) rotate(-2deg)}}
-@media(max-width:700px){.kitchen{aspect-ratio:1}.kitchen-card{border-radius:12px;padding:10px 15px}.kitchen-actions{margin-top:4px}.kitchen-object{height:46%}}
-@media(prefers-reduced-motion:reduce){.kitchen-object{animation:none}}
-
-.kitchen{display:block;aspect-ratio:auto}
-.kitchen-main{position:relative;aspect-ratio:16/9;overflow:hidden;background:#392a20}
-.kitchen-scene{inset:0;height:100%;aspect-ratio:auto;transform:none}
-.kitchen-room{width:100%;height:100%;object-fit:fill}
-.kitchen-pin{width:44px;height:44px;min-width:0;min-height:0}
-.kitchen-pin span{width:29px;height:29px;border:1px solid #fff;background:#382b1cd9;color:white;box-shadow:0 0 0 4px #fff3,0 2px 9px #0004}
+.kitchen{position:relative;isolation:isolate;overflow:hidden;background:#392a20;color:#fff}
+.kitchen-main{position:relative;aspect-ratio:16/9;overflow:hidden}
+.kitchen-scene,.room-slide{position:absolute;inset:0}
+.room-slide{opacity:0;transition:opacity .85s ease-in-out;pointer-events:none}
+.room-slide[data-current=true]{opacity:1;pointer-events:auto}
+.kitchen-room{display:block;width:100%;height:100%;object-fit:fill;pointer-events:none}
+.kitchen-pin{position:absolute;transform:translate(-50%,-50%);display:grid;place-items:center;min-width:0;min-height:0;padding:0;background:transparent;color:#fff;z-index:1}
+.kitchen-pin span{display:grid;place-items:center;width:29px;height:29px;border-radius:50%;border:1px solid #fff;background:#382b1cd9;box-shadow:0 0 0 4px #fff3,0 2px 9px #0004;pointer-events:none}
 .kitchen-pin:hover span,.kitchen-pin:focus-visible span{background:#985d0a}
+.hero-editorial-copy{position:absolute;left:6%;top:50%;transform:translateY(-50%);width:29%;color:var(--gold);text-shadow:0 2px 18px #0005;pointer-events:none;z-index:2}
+.hero-editorial-copy h1{margin:0 0 1.3vw;font-size:clamp(12px,3vw,56px);font-weight:700;line-height:1.15;letter-spacing:-.035em;color:var(--gold)}
+.hero-editorial-copy h1 span{display:block;white-space:nowrap}
+.hero-editorial-copy p{font-size:clamp(9px,1.7vw,28px);line-height:1.4;margin:0 0 1.5vw;color:#f4ce86}
+.hero-editorial-copy>a{font-size:clamp(10px,1.4vw,22px);text-decoration:underline;text-underline-offset:5px;pointer-events:auto}
 .room-hint{position:absolute;bottom:12px;left:12px;display:inline-flex;align-items:center;gap:7px;padding:5px 11px;border-radius:20px;background:#201911bf;font-size:.82rem;pointer-events:none}
-@media(max-width:700px){.kitchen{display:block}.kitchen-main{aspect-ratio:1.38}.kitchen-stage{gap:4px}.kitchen-object{height:40%}.kitchen-card{width:min(92%,300px)}.kitchen-pin{width:32px;height:38px}.kitchen-pin span{width:22px;height:22px}.kitchen-pin svg{width:14px}}
 .room-controls{position:absolute;bottom:10px;right:12px;display:flex;align-items:center;padding:2px 5px;border-radius:20px;background:#201911bf}
 .room-controls button{width:30px;height:30px;display:grid;place-items:center;background:transparent;color:white}
 .room-dot span{width:7px;height:7px;border-radius:50%;border:1px solid white}
 .room-dot[aria-pressed=true] span{background:white}
-
-.room-slide{position:absolute;inset:0;opacity:0;transition:opacity .85s ease-in-out;pointer-events:none}
-.room-slide[data-current=true]{opacity:1;pointer-events:auto}
-@media(prefers-reduced-motion:reduce){.room-slide{transition:none}}
-
-
-.hero-editorial-copy{position:absolute;left:6%;top:50%;transform:translateY(-50%);width:29%;color:#fff;text-shadow:0 2px 18px #0003}
-.hero-editorial-copy h1{position:static;margin:0 0 22px;font-size:clamp(20px,3vw,56px);font-weight:700;line-height:1.15;letter-spacing:-.035em;color:white}
-.hero-editorial-copy h1 span{display:block;white-space:nowrap}
-.hero-editorial-copy p{font-size:clamp(14px,1.7vw,28px);line-height:1.4;margin:0 0 26px;color:#f8f6f1}
-.hero-editorial-copy>a{font-size:clamp(14px,1.4vw,22px);text-decoration:underline;text-underline-offset:7px}
+.kitchen-stage{position:absolute;inset:0;z-index:3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:12px;background:#281c1380;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.kitchen-object{width:min(50%,440px);height:52%;min-height:0;pointer-events:none;animation:kitchen-appear .3s ease-out}
+.kitchen-object img,.kitchen-object>svg{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 14px 10px #0007)}
+.kitchen-close{position:absolute;right:12px;top:12px;z-index:1;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;color:#fff;background:#271b15aa}
+.kitchen-card{width:min(100%,350px);padding:clamp(14px,1.8vw,28px);background:#332a22a6;border:1px solid #fff5;border-radius:20px;box-shadow:0 10px 30px #0002}
+.kitchen-card h2{font-size:clamp(18px,2.2vw,42px);margin:2px 0;line-height:1.1;color:white}
+.kitchen-card strong{font-size:clamp(16px,1.7vw,34px)}
+.kitchen-actions{display:flex;align-items:center;gap:10px;margin-top:12px;font-size:.9rem}
+.kitchen-actions button{display:grid;place-items:center;background:transparent;color:white;border:1px solid #fff7;border-radius:8px;min-height:36px;min-width:30px}
+.kitchen-actions a{margin-left:auto;text-decoration:underline;text-underline-offset:4px}
+@keyframes kitchen-appear{from{opacity:.35;transform:translateY(7px) scale(.95) rotate(-2deg)}}
 @media(max-width:700px){
- .kitchen-main{aspect-ratio:.9}
- .kitchen-room{object-fit:cover;object-position:68% center}
- .hero-editorial-copy{left:5%;top:7%;transform:none;width:90%}
- .hero-editorial-copy h1{font-size:clamp(23px,6.5vw,40px);margin-bottom:10px;line-height:1.05}
- .hero-editorial-copy p{font-size:14px;line-height:1.25;margin-bottom:12px}
- .hero-editorial-copy p br{display:none}
- .kitchen-scene{top:35%;height:65%}
- .kitchen-room{object-fit:fill}
- .kitchen-main{background:#281e16}
- .hero-editorial-copy>a{font-size:14px}
- .kitchen-stage{z-index:2}
+ .kitchen-pin span{width:16px;height:16px;box-shadow:0 0 0 2px #fff3,0 2px 5px #0004}
+ .kitchen-pin svg{width:11px;height:11px}
+ .room-hint{bottom:5px;left:5px;font-size:9px;padding:3px 6px;gap:3px}
+ .room-hint svg{width:11px;height:11px}
+ .room-controls{bottom:4px;right:4px;padding:0 2px}
+ .room-controls button{width:23px;height:23px}
+ .room-controls svg{width:13px;height:13px}
+ .kitchen-stage{flex-direction:row;gap:8px;padding:15px}
+ .kitchen-object{width:37%;height:80%;flex-shrink:0}
+ .kitchen-card{width:60%;padding:10px;border-radius:10px}
+ .kitchen-card small{font-size:11px}
+ .kitchen-actions{gap:5px;font-size:11px;margin-top:8px;flex-wrap:wrap}
+ .kitchen-actions button{min-width:26px;min-height:28px}
+ .kitchen-actions svg{width:16px;height:16px}
+ .kitchen-actions a{margin-left:0}
 }
+@media(prefers-reduced-motion:reduce){.room-slide{transition:none}.kitchen-object{animation:none}}

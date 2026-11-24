@@ -12,19 +12,19 @@ const rooms = [
   {name:'Salle de bain',photo:'bathroom',alt:'Salle de bain avec douche et chauffe-eau'},
 ];
 const kitchenPoints = [
-  {family:'refrigerateurs', label:'Réfrigérateur', x:42,y:54},
-  {family:'fours', label:'Four', x:53,y:49},
-  {family:'machines-a-cafe', label:'Machine à café', x:64,y:49},
-  {family:'appareils-a-panini', label:'Presse-panini', x:74,y:51},
-  {family:'machines-a-laver', label:'Lave-linge', x:79,y:72},
-  {family:'aspirateurs', label:'Aspirateur', x:96,y:60},
+  {family:'refrigerateurs', label:'Réfrigérateur', x:41.7,y:50,w:12,h:59},
+  {family:'fours', label:'Four', x:53.8,y:43,w:10,h:21},
+  {family:'machines-a-cafe', label:'Machine à café', x:64.8,y:44,w:7,h:19},
+  {family:'appareils-a-panini', label:'Presse-panini', x:74,y:45,w:8,h:16},
+  {family:'machines-a-laver', label:'Lave-linge', x:77.8,y:68,w:11,h:26},
+  {family:'aspirateurs', label:'Aspirateur', x:95.5,y:56,w:5,h:44},
 ];
 const positions = [
   ...kitchenPoints.map(point=>({...point,room:'scene'})),
-  {room:'scene',family:'bouilloires',label:'Bouilloire',x:82,y:51},
-  {room:'scene',family:'blenders',label:'Blender',x:88,y:49},
-  {room:'bedroom',family:'televiseurs',label:'Téléviseur',x:92,y:39},
-  {room:'bathroom',family:'chauffe-eau',label:'Chauffe-eau',x:81,y:24},
+  {room:'scene',family:'bouilloires',label:'Bouilloire',x:81,y:46,w:5,h:14},
+  {room:'scene',family:'blenders',label:'Blender',x:86.8,y:43,w:5,h:19},
+  {room:'bedroom',family:'televiseurs',label:'Téléviseur',x:92,y:39,w:11,h:25},
+  {room:'bathroom',family:'chauffe-eau',label:'Chauffe-eau',x:81,y:24,w:12,h:31},
 ];
 const groups = positions.map(point=>({...point,models:products.filter(p=>p.family===point.family)})).filter(g=>g.models.length);
 
@@ -56,7 +56,7 @@ export default function KitchenHero({children}:{children:ReactNode}) {
     <div className="kitchen-scene" inert={!!active}>
       {rooms.map(r=><div key={r.photo} className="room-slide" data-current={room===r} inert={room!==r} aria-hidden={room!==r}>
       <img className="kitchen-room" src={`/images/kitchen/${r.photo}.webp`} alt={r.alt} fetchPriority={r===rooms[0]?'high':'auto'}/>
-      {groups.filter(g=>g.room===r.photo).map(g=><button key={g.family} type="button" className={'kitchen-pin pin-'+g.family} style={{left:g.x+'%',top:g.y+'%'}}
+      {groups.filter(g=>g.room===r.photo).map(g=><button key={g.family} type="button" className={'kitchen-pin pin-'+g.family} style={{left:g.x+'%',top:g.y+'%',width:g.w+'%',height:g.h+'%'}}
         aria-label={g.label} title={g.label}
         onClick={event=>{trigger.current=event.currentTarget;setFamily(g.family);setIndex(0)}}><span><Hand size={17} aria-hidden="true"/></span></button>)}
       </div>)}
