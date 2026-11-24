@@ -1,8 +1,9 @@
 'use client';
 import Link from 'next/link';
-import {useEffect, useRef, useState, type ReactNode} from 'react';
-import {ChevronLeft, ChevronRight, Hand, Pause, Play, X} from 'lucide-react';
+import {useEffect, useRef, useState, type ReactNode, type CSSProperties} from 'react';
+import {ChevronLeft, ChevronRight, Hand, ChevronDown, Pause, Play, X} from 'lucide-react';
 import {money, products} from '@/lib/catalogue';
+import HeroNavigation from './HeroNavigation';
 import ProductPhoto from './ProductPhoto';
 import './kitchen.css';
 
@@ -40,6 +41,19 @@ export default function KitchenHero({children}:{children:ReactNode}) {
     },5000);
     return ()=>window.clearTimeout(timer);
   },[room,family,paused]);
+  useEffect(()=>{
+    const content=document.getElementById('home-content');
+    if (!content || !('IntersectionObserver' in window)) return;
+    content.classList.add('reveal-ready');
+    const observer=new IntersectionObserver(entries=>{
+      if (entries.some(entry=>entry.isIntersecting)) {
+        content.classList.add('is-visible');
+        observer.disconnect();
+      }
+    },{threshold:0.04});
+    observer.observe(content);
+    return ()=>{observer.disconnect();content.classList.remove('reveal-ready')};
+  },[]);
   const active=groups.find(g=>g.family===family);
   const model=active?.models[index] ?? active?.models[0];
   const trigger=useRef<HTMLButtonElement | null>(null);
@@ -52,11 +66,12 @@ export default function KitchenHero({children}:{children:ReactNode}) {
   }
   return <section className="kitchen" aria-label="Explorer les pièces"
     onKeyDown={event=>{if(event.key==='Escape' && active) close()}}>
+    <HeroNavigation/>
     <div className="kitchen-main">
     <div className="kitchen-scene" inert={!!active}>
-      {rooms.map(r=><div key={r.photo} className="room-slide" data-current={room===r} inert={room!==r} aria-hidden={room!==r}>
+      {rooms.map(r=><div key={r.photo} className="room-slide" style={{'--room-backdrop':`url(/images/kitchen/${r.photo}.webp)`} as CSSProperties} data-current={room===r} inert={room!==r} aria-hidden={room!==r}>
       <img className="kitchen-room" src={`/images/kitchen/${r.photo}.webp`} alt={r.alt} fetchPriority={r===rooms[0]?'high':'auto'}/>
-      {groups.filter(g=>g.room===r.photo).map(g=><button key={g.family} type="button" className={'kitchen-pin pin-'+g.family} style={{left:g.x+'%',top:g.y+'%',width:g.w+'%',height:g.h+'%'}}
+      {groups.filter(g=>g.room===r.photo).map(g=><button key={g.family} type="button" className={'kitchen-pin pin-'+g.family} style={{left:g.x+'%',top:g.y+'%',width:g.w+'%',height:g.h+'%','--pin-y':g.y/100,'--pin-h':g.h/100} as CSSProperties}
         aria-label={g.label} title={g.label}
         onClick={event=>{trigger.current=event.currentTarget;setFamily(g.family);setIndex(0)}}><span><Hand size={17} aria-hidden="true"/></span></button>)}
       </div>)}
@@ -76,6 +91,7 @@ export default function KitchenHero({children}:{children:ReactNode}) {
       </div>
     </div>}
     </div>
+    {!active && <a className="hero-scroll" href="#home-content" aria-label="Découvrir les produits"><ChevronDown size={24}/></a>}
     {!active && <nav className="room-controls" aria-label="Diaporama des pièces">
       {rooms.map(r=><button key={r.photo} className="room-dot" aria-label={r.name} aria-pressed={r===room}
         onClick={()=>setRoom(r)}><span/></button>)}
