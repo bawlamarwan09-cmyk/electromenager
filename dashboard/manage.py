@@ -1,4 +1,5 @@
 """Private catalogue manager. Run 'python dashboard/manage.py --help'."""
+from interface import shell, summary, listing
 import argparse
 import contextlib
 import datetime
@@ -35,7 +36,9 @@ FIELDS = dict(id='Identifiant', slug='Slug URL', name='Nom', title='Titre', topi
               advice='Conseil', guide_slug='Slug du guide principal', value='Valeur', label='Libellé',
               display_order='Ordre', heading='Sous-titre', body='Texte', url='Lien source')
 FLAGS = {'active', 'stock_active'}
-STYLE = """body{font:16px/1.55 system-ui;color:#182922;background:#f7f8f5;max-width:1100px;margin:32px auto;padding:0 20px}a{color:#075944}nav{display:flex;gap:12px;flex-wrap:wrap}main,form.editor{background:white;padding:20px;border-radius:10px}label{display:block;margin:10px 0}input,select,textarea,button{font:inherit;padding:7px;max-width:100%;box-sizing:border-box}label input,label textarea,label select{display:block;width:min(100%,640px)}button{cursor:pointer}table{border-collapse:collapse;width:100%}td,th{text-align:left;padding:8px;border-bottom:1px solid #ddd}.scroll{overflow:auto}"""
+STYLE = Path(__file__).with_name('admin.css').read_text()
+NAV_LABELS = dict(LABELS, home='Vue d’ensemble', stock='Stock')
+FIELDS.update(availability='Disponibilité', position='Ordre')
 
 @contextlib.contextmanager
 def database():
@@ -90,7 +93,9 @@ def href(table, keys):
 
 class Dashboard(BaseHTTPRequestHandler):
     def respond(self, body, status=200, redirect=None, cookie=None):
-        payload = ('<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aura Volt · Administration</title><style>'+STYLE+'</style><header><h1>Aura Volt · Administration</h1></header><main>'+body+'</main></html>').encode()
+        if not redirect and not body.startswith('<div class="layout">'):
+            body='<main class="panel"><div class="brand">Aura <b>Volt</b></div>'+body+'</main>'
+        payload = ('<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aura Volt · Administration</title><style>'+STYLE+'</style><body>'+body+'</body></html>').encode()
         self.send_response(status)
         self.send_header('Content-Type','text/html; charset=utf-8')
         self.send_header('Cache-Control','no-store')
@@ -114,9 +119,12 @@ class Dashboard(BaseHTTPRequestHandler):
         with database() as db:
             user,_=self.session(db)
             if not user:
-                return self.respond('<form action="/login" method="post"><label>E-mail<input type="email" name="email" required></label><label>Mot de passe<input type="password" name="password" required></label><button>Se connecter</button></form>')
-            nav='<nav>'+''.join(f'<a href="/?table={t}">{label}</a>' for t,label in LABELS.items())+'</nav><form action="/logout" method="post"><button>Déconnexion</button></form>'
-            table=args.get('table','product')
+                return self.respond('<h1>Connexion</h1><form action="/login" method="post"><label>E-mail<input type="email" name="email" required></label><label>Mot de passe<input type="password" name="password" required></label><button>Se connecter</button></form>')
+            table=args.get('table','home' if url.path=='/' else 'product')
+            if url.path=='/' and table in ('home','stock'):
+                content=summary(db,query,NAV_LABELS) if table=='home' else ''
+                content+=listing(db,query,'product' if table=='home' else 'stock',META,FIELDS,NAV_LABELS,href,'Produits du catalogue' if table=='home' else None)
+                return self.respond(shell(content,table,NAV_LABELS))
             if table not in META: return self.respond('Introuvable',404)
             columns,keys,refs=META[table]
             if url.path=='/edit':
@@ -128,21 +136,15 @@ class Dashboard(BaseHTTPRequestHandler):
                     if not row: return self.respond('Introuvable',404)
                 content=self.editor(db,table,columns,refs,row,keyvals)
             elif url.path=='/':
-                names=[c[1] for c in columns]
-                rows=query(db,f"SELECT * FROM {table} ORDER BY "+','.join(keys)).fetchall()
-                content=f'<h2>{LABELS[table]}</h2><a href="{href(table,{})}">Ajouter</a><div class="scroll"><table><tr><th>Fiche</th><th>Identifiant</th></tr>'
-                for row in rows:
-                    values=dict(zip(names,row)); label=next((values[k] for k in ('name','title','heading','label') if k in values), 'Modifier')
-                    ids={k:values[k] for k in keys}
-                    content+=f'<tr><td><a href="{href(table,ids)}">{ESC(label)}</a></td><td>{ESC(" / ".join(map(str,ids.values())))}</td></tr>'
-                content+='</table></div>'
+                content=listing(db,query,table,META,FIELDS,NAV_LABELS,href)
             else: return self.respond('Introuvable',404)
-            self.respond(nav+content)
+            self.respond(shell(content,table,NAV_LABELS))
 
     def editor(self,db,table,columns,refs,row,keys):
         def hidden(k,v): return f'<input type="hidden" name="{ESC(k)}" value="{ESC(v)}">'
         identity=hidden('table',table)+''.join(hidden('k_'+k,v) for k,v in keys.items())
-        out=f'<h2>{LABELS[table]}</h2><form class="editor" action="/save" method="post">'+identity
+        action='Modifier' if row else 'Ajouter'
+        out=f'<p><a href="/?table={table}">{LABELS[table]}</a></p><h1>{action} · {LABELS[table]}</h1><form class="editor" action="/save" method="post">'+identity
         if row:
             out+=hidden('version',digest(json.dumps(list(row),default=str)))
         for i,(_,name,kind,required,default,_) in enumerate(columns):
@@ -165,9 +167,9 @@ class Dashboard(BaseHTTPRequestHandler):
                 typ='number' if kind.upper()=='INTEGER' else 'date' if kind.upper()=='DATE' else 'text'
                 field=f'<input type="{typ}" {attr} value="{ESC(value)}">'
             out+=f'<label>{ESC(FIELDS.get(name,name.capitalize()))}{field}</label>'
-        out+='<button>Enregistrer</button>'
-        if row: out+=' <label><input type="checkbox" name="confirm" value="yes">Confirmer la suppression</label><button formaction="/delete" formnovalidate>Supprimer</button>'
-        return out+'</form>'
+        out+='<div class="actions"><button>Enregistrer</button>'
+        if row: out+=' <label><input type="checkbox" name="confirm" value="yes">Confirmer la suppression</label><button class="danger" formaction="/delete" formnovalidate>Supprimer</button>'
+        return out+'</div></form>'
 
     def do_POST(self):
         if self.headers.get('Origin')!=ORIGIN: return self.respond('Origine refusée',403)
