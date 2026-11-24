@@ -6,3 +6,5 @@ out/
 !.env.example
 .DS_Store
 .openai/*.tar.gz
+lib/storefront.generated.json
+__pycache__/

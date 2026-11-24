@@ -1,4 +1,4 @@
-import { spawn } from 'node:child_process';
+import { spawn, execFileSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { join } from 'node:path';
@@ -8,6 +8,8 @@ const args = process.argv.slice(2).filter(a => a !== '--strictPort')
   .map(a => a === '--host' ? '--hostname' : a);
 const port = Number(process.env.DASHBOARD_PORT || 8100);
 const database = process.env.DASHBOARD_DB || join(homedir(), '.aura-volt', 'catalogue.sqlite');
+execFileSync('python3', ['scripts/storefront.py'], { stdio: 'inherit' });
+const watcher = spawn('python3', ['scripts/storefront.py', '--watch'], { stdio: 'inherit' });
 let admin;
 const next = spawn(process.execPath, ['node_modules/next/dist/bin/next', 'dev', ...args], { stdio: 'inherit' });
 
@@ -27,6 +29,6 @@ if (!process.env.DASHBOARD_ORIGIN && (process.env.DATABASE_URL || existsSync(dat
 }
 
 for (const signal of ['SIGTERM','SIGINT']) {
-  process.on(signal, () => { next.kill(signal); admin?.kill(signal); });
+  process.on(signal, () => { next.kill(signal); admin?.kill(signal); watcher.kill(signal); });
 }
-next.on('exit', code => { admin?.kill(); process.exit(code ?? 1); });
+next.on('exit', code => { admin?.kill(); watcher.kill(); process.exit(code ?? 1); });

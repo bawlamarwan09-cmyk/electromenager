@@ -232,7 +232,7 @@ if __name__=='__main__':
     else:
         with database() as db:
             if args.command=='init':
-                for path in SCHEMA+([ROOT/'database/demo.sql',ROOT/'database/demo_articles.sql'] if args.demo else []): script(db,path)
+                for path in SCHEMA+([ROOT/'database/demo.sql',ROOT/'database/demo_articles.sql',ROOT/'database/demo_offers.sql'] if args.demo else []): script(db,path)
             else:
                 email=input('E-mail administrateur : ').strip().lower()
                 pwd=getpass.getpass('Mot de passe (12 caractères minimum) : ')
