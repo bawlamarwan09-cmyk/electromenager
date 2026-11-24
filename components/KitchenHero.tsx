@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
-import {useRef, useState} from 'react';
-import {ChevronLeft, ChevronRight, Hand, X} from 'lucide-react';
+import {useEffect, useRef, useState} from 'react';
+import {ChevronLeft, ChevronRight, Hand, Pause, Play, X} from 'lucide-react';
 import {money, products} from '@/lib/catalogue';
 import ProductPhoto from './ProductPhoto';
 import './kitchen.css';
@@ -32,6 +32,14 @@ export default function KitchenHero() {
   const [room,setRoom]=useState(rooms[0]);
   const [family,setFamily]=useState<string | null>(null);
   const [index,setIndex]=useState(0);
+  const [paused,setPaused]=useState(false);
+  useEffect(()=>{
+    if (family || paused) return;
+    const timer=window.setTimeout(()=>{
+      setRoom(rooms[(rooms.indexOf(room)+1)%rooms.length]);
+    },3000);
+    return ()=>window.clearTimeout(timer);
+  },[room,family,paused]);
   const active=groups.find(g=>g.family===family);
   const model=active?.models[index] ?? active?.models[0];
   const trigger=useRef<HTMLButtonElement | null>(null);
@@ -65,10 +73,12 @@ export default function KitchenHero() {
       </div>
     </div>}
     </div>
-    <nav className="room-rail" aria-label="Choisir une pièce">
-      {rooms.filter(r=>r!==room).map(r=><button key={r.photo} onClick={()=>{setRoom(r);setFamily(null);setIndex(0)}}>
-        <img src={`/images/kitchen/${r.photo}.webp`} alt=""/><span>{r.name} <ChevronRight size={16}/></span>
-      </button>)}
-    </nav>
+    {!active && <nav className="room-controls" aria-label="Diaporama des pièces">
+      {rooms.map(r=><button key={r.photo} className="room-dot" aria-label={r.name} aria-pressed={r===room}
+        onClick={()=>setRoom(r)}><span/></button>)}
+      <button aria-label={paused?'Lire le diaporama':'Mettre le diaporama en pause'} onClick={()=>setPaused(!paused)}>
+        {paused?<Play size={16}/>:<Pause size={16}/>}
+      </button>
+    </nav>}
   </section>;
 }
