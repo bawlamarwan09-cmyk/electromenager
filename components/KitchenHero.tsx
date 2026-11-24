@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import {useEffect, useRef, useState} from 'react';
+import {useEffect, useRef, useState, type ReactNode} from 'react';
 import {ChevronLeft, ChevronRight, Hand, Pause, Play, X} from 'lucide-react';
 import {money, products} from '@/lib/catalogue';
 import ProductPhoto from './ProductPhoto';
@@ -12,23 +12,23 @@ const rooms = [
   {name:'Salle de bain',photo:'bathroom',alt:'Salle de bain avec douche et chauffe-eau'},
 ];
 const kitchenPoints = [
-  {family:'refrigerateurs', label:'Réfrigérateur', x:21,y:45},
-  {family:'fours', label:'Four', x:36,y:39},
-  {family:'machines-a-cafe', label:'Machine à café', x:50,y:40},
-  {family:'appareils-a-panini', label:'Presse-panini', x:62,y:42},
-  {family:'machines-a-laver', label:'Lave-linge', x:69,y:68},
-  {family:'aspirateurs', label:'Aspirateur', x:94,y:55},
+  {family:'refrigerateurs', label:'Réfrigérateur', x:42,y:54},
+  {family:'fours', label:'Four', x:53,y:49},
+  {family:'machines-a-cafe', label:'Machine à café', x:64,y:49},
+  {family:'appareils-a-panini', label:'Presse-panini', x:74,y:51},
+  {family:'machines-a-laver', label:'Lave-linge', x:79,y:72},
+  {family:'aspirateurs', label:'Aspirateur', x:96,y:60},
 ];
 const positions = [
   ...kitchenPoints.map(point=>({...point,room:'scene'})),
-  {room:'scene',family:'bouilloires',label:'Bouilloire',x:73,y:43},
-  {room:'scene',family:'blenders',label:'Blender',x:81,y:40},
-  {room:'bedroom',family:'televiseurs',label:'Téléviseur',x:86,y:37},
-  {room:'bathroom',family:'chauffe-eau',label:'Chauffe-eau',x:66.5,y:23},
+  {room:'scene',family:'bouilloires',label:'Bouilloire',x:82,y:51},
+  {room:'scene',family:'blenders',label:'Blender',x:88,y:49},
+  {room:'bedroom',family:'televiseurs',label:'Téléviseur',x:92,y:39},
+  {room:'bathroom',family:'chauffe-eau',label:'Chauffe-eau',x:81,y:24},
 ];
 const groups = positions.map(point=>({...point,models:products.filter(p=>p.family===point.family)})).filter(g=>g.models.length);
 
-export default function KitchenHero() {
+export default function KitchenHero({children}:{children:ReactNode}) {
   const [room,setRoom]=useState(rooms[0]);
   const [family,setFamily]=useState<string | null>(null);
   const [index,setIndex]=useState(0);
@@ -61,6 +61,7 @@ export default function KitchenHero() {
         onClick={event=>{trigger.current=event.currentTarget;setFamily(g.family);setIndex(0)}}><span><Hand size={17} aria-hidden="true"/></span></button>)}
       </div>)}
     </div>
+    {!active && children}
     {!active && <span className="room-hint"><Hand size={16}/> Touchez un appareil</span>}
     {active && model && <div className="kitchen-stage" onClick={event=>{if(event.target===event.currentTarget) close()}}>
       <button type="button" autoFocus className="kitchen-close" aria-label="Revenir à la pièce" onClick={close}><X/></button>
