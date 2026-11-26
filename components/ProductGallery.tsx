@@ -1,6 +1,6 @@
 'use client';
 import {useRef,useState} from 'react';
-import {Expand, X} from 'lucide-react';
+import {Expand, X, Image as ImageIcon} from 'lucide-react';
 import ProductPhoto from './ProductPhoto';
 
 export default function ProductGallery({image,images,name}:{image:string;images:{url:string;alt:string}[];name:string}) {
@@ -10,7 +10,7 @@ export default function ProductGallery({image,images,name}:{image:string;images:
   const selectedPhoto=photos.find(p=>p.url===selected);
   return <div className="product-gallery-public">
     <div className="detail-art">
-      <ProductPhoto image={selected} alt={selectedPhoto?.alt||name} priority/>
+      {selected?<ProductPhoto image={selected} alt={selectedPhoto?.alt||name} priority/>:<div className="pdp-no-photo"><ImageIcon size={38} strokeWidth={1.2}/><strong>Visuel en préparation</strong><p>Renseignez-vous sur ce modèle auprès de notre équipe.</p></div>}
       {selected&&<button className="pdp-expand" onClick={()=>dialog.current?.showModal()} aria-label={`Agrandir la photo de ${name}`}><Expand size={17}/><span>Voir en grand</span></button>}
     </div>
     {photos.length>1&&<div className="product-thumbnails" aria-label="Photos du produit">
