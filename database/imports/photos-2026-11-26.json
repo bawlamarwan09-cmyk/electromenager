@@ -1,0 +1,3741 @@
+{
+  "batch": "photos-2026-11-26",
+  "source": "ezyZip.zip",
+  "categories": {
+    "lave-vaisselle": "Lave-vaisselle",
+    "machines-a-laver": "Lave-linge",
+    "refrigerateurs": "Réfrigérateur",
+    "robots-patissiers": "Robot pâtissier",
+    "plaques-de-cuisson": "Plaque de cuisson",
+    "chauffe-eau": "Chauffe-eau",
+    "fours-posables": "Four posable",
+    "mixeurs-plongeants": "Mixeur plongeant",
+    "hachoirs": "Hachoir",
+    "chauffages": "Chauffage",
+    "machines-a-cafe": "Machine à café",
+    "blenders": "Blender",
+    "hottes": "Hotte",
+    "cuisinieres": "Cuisinière",
+    "aspirateurs": "Aspirateur",
+    "rechauds-electriques": "Réchaud électrique",
+    "machines-a-pates": "Machine à pâtes",
+    "barbecues-electriques": "Barbecue électrique",
+    "broyeurs-alimentaires": "Broyeur alimentaire",
+    "presse-agrumes": "Presse-agrumes",
+    "climatiseurs": "Climatiseur",
+    "rechauds-gaz": "Réchaud à gaz",
+    "distributeurs-eau": "Distributeur d’eau",
+    "televiseurs": "Téléviseur"
+  },
+  "products": [
+    {
+      "id": "REAL-001",
+      "category": "lave-vaisselle",
+      "brand": "Marque à confirmer",
+      "name": "Lave-vaisselle · lot 001",
+      "slug": "lave-vaisselle-photo-001",
+      "description": "Simplifiez l’entretien de la vaisselle au quotidien. Vérifiez le nombre de couverts et les dimensions avant de choisir votre modèle. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-001.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-002",
+      "category": "lave-vaisselle",
+      "brand": "Marque à confirmer",
+      "name": "Lave-vaisselle · lot 002",
+      "slug": "lave-vaisselle-photo-002",
+      "description": "Simplifiez l’entretien de la vaisselle au quotidien. Vérifiez le nombre de couverts et les dimensions avant de choisir votre modèle. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-002.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-003",
+      "category": "lave-vaisselle",
+      "brand": "Marque à confirmer",
+      "name": "Lave-vaisselle · lot 003",
+      "slug": "lave-vaisselle-photo-003",
+      "description": "Simplifiez l’entretien de la vaisselle au quotidien. Vérifiez le nombre de couverts et les dimensions avant de choisir votre modèle. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-003.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-004",
+      "category": "machines-a-laver",
+      "brand": "Marque à confirmer",
+      "name": "Lave-linge · lot 004",
+      "slug": "machines-a-laver-photo-004",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-004.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-005",
+      "category": "machines-a-laver",
+      "brand": "Marque à confirmer",
+      "name": "Lave-linge · lot 005",
+      "slug": "machines-a-laver-photo-005",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-005.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-006",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 006",
+      "slug": "refrigerateurs-photo-006",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-006.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-007",
+      "category": "machines-a-laver",
+      "brand": "Marque à confirmer",
+      "name": "Lave-linge · lot 007",
+      "slug": "machines-a-laver-photo-007",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-007.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-008",
+      "category": "machines-a-laver",
+      "brand": "Marque à confirmer",
+      "name": "Lave-linge · lot 008",
+      "slug": "machines-a-laver-photo-008",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-008.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-009",
+      "category": "machines-a-laver",
+      "brand": "Marque à confirmer",
+      "name": "Lave-linge · lot 009",
+      "slug": "machines-a-laver-photo-009",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-009.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-010",
+      "category": "machines-a-laver",
+      "brand": "Marque à confirmer",
+      "name": "Lave-linge · lot 010",
+      "slug": "machines-a-laver-photo-010",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-010.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-011",
+      "category": "machines-a-laver",
+      "brand": "Marque à confirmer",
+      "name": "Lave-linge · lot 011",
+      "slug": "machines-a-laver-photo-011",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-011.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-012",
+      "category": "machines-a-laver",
+      "brand": "Marque à confirmer",
+      "name": "Lave-linge · lot 012",
+      "slug": "machines-a-laver-photo-012",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-012.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-013",
+      "category": "machines-a-laver",
+      "brand": "Siera",
+      "name": "Lave-linge Siera · lot 013",
+      "slug": "machines-a-laver-photo-013",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-013.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-014",
+      "category": "machines-a-laver",
+      "brand": "National",
+      "name": "Lave-linge National · lot 014",
+      "slug": "machines-a-laver-photo-014",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-014.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-015",
+      "category": "machines-a-laver",
+      "brand": "Goldenstar",
+      "name": "Lave-linge Goldenstar · lot 015",
+      "slug": "machines-a-laver-photo-015",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-015.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-016",
+      "category": "machines-a-laver",
+      "brand": "Goldenstar",
+      "name": "Lave-linge Goldenstar · lot 016",
+      "slug": "machines-a-laver-photo-016",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-016.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-017",
+      "category": "machines-a-laver",
+      "brand": "Goldenstar",
+      "name": "Lave-linge Goldenstar · lot 017",
+      "slug": "machines-a-laver-photo-017",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-017.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-018",
+      "category": "machines-a-laver",
+      "brand": "General Tecnomatic",
+      "name": "Lave-linge General Tecnomatic · lot 018",
+      "slug": "machines-a-laver-photo-018",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-018.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-019",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 019",
+      "slug": "refrigerateurs-photo-019",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-019.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-020",
+      "category": "machines-a-laver",
+      "brand": "Goldenstar",
+      "name": "Lave-linge Goldenstar · lot 020",
+      "slug": "machines-a-laver-photo-020",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-020.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-021",
+      "category": "machines-a-laver",
+      "brand": "KGLG",
+      "name": "Lave-linge KGLG · lot 021",
+      "slug": "machines-a-laver-photo-021",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-021.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-022",
+      "category": "machines-a-laver",
+      "brand": "KGLG",
+      "name": "Lave-linge KGLG · lot 022",
+      "slug": "machines-a-laver-photo-022",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-022.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-023",
+      "category": "robots-patissiers",
+      "brand": "Regal",
+      "name": "Robot pâtissier Regal · lot 023",
+      "slug": "robots-patissiers-photo-023",
+      "description": "Préparez vos mélanges et pâtes avec un robot pâtissier. Vérifiez les accessoires fournis, le volume du bol et les vitesses disponibles. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-023.webp",
+        "/images/catalogue-real/photo-096.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-024",
+      "category": "robots-patissiers",
+      "brand": "Bonomi",
+      "name": "Robot pâtissier Bonomi · lot 024",
+      "slug": "robots-patissiers-photo-024",
+      "description": "Préparez vos mélanges et pâtes avec un robot pâtissier. Vérifiez les accessoires fournis, le volume du bol et les vitesses disponibles. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-024.webp",
+        "/images/catalogue-real/photo-097.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-025",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 025",
+      "slug": "plaques-de-cuisson-photo-025",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-025.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-026",
+      "category": "robots-patissiers",
+      "brand": "General Tecnomatic",
+      "name": "Robot pâtissier General Tecnomatic · lot 026",
+      "slug": "robots-patissiers-photo-026",
+      "description": "Préparez vos mélanges et pâtes avec un robot pâtissier. Vérifiez les accessoires fournis, le volume du bol et les vitesses disponibles. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-026.webp",
+        "/images/catalogue-real/photo-098.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-027",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 027",
+      "slug": "refrigerateurs-photo-027",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-027.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-028",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 028",
+      "slug": "refrigerateurs-photo-028",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-028.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-029",
+      "category": "chauffe-eau",
+      "brand": "Junkers Bosch",
+      "name": "Chauffe-eau Junkers Bosch · lot 029",
+      "slug": "chauffe-eau-photo-029",
+      "description": "Un équipement pour vos besoins en eau chaude. La capacité, l’alimentation et les conditions d’installation doivent être validées avec un installateur. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-029.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-030",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 030",
+      "slug": "plaques-de-cuisson-photo-030",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-030.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-031",
+      "category": "robots-patissiers",
+      "brand": "Venezia",
+      "name": "Robot pâtissier Venezia · lot 031",
+      "slug": "robots-patissiers-photo-031",
+      "description": "Préparez vos mélanges et pâtes avec un robot pâtissier. Vérifiez les accessoires fournis, le volume du bol et les vitesses disponibles. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-031.webp",
+        "/images/catalogue-real/photo-095.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-032",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 032",
+      "slug": "refrigerateurs-photo-032",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-032.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-033",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 033",
+      "slug": "refrigerateurs-photo-033",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-033.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-034",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 034",
+      "slug": "refrigerateurs-photo-034",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-034.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-035",
+      "category": "chauffe-eau",
+      "brand": "Junkers Bosch",
+      "name": "Chauffe-eau Junkers Bosch · lot 035",
+      "slug": "chauffe-eau-photo-035",
+      "description": "Un équipement pour vos besoins en eau chaude. La capacité, l’alimentation et les conditions d’installation doivent être validées avec un installateur. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-035.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-036",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 036",
+      "slug": "refrigerateurs-photo-036",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-036.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-037",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 037",
+      "slug": "refrigerateurs-photo-037",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-037.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-038",
+      "category": "fours-posables",
+      "brand": "Elexia",
+      "name": "Four posable Elexia · lot 038",
+      "slug": "fours-posables-photo-038",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-038.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-039",
+      "category": "fours-posables",
+      "brand": "Venezia",
+      "name": "Four posable Venezia · lot 039",
+      "slug": "fours-posables-photo-039",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-039.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-040",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 040",
+      "slug": "refrigerateurs-photo-040",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-040.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-041",
+      "category": "fours-posables",
+      "brand": "Elexia",
+      "name": "Four posable Elexia · lot 041",
+      "slug": "fours-posables-photo-041",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-041.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-042",
+      "category": "chauffe-eau",
+      "brand": "Junkers Bosch",
+      "name": "Chauffe-eau Junkers Bosch · lot 042",
+      "slug": "chauffe-eau-photo-042",
+      "description": "Un équipement pour vos besoins en eau chaude. La capacité, l’alimentation et les conditions d’installation doivent être validées avec un installateur. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-042.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-043",
+      "category": "fours-posables",
+      "brand": "Techvision",
+      "name": "Four posable Techvision · lot 043",
+      "slug": "fours-posables-photo-043",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-043.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-044",
+      "category": "fours-posables",
+      "brand": "Techvision",
+      "name": "Four posable Techvision · lot 044",
+      "slug": "fours-posables-photo-044",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-044.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-045",
+      "category": "chauffe-eau",
+      "brand": "Marque à confirmer",
+      "name": "Chauffe-eau · lot 045",
+      "slug": "chauffe-eau-photo-045",
+      "description": "Un équipement pour vos besoins en eau chaude. La capacité, l’alimentation et les conditions d’installation doivent être validées avec un installateur. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-045.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-046",
+      "category": "chauffe-eau",
+      "brand": "Ariston",
+      "name": "Chauffe-eau Ariston · lot 046",
+      "slug": "chauffe-eau-photo-046",
+      "description": "Un équipement pour vos besoins en eau chaude. La capacité, l’alimentation et les conditions d’installation doivent être validées avec un installateur. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-046.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-047",
+      "category": "mixeurs-plongeants",
+      "brand": "Bodi",
+      "name": "Mixeur plongeant Bodi · lot 047",
+      "slug": "mixeurs-plongeants-photo-047",
+      "description": "Préparez vos soupes et mélanges avec un mixeur plongeant. Les accessoires et les vitesses dépendent de la référence à confirmer. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-047.webp",
+        "/images/catalogue-real/photo-100.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-048",
+      "category": "mixeurs-plongeants",
+      "brand": "Bodi",
+      "name": "Mixeur plongeant Bodi · lot 048",
+      "slug": "mixeurs-plongeants-photo-048",
+      "description": "Préparez vos soupes et mélanges avec un mixeur plongeant. Les accessoires et les vitesses dépendent de la référence à confirmer. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-048.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-049",
+      "category": "refrigerateurs",
+      "brand": "Marque à confirmer",
+      "name": "Réfrigérateur · lot 049",
+      "slug": "refrigerateurs-photo-049",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-049.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-056",
+      "category": "hachoirs",
+      "brand": "Koln",
+      "name": "Hachoir Koln · lot 056",
+      "slug": "hachoirs-photo-056",
+      "description": "Un appareil de préparation pour hacher vos ingrédients. Vérifiez les aliments compatibles, le volume du bol et les accessoires inclus. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-056.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-057",
+      "category": "fours-posables",
+      "brand": "Venezia",
+      "name": "Four posable Venezia · lot 057",
+      "slug": "fours-posables-photo-057",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-057.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-058",
+      "category": "fours-posables",
+      "brand": "Venezia",
+      "name": "Four posable Venezia · lot 058",
+      "slug": "fours-posables-photo-058",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-058.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-059",
+      "category": "fours-posables",
+      "brand": "Itimat",
+      "name": "Four posable Itimat · lot 059",
+      "slug": "fours-posables-photo-059",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-059.webp",
+        "/images/catalogue-real/photo-192.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-060",
+      "category": "fours-posables",
+      "brand": "Marque à confirmer",
+      "name": "Four posable · lot 060",
+      "slug": "fours-posables-photo-060",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-060.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-061",
+      "category": "fours-posables",
+      "brand": "Techvision",
+      "name": "Four posable Techvision · lot 061",
+      "slug": "fours-posables-photo-061",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-061.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-062",
+      "category": "fours-posables",
+      "brand": "Elexia",
+      "name": "Four posable Elexia · lot 062",
+      "slug": "fours-posables-photo-062",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-062.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-063",
+      "category": "fours-posables",
+      "brand": "Marque à confirmer",
+      "name": "Four posable · lot 063",
+      "slug": "fours-posables-photo-063",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-063.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-064",
+      "category": "chauffages",
+      "brand": "Venezia",
+      "name": "Chauffage Venezia · lot 064",
+      "slug": "chauffages-photo-064",
+      "description": "Un équipement de chauffage pour votre intérieur. Le type d’énergie, la puissance et les précautions d’utilisation sont à vérifier avant achat. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-064.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-065",
+      "category": "chauffages",
+      "brand": "Venezia",
+      "name": "Chauffage Venezia · lot 065",
+      "slug": "chauffages-photo-065",
+      "description": "Un équipement de chauffage pour votre intérieur. Le type d’énergie, la puissance et les précautions d’utilisation sont à vérifier avant achat. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-065.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-066",
+      "category": "chauffages",
+      "brand": "Venezia",
+      "name": "Chauffage Venezia · lot 066",
+      "slug": "chauffages-photo-066",
+      "description": "Un équipement de chauffage pour votre intérieur. Le type d’énergie, la puissance et les précautions d’utilisation sont à vérifier avant achat. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-066.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-067",
+      "category": "machines-a-cafe",
+      "brand": "Koln",
+      "name": "Machine à café Koln · lot 067",
+      "slug": "machines-a-cafe-photo-067",
+      "description": "Aménagez votre coin café avec cette machine. Les boissons proposées, la compatibilité du café et les accessoires restent à confirmer. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-067.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-068",
+      "category": "machines-a-cafe",
+      "brand": "Koln",
+      "name": "Machine à café Koln · lot 068",
+      "slug": "machines-a-cafe-photo-068",
+      "description": "Aménagez votre coin café avec cette machine. Les boissons proposées, la compatibilité du café et les accessoires restent à confirmer. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-068.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-069",
+      "category": "machines-a-cafe",
+      "brand": "Koln",
+      "name": "Machine à café Koln · lot 069",
+      "slug": "machines-a-cafe-photo-069",
+      "description": "Aménagez votre coin café avec cette machine. Les boissons proposées, la compatibilité du café et les accessoires restent à confirmer. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-069.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-070",
+      "category": "machines-a-cafe",
+      "brand": "Koln",
+      "name": "Machine à café Koln · lot 070",
+      "slug": "machines-a-cafe-photo-070",
+      "description": "Aménagez votre coin café avec cette machine. Les boissons proposées, la compatibilité du café et les accessoires restent à confirmer. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-070.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-071",
+      "category": "blenders",
+      "brand": "Marque à confirmer",
+      "name": "Blender · lot 071",
+      "slug": "blenders-photo-071",
+      "description": "Préparez vos mélanges avec ce blender. Vérifiez le volume du bol, les vitesses et les usages autorisés par le fabricant. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-071.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-072",
+      "category": "blenders",
+      "brand": "Tatch",
+      "name": "Blender Tatch · lot 072",
+      "slug": "blenders-photo-072",
+      "description": "Préparez vos mélanges avec ce blender. Vérifiez le volume du bol, les vitesses et les usages autorisés par le fabricant. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-072.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-073",
+      "category": "blenders",
+      "brand": "Atlanta",
+      "name": "Blender Atlanta · lot 073",
+      "slug": "blenders-photo-073",
+      "description": "Préparez vos mélanges avec ce blender. Vérifiez le volume du bol, les vitesses et les usages autorisés par le fabricant. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-073.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-074",
+      "category": "hottes",
+      "brand": "Venezia",
+      "name": "Hotte Venezia · lot 074",
+      "slug": "hottes-photo-074",
+      "description": "Complétez votre zone de cuisson avec une hotte. La largeur, le débit et la compatibilité avec une évacuation ou le recyclage sont à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-074.webp",
+        "/images/catalogue-real/photo-090.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-075",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 075",
+      "slug": "plaques-de-cuisson-photo-075",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-075.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-076",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 076",
+      "slug": "plaques-de-cuisson-photo-076",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-076.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-077",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 077",
+      "slug": "plaques-de-cuisson-photo-077",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-077.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-078",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 078",
+      "slug": "plaques-de-cuisson-photo-078",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-078.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-079",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 079",
+      "slug": "plaques-de-cuisson-photo-079",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-079.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-080",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 080",
+      "slug": "plaques-de-cuisson-photo-080",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-080.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-081",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 081",
+      "slug": "plaques-de-cuisson-photo-081",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-081.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-082",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 082",
+      "slug": "plaques-de-cuisson-photo-082",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-082.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-083",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 083",
+      "slug": "plaques-de-cuisson-photo-083",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-083.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-084",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 084",
+      "slug": "plaques-de-cuisson-photo-084",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-084.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-085",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 085",
+      "slug": "plaques-de-cuisson-photo-085",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-085.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-086",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 086",
+      "slug": "plaques-de-cuisson-photo-086",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-086.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-087",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 087",
+      "slug": "plaques-de-cuisson-photo-087",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-087.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-088",
+      "category": "plaques-de-cuisson",
+      "brand": "Active Chef",
+      "name": "Plaque de cuisson Active Chef · lot 088",
+      "slug": "plaques-de-cuisson-photo-088",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-088.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-089",
+      "category": "cuisinieres",
+      "brand": "Marque à confirmer",
+      "name": "Cuisinière · lot 089",
+      "slug": "cuisinieres-photo-089",
+      "description": "Regroupez les fonctions de cuisson dans un appareil pour votre cuisine. Confirmez les dimensions, les foyers et le type de four. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-089.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-091",
+      "category": "aspirateurs",
+      "brand": "Marque à confirmer",
+      "name": "Aspirateur · lot 091",
+      "slug": "aspirateurs-photo-091",
+      "description": "Un appareil pour l’entretien de vos surfaces. Comparez les accessoires, l’alimentation et la capacité de collecte avant de choisir. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-091.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-092",
+      "category": "aspirateurs",
+      "brand": "Venezia",
+      "name": "Aspirateur Venezia · lot 092",
+      "slug": "aspirateurs-photo-092",
+      "description": "Un appareil pour l’entretien de vos surfaces. Comparez les accessoires, l’alimentation et la capacité de collecte avant de choisir. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-092.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-093",
+      "category": "rechauds-electriques",
+      "brand": "Marque à confirmer",
+      "name": "Réchaud électrique · lot 093",
+      "slug": "rechauds-electriques-photo-093",
+      "description": "Une solution de cuisson électrique à poser. Vérifiez le nombre de foyers, la puissance et la compatibilité avec vos ustensiles. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-093.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-094",
+      "category": "hachoirs",
+      "brand": "Marque à confirmer",
+      "name": "Hachoir · lot 094",
+      "slug": "hachoirs-photo-094",
+      "description": "Un appareil de préparation pour hacher vos ingrédients. Vérifiez les aliments compatibles, le volume du bol et les accessoires inclus. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-094.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-099",
+      "category": "mixeurs-plongeants",
+      "brand": "Marque à confirmer",
+      "name": "Mixeur plongeant · lot 099",
+      "slug": "mixeurs-plongeants-photo-099",
+      "description": "Préparez vos soupes et mélanges avec un mixeur plongeant. Les accessoires et les vitesses dépendent de la référence à confirmer. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-099.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-101",
+      "category": "blenders",
+      "brand": "Venezia",
+      "name": "Blender Venezia · lot 101",
+      "slug": "blenders-photo-101",
+      "description": "Préparez vos mélanges avec ce blender. Vérifiez le volume du bol, les vitesses et les usages autorisés par le fabricant. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-101.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-102",
+      "category": "appareils-a-panini",
+      "brand": "Bonomi",
+      "name": "Produit à identifier Bonomi · lot 102",
+      "slug": "appareils-a-panini-photo-102",
+      "description": "Préparez vos sandwichs grillés avec une presse à panini. Vérifiez les dimensions des plaques et les réglages disponibles. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-102.webp",
+        "/images/catalogue-real/photo-152.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-103",
+      "category": "televiseurs",
+      "brand": "Star Vision",
+      "name": "Téléviseur Star Vision · lot 103",
+      "slug": "televiseurs-photo-103",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-103.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-104",
+      "category": "televiseurs",
+      "brand": "Elexia",
+      "name": "Téléviseur Elexia · lot 104",
+      "slug": "televiseurs-photo-104",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-104.webp",
+        "/images/catalogue-real/photo-107.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-105",
+      "category": "televiseurs",
+      "brand": "Star Vision",
+      "name": "Téléviseur Star Vision · lot 105",
+      "slug": "televiseurs-photo-105",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-105.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-106",
+      "category": "televiseurs",
+      "brand": "Star Vision",
+      "name": "Téléviseur Star Vision · lot 106",
+      "slug": "televiseurs-photo-106",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-106.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-108",
+      "category": "televiseurs",
+      "brand": "Star Vision",
+      "name": "Téléviseur Star Vision · lot 108",
+      "slug": "televiseurs-photo-108",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-108.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-109",
+      "category": "televiseurs",
+      "brand": "Star Vision",
+      "name": "Téléviseur Star Vision · lot 109",
+      "slug": "televiseurs-photo-109",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-109.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-110",
+      "category": "cuisinieres",
+      "brand": "Marque à confirmer",
+      "name": "Cuisinière · lot 110",
+      "slug": "cuisinieres-photo-110",
+      "description": "Regroupez les fonctions de cuisson dans un appareil pour votre cuisine. Confirmez les dimensions, les foyers et le type de four. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-110.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-111",
+      "category": "machines-a-pates",
+      "brand": "Koln",
+      "name": "Machine à pâtes Koln · lot 111",
+      "slug": "machines-a-pates-photo-111",
+      "description": "Préparez vos pâtes maison avec cet appareil. Les formats, les accessoires et les réglages sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-111.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-112",
+      "category": "cuisinieres",
+      "brand": "Marque à confirmer",
+      "name": "Cuisinière · lot 112",
+      "slug": "cuisinieres-photo-112",
+      "description": "Regroupez les fonctions de cuisson dans un appareil pour votre cuisine. Confirmez les dimensions, les foyers et le type de four. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-112.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-113",
+      "category": "cuisinieres",
+      "brand": "Marque à confirmer",
+      "name": "Cuisinière · lot 113",
+      "slug": "cuisinieres-photo-113",
+      "description": "Regroupez les fonctions de cuisson dans un appareil pour votre cuisine. Confirmez les dimensions, les foyers et le type de four. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-113.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-114",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 114",
+      "slug": "plaques-de-cuisson-photo-114",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-114.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-115",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 115",
+      "slug": "plaques-de-cuisson-photo-115",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-115.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-116",
+      "category": "cuisinieres",
+      "brand": "Marque à confirmer",
+      "name": "Cuisinière · lot 116",
+      "slug": "cuisinieres-photo-116",
+      "description": "Regroupez les fonctions de cuisson dans un appareil pour votre cuisine. Confirmez les dimensions, les foyers et le type de four. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-116.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-117",
+      "category": "cuisinieres",
+      "brand": "Marque à confirmer",
+      "name": "Cuisinière · lot 117",
+      "slug": "cuisinieres-photo-117",
+      "description": "Regroupez les fonctions de cuisson dans un appareil pour votre cuisine. Confirmez les dimensions, les foyers et le type de four. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-117.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-118",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 118",
+      "slug": "plaques-de-cuisson-photo-118",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-118.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-119",
+      "category": "cuisinieres",
+      "brand": "Marque à confirmer",
+      "name": "Cuisinière · lot 119",
+      "slug": "cuisinieres-photo-119",
+      "description": "Regroupez les fonctions de cuisson dans un appareil pour votre cuisine. Confirmez les dimensions, les foyers et le type de four. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-119.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-120",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 120",
+      "slug": "plaques-de-cuisson-photo-120",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-120.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-121",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 121",
+      "slug": "plaques-de-cuisson-photo-121",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-121.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-122",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 122",
+      "slug": "plaques-de-cuisson-photo-122",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-122.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-123",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 123",
+      "slug": "plaques-de-cuisson-photo-123",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-123.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-124",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 124",
+      "slug": "plaques-de-cuisson-photo-124",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-124.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-125",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 125",
+      "slug": "plaques-de-cuisson-photo-125",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-125.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-126",
+      "category": "rechauds-electriques",
+      "brand": "Koln",
+      "name": "Réchaud électrique Koln · lot 126",
+      "slug": "rechauds-electriques-photo-126",
+      "description": "Une solution de cuisson électrique à poser. Vérifiez le nombre de foyers, la puissance et la compatibilité avec vos ustensiles. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-126.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-127",
+      "category": "chauffe-eau",
+      "brand": "Venezia",
+      "name": "Chauffe-eau Venezia · lot 127",
+      "slug": "chauffe-eau-photo-127",
+      "description": "Un équipement pour vos besoins en eau chaude. La capacité, l’alimentation et les conditions d’installation doivent être validées avec un installateur. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-127.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-128",
+      "category": "plaques-de-cuisson",
+      "brand": "Marque à confirmer",
+      "name": "Plaque de cuisson · lot 128",
+      "slug": "plaques-de-cuisson-photo-128",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-128.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-129",
+      "category": "plaques-de-cuisson",
+      "brand": "Venezia",
+      "name": "Plaque de cuisson Venezia · lot 129",
+      "slug": "plaques-de-cuisson-photo-129",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-129.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-130",
+      "category": "chauffe-eau",
+      "brand": "Venezia",
+      "name": "Chauffe-eau Venezia · lot 130",
+      "slug": "chauffe-eau-photo-130",
+      "description": "Un équipement pour vos besoins en eau chaude. La capacité, l’alimentation et les conditions d’installation doivent être validées avec un installateur. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-130.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-131",
+      "category": "machines-a-laver",
+      "brand": "Venezia",
+      "name": "Lave-linge Venezia · lot 131",
+      "slug": "machines-a-laver-photo-131",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-131.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-132",
+      "category": "chauffages",
+      "brand": "Venezia",
+      "name": "Chauffage Venezia · lot 132",
+      "slug": "chauffages-photo-132",
+      "description": "Un équipement de chauffage pour votre intérieur. Le type d’énergie, la puissance et les précautions d’utilisation sont à vérifier avant achat. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-132.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-133",
+      "category": "machines-a-laver",
+      "brand": "Venezia",
+      "name": "Lave-linge Venezia · lot 133",
+      "slug": "machines-a-laver-photo-133",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-133.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-134",
+      "category": "machines-a-laver",
+      "brand": "Venezia",
+      "name": "Lave-linge Venezia · lot 134",
+      "slug": "machines-a-laver-photo-134",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-134.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-135",
+      "category": "rechauds-electriques",
+      "brand": "Koln",
+      "name": "Réchaud électrique Koln · lot 135",
+      "slug": "rechauds-electriques-photo-135",
+      "description": "Une solution de cuisson électrique à poser. Vérifiez le nombre de foyers, la puissance et la compatibilité avec vos ustensiles. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-135.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-136",
+      "category": "plaques-de-cuisson",
+      "brand": "Maclay",
+      "name": "Plaque de cuisson Maclay · lot 136",
+      "slug": "plaques-de-cuisson-photo-136",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-136.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-137",
+      "category": "plaques-de-cuisson",
+      "brand": "Maclay",
+      "name": "Plaque de cuisson Maclay · lot 137",
+      "slug": "plaques-de-cuisson-photo-137",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-137.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-138",
+      "category": "chauffages",
+      "brand": "Venezia",
+      "name": "Chauffage Venezia · lot 138",
+      "slug": "chauffages-photo-138",
+      "description": "Un équipement de chauffage pour votre intérieur. Le type d’énergie, la puissance et les précautions d’utilisation sont à vérifier avant achat. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-138.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-139",
+      "category": "chauffages",
+      "brand": "Venezia",
+      "name": "Chauffage Venezia · lot 139",
+      "slug": "chauffages-photo-139",
+      "description": "Un équipement de chauffage pour votre intérieur. Le type d’énergie, la puissance et les précautions d’utilisation sont à vérifier avant achat. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-139.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-140",
+      "category": "plaques-de-cuisson",
+      "brand": "Maclay",
+      "name": "Plaque de cuisson Maclay · lot 140",
+      "slug": "plaques-de-cuisson-photo-140",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-140.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-141",
+      "category": "machines-a-laver",
+      "brand": "Maclay",
+      "name": "Lave-linge Maclay · lot 141",
+      "slug": "machines-a-laver-photo-141",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-141.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-142",
+      "category": "machines-a-laver",
+      "brand": "Maclay",
+      "name": "Lave-linge Maclay · lot 142",
+      "slug": "machines-a-laver-photo-142",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-142.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-143",
+      "category": "machines-a-laver",
+      "brand": "Maclay",
+      "name": "Lave-linge Maclay · lot 143",
+      "slug": "machines-a-laver-photo-143",
+      "description": "Un appareil dédié à l’entretien de votre linge. Le type de lavage, la capacité, les dimensions et les fonctions sont à confirmer pour cette référence. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-143.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-144",
+      "category": "cuisinieres",
+      "brand": "Maclay",
+      "name": "Cuisinière Maclay · lot 144",
+      "slug": "cuisinieres-photo-144",
+      "description": "Regroupez les fonctions de cuisson dans un appareil pour votre cuisine. Confirmez les dimensions, les foyers et le type de four. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-144.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-145",
+      "category": "plaques-de-cuisson",
+      "brand": "Maclay",
+      "name": "Plaque de cuisson Maclay · lot 145",
+      "slug": "plaques-de-cuisson-photo-145",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-145.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-146",
+      "category": "plaques-de-cuisson",
+      "brand": "Maclay",
+      "name": "Plaque de cuisson Maclay · lot 146",
+      "slug": "plaques-de-cuisson-photo-146",
+      "description": "Équipez votre espace de cuisson avec une plaque adaptée à votre cuisine. Faites confirmer l’alimentation, le nombre de foyers et les dimensions de pose. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-146.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-147",
+      "category": "chauffages",
+      "brand": "KGLG",
+      "name": "Chauffage KGLG · lot 147",
+      "slug": "chauffages-photo-147",
+      "description": "Un équipement de chauffage pour votre intérieur. Le type d’énergie, la puissance et les précautions d’utilisation sont à vérifier avant achat. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-147.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-148",
+      "category": "cuisinieres",
+      "brand": "Maclay",
+      "name": "Cuisinière Maclay · lot 148",
+      "slug": "cuisinieres-photo-148",
+      "description": "Regroupez les fonctions de cuisson dans un appareil pour votre cuisine. Confirmez les dimensions, les foyers et le type de four. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-148.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-149",
+      "category": "barbecues-electriques",
+      "brand": "Venezia",
+      "name": "Barbecue électrique Venezia · lot 149",
+      "slug": "barbecues-electriques-photo-149",
+      "description": "Complétez vos préparations avec une surface de cuisson électrique. Vérifiez les dimensions et les conditions d’utilisation. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-149.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-150",
+      "category": "barbecues-electriques",
+      "brand": "Venezia",
+      "name": "Barbecue électrique Venezia · lot 150",
+      "slug": "barbecues-electriques-photo-150",
+      "description": "Complétez vos préparations avec une surface de cuisson électrique. Vérifiez les dimensions et les conditions d’utilisation. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-150.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-151",
+      "category": "barbecues-electriques",
+      "brand": "Venezia",
+      "name": "Barbecue électrique Venezia · lot 151",
+      "slug": "barbecues-electriques-photo-151",
+      "description": "Complétez vos préparations avec une surface de cuisson électrique. Vérifiez les dimensions et les conditions d’utilisation. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-151.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-153",
+      "category": "broyeurs-alimentaires",
+      "brand": "Koln",
+      "name": "Broyeur alimentaire Koln · lot 153",
+      "slug": "broyeurs-alimentaires-photo-153",
+      "description": "Un appareil de préparation alimentaire. Les ingrédients compatibles, le volume et les modes d’utilisation restent à confirmer. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-153.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-154",
+      "category": "broyeurs-alimentaires",
+      "brand": "Koln",
+      "name": "Broyeur alimentaire Koln · lot 154",
+      "slug": "broyeurs-alimentaires-photo-154",
+      "description": "Un appareil de préparation alimentaire. Les ingrédients compatibles, le volume et les modes d’utilisation restent à confirmer. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-154.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-155",
+      "category": "presse-agrumes",
+      "brand": "Koln",
+      "name": "Presse-agrumes Koln · lot 155",
+      "slug": "presse-agrumes-photo-155",
+      "description": "Préparez vos jus d’agrumes. Vérifiez la capacité, les cônes fournis et le fonctionnement de la référence proposée. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-155.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-156",
+      "category": "presse-agrumes",
+      "brand": "Koln",
+      "name": "Presse-agrumes Koln · lot 156",
+      "slug": "presse-agrumes-photo-156",
+      "description": "Préparez vos jus d’agrumes. Vérifiez la capacité, les cônes fournis et le fonctionnement de la référence proposée. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-156.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-157",
+      "category": "presse-agrumes",
+      "brand": "Koln",
+      "name": "Presse-agrumes Koln · lot 157",
+      "slug": "presse-agrumes-photo-157",
+      "description": "Préparez vos jus d’agrumes. Vérifiez la capacité, les cônes fournis et le fonctionnement de la référence proposée. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-157.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-158",
+      "category": "presse-agrumes",
+      "brand": "Koln",
+      "name": "Presse-agrumes Koln · lot 158",
+      "slug": "presse-agrumes-photo-158",
+      "description": "Préparez vos jus d’agrumes. Vérifiez la capacité, les cônes fournis et le fonctionnement de la référence proposée. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-158.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-159",
+      "category": "presse-agrumes",
+      "brand": "Koln",
+      "name": "Presse-agrumes Koln · lot 159",
+      "slug": "presse-agrumes-photo-159",
+      "description": "Préparez vos jus d’agrumes. Vérifiez la capacité, les cônes fournis et le fonctionnement de la référence proposée. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-159.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-160",
+      "category": "presse-agrumes",
+      "brand": "Koln",
+      "name": "Presse-agrumes Koln · lot 160",
+      "slug": "presse-agrumes-photo-160",
+      "description": "Préparez vos jus d’agrumes. Vérifiez la capacité, les cônes fournis et le fonctionnement de la référence proposée. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-160.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-161",
+      "category": "fours-posables",
+      "brand": "Venezia",
+      "name": "Four posable Venezia · lot 161",
+      "slug": "fours-posables-photo-161",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-161.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-162",
+      "category": "fours-posables",
+      "brand": "Venezia",
+      "name": "Four posable Venezia · lot 162",
+      "slug": "fours-posables-photo-162",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-162.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-163",
+      "category": "fours-posables",
+      "brand": "Venezia",
+      "name": "Four posable Venezia · lot 163",
+      "slug": "fours-posables-photo-163",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-163.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-164",
+      "category": "fours-posables",
+      "brand": "Venezia",
+      "name": "Four posable Venezia · lot 164",
+      "slug": "fours-posables-photo-164",
+      "description": "Complétez votre cuisine avec un four posable. Comparez le volume, les dimensions et les modes de cuisson de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-164.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-165",
+      "category": "climatiseurs",
+      "brand": "Venezia",
+      "name": "Climatiseur Venezia · lot 165",
+      "slug": "climatiseurs-photo-165",
+      "description": "Un équipement pour le confort thermique de votre intérieur. Faites confirmer la puissance, les fonctions et l’installation selon votre pièce. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-165.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-166",
+      "category": "climatiseurs",
+      "brand": "Venezia",
+      "name": "Climatiseur Venezia · lot 166",
+      "slug": "climatiseurs-photo-166",
+      "description": "Un équipement pour le confort thermique de votre intérieur. Faites confirmer la puissance, les fonctions et l’installation selon votre pièce. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-166.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-167",
+      "category": "refrigerateurs",
+      "brand": "Venezia",
+      "name": "Réfrigérateur Venezia · lot 167",
+      "slug": "refrigerateurs-photo-167",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-167.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-168",
+      "category": "climatiseurs",
+      "brand": "Venezia",
+      "name": "Climatiseur Venezia · lot 168",
+      "slug": "climatiseurs-photo-168",
+      "description": "Un équipement pour le confort thermique de votre intérieur. Faites confirmer la puissance, les fonctions et l’installation selon votre pièce. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-168.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-169",
+      "category": "refrigerateurs",
+      "brand": "Venezia",
+      "name": "Réfrigérateur Venezia · lot 169",
+      "slug": "refrigerateurs-photo-169",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-169.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-170",
+      "category": "refrigerateurs",
+      "brand": "Venezia",
+      "name": "Réfrigérateur Venezia · lot 170",
+      "slug": "refrigerateurs-photo-170",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-170.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-171",
+      "category": "refrigerateurs",
+      "brand": "Venezia",
+      "name": "Réfrigérateur Venezia · lot 171",
+      "slug": "refrigerateurs-photo-171",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-171.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-172",
+      "category": "refrigerateurs",
+      "brand": "Venezia",
+      "name": "Réfrigérateur Venezia · lot 172",
+      "slug": "refrigerateurs-photo-172",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-172.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-173",
+      "category": "refrigerateurs",
+      "brand": "Venezia",
+      "name": "Réfrigérateur Venezia · lot 173",
+      "slug": "refrigerateurs-photo-173",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-173.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-174",
+      "category": "refrigerateurs",
+      "brand": "Venezia",
+      "name": "Réfrigérateur Venezia · lot 174",
+      "slug": "refrigerateurs-photo-174",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-174.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-175",
+      "category": "refrigerateurs",
+      "brand": "Venezia",
+      "name": "Réfrigérateur Venezia · lot 175",
+      "slug": "refrigerateurs-photo-175",
+      "description": "Organisez la conservation de vos aliments avec ce réfrigérateur. Les volumes utiles, le type de froid et les dimensions restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-175.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-176",
+      "category": "rechauds-gaz",
+      "brand": "Koln",
+      "name": "Réchaud à gaz Koln · lot 176",
+      "slug": "rechauds-gaz-photo-176",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-176.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-177",
+      "category": "rechauds-gaz",
+      "brand": "Koln",
+      "name": "Réchaud à gaz Koln · lot 177",
+      "slug": "rechauds-gaz-photo-177",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-177.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-178",
+      "category": "rechauds-gaz",
+      "brand": "Koln",
+      "name": "Réchaud à gaz Koln · lot 178",
+      "slug": "rechauds-gaz-photo-178",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-178.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-179",
+      "category": "rechauds-gaz",
+      "brand": "Venezia",
+      "name": "Réchaud à gaz Venezia · lot 179",
+      "slug": "rechauds-gaz-photo-179",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-179.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-180",
+      "category": "rechauds-gaz",
+      "brand": "Venezia",
+      "name": "Réchaud à gaz Venezia · lot 180",
+      "slug": "rechauds-gaz-photo-180",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-180.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-181",
+      "category": "rechauds-gaz",
+      "brand": "Venezia",
+      "name": "Réchaud à gaz Venezia · lot 181",
+      "slug": "rechauds-gaz-photo-181",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-181.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-182",
+      "category": "rechauds-gaz",
+      "brand": "Koln",
+      "name": "Réchaud à gaz Koln · lot 182",
+      "slug": "rechauds-gaz-photo-182",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-182.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-183",
+      "category": "rechauds-gaz",
+      "brand": "Itimat",
+      "name": "Réchaud à gaz Itimat · lot 183",
+      "slug": "rechauds-gaz-photo-183",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-183.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-184",
+      "category": "rechauds-gaz",
+      "brand": "Venezia",
+      "name": "Réchaud à gaz Venezia · lot 184",
+      "slug": "rechauds-gaz-photo-184",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-184.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-185",
+      "category": "rechauds-gaz",
+      "brand": "Venezia",
+      "name": "Réchaud à gaz Venezia · lot 185",
+      "slug": "rechauds-gaz-photo-185",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-185.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-186",
+      "category": "rechauds-gaz",
+      "brand": "Venezia",
+      "name": "Réchaud à gaz Venezia · lot 186",
+      "slug": "rechauds-gaz-photo-186",
+      "description": "Une solution de cuisson au gaz à poser. Confirmez le nombre de foyers, le gaz compatible et les conditions de raccordement. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-186.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-187",
+      "category": "aspirateurs",
+      "brand": "Venezia",
+      "name": "Aspirateur Venezia · lot 187",
+      "slug": "aspirateurs-photo-187",
+      "description": "Un appareil pour l’entretien de vos surfaces. Comparez les accessoires, l’alimentation et la capacité de collecte avant de choisir. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-187.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-188",
+      "category": "aspirateurs",
+      "brand": "Best Mark",
+      "name": "Aspirateur Best Mark · lot 188",
+      "slug": "aspirateurs-photo-188",
+      "description": "Un appareil pour l’entretien de vos surfaces. Comparez les accessoires, l’alimentation et la capacité de collecte avant de choisir. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-188.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-189",
+      "category": "aspirateurs",
+      "brand": "Venezia",
+      "name": "Aspirateur Venezia · lot 189",
+      "slug": "aspirateurs-photo-189",
+      "description": "Un appareil pour l’entretien de vos surfaces. Comparez les accessoires, l’alimentation et la capacité de collecte avant de choisir. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-189.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-190",
+      "category": "blenders",
+      "brand": "Koln",
+      "name": "Blender Koln · lot 190",
+      "slug": "blenders-photo-190",
+      "description": "Préparez vos mélanges avec ce blender. Vérifiez le volume du bol, les vitesses et les usages autorisés par le fabricant. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-190.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-191",
+      "category": "distributeurs-eau",
+      "brand": "Venezia",
+      "name": "Distributeur d’eau Venezia · lot 191",
+      "slug": "distributeurs-eau-photo-191",
+      "description": "Organisez votre point d’eau avec un distributeur. Les températures proposées et le type d’alimentation en eau restent à vérifier. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-191.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-193",
+      "category": "televiseurs",
+      "brand": "Venezia",
+      "name": "Téléviseur Venezia · lot 193",
+      "slug": "televiseurs-photo-193",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-193.webp",
+        "/images/catalogue-real/photo-200.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-194",
+      "category": "televiseurs",
+      "brand": "Elexia",
+      "name": "Téléviseur Elexia · lot 194",
+      "slug": "televiseurs-photo-194",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-194.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-195",
+      "category": "televiseurs",
+      "brand": "LG",
+      "name": "Téléviseur LG · lot 195",
+      "slug": "televiseurs-photo-195",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-195.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-196",
+      "category": "televiseurs",
+      "brand": "Tecson",
+      "name": "Téléviseur Tecson · lot 196",
+      "slug": "televiseurs-photo-196",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-196.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-197",
+      "category": "televiseurs",
+      "brand": "Marque à confirmer",
+      "name": "Téléviseur · lot 197",
+      "slug": "televiseurs-photo-197",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-197.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-198",
+      "category": "televiseurs",
+      "brand": "Techvision",
+      "name": "Téléviseur Techvision · lot 198",
+      "slug": "televiseurs-photo-198",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-198.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-199",
+      "category": "televiseurs",
+      "brand": "Star Vision",
+      "name": "Téléviseur Star Vision · lot 199",
+      "slug": "televiseurs-photo-199",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-199.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-201",
+      "category": "televiseurs",
+      "brand": "Venezia",
+      "name": "Téléviseur Venezia · lot 201",
+      "slug": "televiseurs-photo-201",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-201.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-202",
+      "category": "televiseurs",
+      "brand": "Koln",
+      "name": "Téléviseur Koln · lot 202",
+      "slug": "televiseurs-photo-202",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-202.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-203",
+      "category": "televiseurs",
+      "brand": "Tecson",
+      "name": "Téléviseur Tecson · lot 203",
+      "slug": "televiseurs-photo-203",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-203.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-204",
+      "category": "televiseurs",
+      "brand": "Techvision",
+      "name": "Téléviseur Techvision · lot 204",
+      "slug": "televiseurs-photo-204",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-204.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    },
+    {
+      "id": "REAL-205",
+      "category": "televiseurs",
+      "brand": "Koln",
+      "name": "Téléviseur Koln · lot 205",
+      "slug": "televiseurs-photo-205",
+      "description": "Équipez votre espace de divertissement avec ce téléviseur. Confirmez la taille, la définition, la connectique et le système de la référence choisie. Prix, disponibilité et garantie à confirmer.",
+      "images": [
+        "/images/catalogue-real/photo-205.webp"
+      ],
+      "review": "Référence à confirmer. Vérifier les variantes et les rapprochements possibles avec les autres fiches du lot."
+    }
+  ],
+  "photos": [
+    {
+      "n": 1,
+      "file": "PHOTO-2026-11-22-12-15-56 2.jpg",
+      "sha": "e9c0a41a47cf435c07bd7cce52f7bc8c67fc3e2edea8eee7716fc50e46f09453",
+      "product_id": "REAL-001",
+      "image": "/images/catalogue-real/photo-001.webp"
+    },
+    {
+      "n": 2,
+      "file": "PHOTO-2026-11-22-12-15-56 3.jpg",
+      "sha": "b902f083981f88013cba870d758f95107baa6493c214e6cb70de8c133f620ed3",
+      "product_id": "REAL-002",
+      "image": "/images/catalogue-real/photo-002.webp"
+    },
+    {
+      "n": 3,
+      "file": "PHOTO-2026-11-22-12-15-56.jpg",
+      "sha": "35ccad1624289f2e42c6dd61e7ed0fabbd56dee9a7c6540da055ddb82a993fb5",
+      "product_id": "REAL-003",
+      "image": "/images/catalogue-real/photo-003.webp"
+    },
+    {
+      "n": 4,
+      "file": "PHOTO-2026-11-22-12-15-57 2.jpg",
+      "sha": "2a815671fe03bd5a9a3d29588a5e1af53bc40fe8c478efc72530e82f69ab0c06",
+      "product_id": "REAL-004",
+      "image": "/images/catalogue-real/photo-004.webp"
+    },
+    {
+      "n": 5,
+      "file": "PHOTO-2026-11-22-12-15-57 3.jpg",
+      "sha": "84b704dcf6dd0bbab08652fa4d2c76dbf1c4df443bed10473d0d260fa3e8640e",
+      "product_id": "REAL-005",
+      "image": "/images/catalogue-real/photo-005.webp"
+    },
+    {
+      "n": 6,
+      "file": "PHOTO-2026-11-22-12-15-57 4.jpg",
+      "sha": "59c334bf898013ee8038ade2cbe2cdf9e9683262bd47ae69eb442404a0b7cb50",
+      "product_id": "REAL-006",
+      "image": "/images/catalogue-real/photo-006.webp"
+    },
+    {
+      "n": 7,
+      "file": "PHOTO-2026-11-22-12-15-57.jpg",
+      "sha": "54c2d6d3aa50776aadc05742e1779a6264ea7edf29a1d30858b12f6cbb4b65a6",
+      "product_id": "REAL-007",
+      "image": "/images/catalogue-real/photo-007.webp"
+    },
+    {
+      "n": 8,
+      "file": "PHOTO-2026-11-22-12-15-58 2.jpg",
+      "sha": "254b8f9abf0e42eaaa7590044c4ac299a14c369053bc650e7fc1e471452b5c49",
+      "product_id": "REAL-008",
+      "image": "/images/catalogue-real/photo-008.webp"
+    },
+    {
+      "n": 9,
+      "file": "PHOTO-2026-11-22-12-15-58 3.jpg",
+      "sha": "94775d9046860e02d934b2ffe505d5d22bf965f4eb9f4d8767b6e6c97110411e",
+      "product_id": "REAL-009",
+      "image": "/images/catalogue-real/photo-009.webp"
+    },
+    {
+      "n": 10,
+      "file": "PHOTO-2026-11-22-12-15-58 4.jpg",
+      "sha": "1e673e60a14167616b2f67e331d04bc2a7fe826c8e445d449d493d48a85023cf",
+      "product_id": "REAL-010",
+      "image": "/images/catalogue-real/photo-010.webp"
+    },
+    {
+      "n": 11,
+      "file": "PHOTO-2026-11-22-12-15-58 5.jpg",
+      "sha": "088122268df356b0250606ddaf65d79ffc2ed04d57c8762efd4850850b7ac4fc",
+      "product_id": "REAL-011",
+      "image": "/images/catalogue-real/photo-011.webp"
+    },
+    {
+      "n": 12,
+      "file": "PHOTO-2026-11-22-12-15-58.jpg",
+      "sha": "6aaabc04eea289fceca36993193a20e07976edc24475426a68ee8859e50cd726",
+      "product_id": "REAL-012",
+      "image": "/images/catalogue-real/photo-012.webp"
+    },
+    {
+      "n": 13,
+      "file": "PHOTO-2026-11-22-12-15-59 2.jpg",
+      "sha": "e49025cba008a52c6ec1f83e36c121fdb5f7680ea865adf2218a2ae0be4ec1d7",
+      "product_id": "REAL-013",
+      "image": "/images/catalogue-real/photo-013.webp"
+    },
+    {
+      "n": 14,
+      "file": "PHOTO-2026-11-22-12-15-59 3.jpg",
+      "sha": "ff397529100dd024fda2bbdc8fe90339e73132b03f44ec13f845392fac0df7e1",
+      "product_id": "REAL-014",
+      "image": "/images/catalogue-real/photo-014.webp"
+    },
+    {
+      "n": 15,
+      "file": "PHOTO-2026-11-22-12-15-59 4.jpg",
+      "sha": "d40bd79093a0955f82a1330d1c2a5aba4291289466b66e0f4dac0a97fa30f4a8",
+      "product_id": "REAL-015",
+      "image": "/images/catalogue-real/photo-015.webp"
+    },
+    {
+      "n": 16,
+      "file": "PHOTO-2026-11-22-12-15-59 5.jpg",
+      "sha": "fa6e4673d756931e4f42ca24d843b7f9a9168c989da2248e89c58f7b7cf14573",
+      "product_id": "REAL-016",
+      "image": "/images/catalogue-real/photo-016.webp"
+    },
+    {
+      "n": 17,
+      "file": "PHOTO-2026-11-22-12-15-59.jpg",
+      "sha": "fce3cbd8c31033ac02bf4bca69c61a6f88f37109ddc242aeb5e5ccfe95ce84e2",
+      "product_id": "REAL-017",
+      "image": "/images/catalogue-real/photo-017.webp"
+    },
+    {
+      "n": 18,
+      "file": "PHOTO-2026-11-22-12-16-00 2.jpg",
+      "sha": "b20e5bcce0445af9dbf237c6ff724f035d7b4aeba21a796c6db8a2a8ecd99d96",
+      "product_id": "REAL-018",
+      "image": "/images/catalogue-real/photo-018.webp"
+    },
+    {
+      "n": 19,
+      "file": "PHOTO-2026-11-22-12-16-00 3.jpg",
+      "sha": "ad7d3ba60039be16f39b5521e9259776ed348b87d299cf3f388b652e7b6a9340",
+      "product_id": "REAL-019",
+      "image": "/images/catalogue-real/photo-019.webp"
+    },
+    {
+      "n": 20,
+      "file": "PHOTO-2026-11-22-12-16-00 4.jpg",
+      "sha": "dd26e4b82d6b022afcf81fd920da80af8b2e01b356cb6e9dd5073d5f3c0bad1b",
+      "product_id": "REAL-020",
+      "image": "/images/catalogue-real/photo-020.webp"
+    },
+    {
+      "n": 21,
+      "file": "PHOTO-2026-11-22-12-16-00 5.jpg",
+      "sha": "0bda011c440ca0ceb1e310532349f5e724f0f97f157a16d5024450ebe9b68c80",
+      "product_id": "REAL-021",
+      "image": "/images/catalogue-real/photo-021.webp"
+    },
+    {
+      "n": 22,
+      "file": "PHOTO-2026-11-22-12-16-00.jpg",
+      "sha": "000d436bd113b2e5edd8e378fb7ec9d301c41c010890c48ee9c9dfe5afa00836",
+      "product_id": "REAL-022",
+      "image": "/images/catalogue-real/photo-022.webp"
+    },
+    {
+      "n": 23,
+      "file": "PHOTO-2026-11-22-12-16-01 2.jpg",
+      "sha": "fb8be72bb393be9ebbf273024ef41905daf06bdc44736070a9facdd301976154",
+      "product_id": "REAL-023",
+      "image": "/images/catalogue-real/photo-023.webp"
+    },
+    {
+      "n": 24,
+      "file": "PHOTO-2026-11-22-12-16-01 3.jpg",
+      "sha": "0db6bb9f88048cb7de0d80730eb05db01130f929c8fd0caa3ff8b007631d0d41",
+      "product_id": "REAL-024",
+      "image": "/images/catalogue-real/photo-024.webp"
+    },
+    {
+      "n": 25,
+      "file": "PHOTO-2026-11-22-12-16-01 4.jpg",
+      "sha": "df9eacc5b5d20d1fa44f6ce214fee55eef597b0f95089c475f6878cb6d194366",
+      "product_id": "REAL-025",
+      "image": "/images/catalogue-real/photo-025.webp"
+    },
+    {
+      "n": 26,
+      "file": "PHOTO-2026-11-22-12-16-01 5.jpg",
+      "sha": "489d609536c6d2dd72d7d7cb246861f568aac801584c2c0e2c9907c6540bf431",
+      "product_id": "REAL-026",
+      "image": "/images/catalogue-real/photo-026.webp"
+    },
+    {
+      "n": 27,
+      "file": "PHOTO-2026-11-22-12-16-01.jpg",
+      "sha": "9141ca1e7f1a489acd5d9f44e0c1aafd60e8117c758bd78a419ab4871d9747f1",
+      "product_id": "REAL-027",
+      "image": "/images/catalogue-real/photo-027.webp"
+    },
+    {
+      "n": 28,
+      "file": "PHOTO-2026-11-22-12-16-02 2.jpg",
+      "sha": "d4e17cc6d33c1da13132f480f798b2f02b84f25cf85d65f342f2de05ef86d087",
+      "product_id": "REAL-028",
+      "image": "/images/catalogue-real/photo-028.webp"
+    },
+    {
+      "n": 29,
+      "file": "PHOTO-2026-11-22-12-16-02 3.jpg",
+      "sha": "553d142fef5378e95463b00db392dba37771a82c2ce431cfadece9920830be8c",
+      "product_id": "REAL-029",
+      "image": "/images/catalogue-real/photo-029.webp"
+    },
+    {
+      "n": 30,
+      "file": "PHOTO-2026-11-22-12-16-02 4.jpg",
+      "sha": "b16f00118401034dd4ce6a947605923ce26810367ae13d541608b70af72cd74a",
+      "product_id": "REAL-030",
+      "image": "/images/catalogue-real/photo-030.webp"
+    },
+    {
+      "n": 31,
+      "file": "PHOTO-2026-11-22-12-16-02 5.jpg",
+      "sha": "c02296340796ae747700acefb414226a0c97994e9e935b70f1750310aa6046a7",
+      "product_id": "REAL-031",
+      "image": "/images/catalogue-real/photo-031.webp"
+    },
+    {
+      "n": 32,
+      "file": "PHOTO-2026-11-22-12-16-02.jpg",
+      "sha": "80423d2f6048fc452614e9a7d3d4d54dae4c87bf9915fe49abaf9e660ccd9ad6",
+      "product_id": "REAL-032",
+      "image": "/images/catalogue-real/photo-032.webp"
+    },
+    {
+      "n": 33,
+      "file": "PHOTO-2026-11-22-12-16-03 2.jpg",
+      "sha": "bffc8b38f396d1728a01258695b369d713d4f929c95c6b3888b3157457e151de",
+      "product_id": "REAL-033",
+      "image": "/images/catalogue-real/photo-033.webp"
+    },
+    {
+      "n": 34,
+      "file": "PHOTO-2026-11-22-12-16-03 3.jpg",
+      "sha": "d84e0bde3ef2d8cb5922b5bc4a130d668c2b06d5403e22c4b253441e81f2c9fe",
+      "product_id": "REAL-034",
+      "image": "/images/catalogue-real/photo-034.webp"
+    },
+    {
+      "n": 35,
+      "file": "PHOTO-2026-11-22-12-16-03 4.jpg",
+      "sha": "72f5ce1adc0221f9bc10ad789ef4381220e008210b612f75aa7e0fbdf13f0a7c",
+      "product_id": "REAL-035",
+      "image": "/images/catalogue-real/photo-035.webp"
+    },
+    {
+      "n": 36,
+      "file": "PHOTO-2026-11-22-12-16-03 5.jpg",
+      "sha": "65df335d22e83fb32296760c3ab15ad19448f45497b89b6ea8c5d85c1225cb47",
+      "product_id": "REAL-036",
+      "image": "/images/catalogue-real/photo-036.webp"
+    },
+    {
+      "n": 37,
+      "file": "PHOTO-2026-11-22-12-16-03.jpg",
+      "sha": "0211d7e7deac5064d9d6f3aa5846034568599e42d77a02be8d88f9c4120a66cd",
+      "product_id": "REAL-037",
+      "image": "/images/catalogue-real/photo-037.webp"
+    },
+    {
+      "n": 38,
+      "file": "PHOTO-2026-11-22-12-16-04 2.jpg",
+      "sha": "45c62e76f14baa28da7326def8be8d54eb9948103531033171d011b6d9500d31",
+      "product_id": "REAL-038",
+      "image": "/images/catalogue-real/photo-038.webp"
+    },
+    {
+      "n": 39,
+      "file": "PHOTO-2026-11-22-12-16-04 3.jpg",
+      "sha": "c4c22e4340babd97b66b15d50259cc4658e57c41793312e064f31f5f804484e3",
+      "product_id": "REAL-039",
+      "image": "/images/catalogue-real/photo-039.webp"
+    },
+    {
+      "n": 40,
+      "file": "PHOTO-2026-11-22-12-16-04 4.jpg",
+      "sha": "ee7c31b44ad3cc04a34efff5a7c080e5c2235290d33b75d8c867b32e96a61ac2",
+      "product_id": "REAL-040",
+      "image": "/images/catalogue-real/photo-040.webp"
+    },
+    {
+      "n": 41,
+      "file": "PHOTO-2026-11-22-12-16-04 5.jpg",
+      "sha": "beed5d2c82af0973955a2574f44ab084a0fe856f9a6f3d3996b6b4592469194d",
+      "product_id": "REAL-041",
+      "image": "/images/catalogue-real/photo-041.webp"
+    },
+    {
+      "n": 42,
+      "file": "PHOTO-2026-11-22-12-16-04.jpg",
+      "sha": "a570e5836a1b7d4f9d183bd64e1e64b44125c7bd4e07cb39fe8e4e994d529f3e",
+      "product_id": "REAL-042",
+      "image": "/images/catalogue-real/photo-042.webp"
+    },
+    {
+      "n": 43,
+      "file": "PHOTO-2026-11-22-12-16-05 2.jpg",
+      "sha": "d26423e35399d64f0c22bf49b8be0511626c45d0231c6b6f43b11efd690a2c73",
+      "product_id": "REAL-043",
+      "image": "/images/catalogue-real/photo-043.webp"
+    },
+    {
+      "n": 44,
+      "file": "PHOTO-2026-11-22-12-16-05 3.jpg",
+      "sha": "7b26eb76da4d86d8e4bd956b5b97e6be568d914d6bb79eee8c88bdfe25a4915d",
+      "product_id": "REAL-044",
+      "image": "/images/catalogue-real/photo-044.webp"
+    },
+    {
+      "n": 45,
+      "file": "PHOTO-2026-11-22-12-16-05 4.jpg",
+      "sha": "7e0548bbaf5577165c0734f5b00f3999a05eee93939f9192e9c91075f7b03b75",
+      "product_id": "REAL-045",
+      "image": "/images/catalogue-real/photo-045.webp"
+    },
+    {
+      "n": 46,
+      "file": "PHOTO-2026-11-22-12-16-05 5.jpg",
+      "sha": "533b25dae3fc70b3ecb52bccf406438ec50fc364412a9ba2301092bf5d0bae79",
+      "product_id": "REAL-046",
+      "image": "/images/catalogue-real/photo-046.webp"
+    },
+    {
+      "n": 47,
+      "file": "PHOTO-2026-11-22-12-16-05.jpg",
+      "sha": "fbc7e2c6cd9820bd70a29c26a276f2c8f08f8b2157a25bf007b5b0607ac0fe04",
+      "product_id": "REAL-047",
+      "image": "/images/catalogue-real/photo-047.webp"
+    },
+    {
+      "n": 48,
+      "file": "PHOTO-2026-11-22-12-16-06 2.jpg",
+      "sha": "d772eee07318cd0437b9c9369daa82bfd834a4b06ba21beab301b822ba979fbc",
+      "product_id": "REAL-048",
+      "image": "/images/catalogue-real/photo-048.webp"
+    },
+    {
+      "n": 49,
+      "file": "PHOTO-2026-11-22-12-16-06.jpg",
+      "sha": "095a980824dfbb78b3b21556fb49a3669fd35e921027be5e6226e95d204022ab",
+      "product_id": "REAL-049",
+      "image": "/images/catalogue-real/photo-049.webp"
+    },
+    {
+      "n": 50,
+      "file": "PHOTO-2026-11-23-11-48-32.jpg",
+      "sha": "a5cdd491fb1b337a98da798d94820fa2a76e00fec554d5ac002aa5915129b764",
+      "excluded": "Logo"
+    },
+    {
+      "n": 51,
+      "file": "PHOTO-2026-11-23-11-49-18.jpg",
+      "sha": "ee26dcaf268407ee70e5954c37075d5e75d3b3e52e4141ac7af782e6182480f3",
+      "excluded": "Logo"
+    },
+    {
+      "n": 52,
+      "file": "PHOTO-2026-11-23-11-50-11.jpg",
+      "sha": "6a37935f37a57b99bf86c8e5287ccd55f17f45cf39e82d58cafafce49687a3d8",
+      "excluded": "Logo"
+    },
+    {
+      "n": 53,
+      "file": "PHOTO-2026-11-23-11-52-20.jpg",
+      "sha": "7b6e774c63307f0106a52769b3a7fe10601ef2d6da69fdf65c980db497cb340e",
+      "excluded": "Logo"
+    },
+    {
+      "n": 54,
+      "file": "PHOTO-2026-11-23-13-58-25.jpg",
+      "sha": "a760bdc28de707861df1453bca9eb614e4897fc04f597ca09ae2d2a57ed14e56",
+      "excluded": "Carton sans produit identifiable"
+    },
+    {
+      "n": 55,
+      "file": "PHOTO-2026-11-24-23-34-22.jpg",
+      "sha": "0c57900f8ed18f9547defe8091c75df991f5576394902a51e4e675fe4509ae61",
+      "excluded": "Vue générale du stock"
+    },
+    {
+      "n": 56,
+      "file": "PHOTO-2026-11-24-23-34-23.jpg",
+      "sha": "f9009a620de4e19262f71a7a6f43f077d3396c8806fbfece12d39cb446d176fa",
+      "product_id": "REAL-056",
+      "image": "/images/catalogue-real/photo-056.webp"
+    },
+    {
+      "n": 57,
+      "file": "PHOTO-2026-11-24-23-37-40 2.jpg",
+      "sha": "f03bb146d2dab9295f851b59655ec6138580513a8280922d78fe7a79f1d2aacf",
+      "product_id": "REAL-057",
+      "image": "/images/catalogue-real/photo-057.webp"
+    },
+    {
+      "n": 58,
+      "file": "PHOTO-2026-11-24-23-37-40 3.jpg",
+      "sha": "c719f8804a00ea61d587a22c07db122e57de4218670877d7108f7ffcad7fed9e",
+      "product_id": "REAL-058",
+      "image": "/images/catalogue-real/photo-058.webp"
+    },
+    {
+      "n": 59,
+      "file": "PHOTO-2026-11-24-23-37-40.jpg",
+      "sha": "308874edcd94e7f272467de98791e776fcd234f0cfe16f2257680e51ce5a7ef9",
+      "product_id": "REAL-059",
+      "image": "/images/catalogue-real/photo-059.webp"
+    },
+    {
+      "n": 60,
+      "file": "PHOTO-2026-11-24-23-37-41 2.jpg",
+      "sha": "66a7bcd96e05f3a5671727fbf433000b33873e128bbfc39ce464448095b05e31",
+      "product_id": "REAL-060",
+      "image": "/images/catalogue-real/photo-060.webp"
+    },
+    {
+      "n": 61,
+      "file": "PHOTO-2026-11-24-23-37-41 3.jpg",
+      "sha": "d6063280dd4a0cd9c96db3756c9c27aab01da6048498fbab8650766b25fec21f",
+      "product_id": "REAL-061",
+      "image": "/images/catalogue-real/photo-061.webp"
+    },
+    {
+      "n": 62,
+      "file": "PHOTO-2026-11-24-23-37-41 4.jpg",
+      "sha": "be9d6f16327b5b125b3e86fe70880cf6d50a925488063d7658f2017772cbb670",
+      "product_id": "REAL-062",
+      "image": "/images/catalogue-real/photo-062.webp"
+    },
+    {
+      "n": 63,
+      "file": "PHOTO-2026-11-24-23-37-41.jpg",
+      "sha": "df3dd618b3a73ed153f9d107cfed2c11b22894b18377e90586f8fe949eab8ce7",
+      "product_id": "REAL-063",
+      "image": "/images/catalogue-real/photo-063.webp"
+    },
+    {
+      "n": 64,
+      "file": "PHOTO-2026-11-24-23-39-47 2.jpg",
+      "sha": "0151b6b57102ca4cf612bf5c9cab09747e298d477a94ad74a245e625b2345d03",
+      "product_id": "REAL-064",
+      "image": "/images/catalogue-real/photo-064.webp"
+    },
+    {
+      "n": 65,
+      "file": "PHOTO-2026-11-24-23-39-47 3.jpg",
+      "sha": "9fcadf54b8fb9e0ba748237c688ffc8090fc80a722469fbdc169e17c74d40415",
+      "product_id": "REAL-065",
+      "image": "/images/catalogue-real/photo-065.webp"
+    },
+    {
+      "n": 66,
+      "file": "PHOTO-2026-11-24-23-39-47.jpg",
+      "sha": "4b0c90af5e2c328cd4d197d77b0ac0d10bb80e8e21472e8e5cb8dcdef3e535a2",
+      "product_id": "REAL-066",
+      "image": "/images/catalogue-real/photo-066.webp"
+    },
+    {
+      "n": 67,
+      "file": "PHOTO-2026-11-24-23-40-40.jpg",
+      "sha": "40e039dd95838cb6c4a5989e3c0aec5ec634dfbbc15cc4a295f8406f3fc31066",
+      "product_id": "REAL-067",
+      "image": "/images/catalogue-real/photo-067.webp"
+    },
+    {
+      "n": 68,
+      "file": "PHOTO-2026-11-24-23-40-41 2.jpg",
+      "sha": "e2ba8baf4da6be9c19ab54ba4ac50ba1adde4a10265b688f51b82521f45fc968",
+      "product_id": "REAL-068",
+      "image": "/images/catalogue-real/photo-068.webp"
+    },
+    {
+      "n": 69,
+      "file": "PHOTO-2026-11-24-23-40-41 3.jpg",
+      "sha": "5a8f132e483c3a14dd8035803d9494e8af672b69f94a9f86a6f4827f82b0ae47",
+      "product_id": "REAL-069",
+      "image": "/images/catalogue-real/photo-069.webp"
+    },
+    {
+      "n": 70,
+      "file": "PHOTO-2026-11-24-23-40-41.jpg",
+      "sha": "4966722b6e6c67b8e0c7d9389120a64d1e900682d87980f189c6549ba9347c96",
+      "product_id": "REAL-070",
+      "image": "/images/catalogue-real/photo-070.webp"
+    },
+    {
+      "n": 71,
+      "file": "PHOTO-2026-11-24-23-41-34 2.jpg",
+      "sha": "948993f2c47cd930328ce14d05beb57ccc7b6596ef521a205d05c4a3b75a2332",
+      "product_id": "REAL-071",
+      "image": "/images/catalogue-real/photo-071.webp"
+    },
+    {
+      "n": 72,
+      "file": "PHOTO-2026-11-24-23-41-34.jpg",
+      "sha": "707c67f40ada10e38d9b48cca783e0d39217bd1304b14dac20711772f2324582",
+      "product_id": "REAL-072",
+      "image": "/images/catalogue-real/photo-072.webp"
+    },
+    {
+      "n": 73,
+      "file": "PHOTO-2026-11-24-23-42-04.jpg",
+      "sha": "4432edc8757bc34494698ccfc6a7abc44a7b4a6efd4be04acedb93cfc21ff512",
+      "product_id": "REAL-073",
+      "image": "/images/catalogue-real/photo-073.webp"
+    },
+    {
+      "n": 74,
+      "file": "PHOTO-2026-11-24-23-43-03 2.jpg",
+      "sha": "380c5660b8b34827b27b187055352fe8fe8ed4e3eb2270c1eadb5f30f427dd66",
+      "product_id": "REAL-074",
+      "image": "/images/catalogue-real/photo-074.webp"
+    },
+    {
+      "n": 75,
+      "file": "PHOTO-2026-11-24-23-43-03.jpg",
+      "sha": "3d9a32f4f664a19c907d72a2321678ad5453ec4e1a04a01ad5cc74f0d7ff3827",
+      "product_id": "REAL-075",
+      "image": "/images/catalogue-real/photo-075.webp"
+    },
+    {
+      "n": 76,
+      "file": "PHOTO-2026-11-24-23-43-04 2.jpg",
+      "sha": "88196be6689a355eaef2ef33a8961d5a3f7f39aced1ba20f1dd23cd95fe2c92f",
+      "product_id": "REAL-076",
+      "image": "/images/catalogue-real/photo-076.webp"
+    },
+    {
+      "n": 77,
+      "file": "PHOTO-2026-11-24-23-43-04.jpg",
+      "sha": "b55c77576d10abb1f3f4fedc0e30eecffafc904097ec85e2113441176adaeeae",
+      "product_id": "REAL-077",
+      "image": "/images/catalogue-real/photo-077.webp"
+    },
+    {
+      "n": 78,
+      "file": "PHOTO-2026-11-24-23-43-05 2.jpg",
+      "sha": "b77f1e89d29b99371e4a617d0d02c0070b448d366e5ef50bc8f6b8ac13ce79a7",
+      "product_id": "REAL-078",
+      "image": "/images/catalogue-real/photo-078.webp"
+    },
+    {
+      "n": 79,
+      "file": "PHOTO-2026-11-24-23-43-05 3.jpg",
+      "sha": "3da5a64aeb22ac70e160f5e5f75425e0da4fba287f62b762b84afef8e6ebdea5",
+      "product_id": "REAL-079",
+      "image": "/images/catalogue-real/photo-079.webp"
+    },
+    {
+      "n": 80,
+      "file": "PHOTO-2026-11-24-23-43-05.jpg",
+      "sha": "427da7066ccebe3313f17c5009c567bf17d85ca69da267a3234757ccd4079f05",
+      "product_id": "REAL-080",
+      "image": "/images/catalogue-real/photo-080.webp"
+    },
+    {
+      "n": 81,
+      "file": "PHOTO-2026-11-24-23-43-06 2.jpg",
+      "sha": "0bb62c86999791cc2c0cd135fe52ccdce4fcb7de1eb28add796f0c5897914b76",
+      "product_id": "REAL-081",
+      "image": "/images/catalogue-real/photo-081.webp"
+    },
+    {
+      "n": 82,
+      "file": "PHOTO-2026-11-24-23-43-06.jpg",
+      "sha": "eba1adf900f3c7f98a80291015ad55a37e3200bd7de1311ef04d07ff71d1a55d",
+      "product_id": "REAL-082",
+      "image": "/images/catalogue-real/photo-082.webp"
+    },
+    {
+      "n": 83,
+      "file": "PHOTO-2026-11-24-23-43-07.jpg",
+      "sha": "7d9225e26c360ba10bda21174a5e9ea71c5f36579b8316965905feb7d01a8632",
+      "product_id": "REAL-083",
+      "image": "/images/catalogue-real/photo-083.webp"
+    },
+    {
+      "n": 84,
+      "file": "PHOTO-2026-11-24-23-43-08 2.jpg",
+      "sha": "f4be8605fd76c1ccda7ea406b7a0d643d6cdeba66d1abe8fa44e1b165c305be0",
+      "product_id": "REAL-084",
+      "image": "/images/catalogue-real/photo-084.webp"
+    },
+    {
+      "n": 85,
+      "file": "PHOTO-2026-11-24-23-43-08 3.jpg",
+      "sha": "fd1ee4a7e788436d42cdb64dd6553f31d0c2e5de33d3714611493c5bfb1608a9",
+      "product_id": "REAL-085",
+      "image": "/images/catalogue-real/photo-085.webp"
+    },
+    {
+      "n": 86,
+      "file": "PHOTO-2026-11-24-23-43-08 4.jpg",
+      "sha": "9efde5e7d322d2328a973b3de5495ee364d365cb0fb929ee6e793a8390cd9002",
+      "product_id": "REAL-086",
+      "image": "/images/catalogue-real/photo-086.webp"
+    },
+    {
+      "n": 87,
+      "file": "PHOTO-2026-11-24-23-43-08 5.jpg",
+      "sha": "a2b89cb56ea1da4599e1b1cf8f61ca5e0a6455c3f5074f839e9f26f0dc9dafad",
+      "product_id": "REAL-087",
+      "image": "/images/catalogue-real/photo-087.webp"
+    },
+    {
+      "n": 88,
+      "file": "PHOTO-2026-11-24-23-43-08.jpg",
+      "sha": "f2f2b061a583ad1741ec3a874199abdb334baffd0b587c2ebc8ad5308dd01330",
+      "product_id": "REAL-088",
+      "image": "/images/catalogue-real/photo-088.webp"
+    },
+    {
+      "n": 89,
+      "file": "PHOTO-2026-11-24-23-43-09.jpg",
+      "sha": "b97bab2842e04ac0230a5d6e6231923972e83b53f3c79f1acdf2f56d105a895a",
+      "product_id": "REAL-089",
+      "image": "/images/catalogue-real/photo-089.webp"
+    },
+    {
+      "n": 90,
+      "file": "PHOTO-2026-11-24-23-44-02.jpg",
+      "sha": "daa7505cbf8bcabb61702d8c27891d1beb9bedf05a05538730d6218cd4ff30ac",
+      "product_id": "REAL-074",
+      "image": "/images/catalogue-real/photo-090.webp"
+    },
+    {
+      "n": 91,
+      "file": "PHOTO-2026-11-24-23-44-54.jpg",
+      "sha": "eeb8bef6dee43ffb59bea7041764284d6aab5f87a7f90da8e45f924977fb30dd",
+      "product_id": "REAL-091",
+      "image": "/images/catalogue-real/photo-091.webp"
+    },
+    {
+      "n": 92,
+      "file": "PHOTO-2026-11-24-23-44-55.jpg",
+      "sha": "084bb79ac49cb4203217b3943447bec168a7223b5496459267c2d0d9d1f211d1",
+      "product_id": "REAL-092",
+      "image": "/images/catalogue-real/photo-092.webp"
+    },
+    {
+      "n": 93,
+      "file": "PHOTO-2026-11-24-23-45-18.jpg",
+      "sha": "4077cd7386fdd4e3af7958d0f698d6c065ca5512761964b57c63b8b336a128ed",
+      "product_id": "REAL-093",
+      "image": "/images/catalogue-real/photo-093.webp"
+    },
+    {
+      "n": 94,
+      "file": "PHOTO-2026-11-24-23-45-19.jpg",
+      "sha": "6ff9ba865f0fb600243b331a78e9e503ae21d7f2d00465dbf1a5e57e736b9c93",
+      "product_id": "REAL-094",
+      "image": "/images/catalogue-real/photo-094.webp"
+    },
+    {
+      "n": 95,
+      "file": "PHOTO-2026-11-24-23-47-19 2.jpg",
+      "sha": "9e71ae4ed9973153dc6fd70f82d9f2d5733fae7f820586a9e242bbe1e74e6a74",
+      "product_id": "REAL-031",
+      "image": "/images/catalogue-real/photo-095.webp"
+    },
+    {
+      "n": 96,
+      "file": "PHOTO-2026-11-24-23-47-19 3.jpg",
+      "sha": "351ba08626e8311f5d9d2071696d8fb71a87c3e07b7cbd6adbd6b30d62178434",
+      "product_id": "REAL-023",
+      "image": "/images/catalogue-real/photo-096.webp"
+    },
+    {
+      "n": 97,
+      "file": "PHOTO-2026-11-24-23-47-19.jpg",
+      "sha": "ff01ca6ef4ea9e467af2d79dec00cc0a2a0c76351b20d64ca8d5bafa9cd33983",
+      "product_id": "REAL-024",
+      "image": "/images/catalogue-real/photo-097.webp"
+    },
+    {
+      "n": 98,
+      "file": "PHOTO-2026-11-24-23-49-00.jpg",
+      "sha": "26b3e659380752260e0e9925b961d5c338040c66eab268066b48ae49eff43aeb",
+      "product_id": "REAL-026",
+      "image": "/images/catalogue-real/photo-098.webp"
+    },
+    {
+      "n": 99,
+      "file": "PHOTO-2026-11-24-23-49-41.jpg",
+      "sha": "7e7b77895de9ce20f7807420dcc3966f36f36ccdd0fcab5da0903551f908b24a",
+      "product_id": "REAL-099",
+      "image": "/images/catalogue-real/photo-099.webp"
+    },
+    {
+      "n": 100,
+      "file": "PHOTO-2026-11-24-23-49-42.jpg",
+      "sha": "64230aef9b30b161238845929b77ad7182fa18153f8356c47efd22596e3cb1aa",
+      "product_id": "REAL-047",
+      "image": "/images/catalogue-real/photo-100.webp"
+    },
+    {
+      "n": 101,
+      "file": "PHOTO-2026-11-24-23-51-34.jpg",
+      "sha": "a5712a8fd172ed79d4954f0e6c677d35734026ceda84dec83a9bf6cc6a6a0ac0",
+      "product_id": "REAL-101",
+      "image": "/images/catalogue-real/photo-101.webp"
+    },
+    {
+      "n": 102,
+      "file": "PHOTO-2026-11-24-23-52-11.jpg",
+      "sha": "90f4e7df5e7df3b6c44e461ff4f5f64535615ba112fe8b51f013e27d88a6533d",
+      "product_id": "REAL-102",
+      "image": "/images/catalogue-real/photo-102.webp"
+    },
+    {
+      "n": 103,
+      "file": "PHOTO-2026-11-24-23-54-04.jpg",
+      "sha": "11ee0ea218912aca7450a0728363a7c97c0cdec9480d6c28edc900e3dc786742",
+      "product_id": "REAL-103",
+      "image": "/images/catalogue-real/photo-103.webp"
+    },
+    {
+      "n": 104,
+      "file": "PHOTO-2026-11-24-23-54-05 2.jpg",
+      "sha": "0f7e39a259cbd0830d003a60b57f261dd4ec26a0cee638b33937601385c5a172",
+      "product_id": "REAL-104",
+      "image": "/images/catalogue-real/photo-104.webp"
+    },
+    {
+      "n": 105,
+      "file": "PHOTO-2026-11-24-23-54-05 3.jpg",
+      "sha": "2c141c59d499704f33df8455468e6204f8f0d0540284c4b7a5b5d660817372e8",
+      "product_id": "REAL-105",
+      "image": "/images/catalogue-real/photo-105.webp"
+    },
+    {
+      "n": 106,
+      "file": "PHOTO-2026-11-24-23-54-05 4.jpg",
+      "sha": "3ec6c78e340b6464000e79a27533c960ec47d0e49134d1ecb83ed09b7a0a04a1",
+      "product_id": "REAL-106",
+      "image": "/images/catalogue-real/photo-106.webp"
+    },
+    {
+      "n": 107,
+      "file": "PHOTO-2026-11-24-23-54-05.jpg",
+      "sha": "2b8bfbd893123ee8ed865ee049ad149c6ece19e248d49c0b290d6fcaef3a7c1a",
+      "product_id": "REAL-104",
+      "image": "/images/catalogue-real/photo-107.webp"
+    },
+    {
+      "n": 108,
+      "file": "PHOTO-2026-11-24-23-54-06 2.jpg",
+      "sha": "64965e7c9cc9843c3d128c5bf3f894ed09fd5e81ec1cc62c312fa8193cc0a881",
+      "product_id": "REAL-108",
+      "image": "/images/catalogue-real/photo-108.webp"
+    },
+    {
+      "n": 109,
+      "file": "PHOTO-2026-11-24-23-54-06.jpg",
+      "sha": "56e2d1a6f8b99df61a03092b8d02ccd00cacc03c86b475afe37313a54df1929c",
+      "product_id": "REAL-109",
+      "image": "/images/catalogue-real/photo-109.webp"
+    },
+    {
+      "n": 110,
+      "file": "PHOTO-2026-11-25-12-34-51 2.jpg",
+      "sha": "321d39e2a1b80066035f7de025875e16f4c29a2ddadf5cdcc1f885360c4c03e4",
+      "product_id": "REAL-110",
+      "image": "/images/catalogue-real/photo-110.webp"
+    },
+    {
+      "n": 111,
+      "file": "PHOTO-2026-11-25-12-34-51 3.jpg",
+      "sha": "028d22b6c4ba9f735dca3e7a8d85c3e10714060fcf261d3b3c791c59d3b08ab8",
+      "product_id": "REAL-111",
+      "image": "/images/catalogue-real/photo-111.webp"
+    },
+    {
+      "n": 112,
+      "file": "PHOTO-2026-11-25-12-34-51 4.jpg",
+      "sha": "e8b2e8c2545a31be67696f2b5633e3d10d89124f37603980c5d5ea072d2a71bd",
+      "product_id": "REAL-112",
+      "image": "/images/catalogue-real/photo-112.webp"
+    },
+    {
+      "n": 113,
+      "file": "PHOTO-2026-11-25-12-34-51.jpg",
+      "sha": "80f3a5535bd93d26c39a894ad9f733744ed3dd1f168f178ecf46d3b82f012f4f",
+      "product_id": "REAL-113",
+      "image": "/images/catalogue-real/photo-113.webp"
+    },
+    {
+      "n": 114,
+      "file": "PHOTO-2026-11-25-12-34-52 2.jpg",
+      "sha": "160cbd437f9557d7b7cd2339a534fe6f5df2deaceab4153f0630458e095bdc01",
+      "product_id": "REAL-114",
+      "image": "/images/catalogue-real/photo-114.webp"
+    },
+    {
+      "n": 115,
+      "file": "PHOTO-2026-11-25-12-34-52 3.jpg",
+      "sha": "b0568bb38fc6a7efd945a6f7c4a8534c98ae28836458f64a9910b26985f260eb",
+      "product_id": "REAL-115",
+      "image": "/images/catalogue-real/photo-115.webp"
+    },
+    {
+      "n": 116,
+      "file": "PHOTO-2026-11-25-12-34-52 4.jpg",
+      "sha": "135cee2a28b628f479c290bb68a2ceae9570ae22751219371f93d6ae8b53b814",
+      "product_id": "REAL-116",
+      "image": "/images/catalogue-real/photo-116.webp"
+    },
+    {
+      "n": 117,
+      "file": "PHOTO-2026-11-25-12-34-52 5.jpg",
+      "sha": "520cf22b7d440b52ef446bc5f106c8840fa821dfed043064d203205a363bbc61",
+      "product_id": "REAL-117",
+      "image": "/images/catalogue-real/photo-117.webp"
+    },
+    {
+      "n": 118,
+      "file": "PHOTO-2026-11-25-12-34-52 6.jpg",
+      "sha": "201603ff9c0dc386915310ccd987f52b4ccbaebcbf95484885b5364323ec91b3",
+      "product_id": "REAL-118",
+      "image": "/images/catalogue-real/photo-118.webp"
+    },
+    {
+      "n": 119,
+      "file": "PHOTO-2026-11-25-12-34-52.jpg",
+      "sha": "baaabfcf694ce21647361131ba7fab27b94b62139cb45267ae32a0b24fc6f1f1",
+      "product_id": "REAL-119",
+      "image": "/images/catalogue-real/photo-119.webp"
+    },
+    {
+      "n": 120,
+      "file": "PHOTO-2026-11-25-12-34-53 2.jpg",
+      "sha": "93f1f780bc8304d7d051a7b3b37f53564c25bf63c1a263b64e5237e275ec8d1d",
+      "product_id": "REAL-120",
+      "image": "/images/catalogue-real/photo-120.webp"
+    },
+    {
+      "n": 121,
+      "file": "PHOTO-2026-11-25-12-34-53 3.jpg",
+      "sha": "bc45fd5baf57168f31f714c71b1eb2647e71aaa3138cad275ad90a91549ef7f3",
+      "product_id": "REAL-121",
+      "image": "/images/catalogue-real/photo-121.webp"
+    },
+    {
+      "n": 122,
+      "file": "PHOTO-2026-11-25-12-34-53 4.jpg",
+      "sha": "5e6c36f2c65624aafb75095b24e9f4313a40277952372451411908df0e7bf904",
+      "product_id": "REAL-122",
+      "image": "/images/catalogue-real/photo-122.webp"
+    },
+    {
+      "n": 123,
+      "file": "PHOTO-2026-11-25-12-34-53 5.jpg",
+      "sha": "27b36ff0d11e118c8b8670087774ecee40746ad1b4fd848475dc48fd57c4b805",
+      "product_id": "REAL-123",
+      "image": "/images/catalogue-real/photo-123.webp"
+    },
+    {
+      "n": 124,
+      "file": "PHOTO-2026-11-25-12-34-53 6.jpg",
+      "sha": "bf70c6b72e90616e9712562256982183921cacbef278a15a02afb0d59125f1f1",
+      "product_id": "REAL-124",
+      "image": "/images/catalogue-real/photo-124.webp"
+    },
+    {
+      "n": 125,
+      "file": "PHOTO-2026-11-25-12-34-53.jpg",
+      "sha": "e9540d6d18abaad7545698438027e6d6e40691d2261cbf57e376472af53b032e",
+      "product_id": "REAL-125",
+      "image": "/images/catalogue-real/photo-125.webp"
+    },
+    {
+      "n": 126,
+      "file": "PHOTO-2026-11-25-12-34-54 2.jpg",
+      "sha": "52ac104c528b2c5a941e0dc62097b73277cdfd15df0702d57a146346d3a1477f",
+      "product_id": "REAL-126",
+      "image": "/images/catalogue-real/photo-126.webp"
+    },
+    {
+      "n": 127,
+      "file": "PHOTO-2026-11-25-12-34-54 3.jpg",
+      "sha": "8fe05b13378f10a7edb6eaa2bb59bbba584ee2168d917e6f4039bd18b4d6b777",
+      "product_id": "REAL-127",
+      "image": "/images/catalogue-real/photo-127.webp"
+    },
+    {
+      "n": 128,
+      "file": "PHOTO-2026-11-25-12-34-54 4.jpg",
+      "sha": "13bfc8ee292d4339c7f850b7a66c92a7a5430692a44ebc32e795ac7ef9993e9d",
+      "product_id": "REAL-128",
+      "image": "/images/catalogue-real/photo-128.webp"
+    },
+    {
+      "n": 129,
+      "file": "PHOTO-2026-11-25-12-34-54 5.jpg",
+      "sha": "68c1badfab773fba52755692e712c4544a6bf26df0404c8436e8a128afbfd17d",
+      "product_id": "REAL-129",
+      "image": "/images/catalogue-real/photo-129.webp"
+    },
+    {
+      "n": 130,
+      "file": "PHOTO-2026-11-25-12-34-54.jpg",
+      "sha": "7235c6e33969258979c8cb0651efa3741651a0f81b5d4f509ec1854c220974a2",
+      "product_id": "REAL-130",
+      "image": "/images/catalogue-real/photo-130.webp"
+    },
+    {
+      "n": 131,
+      "file": "PHOTO-2026-11-25-12-34-55 2.jpg",
+      "sha": "9c703e3e0b074f10aee8dde9b6cb69a23746d8291452d4ec9e14c064906725ac",
+      "product_id": "REAL-131",
+      "image": "/images/catalogue-real/photo-131.webp"
+    },
+    {
+      "n": 132,
+      "file": "PHOTO-2026-11-25-12-34-55 3.jpg",
+      "sha": "62d3605ecf5c2dbbc9daa46075808bc6962b2b729d7e7d1584b7f1a5908e51c8",
+      "product_id": "REAL-132",
+      "image": "/images/catalogue-real/photo-132.webp"
+    },
+    {
+      "n": 133,
+      "file": "PHOTO-2026-11-25-12-34-55 4.jpg",
+      "sha": "25652d6172e05b4cf1b6464ad9138024db55c8ceb39b2e920153e96b40adcc0e",
+      "product_id": "REAL-133",
+      "image": "/images/catalogue-real/photo-133.webp"
+    },
+    {
+      "n": 134,
+      "file": "PHOTO-2026-11-25-12-34-55 5.jpg",
+      "sha": "510accc35f309aa8c75c9ce44e219ef5ce7f4d60a60a369a3a77e3a117d07bfd",
+      "product_id": "REAL-134",
+      "image": "/images/catalogue-real/photo-134.webp"
+    },
+    {
+      "n": 135,
+      "file": "PHOTO-2026-11-25-12-34-55.jpg",
+      "sha": "7f353410e2cd6b2b8f695b2dc515a5b0933aceb0f1e2daaa1f6531cae225e559",
+      "product_id": "REAL-135",
+      "image": "/images/catalogue-real/photo-135.webp"
+    },
+    {
+      "n": 136,
+      "file": "PHOTO-2026-11-25-12-34-56 2.jpg",
+      "sha": "bb35a5a8c44a32c1a964476c8d5814be710e77510bbfd724c486e29ff4b5ad28",
+      "product_id": "REAL-136",
+      "image": "/images/catalogue-real/photo-136.webp"
+    },
+    {
+      "n": 137,
+      "file": "PHOTO-2026-11-25-12-34-56 3.jpg",
+      "sha": "59e8d015f9eedb4d8a272931e4a114936106cd9128b99203702d412037fc4a49",
+      "product_id": "REAL-137",
+      "image": "/images/catalogue-real/photo-137.webp"
+    },
+    {
+      "n": 138,
+      "file": "PHOTO-2026-11-25-12-34-56 4.jpg",
+      "sha": "a63c91dbc4344112a7b860a3a6d53f94c0047b993d311aa27ca9adb6e769fb94",
+      "product_id": "REAL-138",
+      "image": "/images/catalogue-real/photo-138.webp"
+    },
+    {
+      "n": 139,
+      "file": "PHOTO-2026-11-25-12-34-56 5.jpg",
+      "sha": "dc96078d90fbeb08e3d9dc6d3f9386d8c68d7aeb913cf4adf9eee80d881ecc74",
+      "product_id": "REAL-139",
+      "image": "/images/catalogue-real/photo-139.webp"
+    },
+    {
+      "n": 140,
+      "file": "PHOTO-2026-11-25-12-34-56.jpg",
+      "sha": "92b50db0bdc2b7f9cf00b303c953576a49518342ef89d801b19009bcb39404d0",
+      "product_id": "REAL-140",
+      "image": "/images/catalogue-real/photo-140.webp"
+    },
+    {
+      "n": 141,
+      "file": "PHOTO-2026-11-25-12-34-57 2.jpg",
+      "sha": "37603a4870fd9efe40fb3794f497eb1ce60a9e2ebc3bb710d5f4fc4305fc3c2b",
+      "product_id": "REAL-141",
+      "image": "/images/catalogue-real/photo-141.webp"
+    },
+    {
+      "n": 142,
+      "file": "PHOTO-2026-11-25-12-34-57 3.jpg",
+      "sha": "c23809657433965e0f6e3fcdc07d36e7db5866ba3bd4fa2216b6e86fe588323a",
+      "product_id": "REAL-142",
+      "image": "/images/catalogue-real/photo-142.webp"
+    },
+    {
+      "n": 143,
+      "file": "PHOTO-2026-11-25-12-34-57 4.jpg",
+      "sha": "3b712bb466ab1472cb22e0679c70c981ec0e1b5d90216c748bb7cbab350ddf83",
+      "product_id": "REAL-143",
+      "image": "/images/catalogue-real/photo-143.webp"
+    },
+    {
+      "n": 144,
+      "file": "PHOTO-2026-11-25-12-34-57 5.jpg",
+      "sha": "273a7d3d6427b633f685cd9181463a6719a0fe931e40d87cff1a36482b6ec911",
+      "product_id": "REAL-144",
+      "image": "/images/catalogue-real/photo-144.webp"
+    },
+    {
+      "n": 145,
+      "file": "PHOTO-2026-11-25-12-34-57.jpg",
+      "sha": "0e9d32d7ce7d7e03bef849c41a695b01bbe2cf2e566f935c5710bf3f2b4fad40",
+      "product_id": "REAL-145",
+      "image": "/images/catalogue-real/photo-145.webp"
+    },
+    {
+      "n": 146,
+      "file": "PHOTO-2026-11-25-12-34-58 2.jpg",
+      "sha": "1990acd83910ff80c1306a18cb94d84422e6c40870e88a3fa31cf05cc5f2ed74",
+      "product_id": "REAL-146",
+      "image": "/images/catalogue-real/photo-146.webp"
+    },
+    {
+      "n": 147,
+      "file": "PHOTO-2026-11-25-12-34-58 3.jpg",
+      "sha": "2ca446970895f72f1887ef809ae5624d1b27204dcb9b281e40f43e4fc5fd84da",
+      "product_id": "REAL-147",
+      "image": "/images/catalogue-real/photo-147.webp"
+    },
+    {
+      "n": 148,
+      "file": "PHOTO-2026-11-25-12-34-58.jpg",
+      "sha": "6b5a251c5b53703fb1dfcb3765b976c524c044fb75897ff5d41b14a0be6cb2ef",
+      "product_id": "REAL-148",
+      "image": "/images/catalogue-real/photo-148.webp"
+    },
+    {
+      "n": 149,
+      "file": "PHOTO-2026-11-25-13-11-19 2.jpg",
+      "sha": "b2dc457eba60caf07f408d66000b5d23476e728e0181615f6e457280058cf1d8",
+      "product_id": "REAL-149",
+      "image": "/images/catalogue-real/photo-149.webp"
+    },
+    {
+      "n": 150,
+      "file": "PHOTO-2026-11-25-13-11-19.jpg",
+      "sha": "df47e65e688e2953aad1c491762f34efd26aad58cc05409e2bd7d327a50f5e81",
+      "product_id": "REAL-150",
+      "image": "/images/catalogue-real/photo-150.webp"
+    },
+    {
+      "n": 151,
+      "file": "PHOTO-2026-11-25-13-11-20.jpg",
+      "sha": "b99d57ad649d59780c9d10911aeb7cb3abe4c6188c9dcd92049aa823a8287108",
+      "product_id": "REAL-151",
+      "image": "/images/catalogue-real/photo-151.webp"
+    },
+    {
+      "n": 152,
+      "file": "PHOTO-2026-11-25-13-11-45.jpg",
+      "sha": "83c6fcd4f5cb40c90982b59181538ae6dd9dcef73bb7aa49a8e2eb4631384c3c",
+      "product_id": "REAL-102",
+      "image": "/images/catalogue-real/photo-152.webp"
+    },
+    {
+      "n": 153,
+      "file": "PHOTO-2026-11-25-13-20-35.jpg",
+      "sha": "2571835bd2c936bbeaa2a392d835b0ea4e1654b706d30504d3e1bf25cf5bc3f8",
+      "product_id": "REAL-153",
+      "image": "/images/catalogue-real/photo-153.webp"
+    },
+    {
+      "n": 154,
+      "file": "PHOTO-2026-11-25-13-20-36 2.jpg",
+      "sha": "62d52b1982a2d3569ccb47169db11f5bb045f01823dc0d30ea84112d28675a85",
+      "product_id": "REAL-154",
+      "image": "/images/catalogue-real/photo-154.webp"
+    },
+    {
+      "n": 155,
+      "file": "PHOTO-2026-11-25-13-20-36 3.jpg",
+      "sha": "8e3978c6ca7cc85243e0dc2c8cbc618353f154accc9a405179f700e31220e8d0",
+      "product_id": "REAL-155",
+      "image": "/images/catalogue-real/photo-155.webp"
+    },
+    {
+      "n": 156,
+      "file": "PHOTO-2026-11-25-13-20-36.jpg",
+      "sha": "092cdc7457c7d050cdfd0225e9a439db37ab076ecb31b9e32d6b8ab91449a8ea",
+      "product_id": "REAL-156",
+      "image": "/images/catalogue-real/photo-156.webp"
+    },
+    {
+      "n": 157,
+      "file": "PHOTO-2026-11-25-13-20-37 2.jpg",
+      "sha": "3403633f6a0bf0d8521537824f7a81abb2aee1375769e586074df444c3f8e4c0",
+      "product_id": "REAL-157",
+      "image": "/images/catalogue-real/photo-157.webp"
+    },
+    {
+      "n": 158,
+      "file": "PHOTO-2026-11-25-13-20-37.jpg",
+      "sha": "d968e497e642b167449a994355128a8ff39bd538879cd11f4b3e9e5567c4c837",
+      "product_id": "REAL-158",
+      "image": "/images/catalogue-real/photo-158.webp"
+    },
+    {
+      "n": 159,
+      "file": "PHOTO-2026-11-25-13-20-38 2.jpg",
+      "sha": "39e1be2bde96dc24b0f0395199a17e8d03961592704ac1e8a343f3cda00d522a",
+      "product_id": "REAL-159",
+      "image": "/images/catalogue-real/photo-159.webp"
+    },
+    {
+      "n": 160,
+      "file": "PHOTO-2026-11-25-13-20-38.jpg",
+      "sha": "ee2795626abeee5c13f39e8e0e1347c8348074efeaf335ecee3fa57e98a9b5b3",
+      "product_id": "REAL-160",
+      "image": "/images/catalogue-real/photo-160.webp"
+    },
+    {
+      "n": 161,
+      "file": "PHOTO-2026-11-25-13-21-36.jpg",
+      "sha": "d56178776f13b14a5518925a19a7fa13a176c203ef5fa1cbf574beb1d2992ae9",
+      "product_id": "REAL-161",
+      "image": "/images/catalogue-real/photo-161.webp"
+    },
+    {
+      "n": 162,
+      "file": "PHOTO-2026-11-25-13-21-37 2.jpg",
+      "sha": "1eb022e1d606765f84bb3a73039c2e2aad0b2389e6573ae2c381d2d3fed82d45",
+      "product_id": "REAL-162",
+      "image": "/images/catalogue-real/photo-162.webp"
+    },
+    {
+      "n": 163,
+      "file": "PHOTO-2026-11-25-13-21-37 3.jpg",
+      "sha": "84d035dedc334717a3d5d569105593831feddd9cf7ebc2e489e8ed7f00cf2b86",
+      "product_id": "REAL-163",
+      "image": "/images/catalogue-real/photo-163.webp"
+    },
+    {
+      "n": 164,
+      "file": "PHOTO-2026-11-25-13-21-37.jpg",
+      "sha": "3ba9d4d2af786a5c12fc25b0ea0be1522bae779253325f81ee1daea804c9af10",
+      "product_id": "REAL-164",
+      "image": "/images/catalogue-real/photo-164.webp"
+    },
+    {
+      "n": 165,
+      "file": "PHOTO-2026-11-25-13-21-38 2.jpg",
+      "sha": "059bf54b99ba4178f0a9d01e502c281c0ef5e0dc66061861c54c17f7f28ed08c",
+      "product_id": "REAL-165",
+      "image": "/images/catalogue-real/photo-165.webp"
+    },
+    {
+      "n": 166,
+      "file": "PHOTO-2026-11-25-13-21-38.jpg",
+      "sha": "dfd64eee0e89738c31dc6ef1c15c66b4c6ffe5b48909c4288b32d127a870648d",
+      "product_id": "REAL-166",
+      "image": "/images/catalogue-real/photo-166.webp"
+    },
+    {
+      "n": 167,
+      "file": "PHOTO-2026-11-25-13-21-39 2.jpg",
+      "sha": "c62e4291e569c0e0ef1309b03403f4b1753b2262d4921d42bf3ecd3f2ce6733e",
+      "product_id": "REAL-167",
+      "image": "/images/catalogue-real/photo-167.webp"
+    },
+    {
+      "n": 168,
+      "file": "PHOTO-2026-11-25-13-21-39.jpg",
+      "sha": "da7d4596959ab3d11eecf64301eed06f6ccec0cb2f683518c92258d5999f4dda",
+      "product_id": "REAL-168",
+      "image": "/images/catalogue-real/photo-168.webp"
+    },
+    {
+      "n": 169,
+      "file": "PHOTO-2026-11-25-13-21-40 2.jpg",
+      "sha": "5f4ec151763d51adc42123a40ea1a54f0b1d8039065a8f7ed9cbfb3d4431c5f7",
+      "product_id": "REAL-169",
+      "image": "/images/catalogue-real/photo-169.webp"
+    },
+    {
+      "n": 170,
+      "file": "PHOTO-2026-11-25-13-21-40 3.jpg",
+      "sha": "820c7ca6506670d5dd686a75549c85acf380d7b92a059e2369a472ea51717b15",
+      "product_id": "REAL-170",
+      "image": "/images/catalogue-real/photo-170.webp"
+    },
+    {
+      "n": 171,
+      "file": "PHOTO-2026-11-25-13-21-40.jpg",
+      "sha": "0c7e76acdc1f66102240ba8efe31cc040fade7c7a69c0966f3331b5d04e6fbc8",
+      "product_id": "REAL-171",
+      "image": "/images/catalogue-real/photo-171.webp"
+    },
+    {
+      "n": 172,
+      "file": "PHOTO-2026-11-25-13-21-41 2.jpg",
+      "sha": "a1f919fcd4043d27d07e1b021004c87f5d1b16d2d35e8fb5e2cde41d04cc6ee0",
+      "product_id": "REAL-172",
+      "image": "/images/catalogue-real/photo-172.webp"
+    },
+    {
+      "n": 173,
+      "file": "PHOTO-2026-11-25-13-21-41.jpg",
+      "sha": "e2fec913d1b12f29e67a0f717289db5681eb5f2279705cdd2c2e2390dbbee0dd",
+      "product_id": "REAL-173",
+      "image": "/images/catalogue-real/photo-173.webp"
+    },
+    {
+      "n": 174,
+      "file": "PHOTO-2026-11-25-13-21-42 2.jpg",
+      "sha": "a67c2d6f714aacd47281540edb805037da9c808fc92414746ebf850f0eee14c4",
+      "product_id": "REAL-174",
+      "image": "/images/catalogue-real/photo-174.webp"
+    },
+    {
+      "n": 175,
+      "file": "PHOTO-2026-11-25-13-21-42 3.jpg",
+      "sha": "284e75e8a8d9e14c0733c1735ceb91c4e3f50d07e8a16a7e94643fcd11fbc449",
+      "product_id": "REAL-175",
+      "image": "/images/catalogue-real/photo-175.webp"
+    },
+    {
+      "n": 176,
+      "file": "PHOTO-2026-11-25-13-21-42.jpg",
+      "sha": "97f327c7e2425063c5bdd2c6d4a58b4e9d9283b8a9215a5805dbd6177f382164",
+      "product_id": "REAL-176",
+      "image": "/images/catalogue-real/photo-176.webp"
+    },
+    {
+      "n": 177,
+      "file": "PHOTO-2026-11-25-13-21-43 2.jpg",
+      "sha": "7664163021bb3a99ef00b93d37dd955f0bab36465db3e487397167c062852cdf",
+      "product_id": "REAL-177",
+      "image": "/images/catalogue-real/photo-177.webp"
+    },
+    {
+      "n": 178,
+      "file": "PHOTO-2026-11-25-13-21-43.jpg",
+      "sha": "ce31bc94011e40a218cb97a73d824ba657aedc7b07c7267bf521e1a75299f6e9",
+      "product_id": "REAL-178",
+      "image": "/images/catalogue-real/photo-178.webp"
+    },
+    {
+      "n": 179,
+      "file": "PHOTO-2026-11-25-13-21-44 2.jpg",
+      "sha": "fcd7a43370b908a79213c53033454f43a72fb52f29af2a95101027c9647abf55",
+      "product_id": "REAL-179",
+      "image": "/images/catalogue-real/photo-179.webp"
+    },
+    {
+      "n": 180,
+      "file": "PHOTO-2026-11-25-13-21-44 3.jpg",
+      "sha": "0d3b567134b11f2ed31df998d0359267a66718a543da08ac7dfe2a0b20e0abf5",
+      "product_id": "REAL-180",
+      "image": "/images/catalogue-real/photo-180.webp"
+    },
+    {
+      "n": 181,
+      "file": "PHOTO-2026-11-25-13-21-44.jpg",
+      "sha": "34e548be235de17a0cfbd1e5e43a5861d09e29f877747da565c35a88c9ae4d3b",
+      "product_id": "REAL-181",
+      "image": "/images/catalogue-real/photo-181.webp"
+    },
+    {
+      "n": 182,
+      "file": "PHOTO-2026-11-25-13-21-45 2.jpg",
+      "sha": "7b32c6a7ebe95fc303595ec339de0652342b2bb5bcfb0d6940dee825fe8028ad",
+      "product_id": "REAL-182",
+      "image": "/images/catalogue-real/photo-182.webp"
+    },
+    {
+      "n": 183,
+      "file": "PHOTO-2026-11-25-13-21-46 2.jpg",
+      "sha": "d2750a0904ea7bc434d5eddf720639d19b3c115d07fda087a67e50e3bea4bdc3",
+      "product_id": "REAL-183",
+      "image": "/images/catalogue-real/photo-183.webp"
+    },
+    {
+      "n": 184,
+      "file": "PHOTO-2026-11-25-13-21-46 3.jpg",
+      "sha": "83f425526a692f66d6b94073890278f25a5d79c651d7c4bdcc73c1210b174089",
+      "product_id": "REAL-184",
+      "image": "/images/catalogue-real/photo-184.webp"
+    },
+    {
+      "n": 185,
+      "file": "PHOTO-2026-11-25-13-21-47 2.jpg",
+      "sha": "800ab8b985f0bdea2b4897d494b98b7b5ddcdd212e9d7019269cb10989c0d771",
+      "product_id": "REAL-185",
+      "image": "/images/catalogue-real/photo-185.webp"
+    },
+    {
+      "n": 186,
+      "file": "PHOTO-2026-11-25-13-21-47.jpg",
+      "sha": "d4e8041d526237a13d1d6d7474628d20bebf44736ac30ae0aa1f514d759bb326",
+      "product_id": "REAL-186",
+      "image": "/images/catalogue-real/photo-186.webp"
+    },
+    {
+      "n": 187,
+      "file": "PHOTO-2026-11-25-13-53-13 2.jpg",
+      "sha": "20ec9c45764420328b08a35353430fa1626bb09ceefa4a41b309edd4a3722a90",
+      "product_id": "REAL-187",
+      "image": "/images/catalogue-real/photo-187.webp"
+    },
+    {
+      "n": 188,
+      "file": "PHOTO-2026-11-25-13-53-13 3.jpg",
+      "sha": "ad59a51939f3ebd2553506705f695b6b90c265960f5601feec318007cff4041c",
+      "product_id": "REAL-188",
+      "image": "/images/catalogue-real/photo-188.webp"
+    },
+    {
+      "n": 189,
+      "file": "PHOTO-2026-11-25-13-53-13.jpg",
+      "sha": "039cbe17c837dd28a2bf6026a576ca1368a5c462a1d309adb5879ac6122243c0",
+      "product_id": "REAL-189",
+      "image": "/images/catalogue-real/photo-189.webp"
+    },
+    {
+      "n": 190,
+      "file": "PHOTO-2026-11-25-13-54-04.jpg",
+      "sha": "5e4973cd68d6b5107625139d4cfa004f1b6885d39d6437a22af77421f56da70d",
+      "product_id": "REAL-190",
+      "image": "/images/catalogue-real/photo-190.webp"
+    },
+    {
+      "n": 191,
+      "file": "PHOTO-2026-11-25-14-39-09.jpg",
+      "sha": "2041d3208ce1fecb5a38da878dc87f4e8fbc6790e0fecced36c4cec3e2f5c555",
+      "product_id": "REAL-191",
+      "image": "/images/catalogue-real/photo-191.webp"
+    },
+    {
+      "n": 192,
+      "file": "PHOTO-2026-11-25-14-39-10.jpg",
+      "sha": "7128297eb6b7785e19e5492460f6a98970c9f08e369fbaec22da39e4c36d8562",
+      "product_id": "REAL-059",
+      "image": "/images/catalogue-real/photo-192.webp"
+    },
+    {
+      "n": 193,
+      "file": "PHOTO-2026-11-25-22-10-58.jpg",
+      "sha": "a7bca31fd864bd760162819628509073c594e491c858764f81aed9d5cea3534c",
+      "product_id": "REAL-193",
+      "image": "/images/catalogue-real/photo-193.webp"
+    },
+    {
+      "n": 194,
+      "file": "PHOTO-2026-11-25-22-10-59 2.jpg",
+      "sha": "4388a7385e8910acd51a4a8f83d5fd8c95c8939de784342faa1f1a5e3a793260",
+      "product_id": "REAL-194",
+      "image": "/images/catalogue-real/photo-194.webp"
+    },
+    {
+      "n": 195,
+      "file": "PHOTO-2026-11-25-22-10-59 3.jpg",
+      "sha": "62b2e22f8b7ff85765b6697ccc0b88e8d1655cb0c42802eb377e9615b5dbb115",
+      "product_id": "REAL-195",
+      "image": "/images/catalogue-real/photo-195.webp"
+    },
+    {
+      "n": 196,
+      "file": "PHOTO-2026-11-25-22-10-59 4.jpg",
+      "sha": "86636c0f2ab6495f4b05336ba4e223cd2761777ea2746db9833a226a82cc9b51",
+      "product_id": "REAL-196",
+      "image": "/images/catalogue-real/photo-196.webp"
+    },
+    {
+      "n": 197,
+      "file": "PHOTO-2026-11-25-22-10-59 5.jpg",
+      "sha": "c4fb71d29952305cb01cb97e6a87bd2719b3d09fb48ac61fe1578bcb231a06af",
+      "product_id": "REAL-197",
+      "image": "/images/catalogue-real/photo-197.webp"
+    },
+    {
+      "n": 198,
+      "file": "PHOTO-2026-11-25-22-10-59.jpg",
+      "sha": "89e21f330dc55489684502a416a5bb2e3754e96da0bd09e99f6f9a70cbd7b05d",
+      "product_id": "REAL-198",
+      "image": "/images/catalogue-real/photo-198.webp"
+    },
+    {
+      "n": 199,
+      "file": "PHOTO-2026-11-25-22-11-00 2.jpg",
+      "sha": "772e74b098c97da3012d4b188326fad54bb48a749b379717f080b51c2668afe7",
+      "product_id": "REAL-199",
+      "image": "/images/catalogue-real/photo-199.webp"
+    },
+    {
+      "n": 200,
+      "file": "PHOTO-2026-11-25-22-11-00 3.jpg",
+      "sha": "b390e22e9d63a68d453c3639ca1eb00f882838ba92a1359cd11aba08bb9b86e7",
+      "product_id": "REAL-193",
+      "image": "/images/catalogue-real/photo-200.webp"
+    },
+    {
+      "n": 201,
+      "file": "PHOTO-2026-11-25-22-11-00 4.jpg",
+      "sha": "2bff55588ba8f071a5d41aaa1bb6f01a826601a7d65913e8abac3ceebdd41863",
+      "product_id": "REAL-201",
+      "image": "/images/catalogue-real/photo-201.webp"
+    },
+    {
+      "n": 202,
+      "file": "PHOTO-2026-11-25-22-11-00 5.jpg",
+      "sha": "4912c0c6443431de71c6ae32ebcee5180de4477e25748f99b579e05d93e3d54f",
+      "product_id": "REAL-202",
+      "image": "/images/catalogue-real/photo-202.webp"
+    },
+    {
+      "n": 203,
+      "file": "PHOTO-2026-11-25-22-11-00.jpg",
+      "sha": "e691df62ee46b1824cff8939f792e9ad0384599aacc737756938be512684ef1a",
+      "product_id": "REAL-203",
+      "image": "/images/catalogue-real/photo-203.webp"
+    },
+    {
+      "n": 204,
+      "file": "PHOTO-2026-11-25-22-11-01 2.jpg",
+      "sha": "d6bdfdfb7fd0fce07939c2f79ab78da3df978d724464f960ef06cd761a656781",
+      "product_id": "REAL-204",
+      "image": "/images/catalogue-real/photo-204.webp"
+    },
+    {
+      "n": 205,
+      "file": "PHOTO-2026-11-25-22-11-01.jpg",
+      "sha": "559b284b6ca1860f4e1ac907e7d3e558916006d15d5aa765ea31f830077f8c69",
+      "product_id": "REAL-205",
+      "image": "/images/catalogue-real/photo-205.webp"
+    }
+  ]
+}

@@ -2,11 +2,12 @@ from html import escape
 from urllib.parse import urlencode
 
 GROUPS = {
-    'Catalogue': ('product','category','brand','catalogue_universe','product_specification','product_comparison'),
+    'Catalogue': ('product','category','brand','catalogue_universe','product_specification','product_comparison','product_image'),
     'Commerce': ('stock','promotion','promotion_product'),
     'Éditorial': ('article','article_section','article_source','article_product','article_category','article_brand'),
 }
 COLUMNS = {
+    'product_image': ('product_id','alt_text','display_order'),
     'product': ('name','brand_id','sku','price_centimes','status'),
     'stock': ('name','sku','stock_quantity','availability'),
     'promotion': ('name','percent_off','starts_on','ends_on','active'),

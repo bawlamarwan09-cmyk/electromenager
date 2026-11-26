@@ -26,7 +26,7 @@ LABELS = dict(catalogue_universe='Univers', category='Catégories', brand='Marqu
               product='Produits', product_specification='Caractéristiques', product_comparison='Comparaisons',
               article='Articles', article_section='Sections', article_source='Sources',
               article_product='Produits des articles', article_category='Catégories des articles',
-              article_brand='Marques des articles', promotion='Promotions', promotion_product='Produits en promotion')
+              article_brand='Marques des articles', promotion='Promotions', promotion_product='Produits en promotion', product_image='Photos des produits')
 FIELDS = dict(id='Identifiant', slug='Slug URL', name='Nom', title='Titre', topic='Thème',
               category_id='Catégorie', brand_id='Marque', product_id='Produit', article_id='Article',
               universe_id='Univers', promotion_id='Promotion', product_a_id='Premier modèle',
@@ -99,7 +99,7 @@ class Dashboard(BaseHTTPRequestHandler):
         self.send_response(status)
         self.send_header('Content-Type','text/html; charset=utf-8')
         self.send_header('Cache-Control','no-store')
-        self.send_header('Content-Security-Policy',"default-src 'none'; style-src 'unsafe-inline'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'")
+        self.send_header('Content-Security-Policy',"default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'")
         if redirect: self.send_header('Location',redirect)
         if cookie is not None:
             self.send_header('Set-Cookie','av_session='+cookie+'; Path=/; HttpOnly; SameSite=Strict'+('; Secure' if ORIGIN.startswith('https://') else '')+('; Max-Age=0' if not cookie else ''))
@@ -115,6 +115,16 @@ class Dashboard(BaseHTTPRequestHandler):
 
     def do_GET(self):
         url=urlsplit(self.path)
+        if url.path.startswith('/images/catalogue-real/'):
+            file=ROOT/'public/images/catalogue-real'/Path(url.path).name
+            if file.suffix=='.webp' and file.is_file():
+                self.send_response(200)
+                self.send_header('Content-Type','image/webp')
+                self.send_header('Content-Length',str(file.stat().st_size))
+                self.end_headers()
+                self.wfile.write(file.read_bytes())
+                return
+            return self.respond('Image introuvable',404)
         args=dict((k,v[0]) for k,v in parse_qs(url.query).items())
         with database() as db:
             user,_=self.session(db)
@@ -145,6 +155,11 @@ class Dashboard(BaseHTTPRequestHandler):
         identity=hidden('table',table)+''.join(hidden('k_'+k,v) for k,v in keys.items())
         action='Modifier' if row else 'Ajouter'
         out=f'<p><a href="/?table={table}">{LABELS[table]}</a></p><h1>{action} · {LABELS[table]}</h1><form class="editor" action="/save" method="post">'+identity
+        if row and table=='product':
+            product_id=row[[c[1] for c in columns].index('id')]
+            has_gallery = query(db,"SELECT 1 FROM information_schema.tables WHERE table_name='product_image'").fetchone() if PG else query(db,"SELECT 1 FROM sqlite_master WHERE name='product_image' AND type='table'").fetchone()
+            images=query(db,'SELECT image_url,alt_text FROM product_image WHERE product_id=? ORDER BY display_order',(product_id,)).fetchall() if has_gallery else []
+            out+='<div class="product-gallery">'+''.join(f'<a href="{ESC(url)}" target="_blank" rel="noopener"><img src="{ESC(url)}" alt="{ESC(alt)}"></a>' for url,alt in images)+'</div>'
         if row:
             out+=hidden('version',digest(json.dumps(list(row),default=str)))
         for i,(_,name,kind,required,default,_) in enumerate(columns):
@@ -224,10 +239,13 @@ class Dashboard(BaseHTTPRequestHandler):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('command',choices=['init','create-admin','serve','demo-kitchen'])
+    parser.add_argument('command',choices=['init','create-admin','serve','demo-kitchen','import-photos'])
     parser.add_argument('--demo',action='store_true')
     args=parser.parse_args()
-    if args.command=='serve':
+    if args.command=='import-photos':
+        from import_photos import run
+        run()
+    elif args.command=='serve':
         ThreadingHTTPServer(('127.0.0.1',int(os.environ.get('DASHBOARD_PORT','8100'))),Dashboard).serve_forever()
     else:
         with database() as db:
