@@ -1,0 +1,507 @@
+{
+  "REAL-001": {
+    "name": "Lave-vaisselle LG · finition inox",
+    "specs": {
+      "Finition visible": "Inox",
+      "Commandes": "Bandeau frontal"
+    },
+    "description": "Lave-vaisselle LG en finition inox, avec bandeau de commandes en façade et poignée intégrée. La référence complète et le nombre de couverts restent à confirmer sur son étiquette.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-001.webp"
+      }
+    ],
+    "brand": "LG"
+  },
+  "REAL-023": {
+    "name": "Robot pâtissier Regal BT1448 · 9 L",
+    "specs": {
+      "Références visibles": "BT1448DSV / BT1448DR",
+      "Capacité du bol": "9 L",
+      "Puissance indiquée": "1 600 W",
+      "Bol": "Acier inoxydable",
+      "Mouvement": "Planétaire",
+      "Vitesses": "6"
+    },
+    "description": "Le Regal BT1448 dispose d’un bol inox de 9 litres, d’un mouvement planétaire et de six vitesses. L’emballage indique 1 600 W et présente les variantes argent et rouge. La couleur disponible est à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-023.webp"
+      }
+    ]
+  },
+  "REAL-024": {
+    "name": "Pétrin digital Bonomi · 8 L",
+    "specs": {
+      "Capacité du bol": "8 L",
+      "Puissance indiquée": "1 800 W",
+      "Accessoires indiqués": "3"
+    },
+    "description": "Pétrin digital Bonomi avec bol de 8 litres et trois accessoires indiqués sur son emballage. La puissance annoncée est de 1 800 W. La référence exacte reste à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-024.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://bonomi.ma/product/petrin-8l-digital/"
+      }
+    ]
+  },
+  "REAL-026": {
+    "name": "Robot pâtissier General Tecnomatic · 7,5 L",
+    "specs": {
+      "Capacité du bol": "7,5 L",
+      "Puissance indiquée": "1 400 W"
+    },
+    "description": "Robot pâtissier General Tecnomatic à bol de 7,5 litres. Son emballage annonce 1 400 W. La référence complète et les accessoires fournis restent à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-026.webp"
+      }
+    ]
+  },
+  "REAL-031": {
+    "name": "Robot pâtissier Venezia SM-1511N · 12 L",
+    "specs": {
+      "Référence constructeur": "SM-1511N",
+      "Capacité du bol": "12 L",
+      "Bol": "Inox",
+      "Accessoires indiqués": "Fouet, batteur et pétrin"
+    },
+    "description": "Le Venezia SM-1511N est un robot pâtissier avec bol inox de 12 litres. Son emballage présente un fouet, un batteur et un pétrin pour différentes préparations. La puissance et la composition du colis seront confirmées par le magasin.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-031.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://www.wasal.com/fr/product/robot-p%C3%A9trin-venezia-sm-1511n-12l-1-crochet-436630"
+      }
+    ]
+  },
+  "REAL-067": {
+    "name": "Machine espresso KOLN MK-718",
+    "specs": {
+      "Référence constructeur": "MK-718",
+      "Puissance indiquée": "1 350 W",
+      "Pression annoncée": "20 bars",
+      "Réservoir indiqué": "1,3 L",
+      "Commandes": "Tactiles",
+      "Préparation": "2 tasses"
+    },
+    "description": "La KOLN MK-718 associe commandes tactiles et préparation de deux tasses. Son emballage annonce une puissance de 1 350 W, une pression de 20 bars et un réservoir de 1,3 litre.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-067.webp"
+      }
+    ]
+  },
+  "REAL-068": {
+    "name": "Machine espresso KOLN MK-868",
+    "specs": {
+      "Référence constructeur": "MK-868",
+      "Puissance indiquée": "850 W",
+      "Pression annoncée": "20 bars",
+      "Réservoir indiqué": "1,8 L",
+      "Commandes": "Tactiles"
+    },
+    "description": "Machine espresso KOLN MK-868 à commandes tactiles. L’emballage annonce 850 W, une pression de 20 bars et un réservoir de 1,8 litre.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-068.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://www.marjanemall.ma/p/koln-machine-a-cafe-expresso-et-cappuccino-mk-868-20-bars-reservoir-1-8-l-buse-vapeur-aae9a43011160420340"
+      }
+    ]
+  },
+  "REAL-102": {
+    "name": "Presse-panini Bonomi · 2 000 W",
+    "specs": {
+      "Puissance maximale indiquée": "2 000 W",
+      "Plaques": "Antiadhésives, effet granit",
+      "Commande visible": "Molette frontale"
+    },
+    "description": "Presse-panini Bonomi à plaques rainurées antiadhésives avec finition effet granit et molette frontale. Son emballage annonce une puissance maximale de 2 000 W. La référence exacte reste à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-102.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://bonomi.ma/product/panini-en-granit-3/"
+      }
+    ]
+  },
+  "REAL-111": {
+    "name": "Machine à pâtes manuelle KOLN",
+    "specs": {
+      "Fonctionnement": "Manuel",
+      "Matière visible": "Métal",
+      "Tailles mentionnées sur le visuel": "150 mm / 180 mm"
+    },
+    "description": "Machine à pâtes manuelle KOLN en métal, avec rouleaux et manivelle. Le visuel présente les tailles 150 et 180 mm. Le magasin doit confirmer la taille du modèle proposé.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-111.webp"
+      }
+    ]
+  },
+  "REAL-118": {
+    "name": "Plaque gaz Venezia PH-7500G · 70 cm",
+    "specs": {
+      "Référence constructeur": "PH-7500G",
+      "Largeur indiquée": "70 cm",
+      "Foyers visibles": "5",
+      "Surface": "Verre noir",
+      "Commandes": "5 manettes en façade"
+    },
+    "description": "La Venezia PH-7500G est une plaque de cuisson à gaz de 70 cm avec cinq foyers et cinq manettes en façade. Sa surface noire et ses grilles individuelles apparaissent sur le visuel du fabricant.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-118.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://electromax.ma/product/plaque-venezia-5f-ph7500g/"
+      }
+    ]
+  },
+  "REAL-171": {
+    "name": "Réfrigérateur Venezia M390",
+    "specs": {
+      "Référence constructeur": "M390",
+      "Portes visibles": "2",
+      "Type de froid indiqué": "Defrost"
+    },
+    "description": "Réfrigérateur Venezia M390 à deux portes, avec congélateur en partie haute. Le visuel indique un système Defrost. Le volume utile et les dimensions doivent être confirmés sur la fiche technique.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-171.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://hayatelk80.wixsite.com/comsysele"
+      }
+    ]
+  },
+  "REAL-172": {
+    "name": "Réfrigérateur Venezia M520N",
+    "specs": {
+      "Référence constructeur": "M520N",
+      "Portes visibles": "2",
+      "Type de froid indiqué": "No Frost"
+    },
+    "description": "Réfrigérateur Venezia M520N à deux portes, avec congélateur en partie haute. Le visuel indique un système No Frost. Le volume utile et les dimensions doivent être confirmés sur la fiche technique.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-172.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://hayatelk80.wixsite.com/comsysele"
+      }
+    ]
+  },
+  "REAL-173": {
+    "name": "Réfrigérateur Venezia M480N",
+    "specs": {
+      "Référence constructeur": "M480N",
+      "Portes visibles": "2",
+      "Type de froid indiqué": "No Frost"
+    },
+    "description": "Réfrigérateur Venezia M480N à deux portes, avec congélateur en partie haute. Le visuel indique un système No Frost. Le volume utile et les dimensions doivent être confirmés sur la fiche technique.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-173.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://hayatelk80.wixsite.com/comsysele"
+      }
+    ]
+  },
+  "REAL-174": {
+    "name": "Réfrigérateur Venezia M250",
+    "specs": {
+      "Référence constructeur": "M250",
+      "Portes visibles": "2",
+      "Type de froid indiqué": "Defrost"
+    },
+    "description": "Réfrigérateur Venezia M250 à deux portes, avec congélateur en partie haute. Le visuel indique un système Defrost. Le volume utile et les dimensions doivent être confirmés sur la fiche technique.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-174.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://hayatelk80.wixsite.com/comsysele"
+      }
+    ]
+  },
+  "REAL-175": {
+    "name": "Réfrigérateur Venezia M420N",
+    "specs": {
+      "Référence constructeur": "M420N",
+      "Portes visibles": "2",
+      "Type de froid indiqué": "No Frost"
+    },
+    "description": "Réfrigérateur Venezia M420N à deux portes, avec congélateur en partie haute. Le visuel indique un système No Frost. Le volume utile et les dimensions doivent être confirmés sur la fiche technique.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-175.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://hayatelk80.wixsite.com/comsysele"
+      }
+    ]
+  },
+  "REAL-046": {
+    "name": "Chauffe-eau Ariston Andris R 30 PL",
+    "specs": {
+      "Capacité": "30 L",
+      "Type": "Chauffe-eau électrique à accumulation",
+      "Référence constructeur": "ANDRIS R 30 PL",
+      "Code fabricant": "3100649",
+      "Puissance indiquée": "1 500 W"
+    },
+    "description": "Chauffe-eau électrique Ariston Andris R 30 PL, référence 3100649, à accumulation de 30 litres. Son étiquette indique une puissance de 1 500 W. Les caractéristiques de pose doivent être vérifiées dans la notice correspondant à la référence du colis.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-046.webp"
+      },
+      {
+        "label": "Fiche de référence consultée",
+        "url": "https://www.ariston.com/pl-pl/produkty/podgrzewacze-wody/podgrzewacze-elektryczne/andris-r-pl"
+      }
+    ]
+  },
+  "REAL-156": {
+    "name": "Presse-agrumes KOLN D-8021B",
+    "specs": {
+      "Référence constructeur": "D-8021B",
+      "Usage": "Extraction du jus des agrumes"
+    },
+    "description": "Presse-agrumes KOLN D-8021B, présenté avec son cône et son récipient collecteur. La capacité, la puissance et les éléments inclus sont à confirmer pour cette référence.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-156.webp"
+      }
+    ]
+  },
+  "REAL-157": {
+    "name": "Presse-agrumes KOLN D-8017B",
+    "specs": {
+      "Référence constructeur": "D-8017B",
+      "Usage": "Extraction du jus des agrumes"
+    },
+    "description": "Presse-agrumes KOLN D-8017B, présenté avec son cône et son récipient collecteur. La capacité, la puissance et les éléments inclus sont à confirmer pour cette référence.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-157.webp"
+      }
+    ]
+  },
+  "REAL-158": {
+    "name": "Presse-agrumes KOLN D-8016B",
+    "specs": {
+      "Référence constructeur": "D-8016B",
+      "Usage": "Extraction du jus des agrumes"
+    },
+    "description": "Presse-agrumes KOLN D-8016B, présenté avec son cône et son récipient collecteur. La capacité, la puissance et les éléments inclus sont à confirmer pour cette référence.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-158.webp"
+      }
+    ]
+  },
+  "REAL-159": {
+    "name": "Presse-agrumes KOLN D-8005B",
+    "specs": {
+      "Référence constructeur": "D-8005B",
+      "Usage": "Extraction du jus des agrumes"
+    },
+    "description": "Presse-agrumes KOLN D-8005B, présenté avec son cône et son récipient collecteur. La capacité, la puissance et les éléments inclus sont à confirmer pour cette référence.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-159.webp"
+      }
+    ]
+  },
+  "REAL-160": {
+    "name": "Presse-agrumes KOLN D-8006B",
+    "specs": {
+      "Référence constructeur": "D-8006B",
+      "Usage": "Extraction du jus des agrumes"
+    },
+    "description": "Presse-agrumes KOLN D-8006B, présenté avec son cône et son récipient collecteur. La capacité, la puissance et les éléments inclus sont à confirmer pour cette référence.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-160.webp"
+      }
+    ]
+  },
+  "REAL-161": {
+    "name": "Four posable Venezia · 35 L",
+    "specs": {
+      "Capacité indiquée": "35 L",
+      "Type": "Four électrique posable"
+    },
+    "description": "Four électrique posable Venezia de 35 L, avec commandes latérales visibles sur le visuel du fabricant. Les modes de chauffe et accessoires fournis restent à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-161.webp"
+      }
+    ]
+  },
+  "REAL-162": {
+    "name": "Four posable Venezia · 65 L",
+    "specs": {
+      "Capacité indiquée": "65 L",
+      "Type": "Four électrique posable"
+    },
+    "description": "Four électrique posable Venezia de 65 L, avec commandes latérales visibles sur le visuel du fabricant. Les modes de chauffe et accessoires fournis restent à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-162.webp"
+      }
+    ]
+  },
+  "REAL-163": {
+    "name": "Four posable Venezia · 45 L",
+    "specs": {
+      "Capacité indiquée": "45 L",
+      "Type": "Four électrique posable"
+    },
+    "description": "Four électrique posable Venezia de 45 L, avec commandes latérales visibles sur le visuel du fabricant. Les modes de chauffe et accessoires fournis restent à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-163.webp"
+      }
+    ]
+  },
+  "REAL-164": {
+    "name": "Four posable Venezia · 27 L",
+    "specs": {
+      "Capacité indiquée": "27 L",
+      "Type": "Four électrique posable"
+    },
+    "description": "Four électrique posable Venezia de 27 L, avec commandes latérales visibles sur le visuel du fabricant. Les modes de chauffe et accessoires fournis restent à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-164.webp"
+      }
+    ]
+  },
+  "REAL-188": {
+    "name": "Aspirateur filaire Best Mark ASP120",
+    "specs": {
+      "Référence constructeur": "ASP120",
+      "Alimentation": "Filaire",
+      "Filtre indiqué": "HEPA"
+    },
+    "description": "Aspirateur filaire Best Mark ASP120. Le coffret indique un filtre HEPA et présente les accessoires de nettoyage. La puissance et le contenu exact du colis restent à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-188.webp"
+      }
+    ]
+  },
+  "REAL-190": {
+    "name": "Broyeur alimentaire KOLN",
+    "specs": {
+      "Usage indiqué": "Broyage à sec",
+      "Corps visible": "Métallique"
+    },
+    "description": "Broyeur alimentaire KOLN présenté pour réduire des ingrédients secs en poudre. Les matières autorisées, la puissance et la capacité de la cuve doivent être confirmées sur la référence du colis.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-190.webp"
+      }
+    ],
+    "category": "broyeurs-alimentaires"
+  },
+  "REAL-025": {
+    "name": "Réchaud à gaz Itimat · 3 feux",
+    "specs": {
+      "Foyers visibles": "3",
+      "Finition indiquée": "Inox gris",
+      "Couvercle": "Métallique rabattable"
+    },
+    "description": "Réchaud à gaz Itimat à trois brûleurs, avec couvercle rabattable et trois manettes en façade. La référence exacte et le type de raccordement gaz restent à confirmer.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-025.webp"
+      }
+    ],
+    "brand": "Itimat",
+    "category": "rechauds-gaz"
+  },
+  "REAL-038": {
+    "name": "Four électrique Elexia ELX-TO-3246 · 45 L",
+    "specs": {
+      "Référence constructeur": "ELX-TO-3246",
+      "Capacité indiquée": "45 L",
+      "Minuteur indiqué": "90 minutes",
+      "Thermostat indiqué": "50 à 300 °C",
+      "Fonctions indiquées": "Ventilateur, voyant lumineux, double vitrage",
+      "Modes de cuisson indiqués": "6"
+    },
+    "description": "Four électrique posable Elexia ELX-TO-3246 de 45 litres. Son emballage indique six modes de cuisson, un ventilateur, un minuteur de 90 minutes et un thermostat réglable de 50 à 300 °C. La porte est présentée avec double vitrage.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-038.webp"
+      }
+    ]
+  },
+  "REAL-041": {
+    "name": "Four électrique Elexia ELX-TO-3270 · 70 L",
+    "specs": {
+      "Référence constructeur": "ELX-TO-3270",
+      "Capacité indiquée": "70 L",
+      "Minuteur indiqué": "90 minutes",
+      "Thermostat indiqué": "50 à 300 °C",
+      "Fonctions indiquées": "Ventilateur, voyant lumineux, double vitrage",
+      "Modes de cuisson indiqués": "6"
+    },
+    "description": "Four électrique posable Elexia ELX-TO-3270 de 70 litres. Son emballage indique six modes de cuisson, un ventilateur, un minuteur de 90 minutes et un thermostat réglable de 50 à 300 °C. La porte est présentée avec double vitrage.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-041.webp"
+      }
+    ]
+  }
+}

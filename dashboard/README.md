@@ -25,3 +25,15 @@ Le lot contient 189 fiches candidates et 199 photos de produits, réparties sur 
 Les références constructeur et les correspondances entre variantes restent à vérifier. Les affiches montrant plusieurs tailles ou modèles restent une fiche candidate à diviser après vérification. Le code REAL-xxx est un identifiant interne du lot. Prix, stock et garantie sont à renseigner avant publication. Le manifeste database/imports/photos-2026-11-26.json conserve les noms des fichiers d’origine, les empreintes et les rapprochements. Les photos se consultent directement dans la fiche produit du dashboard.
 
 Pour afficher ce lot sur le site local, lancer `python3 dashboard/manage.py publish-photos`. Les fiches encore en brouillon du lot sont publiées avec prix sur demande. Les fiches archivées conservent leur statut. Le catalogue public privilégie les références réelles dès qu’une référence du lot est publiée.
+
+### Photos produit trouvées par référence
+
+Les photographies originales servent à identifier les produits. Les nouvelles photos du catalogue sont téléchargées depuis une fiche correspondant au même modèle et validées dans `database/imports/product-image-sourcing-review.json`. Seules les entrées `accepted_images` sont importées : fichiers déjà transparents, sources et empreinte SHA-256 conservées. Aucune vue reconstituée ou issue d'un détourage des cartons n'est utilisée.
+
+Après récupération des changements :
+
+```bash
+python3 dashboard/manage.py refine-photos
+```
+
+Cette commande applique les faits contrôlés et les photos approuvées. Elle conserve les modifications manuelles des noms, descriptions, marques, catégories et images. Le nombre de vues encore manquantes est indiqué dans le fichier de suivi. Une seule photo trouvée ne devient pas artificiellement trois vues. Les photos d'origine restent disponibles comme justificatifs dans les sources, mais quittent la galerie publique lorsqu'un nouveau visuel est approuvé.

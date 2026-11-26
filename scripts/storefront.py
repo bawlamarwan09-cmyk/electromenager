@@ -46,6 +46,10 @@ def snapshot(db):
     if has_gallery:
         for pid,url,alt in db.execute('SELECT product_id,image_url,alt_text FROM product_image ORDER BY display_order,id'):
             galleries.setdefault(pid,[]).append(dict(url=url,alt=alt))
+    reviewed_path=ROOT/'database/imports/verified-product-details.json'
+    reviewed=json.loads(reviewed_path.read_text()) if reviewed_path.exists() else {}
+    photo_review=ROOT/'database/imports/product-image-sourcing-review.json'
+    sourced={p['product_id']:p.get('accepted_images',[]) for p in json.loads(photo_review.read_text()).get('products',[])} if photo_review.exists() else {}
     products = []
     for pid,slug,name,category,family,brand,image,description,price,original,discount in db.execute("""
         SELECT p.id,p.slug,p.name,c.name,c.slug,b.slug,p.image_key,p.description,
@@ -53,8 +57,16 @@ def snapshot(db):
         JOIN category c ON c.id=p.category_id JOIN brand b ON b.id=p.brand_id
         JOIN catalogue_offer o ON o.product_id=p.id WHERE p.status='published' AND (p.id LIKE 'REAL-%' OR NOT EXISTS
             (SELECT 1 FROM product real_product WHERE real_product.id LIKE 'REAL-%' AND real_product.status='published')) ORDER BY p.name,p.id"""):
+        sources=list(reviewed.get(pid,{}).get('sources',[]))
+        sources.extend(dict(label='Source de la photographie du produit',url=photo['source_page']) for photo in sourced.get(pid,[]))
+        sources=list({source['url']:source for source in sources}.values())
+        gallery=galleries.get(pid,[])
+        if image and image.startswith('/images/catalogue-sourced/'):
+            sources.extend(dict(label='Photo originale — emballage et identification',url=photo['url']) for photo in gallery if photo['url'].startswith('/images/catalogue-real/'))
+            gallery=[dict(url=image,alt=name)]+[photo for photo in gallery if not photo['url'].startswith(('/images/catalogue-real/','/images/catalogue-sourced/'))]
+        sources=list({source['url']:source for source in sources}.values())
         products.append(dict(slug=slug,name=name.split(" · lot ")[0],category=category,family=family,brand=brand,image=image or '',
-            description=description,images=galleries.get(pid,[]),isDemo=not pid.startswith('REAL-'),specs=specs.get(pid,{}),price=None if price is None else price/100,
+            description=description,sources=sources,images=gallery,isDemo=not pid.startswith('REAL-'),specs=specs.get(pid,{}),price=None if price is None else price/100,
             originalPrice=None if original is None else original/100,discount=discount))
     return dict(families=families,products=products,brands=dict(db.execute('SELECT slug,name FROM brand ORDER BY slug')),
                 universes=dict(db.execute('SELECT slug,name FROM catalogue_universe ORDER BY slug')))

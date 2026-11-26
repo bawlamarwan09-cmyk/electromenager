@@ -1,0 +1,2035 @@
+{
+  "policy": "Use externally sourced photographs of the exact brand, model and variant. No reconstructed carton photographs or generated product angles. Accept 2–3 distinct images when available; record missing images honestly. Verify transparency separately from a white background.",
+  "products": [
+    {
+      "product_id": "REAL-001",
+      "name": "Lave-vaisselle LG · finition inox",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-001.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-002",
+      "name": "Lave-vaisselle",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-002.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-003",
+      "name": "Lave-vaisselle",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-003.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-004",
+      "name": "Lave-linge",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-004.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-005",
+      "name": "Lave-linge",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-005.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-006",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-006.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-007",
+      "name": "Lave-linge",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-007.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-008",
+      "name": "Lave-linge",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-008.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-009",
+      "name": "Lave-linge",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-009.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-010",
+      "name": "Lave-linge",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-010.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-011",
+      "name": "Lave-linge",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-011.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-012",
+      "name": "Lave-linge",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-012.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-013",
+      "name": "Lave-linge Siera",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-013.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-014",
+      "name": "Lave-linge National",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-014.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-015",
+      "name": "Lave-linge Goldenstar",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-015.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-016",
+      "name": "Lave-linge Goldenstar",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-016.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-017",
+      "name": "Lave-linge Goldenstar",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-017.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-018",
+      "name": "Lave-linge General Tecnomatic",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-018.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-019",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-019.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-020",
+      "name": "Lave-linge Goldenstar",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-020.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-021",
+      "name": "Lave-linge KGLG",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-021.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-022",
+      "name": "Lave-linge KGLG",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-022.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-023",
+      "name": "Robot pâtissier Regal BT1448 · 9 L",
+      "visible_references": {
+        "Références visibles": "BT1448DSV / BT1448DR"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-023.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-024",
+      "name": "Pétrin digital Bonomi · 8 L",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-024.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-025",
+      "name": "Réchaud à gaz Itimat · 3 feux",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-025.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-026",
+      "name": "Robot pâtissier General Tecnomatic · 7,5 L",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-026.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-027",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-027.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-028",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-028.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-029",
+      "name": "Chauffe-eau Junkers Bosch",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-029.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-030",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-030.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-031",
+      "name": "Robot pâtissier Venezia SM-1511N · 12 L",
+      "visible_references": {
+        "Référence constructeur": "SM-1511N"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-031.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-032",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-032.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-033",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-033.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-034",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-034.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-035",
+      "name": "Chauffe-eau Junkers Bosch",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-035.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-036",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-036.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-037",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-037.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-038",
+      "name": "Four électrique Elexia ELX-TO-3246 · 45 L",
+      "visible_references": {
+        "Référence constructeur": "ELX-TO-3246"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-038.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-039",
+      "name": "Four posable Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-039.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-040",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-040.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-041",
+      "name": "Four électrique Elexia ELX-TO-3270 · 70 L",
+      "visible_references": {
+        "Référence constructeur": "ELX-TO-3270"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-041.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-042",
+      "name": "Chauffe-eau Junkers Bosch",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-042.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-043",
+      "name": "Four posable Techvision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-043.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-044",
+      "name": "Four posable Techvision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-044.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-045",
+      "name": "Chauffe-eau",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-045.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-046",
+      "name": "Chauffe-eau Ariston Andris R 30 PL",
+      "visible_references": {
+        "Référence visible": "ANDRIS R 30 PL"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-046.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-047",
+      "name": "Mixeur plongeant Bodi",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-047.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-048",
+      "name": "Mixeur plongeant Bodi",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-048.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-049",
+      "name": "Réfrigérateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-049.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-056",
+      "name": "Hachoir Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-056.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-057",
+      "name": "Four posable Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-057.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-058",
+      "name": "Four posable Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-058.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-059",
+      "name": "Four posable Itimat",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-059.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-060",
+      "name": "Four posable",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-060.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-061",
+      "name": "Four posable Techvision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-061.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-062",
+      "name": "Four posable Elexia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-062.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-063",
+      "name": "Four posable",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-063.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-064",
+      "name": "Chauffage Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-064.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-065",
+      "name": "Chauffage Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-065.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-066",
+      "name": "Chauffage Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-066.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-067",
+      "name": "Machine espresso KOLN MK-718",
+      "visible_references": {
+        "Référence constructeur": "MK-718"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-067.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-068",
+      "name": "Machine espresso KOLN MK-868",
+      "visible_references": {
+        "Référence constructeur": "MK-868"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-068.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-069",
+      "name": "Machine à café Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-069.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-070",
+      "name": "Machine à café Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-070.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-071",
+      "name": "Blender",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-071.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-072",
+      "name": "Blender Tatch",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-072.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-073",
+      "name": "Blender Atlanta",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-073.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-074",
+      "name": "Hotte Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-074.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-075",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-075.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-076",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-076.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-077",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-077.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-078",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-078.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-079",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-079.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-080",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-080.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-081",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-081.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-082",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-082.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-083",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-083.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-084",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-084.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-085",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-085.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-086",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-086.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-087",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-087.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-088",
+      "name": "Plaque de cuisson Active Chef",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-088.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-089",
+      "name": "Cuisinière",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-089.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-091",
+      "name": "Aspirateur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-091.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-092",
+      "name": "Aspirateur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-092.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-093",
+      "name": "Réchaud électrique",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-093.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-094",
+      "name": "Hachoir",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-094.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-099",
+      "name": "Mixeur plongeant",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-099.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-101",
+      "name": "Blender Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-101.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-102",
+      "name": "Presse-panini Bonomi · 2 000 W",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-102.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-103",
+      "name": "Téléviseur Star Vision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-103.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-104",
+      "name": "Téléviseur Elexia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-104.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-105",
+      "name": "Téléviseur Star Vision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-105.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-106",
+      "name": "Téléviseur Star Vision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-106.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-108",
+      "name": "Téléviseur Star Vision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-108.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-109",
+      "name": "Téléviseur Star Vision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-109.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-110",
+      "name": "Cuisinière",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-110.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-111",
+      "name": "Machine à pâtes manuelle KOLN",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-111.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-112",
+      "name": "Cuisinière",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-112.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-113",
+      "name": "Cuisinière",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-113.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-114",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-114.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-115",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-115.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-116",
+      "name": "Cuisinière",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-116.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-117",
+      "name": "Cuisinière",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-117.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-118",
+      "name": "Plaque gaz Venezia PH-7500G · 70 cm",
+      "visible_references": {
+        "Référence constructeur": "PH-7500G"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-118.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-119",
+      "name": "Cuisinière",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-119.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-120",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-120.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-121",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-121.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-122",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-122.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-123",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-123.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-124",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-124.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-125",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-125.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-126",
+      "name": "Réchaud électrique Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-126.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-127",
+      "name": "Chauffe-eau Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-127.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-128",
+      "name": "Plaque de cuisson",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-128.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-129",
+      "name": "Plaque de cuisson Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-129.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-130",
+      "name": "Chauffe-eau Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-130.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-131",
+      "name": "Lave-linge Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-131.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-132",
+      "name": "Chauffage Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-132.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-133",
+      "name": "Lave-linge Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-133.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-134",
+      "name": "Lave-linge Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-134.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-135",
+      "name": "Réchaud électrique Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-135.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-136",
+      "name": "Plaque de cuisson Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-136.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-137",
+      "name": "Plaque de cuisson Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-137.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-138",
+      "name": "Chauffage Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-138.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-139",
+      "name": "Chauffage Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-139.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-140",
+      "name": "Plaque de cuisson Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-140.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-141",
+      "name": "Lave-linge Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-141.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-142",
+      "name": "Lave-linge Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-142.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-143",
+      "name": "Lave-linge Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-143.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-144",
+      "name": "Cuisinière Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-144.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-145",
+      "name": "Plaque de cuisson Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-145.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-146",
+      "name": "Plaque de cuisson Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-146.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-147",
+      "name": "Chauffage KGLG",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-147.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-148",
+      "name": "Cuisinière Maclay",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-148.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-149",
+      "name": "Barbecue électrique Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-149.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-150",
+      "name": "Barbecue électrique Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-150.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-151",
+      "name": "Barbecue électrique Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-151.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-153",
+      "name": "Broyeur alimentaire Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-153.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-154",
+      "name": "Broyeur alimentaire Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-154.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-155",
+      "name": "Presse-agrumes Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-155.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-156",
+      "name": "Presse-agrumes KOLN D-8021B",
+      "visible_references": {
+        "Référence constructeur": "D-8021B"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-156.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-157",
+      "name": "Presse-agrumes KOLN D-8017B",
+      "visible_references": {
+        "Référence constructeur": "D-8017B"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-157.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-158",
+      "name": "Presse-agrumes KOLN D-8016B",
+      "visible_references": {
+        "Référence constructeur": "D-8016B"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-158.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-159",
+      "name": "Presse-agrumes KOLN D-8005B",
+      "visible_references": {
+        "Référence constructeur": "D-8005B"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-159.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-160",
+      "name": "Presse-agrumes KOLN D-8006B",
+      "visible_references": {
+        "Référence constructeur": "D-8006B"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-160.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-161",
+      "name": "Four posable Venezia · 35 L",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-161.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-162",
+      "name": "Four posable Venezia · 65 L",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-162.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-163",
+      "name": "Four posable Venezia · 45 L",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-163.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-164",
+      "name": "Four posable Venezia · 27 L",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-164.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-165",
+      "name": "Climatiseur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-165.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-166",
+      "name": "Climatiseur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-166.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-167",
+      "name": "Réfrigérateur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-167.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-168",
+      "name": "Climatiseur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-168.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-169",
+      "name": "Réfrigérateur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-169.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-170",
+      "name": "Réfrigérateur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-170.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-171",
+      "name": "Réfrigérateur Venezia M390",
+      "visible_references": {
+        "Référence constructeur": "M390"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-171.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-172",
+      "name": "Réfrigérateur Venezia M520N",
+      "visible_references": {
+        "Référence constructeur": "M520N"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-172.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-173",
+      "name": "Réfrigérateur Venezia M480N",
+      "visible_references": {
+        "Référence constructeur": "M480N"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-173.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-174",
+      "name": "Réfrigérateur Venezia M250",
+      "visible_references": {
+        "Référence constructeur": "M250"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-174.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-175",
+      "name": "Réfrigérateur Venezia M420N",
+      "visible_references": {
+        "Référence constructeur": "M420N"
+      },
+      "target_views": 3,
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/real-175-01.webp",
+          "alt": "Réfrigérateur Venezia M420N — vue de face",
+          "source_page": "https://electroest.ma/products/refrigerateur-deux-porte-no-frost-m-420n-inox-venezia-2",
+          "source_image": "https://cdn.shopify.com/s/files/1/1008/4840/2734/files/image-Photoroom-24.webp?v=1790195013",
+          "background": "transparent",
+          "sha256": "b231f926bf9667c41018da45fd470b3c8ca6bbc7f8195684ee98c06cb68ee167"
+        }
+      ],
+      "status": "one_verified_view_more_needed",
+      "identification_photo": "/images/catalogue-real/photo-175.webp",
+      "missing_views": 2
+    },
+    {
+      "product_id": "REAL-176",
+      "name": "Réchaud à gaz Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-176.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-177",
+      "name": "Réchaud à gaz Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-177.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-178",
+      "name": "Réchaud à gaz Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-178.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-179",
+      "name": "Réchaud à gaz Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-179.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-180",
+      "name": "Réchaud à gaz Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-180.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-181",
+      "name": "Réchaud à gaz Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-181.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-182",
+      "name": "Réchaud à gaz Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-182.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-183",
+      "name": "Réchaud à gaz Itimat",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-183.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-184",
+      "name": "Réchaud à gaz Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-184.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-185",
+      "name": "Réchaud à gaz Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-185.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-186",
+      "name": "Réchaud à gaz Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-186.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-187",
+      "name": "Aspirateur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-187.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-188",
+      "name": "Aspirateur filaire Best Mark ASP120",
+      "visible_references": {
+        "Référence constructeur": "ASP120"
+      },
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-188.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-189",
+      "name": "Aspirateur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-189.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-190",
+      "name": "Broyeur alimentaire KOLN",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "exact_model_images_needed",
+      "identification_photo": "/images/catalogue-real/photo-190.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-191",
+      "name": "Distributeur d’eau Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-191.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-193",
+      "name": "Téléviseur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-193.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-194",
+      "name": "Téléviseur Elexia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "identification_photo": "/images/catalogue-real/photo-194.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-195",
+      "name": "Téléviseur LG",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-195.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-196",
+      "name": "Téléviseur Tecson",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-196.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-197",
+      "name": "Téléviseur",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-197.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-198",
+      "name": "Téléviseur Techvision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-198.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-199",
+      "name": "Téléviseur Star Vision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-199.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-201",
+      "name": "Téléviseur Venezia",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-201.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-202",
+      "name": "Téléviseur Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-202.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-203",
+      "name": "Téléviseur Tecson",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-203.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-204",
+      "name": "Téléviseur Techvision",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-204.webp",
+      "missing_views": 3
+    },
+    {
+      "product_id": "REAL-205",
+      "name": "Téléviseur Koln",
+      "visible_references": {},
+      "target_views": 3,
+      "accepted_images": [],
+      "status": "reference_not_yet_confirmed",
+      "identification_photo": "/images/catalogue-real/photo-205.webp",
+      "missing_views": 3
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "product_id": "REAL-068",
+      "source": "https://www.marjanemall.ma/p/koln-machine-a-cafe-expresso-et-cappuccino-mk-868-20-bars-reservoir-1-8-l-buse-vapeur-aae9a43011160420340",
+      "reason": "Lifestyle background; alternate infographic conflicts with stated pressure and reservoir specifications. No transparent file found among first three photos."
+    },
+    {
+      "product_id": "REAL-068",
+      "source": "https://darti.ma/produit/machine-a-cafe-expresso-koln-mk-868-20-bars-reservoir-1-8l-buse-vapeur/",
+      "reason": "Product image has retailer watermark; second view is packaging."
+    },
+    {
+      "product_id": "REAL-031",
+      "source": "https://wasal.com/fr/product/robot-p%C3%A9trin-venezia-sm-1511n-12l-1-crochet-436630",
+      "reason": "One lifestyle view found; not transparent and not 2–3 distinct packshots."
+    },
+    {
+      "product_id": "REAL-118",
+      "source": "https://electromax.ma/product/plaque-venezia-5f-ph7500g/",
+      "reason": "Live product gallery contains a placeholder, not an actual product photograph."
+    },
+    {
+      "product_id": "REAL-046",
+      "source": "https://www.soussmarep.ma/fr/chauffe-eau-electrique-370/814-chauffe-eau-electrique-ariston-andris-30l-pl-sans-installation-347.html",
+      "reason": "PNG with alpha only around an opaque white rectangular photograph; not a transparent product cutout. Other checked exact 3100649 product photos from Pernova, Electromall and Electronejma are opaque."
+    },
+    {
+      "product_id": "REAL-024",
+      "source": "https://bonomi.ma/product/petrin-8l-digital/",
+      "reason": "Manufacturer product WebP is RGB without alpha."
+    },
+    {
+      "product_id": "REAL-102",
+      "source": "https://bonomi.ma/product/panini-en-granit-3/",
+      "reason": "Manufacturer product WebP is RGB without alpha."
+    },
+    {
+      "product_id": "REAL-194",
+      "source": "https://www.marjanemall.ma/p/smart-tv-32-elexia-32eahd-a24-dled-google-tv-dolby-audio-aaate92557",
+      "reason": "All four advertised gallery images opaque. Marketing overlays and retailer watermarks on three; no accepted transparent view."
+    },
+    {
+      "product_id": "REAL-105",
+      "source": "https://www.mrteck.ma/tv/star-vision-32-smart-tv-android-14",
+      "reason": "Exact 515032 listing but RGB product photograph on white background."
+    },
+    {
+      "product_id": "REAL-156",
+      "source": "https://www.jumia.ma/ar/koln-presse-agrumes-electrique-avec-pichet-gradue-jus-frais-maison-67552187.html",
+      "reason": "RGB lifestyle photograph, no transparent view."
+    },
+    {
+      "product_id": "REAL-157",
+      "source": "https://www.jumia.ma/ar/koln-presse-agrumes-electrique-puissance-elegance-et-performance-avec-reservoir-1-litre-67552038.html",
+      "reason": "RGB lifestyle photograph, no transparent view."
+    },
+    {
+      "product_id": "REAL-158",
+      "source": "https://www.marjanemall.ma/p/koln-presse-agrumes-electrique-d-8016b-25-w-pour-oranges-et-citrons-aae9a99010160438716",
+      "reason": "Five checked WebP files are opaque lifestyle/marketing images. The RGBA file also has opaque background (minimum alpha 78)."
+    },
+    {
+      "product_id": "REAL-031",
+      "source": "https://www.mayushdesign.com/product/robot-petrin-patissier-venezia-sm-1511n-capacite-geante-12-litres-bol-inox-crochet-gris-anthracite",
+      "reason": "Additional exact-model showroom photograph is RGB WebP without transparency."
+    },
+    {
+      "product_id": "REAL-175",
+      "source": "https://electrokoban.ma/product/refrigerateur-venezia-2-portes-420l-m420n/",
+      "reason": "Valid transparent photo duplicates the accepted front view pixel-for-pixel. It is not a second angle."
+    },
+    {
+      "product_id": "REAL-175",
+      "source": "https://electrounivers.com/refrigerateur-venezia-2-portes-420l-m420n/",
+      "reason": "Five original WebP gallery files checked: all RGB without transparency."
+    }
+  ],
+  "requirements": {
+    "background": "already-transparent-only",
+    "background_removal_allowed": false,
+    "generated_angles_allowed": false,
+    "same_model_required": true,
+    "distinct_views_target": "2–3"
+  },
+  "summary": {
+    "catalogue_entries": 189,
+    "reviewed_information_entries": 30,
+    "product_photo_searches": 20,
+    "products_with_approved_photo": 1,
+    "approved_distinct_photos": 1,
+    "products_with_two_or_three_views": 0,
+    "complete": false
+  }
+}

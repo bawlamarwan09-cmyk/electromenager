@@ -28,6 +28,8 @@ def import_batch(db, publish=False):
             query(db,'INSERT INTO product_image (id,product_id,image_url,alt_text,display_order) VALUES (?,?,?,?,?) ON CONFLICT DO NOTHING',
                   (item['id']+'-'+str(pos),item['id'],image,item['name']+' — photo '+str(pos+1),pos))
 
+    from refine_photos import refine_batch
+    refine_batch(db)
     if publish:
         for item in data['products']:
             query(db,"UPDATE product SET status='published' WHERE id=? AND status='draft'",(item['id'],))

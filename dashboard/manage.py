@@ -115,8 +115,8 @@ class Dashboard(BaseHTTPRequestHandler):
 
     def do_GET(self):
         url=urlsplit(self.path)
-        if url.path.startswith('/images/catalogue-real/'):
-            file=ROOT/'public/images/catalogue-real'/Path(url.path).name
+        if url.path.startswith(('/images/catalogue-real/', '/images/catalogue-sourced/')):
+            file=ROOT/'public/images'/Path(url.path).parts[2]/Path(url.path).name
             if file.suffix=='.webp' and file.is_file():
                 self.send_response(200)
                 self.send_header('Content-Type','image/webp')
@@ -239,10 +239,13 @@ class Dashboard(BaseHTTPRequestHandler):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('command',choices=['init','create-admin','serve','demo-kitchen','import-photos','publish-photos'])
+    parser.add_argument('command',choices=['init','create-admin','serve','demo-kitchen','import-photos','publish-photos','refine-photos'])
     parser.add_argument('--demo',action='store_true')
     args=parser.parse_args()
-    if args.command in ('import-photos','publish-photos'):
+    if args.command=='refine-photos':
+        from refine_photos import run
+        run()
+    elif args.command in ('import-photos','publish-photos'):
         from import_photos import run
         run(publish=args.command=='publish-photos')
     elif args.command=='serve':
