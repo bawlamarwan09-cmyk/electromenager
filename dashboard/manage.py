@@ -239,12 +239,12 @@ class Dashboard(BaseHTTPRequestHandler):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('command',choices=['init','create-admin','serve','demo-kitchen','import-photos'])
+    parser.add_argument('command',choices=['init','create-admin','serve','demo-kitchen','import-photos','publish-photos'])
     parser.add_argument('--demo',action='store_true')
     args=parser.parse_args()
-    if args.command=='import-photos':
+    if args.command in ('import-photos','publish-photos'):
         from import_photos import run
-        run()
+        run(publish=args.command=='publish-photos')
     elif args.command=='serve':
         ThreadingHTTPServer(('127.0.0.1',int(os.environ.get('DASHBOARD_PORT','8100'))),Dashboard).serve_forever()
     else:
