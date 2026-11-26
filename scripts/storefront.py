@@ -51,9 +51,9 @@ def snapshot(db):
     photo_review=ROOT/'database/imports/product-image-sourcing-review.json'
     sourced={p['product_id']:p.get('accepted_images',[]) for p in json.loads(photo_review.read_text()).get('products',[])} if photo_review.exists() else {}
     products = []
-    for pid,slug,name,category,family,brand,image,description,price,original,discount in db.execute("""
+    for pid,slug,name,category,family,brand,image,description,price,original,discount,availability in db.execute("""
         SELECT p.id,p.slug,p.name,c.name,c.slug,b.slug,p.image_key,p.description,
-               o.final_price_centimes,o.price_centimes,o.percent_off FROM product p
+               o.final_price_centimes,o.price_centimes,o.percent_off,o.availability FROM product p
         JOIN category c ON c.id=p.category_id JOIN brand b ON b.id=p.brand_id
         JOIN catalogue_offer o ON o.product_id=p.id WHERE p.status='published' AND (p.id LIKE 'REAL-%' OR NOT EXISTS
             (SELECT 1 FROM product real_product WHERE real_product.id LIKE 'REAL-%' AND real_product.status='published')) ORDER BY p.name,p.id"""):
@@ -63,10 +63,10 @@ def snapshot(db):
         gallery=galleries.get(pid,[])
         if image and image.startswith('/images/catalogue-sourced/'):
             sources.extend(dict(label='Photo originale — emballage et identification',url=photo['url']) for photo in gallery if photo['url'].startswith('/images/catalogue-real/'))
-            gallery=[dict(url=image,alt=name)]+[photo for photo in gallery if not photo['url'].startswith(('/images/catalogue-real/','/images/catalogue-sourced/'))]
+            gallery=[dict(url=image,alt=name)]+[photo for photo in gallery if photo['url']!=image and not photo['url'].startswith('/images/catalogue-real/')]
         sources=list({source['url']:source for source in sources}.values())
         products.append(dict(slug=slug,name=name.split(" · lot ")[0],category=category,family=family,brand=brand,image=image or '',
-            description=description,sources=sources,images=gallery,isDemo=not pid.startswith('REAL-'),specs=specs.get(pid,{}),price=None if price is None else price/100,
+            description=description,availability=availability,sources=sources,images=gallery,isDemo=not pid.startswith('REAL-'),specs=specs.get(pid,{}),price=None if price is None else price/100,
             originalPrice=None if original is None else original/100,discount=discount))
     return dict(families=families,products=products,brands=dict(db.execute('SELECT slug,name FROM brand ORDER BY slug')),
                 universes=dict(db.execute('SELECT slug,name FROM catalogue_universe ORDER BY slug')))
