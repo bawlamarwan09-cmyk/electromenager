@@ -66,12 +66,17 @@ def snapshot(db):
             gallery=[photo for photo in gallery if not photo['url'].startswith('/images/catalogue-sourced/') or photo['url'] in approved_urls]
             if image and image.startswith('/images/catalogue-sourced/') and image not in approved_urls:
                 image=''
-            # Warehouse/carton photographs identify the model; they are not
-            # approved storefront photographs, even when no replacement exists.
-            sources.extend(dict(label='Photo d’identification du produit',url=photo['url']) for photo in gallery if photo['url'].startswith('/images/catalogue-real/'))
-            gallery=[photo for photo in gallery if not photo['url'].startswith('/images/catalogue-real/')]
-            if image and image.startswith('/images/catalogue-real/'):
-                image=gallery[0]['url'] if gallery else ''
+            # Prefer approved studio photos. Retain the supplied shop photo
+            # when it is the only available visual, rather than hiding it.
+            originals=[photo for photo in gallery if photo['url'].startswith('/images/catalogue-real/')]
+            sources.extend(dict(label='Photo d’identification du produit',url=photo['url']) for photo in originals)
+            alternatives=[photo for photo in gallery if not photo['url'].startswith('/images/catalogue-real/')]
+            if alternatives:
+                gallery=alternatives
+                if not image or image.startswith('/images/catalogue-real/'):
+                    image=gallery[0]['url']
+            elif not image and originals:
+                image=originals[0]['url']
         if image and image.startswith('/images/catalogue-sourced/'):
             sources.extend(dict(label='Photo originale — emballage et identification',url=photo['url']) for photo in gallery if photo['url'].startswith('/images/catalogue-real/'))
             gallery=[dict(url=image,alt=name)]+[photo for photo in gallery if photo['url']!=image and not photo['url'].startswith('/images/catalogue-real/')]

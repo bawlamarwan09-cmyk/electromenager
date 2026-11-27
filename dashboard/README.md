@@ -37,3 +37,5 @@ python3 dashboard/manage.py refine-photos
 ```
 
 Cette commande applique les faits contrôlés et les photos approuvées. Elle conserve les modifications manuelles des noms, descriptions, marques, catégories et images. Le nombre de vues encore manquantes est indiqué dans le fichier de suivi. Une seule photo trouvée ne devient pas artificiellement trois vues. Les photos d'origine restent disponibles comme justificatifs dans les sources, mais quittent la galerie publique lorsqu'un nouveau visuel est approuvé.
+
+Affichage des photos : le site privilégie les visuels studio approuvés. En l’absence de remplacement, il affiche la photo originale fournie, identifiée comme « Photo du produit en magasin » dans la galerie. Les retouches rejetées restent exclues.
