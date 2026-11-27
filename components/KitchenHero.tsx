@@ -1,8 +1,9 @@
 'use client';
+import {useCatalogue} from './CatalogueProvider';
+import {money,type Product} from '@/lib/catalogue-utils';
 import Link from 'next/link';
 import {useEffect, useRef, useState, type ReactNode, type CSSProperties} from 'react';
 import {ChevronLeft, ChevronRight, Hand, ChevronDown, Pause, Play, X} from 'lucide-react';
-import {money, products} from '@/lib/catalogue';
 import HeroNavigation from './HeroNavigation';
 import ProductPhoto from './ProductPhoto';
 import './kitchen.css';
@@ -27,9 +28,11 @@ const positions = [
   {room:'bedroom',family:'televiseurs',label:'Téléviseur',x:92,y:39,w:11,h:25},
   {room:'bathroom',family:'chauffe-eau',label:'Chauffe-eau',x:81,y:24,w:12,h:31},
 ];
-const groups = positions.map(point=>({...point,models:products.filter(p=>p.family===point.family)})).filter(g=>g.models.length);
+
 
 export default function KitchenHero({children}:{children:ReactNode}) {
+ const {products}=useCatalogue();
+ const groups = positions.map(point=>({...point,models:products.filter(p=>p.family===point.family)})).filter(g=>g.models.length);
   const [room,setRoom]=useState(rooms[0]);
   const [family,setFamily]=useState<string | null>(null);
   const [index,setIndex]=useState(0);

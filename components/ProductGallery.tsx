@@ -1,11 +1,13 @@
 'use client';
-import {useRef,useState} from 'react';
+import {useEffect,useRef,useState} from 'react';
 import {Expand, X, Image as ImageIcon} from 'lucide-react';
 import ProductPhoto from './ProductPhoto';
 
 export default function ProductGallery({image,images,name}:{image:string;images:{url:string;alt:string}[];name:string}) {
   const photos=Array.from(new Map([{url:image,alt:name},...images].filter(p=>p.url).map(p=>[p.url,p])).values());
-  const [selected,setSelected]=useState(image||photos[0]?.url||'');
+  const primary=image||photos[0]?.url||'';
+  const [selected,setSelected]=useState(primary);
+  useEffect(()=>{setSelected(primary)},[primary]);
   const dialog=useRef<HTMLDialogElement>(null);
   const selectedPhoto=photos.find(p=>p.url===selected);
   return <div className="product-gallery-public">

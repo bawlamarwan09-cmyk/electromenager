@@ -1,9 +1,10 @@
 'use client';
+import {useCatalogue} from './CatalogueProvider';
+import {money,type Product} from '@/lib/catalogue-utils';
 import {useState} from 'react';
-import {brands, type Product} from '@/lib/catalogue';
 import ProductCard from './ProductCard';
 
-export default function BrandFilter({items}: {items: Product[]}) {
+export default function BrandFilter({items}: {items: Product[]}) {const {products,brands,families,categories}=useCatalogue();
   const [brand, setBrand] = useState('');
   const available = [...new Set(items.map(product => product.brand))];
   const visible = items.filter(product => !brand || product.brand === brand);

@@ -13,6 +13,8 @@ from pathlib import Path
 import secrets
 import sqlite3
 import time
+import threading
+import sys
 from http.cookies import SimpleCookie
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlencode, urlsplit
@@ -36,6 +38,21 @@ FIELDS = dict(id='Identifiant', slug='Slug URL', name='Nom', title='Titre', topi
               advice='Conseil', guide_slug='Slug du guide principal', value='Valeur', label='Libellé',
               display_order='Ordre', heading='Sous-titre', body='Texte', url='Lien source')
 FLAGS = {'active', 'stock_active'}
+SNAPSHOT_LOCK = threading.Lock()
+SNAPSHOT_UPDATED = 0.0
+
+def refresh_storefront(force=False):
+    global SNAPSHOT_UPDATED
+    if os.environ.get('LIVE_CATALOGUE') != '1':
+        return
+    with SNAPSHOT_LOCK:
+        if not force and time.monotonic()-SNAPSHOT_UPDATED<1:
+            return
+        sys.path.insert(0,str(ROOT/'scripts'))
+        from storefront import export
+        export()
+        SNAPSHOT_UPDATED=time.monotonic()
+
 STYLE = Path(__file__).with_name('admin.css').read_text()
 NAV_LABELS = dict(LABELS, home='Vue d’ensemble', stock='Stock')
 FIELDS.update(availability='Disponibilité', position='Ordre')
@@ -115,6 +132,19 @@ class Dashboard(BaseHTTPRequestHandler):
 
     def do_GET(self):
         url=urlsplit(self.path)
+        if url.path=='/catalogue.json' and os.environ.get('LIVE_CATALOGUE')=='1':
+            try:
+                refresh_storefront()
+                data=Path(os.environ.get('STOREFRONT_PATH',ROOT/'lib/storefront.generated.json')).read_bytes()
+            except Exception:
+                return self.respond('Catalogue temporairement indisponible',503)
+            self.send_response(200)
+            self.send_header('Content-Type','application/json; charset=utf-8')
+            self.send_header('Cache-Control','no-store')
+            self.send_header('Content-Length',str(len(data)))
+            self.end_headers()
+            self.wfile.write(data)
+            return
         if url.path.startswith(('/images/catalogue-real/', '/images/catalogue-sourced/')):
             file=ROOT/'public/images'/Path(url.path).parts[2]/Path(url.path).name
             if file.suffix=='.webp' and file.is_file():
@@ -231,6 +261,10 @@ class Dashboard(BaseHTTPRequestHandler):
                     else: query(db,f'INSERT INTO {table} ('+','.join(names)+') VALUES ('+','.join('?' for _ in names)+')',values)
                 else: return self.respond('Action à confirmer',400)
                 db.commit()
+                try:
+                    refresh_storefront(force=True)
+                except Exception:
+                    return self.respond('La modification est enregistrée, mais la synchronisation a échoué. Rechargez puis réessayez après vérification du service.',503)
                 self.respond('',303,'/?table='+table)
         except Exception as error:
             if isinstance(error,(ValueError, KeyError,sqlite3.IntegrityError)) or (getattr(error,'sqlstate','') or '')[:2] in ('22','23'):

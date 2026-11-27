@@ -7,7 +7,9 @@
     "prebuild": "python3 scripts/storefront.py",
     "pretypecheck": "python3 scripts/storefront.py",
     "build": "next build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:server": "node scripts/server.mjs --build",
+    "start:server": "node scripts/server.mjs"
   },
   "dependencies": {
     "next": "16.4.6",

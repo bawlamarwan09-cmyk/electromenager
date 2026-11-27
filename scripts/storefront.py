@@ -9,7 +9,8 @@ import tempfile
 import time
 
 ROOT = Path(__file__).resolve().parents[1]
-TARGET = ROOT / 'lib/storefront.generated.json'
+DEMO_PRODUCT_IDS = ('AV-F420','AV-L800','AV-C650','AV-A200','AV-F280','AV-L1000','AV-C720','AV-A160','AV-D02','AV-D03','AV-D04','AV-D05','AV-D08','AV-TV01','AV-B01','AV-M01','AV-E01','AV-E02','AV-E03','AV-P01','AV-P02',)
+TARGET = Path(os.environ.get('STOREFRONT_PATH', ROOT / 'lib/storefront.generated.json'))
 
 @contextlib.contextmanager
 def connect():
@@ -25,7 +26,7 @@ def connect():
         raise FileNotFoundError(path)
     with contextlib.closing(sqlite3.connect(':memory:' if demo else path.resolve().as_uri()+'?mode=ro', uri=not demo)) as db:
         if demo:
-            for script in [*sorted((ROOT/'database').glob('[0-9]*.sql')), ROOT/'database/demo.sql', ROOT/'database/demo_offers.sql', ROOT/'database/demo_kitchen.sql']:
+            for script in [*sorted((ROOT/'database').glob('[0-9]*.sql')), ROOT/'database/demo.sql', ROOT/'database/demo_articles.sql', ROOT/'database/demo_offers.sql', ROOT/'database/demo_kitchen.sql']:
                 db.executescript(script.read_text())
             sys.path.insert(0,str(ROOT/'dashboard'))
             from import_photos import import_batch
@@ -51,11 +52,11 @@ def snapshot(db):
     photo_review=ROOT/'database/imports/product-image-sourcing-review.json'
     sourced={p['product_id']:p.get('accepted_images',[]) for p in json.loads(photo_review.read_text()).get('products',[])} if photo_review.exists() else {}
     products = []
-    for pid,slug,name,category,family,brand,image,description,price,original,discount,availability in db.execute("""
+    for pid,slug,name,category,family,brand,image,description,price,original,discount,availability in db.execute(f"""
         SELECT p.id,p.slug,p.name,c.name,c.slug,b.slug,p.image_key,p.description,
                o.final_price_centimes,o.price_centimes,o.percent_off,o.availability FROM product p
         JOIN category c ON c.id=p.category_id JOIN brand b ON b.id=p.brand_id
-        JOIN catalogue_offer o ON o.product_id=p.id WHERE p.status='published' AND (p.id LIKE 'REAL-%' OR NOT EXISTS
+        JOIN catalogue_offer o ON o.product_id=p.id WHERE p.status='published' AND (p.id NOT IN ({','.join(repr(pid) for pid in DEMO_PRODUCT_IDS)}) OR NOT EXISTS
             (SELECT 1 FROM product real_product WHERE real_product.id LIKE 'REAL-%' AND real_product.status='published')) ORDER BY p.name,p.id"""):
         sources=list(reviewed.get(pid,{}).get('sources',[]))
         sources.extend(dict(label='Source de la photographie du produit',url=photo['source_page']) for photo in sourced.get(pid,[]))
@@ -82,14 +83,20 @@ def snapshot(db):
             gallery=[dict(url=image,alt=name)]+[photo for photo in gallery if photo['url']!=image and not photo['url'].startswith('/images/catalogue-real/')]
         sources=list({source['url']:source for source in sources}.values())
         products.append(dict(slug=slug,name=name.split(" · lot ")[0],category=category,family=family,brand=brand,image=image or '',
-            description=description,availability=availability,sources=sources,images=gallery,isDemo=not pid.startswith('REAL-'),specs=specs.get(pid,{}),price=None if price is None else price/100,
+            description=description,availability=availability,sources=sources,images=gallery,isDemo=pid in DEMO_PRODUCT_IDS,specs=specs.get(pid,{}),price=None if price is None else price/100,
             originalPrice=None if original is None else original/100,discount=discount))
+    sections={}
+    for aid,heading,body in db.execute('SELECT article_id,heading,body FROM article_section ORDER BY article_id,position'):
+        sections.setdefault(aid,[]).append([heading,body])
+    articles=[dict(slug=slug,title=title,category=topic,intro=intro,image=image or 'washer',sections=sections.get(aid,[]))
+        for aid,slug,title,topic,intro,image in db.execute("SELECT id,slug,title,topic,introduction,image_key FROM article WHERE status='published' ORDER BY title,id")]
     return dict(families=families,products=products,brands=dict(db.execute('SELECT slug,name FROM brand ORDER BY slug')),
-                universes=dict(db.execute('SELECT slug,name FROM catalogue_universe ORDER BY slug')))
+                universes=dict(db.execute('SELECT slug,name FROM catalogue_universe ORDER BY slug')),articles=articles)
 
 def export():
     with connect() as db:
         content=json.dumps(snapshot(db),ensure_ascii=False,indent=2)+'\n'
+    TARGET.parent.mkdir(parents=True,exist_ok=True)
     if TARGET.exists() and TARGET.read_text()==content:
         return
     with tempfile.NamedTemporaryFile('w',dir=TARGET.parent,delete=False) as file:
