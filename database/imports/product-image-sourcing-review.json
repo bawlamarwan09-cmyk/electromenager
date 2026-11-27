@@ -1,35 +1,71 @@
 {
-  "policy": "Use externally sourced photographs of the exact brand, model and variant. No reconstructed carton photographs or generated product angles. Accept 2–3 distinct images when available; record missing images honestly. Verify transparency separately from a white background.",
+  "policy": "Use faithful exact-product imagery. User explicitly authorized removing backgrounds and improving lighting on 2026-11-26. Preserve the actual model, colors, geometry and visible controls. Review each result against its source. Do not invent unseen product bodies or new viewing angles.",
   "products": [
     {
       "product_id": "REAL-001",
       "name": "Lave-vaisselle LG · finition inox",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-001-v1.webp",
+          "alt": "Lave-vaisselle LG · finition inox — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-001.webp",
+          "source_image": "/images/catalogue-real/photo-001.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "e87e3697d1dc71ddfc108b7d0886364944fa85dd8d4298a8030e6f9d21ddd52e"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-001.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-002",
       "name": "Lave-vaisselle",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-002-v1.webp",
+          "alt": "Lave-vaisselle — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-002.webp",
+          "source_image": "/images/catalogue-real/photo-002.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "ba03b174e15f580f7c5cc23f773670e144c91cd7a474f662146324b05f7be2ae"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-002.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-003",
       "name": "Lave-vaisselle",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-003-v1.webp",
+          "alt": "Lave-vaisselle — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-003.webp",
+          "source_image": "/images/catalogue-real/photo-003.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "78b79ee377d76deee98ac8c1df9d8ccd5ab8a8897e134e08cd626a992358d750"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-003.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-004",
@@ -56,10 +92,22 @@
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-006-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-006.webp",
+          "source_image": "/images/catalogue-real/photo-006.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "70c68178bae2a569988d59dbd28c86c11f15e1edf392231a275f15cf216fd82c"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-006.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-007",
@@ -127,7 +175,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_real_product_photo_carton_only",
       "identification_photo": "/images/catalogue-real/photo-013.webp",
       "missing_views": 3
     },
@@ -137,7 +185,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_real_product_photo_carton_only",
       "identification_photo": "/images/catalogue-real/photo-014.webp",
       "missing_views": 3
     },
@@ -147,7 +195,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_real_product_photo_carton_only",
       "identification_photo": "/images/catalogue-real/photo-015.webp",
       "missing_views": 3
     },
@@ -157,7 +205,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_real_product_photo_carton_only",
       "identification_photo": "/images/catalogue-real/photo-016.webp",
       "missing_views": 3
     },
@@ -167,7 +215,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_real_product_photo_carton_only",
       "identification_photo": "/images/catalogue-real/photo-017.webp",
       "missing_views": 3
     },
@@ -177,7 +225,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_real_product_photo_carton_only",
       "identification_photo": "/images/catalogue-real/photo-018.webp",
       "missing_views": 3
     },
@@ -186,10 +234,22 @@
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-019-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-019.webp",
+          "source_image": "/images/catalogue-real/photo-019.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "09a49f1134bdc89c5bafafc10cf3754a9d03e3036e39a793c80fac15fa8ec863"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-019.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-020",
@@ -197,7 +257,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_real_product_photo_carton_only",
       "identification_photo": "/images/catalogue-real/photo-020.webp",
       "missing_views": 3
     },
@@ -207,7 +267,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_real_product_photo_carton_only",
       "identification_photo": "/images/catalogue-real/photo-021.webp",
       "missing_views": 3
     },
@@ -217,7 +277,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_real_product_photo_carton_only",
       "identification_photo": "/images/catalogue-real/photo-022.webp",
       "missing_views": 3
     },
@@ -228,60 +288,132 @@
         "Références visibles": "BT1448DSV / BT1448DR"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-023-v1.webp",
+          "alt": "Robot pâtissier Regal BT1448 · 9 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-023.webp",
+          "source_image": "/images/catalogue-real/photo-023.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "97c4b1c3801b760d0fc385445c79d9c52e5a2b5d521c7db32244e99ce8270e96"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-023.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-024",
       "name": "Pétrin digital Bonomi · 8 L",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-024-v1.webp",
+          "alt": "Pétrin digital Bonomi · 8 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-024.webp",
+          "source_image": "/images/catalogue-real/photo-024.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "4baa917185917c881b0069afe9270e88cfaf64b9f20f55b68461d26b9279fbaa"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-024.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-025",
       "name": "Réchaud à gaz Itimat · 3 feux",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-025-v1.webp",
+          "alt": "Réchaud à gaz Itimat · 3 feux — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-025.webp",
+          "source_image": "/images/catalogue-real/photo-025.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "85f22d1fe6da1951dbaac2913b45d05f4ea33941c80bcc3b71387ce847b68f52"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-025.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-026",
       "name": "Robot pâtissier General Tecnomatic · 7,5 L",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-026-v1.webp",
+          "alt": "Robot pâtissier General Tecnomatic · 7,5 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-026.webp",
+          "source_image": "/images/catalogue-real/photo-026.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "f0c1568d32d081f0fb68544865c07dda4eaec1597675a6ddd180d6db963ab2cc"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-026.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-027",
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-027-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-027.webp",
+          "source_image": "/images/catalogue-real/photo-027.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "79b1effe08a2eb7e8202ae4bb67ee50e9135c7eabc8a5ad33731d3fd16df68e2"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-027.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-028",
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-028-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-028.webp",
+          "source_image": "/images/catalogue-real/photo-028.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "6798f898a7f3f2c04692a262eac671beaeffc2d342c2db5eea2257ef6897d7c7"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-028.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-029",
@@ -299,7 +431,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "ambiguous_source_and_burner_mismatch",
       "identification_photo": "/images/catalogue-real/photo-030.webp",
       "missing_views": 3
     },
@@ -310,40 +442,88 @@
         "Référence constructeur": "SM-1511N"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-031-v1.webp",
+          "alt": "Robot pâtissier Venezia SM-1511N · 12 L — visuel produit sur fond transparent",
+          "source_page": "https://wasal.com/fr/product/robot-p%C3%A9trin-venezia-sm-1511n-12l-1-crochet-436630",
+          "source_image": "https://wasal-public.s3.amazonaws.com/product.product/2026/10/dLw3hV7liXefNIOlI34X3pW8mfJTxLFt9XrTck7u.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "2b39ff5089763420a92697013cbf3272a5e7ab8f5889c9776d198b7e3ac7acf1"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-031.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-032",
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-032-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-032.webp",
+          "source_image": "/images/catalogue-real/photo-032.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "1390fd03979dd2e2666114c081ba52f7d36836046a4b2cd135e62cd66134e887"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-032.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-033",
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-033-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-033.webp",
+          "source_image": "/images/catalogue-real/photo-033.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "c8d126ac0b0e9e99e31d6bf154cd16172ad756927c3399660fb22912057a6bcb"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-033.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-034",
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-034-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-034.webp",
+          "source_image": "/images/catalogue-real/photo-034.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "2b848d0813501124ba22089852df8035b2b5e975a4bda40d9f02570347cbbcd4"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-034.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-035",
@@ -360,20 +540,44 @@
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-036-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-036.webp",
+          "source_image": "/images/catalogue-real/photo-036.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "ef6f4f3e0da0443e327a8a8c94c4cadfb0f94ad1902ef669d9102955d61fbf0a"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-036.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-037",
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-037-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-037.webp",
+          "source_image": "/images/catalogue-real/photo-037.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "390eb2c13c92ac9acb936fc8adf69eaa45c2c6f9c75d4d11852b04cba9c006dc"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-037.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-038",
@@ -382,30 +586,66 @@
         "Référence constructeur": "ELX-TO-3246"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-038-v1.webp",
+          "alt": "Four électrique Elexia ELX-TO-3246 · 45 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-038.webp",
+          "source_image": "/images/catalogue-real/photo-038.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "855cf25097ad4655cb2b98f0a6675055993fed66337bab95f0ad0530e7c20a04"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-038.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-039",
       "name": "Four posable Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-039-v1.webp",
+          "alt": "Four posable Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-039.webp",
+          "source_image": "/images/catalogue-real/photo-039.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "9e029619ce4a7d843e03f4f250d2aefc22b91abad8c9f58d6fe753568ca46b5d"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-039.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-040",
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-040-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-040.webp",
+          "source_image": "/images/catalogue-real/photo-040.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "043f032a9a224249ab10179abd9b90035859c22d0d1711f7e3d47a04b319158b"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-040.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-041",
@@ -414,10 +654,22 @@
         "Référence constructeur": "ELX-TO-3270"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-041-v1.webp",
+          "alt": "Four électrique Elexia ELX-TO-3270 · 70 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-041.webp",
+          "source_image": "/images/catalogue-real/photo-041.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "46ad8bbf14ba597872ba5e203025bf9880744de018a4ccff29f5c08a82b79a32"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-041.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-042",
@@ -434,20 +686,44 @@
       "name": "Four posable Techvision",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-043-v1.webp",
+          "alt": "Four posable Techvision — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-043.webp",
+          "source_image": "/images/catalogue-real/photo-043.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "76d624685eb9890d82c0c8dba9741c3a9ec554ebab863076f0a9a9662270047f"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-043.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-044",
       "name": "Four posable Techvision",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-044-v1.webp",
+          "alt": "Four posable Techvision — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-044.webp",
+          "source_image": "/images/catalogue-real/photo-044.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "2ca069e73bb537c79fea18c218d3f103e072f65fb5073eef0edcfe1408e10463"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-044.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-045",
@@ -455,7 +731,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "source_finish_not_verifiable",
       "identification_photo": "/images/catalogue-real/photo-045.webp",
       "missing_views": 3
     },
@@ -463,17 +739,29 @@
       "product_id": "REAL-046",
       "name": "Chauffe-eau Ariston Andris R 30 PL",
       "visible_references": {
-        "Référence visible": "ANDRIS R 30 PL"
+        "Référence constructeur": "ANDRIS R 30 PL"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-046-v2.webp",
+          "alt": "Chauffe-eau Ariston Andris R 30 PL — visuel produit sur fond transparent",
+          "source_page": "https://www.soussmarep.ma/fr/chauffe-eau-electrique-370/814-chauffe-eau-electrique-ariston-andris-30l-pl-sans-installation-347.html",
+          "source_image": "https://www.soussmarep.ma/2503-thickbox_default/chauffe-eau-electrique-ariston-andris-30l-pl-sans-installation-347.jpg",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "f9b353262e06bc1c85b2e2cbef530845f621743808eaa1b1dbabef30d4dbd228"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-046.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-047",
-      "name": "Mixeur plongeant Bodi",
+      "name": "Système de filtration d’eau Eau-Puréa",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
@@ -483,53 +771,113 @@
     },
     {
       "product_id": "REAL-048",
-      "name": "Mixeur plongeant Bodi",
+      "name": "Chauffe-eau électrique Roch",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-048-v1.webp",
+          "alt": "Chauffe-eau électrique Roch — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-048.webp",
+          "source_image": "/images/catalogue-real/photo-048.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "7f36a92851593add9792f16648f7d577547a2c01e1de550dda2aab3f12a494ba"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-048.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-049",
       "name": "Réfrigérateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-049-v1.webp",
+          "alt": "Réfrigérateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-049.webp",
+          "source_image": "/images/catalogue-real/photo-049.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "b0723406f34cf9972d1903a9be2ad57e90582c5b6fed3b781dc7d2c62f67c99c"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-049.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-056",
       "name": "Hachoir Koln",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-056-v1.webp",
+          "alt": "Hachoir Koln — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-056.webp",
+          "source_image": "/images/catalogue-real/photo-056.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "f46b875972ab3691054d7b36fa6d0d13c29b4eeb28fd8e2ed4314015735bdf77"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-056.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-057",
       "name": "Four posable Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-057-v1.webp",
+          "alt": "Four posable Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-057.webp",
+          "source_image": "/images/catalogue-real/photo-057.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "94ebb302bf594bfbe1b645681624663d1acaf3ee3c23f6d2e7a56abc85cf8cee"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-057.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-058",
       "name": "Four posable Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-058-v1.webp",
+          "alt": "Four posable Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-058.webp",
+          "source_image": "/images/catalogue-real/photo-058.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "9218f8ffcf5384b7c2f455ea65df0592ec0aff2f83e23aba8a3ee52f7e241ce5"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-058.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-059",
@@ -546,70 +894,154 @@
       "name": "Four posable",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-060-v1.webp",
+          "alt": "Four posable — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-060.webp",
+          "source_image": "/images/catalogue-real/photo-060.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "f73787835abaf3c7ba8de3aebb2af718b13cec364c18e77af9b0635c0eb8b11f"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-060.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-061",
       "name": "Four posable Techvision",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-061-v1.webp",
+          "alt": "Four posable Techvision — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-061.webp",
+          "source_image": "/images/catalogue-real/photo-061.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "aff6b43ce8cebf3c32771f9536d01040d7e31a7fe21760d65885730c08b64637"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-061.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-062",
       "name": "Four posable Elexia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-062-v1.webp",
+          "alt": "Four posable Elexia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-062.webp",
+          "source_image": "/images/catalogue-real/photo-062.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "35760fd10351caec1e590cd0eae2cb888786d16adc5e85ef4a5dda547c31da2e"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-062.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-063",
       "name": "Four posable",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-063-v1.webp",
+          "alt": "Four posable — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-063.webp",
+          "source_image": "/images/catalogue-real/photo-063.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "5e0479bbe70927028bb46fef4eef499b7bcc46c9d0d8168439f1b753a88c0f7a"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-063.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-064",
       "name": "Chauffage Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-064-v1.webp",
+          "alt": "Chauffage Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-064.webp",
+          "source_image": "/images/catalogue-real/photo-064.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "32c915a809ca4b54d9d132f6dfe2a7d77890074ef4344142417a28c7453cf0a5"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-064.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-065",
       "name": "Chauffage Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-065-v1.webp",
+          "alt": "Chauffage Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-065.webp",
+          "source_image": "/images/catalogue-real/photo-065.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "5bb45941ebe39a02885321f0863fc0a815361b80028a279ec222dee085338e2a"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-065.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-066",
       "name": "Chauffage Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-066-v1.webp",
+          "alt": "Chauffage Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-066.webp",
+          "source_image": "/images/catalogue-real/photo-066.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "261abfc96eacf59ac88f20e678c4414abadf8fe0da22e030d2297a806a173b40"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-066.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-067",
@@ -618,10 +1050,22 @@
         "Référence constructeur": "MK-718"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-067-v1.webp",
+          "alt": "Machine espresso KOLN MK-718 — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-067.webp",
+          "source_image": "/images/catalogue-real/photo-067.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "b1da8fd14224347434247b20b58cc6b2e64204ff3583c2bd924af7d61bd03369"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-067.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-068",
@@ -630,60 +1074,132 @@
         "Référence constructeur": "MK-868"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-068-v1.webp",
+          "alt": "Machine espresso KOLN MK-868 — visuel produit sur fond transparent",
+          "source_page": "https://www.marjanemall.ma/p/koln-machine-a-cafe-expresso-et-cappuccino-mk-868-20-bars-reservoir-1-8-l-buse-vapeur-aae9a43011160420340",
+          "source_image": "https://cdnprd.marjanemall.ma/cn0picture0products0mm/ff5604b4-9aac-4e2b-a127-464ecdea5dd9.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "3ee4a02a808bfc190307f5fd326ccfe6597c7f658d4feccf5952bd9b96a619b9"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-068.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-069",
       "name": "Machine à café Koln",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-069-v1.webp",
+          "alt": "Machine à café Koln — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-069.webp",
+          "source_image": "/images/catalogue-real/photo-069.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "eaf8a32a06aa1d90f54b61b0a0921da76b3fd7b5aaece211589233c50cdf704e"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-069.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-070",
       "name": "Machine à café Koln",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-070-v1.webp",
+          "alt": "Machine à café Koln — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-070.webp",
+          "source_image": "/images/catalogue-real/photo-070.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "e34725dcf816ba8e7d3df308e2e363c48ea15e2a298eaca4524e132bee7344e6"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-070.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-071",
       "name": "Blender",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-071-v1.webp",
+          "alt": "Blender — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-071.webp",
+          "source_image": "/images/catalogue-real/photo-071.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "799163216f52a62685cfa153e6a86a986a388e2d867836398e91478e27c93411"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-071.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-072",
-      "name": "Blender Tatch",
+      "name": "Presse-agrumes Tatch · 200 W",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-072-v1.webp",
+          "alt": "Presse-agrumes Tatch · 200 W — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-072.webp",
+          "source_image": "/images/catalogue-real/photo-072.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "a32cdf2050d76d06a8971e19e363a00138d71d2c652d36df2158a8fb05a8f99c"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-072.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-073",
       "name": "Blender Atlanta",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-073-v1.webp",
+          "alt": "Blender Atlanta — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-073.webp",
+          "source_image": "/images/catalogue-real/photo-073.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "8dceb35cd79af04be0843cb0b5e04276cfa8da30ee5462fa07ceae56481b29c4"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-073.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-074",
@@ -700,28 +1216,54 @@
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-075-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-075.webp",
+          "source_image": "/images/catalogue-real/photo-075.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "0c111b39fb9e002aca690e915f98e7829340dcb29f08e179bcee30f13d4a5899"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-075.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-076",
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-076-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-076.webp",
+          "source_image": "/images/catalogue-real/photo-076.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "3a1bd35e48865a59d4ffaf3158934e1b29e84adf36a5d15be4ba70eba9ae96e4"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-076.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-077",
-      "name": "Plaque de cuisson Active Chef",
-      "visible_references": {},
+      "name": "Plaque de cuisson Kenz LG-917",
+      "visible_references": {
+        "Référence visible": "LG-917"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_better_photo_for_exact_controls",
       "identification_photo": "/images/catalogue-real/photo-077.webp",
       "missing_views": 3
     },
@@ -731,7 +1273,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_better_photo_for_exact_controls",
       "identification_photo": "/images/catalogue-real/photo-078.webp",
       "missing_views": 3
     },
@@ -740,10 +1282,22 @@
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-079-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-079.webp",
+          "source_image": "/images/catalogue-real/photo-079.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "56a1e3a0bd4008cc35203039a43b02afbeb5d4b9abe0d7b730ca3f19cbc43038"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-079.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-080",
@@ -751,7 +1305,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "rejected_controls_and_burner_layout_changed",
       "identification_photo": "/images/catalogue-real/photo-080.webp",
       "missing_views": 3
     },
@@ -771,7 +1325,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "rejected_burner_count_and_obscured_source",
       "identification_photo": "/images/catalogue-real/photo-082.webp",
       "missing_views": 3
     },
@@ -781,7 +1335,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_better_photo_for_exact_controls",
       "identification_photo": "/images/catalogue-real/photo-083.webp",
       "missing_views": 3
     },
@@ -791,7 +1345,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "requires_better_photo_for_exact_controls",
       "identification_photo": "/images/catalogue-real/photo-084.webp",
       "missing_views": 3
     },
@@ -801,7 +1355,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "rejected_knob_design_changed",
       "identification_photo": "/images/catalogue-real/photo-085.webp",
       "missing_views": 3
     },
@@ -811,7 +1365,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "rejected_wrong_brand",
       "identification_photo": "/images/catalogue-real/photo-086.webp",
       "missing_views": 3
     },
@@ -820,10 +1374,22 @@
       "name": "Plaque de cuisson Active Chef",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-087-v1.webp",
+          "alt": "Plaque de cuisson Active Chef — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-087.webp",
+          "source_image": "/images/catalogue-real/photo-087.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "42c740c13c4b83717237b8ab3ec711c3704bc65dda86ae91e6332945060001d4"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-087.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-088",
@@ -840,50 +1406,112 @@
       "name": "Cuisinière",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-089-v1.webp",
+          "alt": "Cuisinière — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-089.webp",
+          "source_image": "/images/catalogue-real/photo-089.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "050bfb9b01d51d15639d6054048723b23eec0bccdd1fa8f030c27f5f2012bbc4"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-089.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-091",
       "name": "Aspirateur",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-091-v1.webp",
+          "alt": "Aspirateur — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-091.webp",
+          "source_image": "/images/catalogue-real/photo-091.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "591af3bf6ee4c522e594199bcecce6293662036fc61a459c46f69379c0a77c73"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-091.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-092",
       "name": "Aspirateur Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-092-v1.webp",
+          "alt": "Aspirateur Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-092.webp",
+          "source_image": "/images/catalogue-real/photo-092.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "f598ca240f65c53baf33bb38292bd7137745726c5212ca403969ba7621a1a728"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-092.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-093",
       "name": "Réchaud électrique",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-093-v1.webp",
+          "alt": "Réchaud électrique — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-093.webp",
+          "source_image": "/images/catalogue-real/photo-093.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "2b0902ca0804ca963a2caa496c4ee2b5d6d1d3b5eefecda083749db317c31f67"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-093.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-094",
-      "name": "Hachoir",
-      "visible_references": {},
+      "name": "Autocuiseur KOLN · 4 L",
+      "visible_references": {
+        "Référence visible": "KOLN-4L"
+      },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-094-v1.webp",
+          "alt": "Autocuiseur KOLN · 4 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-094.webp",
+          "source_image": "/images/catalogue-real/photo-094.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "4b171b2cb6ab8dc62f418c60c6e281128894fe6f252908d94f51346ba90473c0"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-094.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-099",
@@ -910,10 +1538,22 @@
       "name": "Presse-panini Bonomi · 2 000 W",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-102-v2.webp",
+          "alt": "Presse-panini Bonomi · 2 000 W — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-102.webp",
+          "source_image": "/images/catalogue-real/photo-102.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "ed5ef2edf094bbd4aa0014414bcc0ab7830f43c57ced5cfb62b5bc16b71d2bfb"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-102.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-103",
@@ -930,20 +1570,44 @@
       "name": "Téléviseur Elexia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-104-v1.webp",
+          "alt": "Téléviseur Elexia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-104.webp",
+          "source_image": "/images/catalogue-real/photo-104.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "bed2d357c895a48c71ef6a66197e0ac480f31c006ddfd4dc2d0e8cfcdb60d012"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-104.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-105",
       "name": "Téléviseur Star Vision",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-105-v1.webp",
+          "alt": "Téléviseur Star Vision — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-105.webp",
+          "source_image": "/images/catalogue-real/photo-105.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "da631d2d8f3d87969b7775e2c578e3f49ae5ce84eefca9096343f833b4f65b72"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-105.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-106",
@@ -990,10 +1654,22 @@
       "name": "Machine à pâtes manuelle KOLN",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-111-v1.webp",
+          "alt": "Machine à pâtes manuelle KOLN — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-111.webp",
+          "source_image": "/images/catalogue-real/photo-111.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "844a36788e3234d8a99b0198393d4eef025fccb18bb96ae59ab13cee2478371d"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-111.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-112",
@@ -1001,7 +1677,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "source_oven_window_and_base_obscured",
       "identification_photo": "/images/catalogue-real/photo-112.webp",
       "missing_views": 3
     },
@@ -1011,7 +1687,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "source_burners_obscured",
       "identification_photo": "/images/catalogue-real/photo-113.webp",
       "missing_views": 3
     },
@@ -1020,40 +1696,76 @@
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-114-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-114.webp",
+          "source_image": "/images/catalogue-real/photo-114.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "8cc59102419092627e548d2799f3c70763a244046d76f491cbc4094424ac7b55"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-114.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-115",
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-115-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-115.webp",
+          "source_image": "/images/catalogue-real/photo-115.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "8cbbcfda9f61ef6ed15441917f4141360d0eae20cb2b7129cb52c1e0f5edbc8b"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-115.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-116",
-      "name": "Cuisinière",
+      "name": "Plaque de cuisson gaz Venezia",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "rejected_two_adjacent_appliances_merged",
       "identification_photo": "/images/catalogue-real/photo-116.webp",
       "missing_views": 3
     },
     {
       "product_id": "REAL-117",
-      "name": "Cuisinière",
+      "name": "Plaque de cuisson gaz Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-117-v1.webp",
+          "alt": "Plaque de cuisson gaz Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-117.webp",
+          "source_image": "/images/catalogue-real/photo-117.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "dfab74fb8e4476a2756be202db39eb0fa57d004712e77541d5ce9e204c7e0abb"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-117.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-118",
@@ -1062,10 +1774,22 @@
         "Référence constructeur": "PH-7500G"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-118-v1.webp",
+          "alt": "Plaque gaz Venezia PH-7500G · 70 cm — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-118.webp",
+          "source_image": "/images/catalogue-real/photo-118.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "054d18371da979d1962fabb08c1e07a29866750226f82cf6aa2d0ea39948d0a0"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-118.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-119",
@@ -1073,7 +1797,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "source_oven_window_and_base_obscured",
       "identification_photo": "/images/catalogue-real/photo-119.webp",
       "missing_views": 3
     },
@@ -1082,50 +1806,110 @@
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-120-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-120.webp",
+          "source_image": "/images/catalogue-real/photo-120.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "d87e2c88ec8905253e772d4107323f909fa419a5316443d2133caa0e2aeca240"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-120.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-121",
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-121-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-121.webp",
+          "source_image": "/images/catalogue-real/photo-121.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "3b81ce729fccf8284b405895c7a5b14c6409e4d2e6b0304928593b03b0705090"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-121.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-122",
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-122-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-122.webp",
+          "source_image": "/images/catalogue-real/photo-122.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "66b9297091e1ce54564abafcea7d73781652fb3a433432f4e797c1a1fc504f5e"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-122.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-123",
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-123-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-123.webp",
+          "source_image": "/images/catalogue-real/photo-123.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "c1020ab3642a9c1de1211260d3f5b41800a0bb3a3b2472aa1253c193b5c1d25f"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-123.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-124",
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-124-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-124.webp",
+          "source_image": "/images/catalogue-real/photo-124.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "107f04003bd2323cf59db2e66fc54dcbdd74f3ef8295d0fb20f2c4054e97fff0"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-124.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-125",
@@ -1172,10 +1956,22 @@
       "name": "Plaque de cuisson Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-129-v1.webp",
+          "alt": "Plaque de cuisson Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-129.webp",
+          "source_image": "/images/catalogue-real/photo-129.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "f42dc9178b9bfd070451da62218a2bfe80cfb33fcb925a9d3d404becdcae40c8"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-129.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-130",
@@ -1192,40 +1988,88 @@
       "name": "Lave-linge Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-131-v1.webp",
+          "alt": "Lave-linge Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-131.webp",
+          "source_image": "/images/catalogue-real/photo-131.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "28f9a22eb1c8ed2680396f874ab74be279a45c901a84c0516d46fce1a7bca23d"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-131.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-132",
       "name": "Chauffage Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-132-v1.webp",
+          "alt": "Chauffage Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-132.webp",
+          "source_image": "/images/catalogue-real/photo-132.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "5bf6f0891034a4981ee21f51f307b227502ff6c23b7bcd5e61875eb55024cab3"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-132.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-133",
       "name": "Lave-linge Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-133-v1.webp",
+          "alt": "Lave-linge Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-133.webp",
+          "source_image": "/images/catalogue-real/photo-133.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "44177b825a4df5ebad3017eda15700fcdec8e4e54e737e2332fd97e69ba504f1"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-133.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-134",
       "name": "Lave-linge Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-134-v1.webp",
+          "alt": "Lave-linge Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-134.webp",
+          "source_image": "/images/catalogue-real/photo-134.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "cc7cd0a773f8c6799add3817ec63b3890877931d35ea6b557577c8db869da6c6"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-134.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-135",
@@ -1242,110 +2086,242 @@
       "name": "Plaque de cuisson Maclay",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-136-v1.webp",
+          "alt": "Plaque de cuisson Maclay — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-136.webp",
+          "source_image": "/images/catalogue-real/photo-136.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "c1a1cc4086e918e1a38189a2da65d9a6861cc0632950c4c0fcfbc27b71a257ce"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-136.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-137",
       "name": "Plaque de cuisson Maclay",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-137-v1.webp",
+          "alt": "Plaque de cuisson Maclay — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-137.webp",
+          "source_image": "/images/catalogue-real/photo-137.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "bbe6f86952002d30656848bbf8f7e7c124eb316847c020a49453b2c47574baf5"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-137.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-138",
       "name": "Chauffage Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-138-v1.webp",
+          "alt": "Chauffage Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-138.webp",
+          "source_image": "/images/catalogue-real/photo-138.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "d6de19811b9cc726320a98d4b298c5f162daabbce508e9031822db2289cbafe7"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-138.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-139",
       "name": "Chauffage Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-139-v1.webp",
+          "alt": "Chauffage Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-139.webp",
+          "source_image": "/images/catalogue-real/photo-139.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "7041ce3d58651d64022ecfade11188d8b532890fb50d8ba0837b7a1239e797c9"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-139.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-140",
       "name": "Plaque de cuisson Maclay",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-140-v1.webp",
+          "alt": "Plaque de cuisson Maclay — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-140.webp",
+          "source_image": "/images/catalogue-real/photo-140.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "51018dadc36608ed98bdad61631d3c4d1998db93e69dbfc290521641493ba1d7"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-140.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-141",
       "name": "Lave-linge Maclay",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-141-v1.webp",
+          "alt": "Lave-linge Maclay — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-141.webp",
+          "source_image": "/images/catalogue-real/photo-141.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "5c6d3642add4c4ae0b6207f74a56c9a47782651058a79b6325140b18f694ed45"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-141.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-142",
       "name": "Lave-linge Maclay",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-142-v1.webp",
+          "alt": "Lave-linge Maclay — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-142.webp",
+          "source_image": "/images/catalogue-real/photo-142.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "a1d781dc88e2ff63fc7579f373d05677300928e401656d509e7df1c011cab1cd"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-142.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-143",
       "name": "Lave-linge Maclay",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-143-v1.webp",
+          "alt": "Lave-linge Maclay — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-143.webp",
+          "source_image": "/images/catalogue-real/photo-143.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "127f0c090840bf5e5c5ea8c6f8e8a092239a60e499349b78157acd98e9af8189"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-143.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-144",
-      "name": "Cuisinière Maclay",
+      "name": "Réchaud à gaz Maclay · 4 feux · 55 cm",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-144-v1.webp",
+          "alt": "Réchaud à gaz Maclay · 4 feux · 55 cm — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-144.webp",
+          "source_image": "/images/catalogue-real/photo-144.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "cd5637fce7474197c54cf10dc8f6311b4cd0ef9c126b7946b608384b011971af"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-144.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-145",
       "name": "Plaque de cuisson Maclay",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-145-v1.webp",
+          "alt": "Plaque de cuisson Maclay — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-145.webp",
+          "source_image": "/images/catalogue-real/photo-145.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "10d3ba9addcccbded57fcb3e74ee874106348f35edb9fec08947df5acf673b1e"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-145.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-146",
       "name": "Plaque de cuisson Maclay",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-146-v1.webp",
+          "alt": "Plaque de cuisson Maclay — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-146.webp",
+          "source_image": "/images/catalogue-real/photo-146.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "ff8a4362fa3de3628dc21752cab8691f75653a7a04a6c13293936ffa59ef32c6"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-146.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-147",
@@ -1362,40 +2338,88 @@
       "name": "Cuisinière Maclay",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-148-v1.webp",
+          "alt": "Cuisinière Maclay — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-148.webp",
+          "source_image": "/images/catalogue-real/photo-148.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "b8fe4d373cacba7e23bb2384b017bf08757bc21328dc9d3f08e4c26ba165822a"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-148.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-149",
       "name": "Barbecue électrique Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-149-v1.webp",
+          "alt": "Barbecue électrique Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-149.webp",
+          "source_image": "/images/catalogue-real/photo-149.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "14da43974613d8e4d97a7fb5ee7c604943689f3a79d299016d0718e741d5bace"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-149.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-150",
       "name": "Barbecue électrique Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-150-v1.webp",
+          "alt": "Barbecue électrique Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-150.webp",
+          "source_image": "/images/catalogue-real/photo-150.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "f934d28665303a4a9c5a2f3f5b95d199df217a8b1cfcf0922bb73d0e363d4a47"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-150.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-151",
       "name": "Barbecue électrique Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-151-v1.webp",
+          "alt": "Barbecue électrique Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-151.webp",
+          "source_image": "/images/catalogue-real/photo-151.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "c57fc53220c861189159079d8acd8c393293488e1142c92e82c65e44aa4bc333"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-151.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-153",
@@ -1422,10 +2446,22 @@
       "name": "Presse-agrumes Koln",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-155-v1.webp",
+          "alt": "Presse-agrumes Koln — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-155.webp",
+          "source_image": "/images/catalogue-real/photo-155.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "af8d9c540d00e3f0a09ad81421e171ca9faa23d3003a86dfb558991eb0c4bdeb"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-155.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-156",
@@ -1434,10 +2470,22 @@
         "Référence constructeur": "D-8021B"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-156-v1.webp",
+          "alt": "Presse-agrumes KOLN D-8021B — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-156.webp",
+          "source_image": "/images/catalogue-real/photo-156.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "c0b86890238ba7ec04f84d0729301cef268babdd86c96fcc852702e76e34356f"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-156.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-157",
@@ -1446,10 +2494,22 @@
         "Référence constructeur": "D-8017B"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-157-v1.webp",
+          "alt": "Presse-agrumes KOLN D-8017B — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-157.webp",
+          "source_image": "/images/catalogue-real/photo-157.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "df1cc303746e215979f0300a049bfdbd570f1847404522acc9fcc7b3b4470151"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-157.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-158",
@@ -1458,10 +2518,22 @@
         "Référence constructeur": "D-8016B"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-158-v1.webp",
+          "alt": "Presse-agrumes KOLN D-8016B — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-158.webp",
+          "source_image": "/images/catalogue-real/photo-158.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "25199f01471956ff934d2cfa9b2191a4fcb4ff5e81a90d7e12157d7567886e0f"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-158.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-159",
@@ -1482,70 +2554,154 @@
         "Référence constructeur": "D-8006B"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-160-v1.webp",
+          "alt": "Presse-agrumes KOLN D-8006B — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-160.webp",
+          "source_image": "/images/catalogue-real/photo-160.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "8b6c15d8c23eb5a357cec241b5433934b94b56aba6c347c776584e0128b12f76"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-160.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-161",
       "name": "Four posable Venezia · 35 L",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-161-v1.webp",
+          "alt": "Four posable Venezia · 35 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-161.webp",
+          "source_image": "/images/catalogue-real/photo-161.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "f9cbb71f4d1bd6e3a511642b4da1467501f5318d1da24f9c4066b8bff0ec7b2e"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-161.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-162",
       "name": "Four posable Venezia · 65 L",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-162-v1.webp",
+          "alt": "Four posable Venezia · 65 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-162.webp",
+          "source_image": "/images/catalogue-real/photo-162.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "49236c6f5d9de72bf2ec6b847226b39d43e05f3709b2651f6156d87ea3f6716a"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-162.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-163",
       "name": "Four posable Venezia · 45 L",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-163-v1.webp",
+          "alt": "Four posable Venezia · 45 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-163.webp",
+          "source_image": "/images/catalogue-real/photo-163.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "51799faf3d93082718bf32f38fe72c64c4775664917c2ef00f755235d6311128"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-163.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-164",
       "name": "Four posable Venezia · 27 L",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-164-v1.webp",
+          "alt": "Four posable Venezia · 27 L — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-164.webp",
+          "source_image": "/images/catalogue-real/photo-164.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "1801580525603def5eed61cfc3d1b90d8fcb82da66f50171f9aa0fdb7adc2394"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-164.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-165",
       "name": "Climatiseur Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-165-v1.webp",
+          "alt": "Climatiseur Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-165.webp",
+          "source_image": "/images/catalogue-real/photo-165.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "b88496cdf14c6b8a0443ef2998fdd08d5b321b5c0fa0fa46a2eb68de4f9f4631"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-165.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-166",
       "name": "Climatiseur Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-166-v1.webp",
+          "alt": "Climatiseur Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-166.webp",
+          "source_image": "/images/catalogue-real/photo-166.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "583f643e6c631a83a4eb2f7de53512252199894e17c35fb6c631b44a3efdc50f"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-166.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-167",
@@ -1562,20 +2718,44 @@
       "name": "Climatiseur Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-168-v1.webp",
+          "alt": "Climatiseur Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-168.webp",
+          "source_image": "/images/catalogue-real/photo-168.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "5d7f18d48f2360bc88d6cbe7e4a438156b698b64334e2407f94c5bf0f9ba90d4"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-168.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-169",
       "name": "Réfrigérateur Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-169-v1.webp",
+          "alt": "Réfrigérateur Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-169.webp",
+          "source_image": "/images/catalogue-real/photo-169.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "53ab402f2b08b41cdafbf398ca8dd61388d9d455bab8334deca142c849e1f915"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-169.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-170",
@@ -1594,10 +2774,22 @@
         "Référence constructeur": "M390"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-171-v1.webp",
+          "alt": "Réfrigérateur Venezia M390 — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-171.webp",
+          "source_image": "/images/catalogue-real/photo-171.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "5e1f994a2a471dc4104c274486ba99faace0419606d70432b67b40562919c9ab"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-171.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-172",
@@ -1606,10 +2798,22 @@
         "Référence constructeur": "M520N"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-172-v1.webp",
+          "alt": "Réfrigérateur Venezia M520N — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-172.webp",
+          "source_image": "/images/catalogue-real/photo-172.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "7f8929d468711dd149b1f3b9757118f3d1964749f2de22db0cd454c7fc28c175"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-172.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-173",
@@ -1619,7 +2823,7 @@
       },
       "target_views": 3,
       "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "status": "source_banner_obscures_body",
       "identification_photo": "/images/catalogue-real/photo-173.webp",
       "missing_views": 3
     },
@@ -1630,10 +2834,22 @@
         "Référence constructeur": "M250"
       },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-174-v1.webp",
+          "alt": "Réfrigérateur Venezia M250 — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-174.webp",
+          "source_image": "/images/catalogue-real/photo-174.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "21bd9f6eaf70d11e94920ca4df48e4599f37af9ab98f9fb9ce61c4aaa545ca06"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-174.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-175",
@@ -1645,7 +2861,7 @@
       "accepted_images": [
         {
           "url": "/images/catalogue-sourced/real-175-01.webp",
-          "alt": "Réfrigérateur Venezia M420N — vue de face",
+          "alt": "Réfrigérateur Venezia M420N — visuel produit sur fond transparent",
           "source_page": "https://electroest.ma/products/refrigerateur-deux-porte-no-frost-m-420n-inox-venezia-2",
           "source_image": "https://cdn.shopify.com/s/files/1/1008/4840/2734/files/image-Photoroom-24.webp?v=1790195013",
           "background": "transparent",
@@ -1661,70 +2877,154 @@
       "name": "Réchaud à gaz Koln",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-176-v1.webp",
+          "alt": "Réchaud à gaz Koln — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-176.webp",
+          "source_image": "/images/catalogue-real/photo-176.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "51ad14942c19f941533de7d5069f1217305181697dfeafa030c359d37eb23600"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-176.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-177",
       "name": "Réchaud à gaz Koln",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-177-v1.webp",
+          "alt": "Réchaud à gaz Koln — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-177.webp",
+          "source_image": "/images/catalogue-real/photo-177.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "76a9642d0a29505cd39ad63119829214d611d532e7a65c7578805bdc8ad71534"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-177.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-178",
       "name": "Réchaud à gaz Koln",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-178-v1.webp",
+          "alt": "Réchaud à gaz Koln — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-178.webp",
+          "source_image": "/images/catalogue-real/photo-178.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "cbe6b687d8b7d46ff55965aa8167e024b6ac0ab59cf0fdd9d728c09571112372"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-178.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-179",
       "name": "Réchaud à gaz Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-179-v1.webp",
+          "alt": "Réchaud à gaz Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-179.webp",
+          "source_image": "/images/catalogue-real/photo-179.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "a281b1d0173e2cd852da2ff3737cb38c3c7a8b2d711cdcf3772bf63c5585f1d9"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-179.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-180",
       "name": "Réchaud à gaz Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-180-v1.webp",
+          "alt": "Réchaud à gaz Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-180.webp",
+          "source_image": "/images/catalogue-real/photo-180.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "24c64acd4aceb2840642bf6c7612b76a1a0f4ae3f9066a54756a18bfbd9bd2da"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-180.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-181",
       "name": "Réchaud à gaz Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-181-v1.webp",
+          "alt": "Réchaud à gaz Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-181.webp",
+          "source_image": "/images/catalogue-real/photo-181.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "5fdc891226b0efa96318953403a3e881415ab216005f2c8d99b00bb16ba77883"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-181.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-182",
       "name": "Réchaud à gaz Koln",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-182-v1.webp",
+          "alt": "Réchaud à gaz Koln — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-182.webp",
+          "source_image": "/images/catalogue-real/photo-182.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "2dcf330ff5f804ccc0bb6b88ff889569478d908fb5b6ce2f5adf37b872560187"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-182.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-183",
@@ -1771,10 +3071,22 @@
       "name": "Aspirateur Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-187-v1.webp",
+          "alt": "Aspirateur Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-187.webp",
+          "source_image": "/images/catalogue-real/photo-187.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "0b41ba5a9a5df3dcb6be7be1a854853b2756d297e69e74e7588180e9b670702d"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-187.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-188",
@@ -1784,7 +3096,7 @@
       },
       "target_views": 3,
       "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "status": "source_hand_obscures_handle",
       "identification_photo": "/images/catalogue-real/photo-188.webp",
       "missing_views": 3
     },
@@ -1793,10 +3105,22 @@
       "name": "Aspirateur Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-189-v1.webp",
+          "alt": "Aspirateur Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-189.webp",
+          "source_image": "/images/catalogue-real/photo-189.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "ba2425cfe7b51473cfaa9c4f9f70a38fe998cf8d13db5658bf2d5bf9ce91db8d"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-189.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-190",
@@ -1823,20 +3147,44 @@
       "name": "Téléviseur Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-193-v1.webp",
+          "alt": "Téléviseur Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-193.webp",
+          "source_image": "/images/catalogue-real/photo-193.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "2483fab20c6d5d9c7dc4554d31e3d4f7799130b34ec5403bfb8bff371fe8354f"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-193.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-194",
       "name": "Téléviseur Elexia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "no_matching_transparent_photo_found_in_checked_sources",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-194-v1.webp",
+          "alt": "Téléviseur Elexia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-194.webp",
+          "source_image": "/images/catalogue-real/photo-194.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "3e496e1fdcac66809ffaad4a744a2b29d6ff6da750748b32a2ea25b6b8063e41"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-194.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-195",
@@ -1893,10 +3241,22 @@
       "name": "Téléviseur Venezia",
       "visible_references": {},
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-201-v1.webp",
+          "alt": "Téléviseur Venezia — visuel produit sur fond transparent",
+          "source_page": "/images/catalogue-real/photo-201.webp",
+          "source_image": "/images/catalogue-real/photo-201.webp",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "cfc4dbf1fab5867e92e49d689c67f8c538ccca99c4adbb19d9b29824037fbf55"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-201.webp",
-      "missing_views": 3
+      "missing_views": 2
     },
     {
       "product_id": "REAL-202",
@@ -1904,7 +3264,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "retouch_background_halo",
       "identification_photo": "/images/catalogue-real/photo-202.webp",
       "missing_views": 3
     },
@@ -1924,7 +3284,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "retouch_background_halo",
       "identification_photo": "/images/catalogue-real/photo-204.webp",
       "missing_views": 3
     },
@@ -1934,7 +3294,7 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "retouch_background_halo",
       "identification_photo": "/images/catalogue-real/photo-205.webp",
       "missing_views": 3
     }
@@ -2017,18 +3377,19 @@
     }
   ],
   "requirements": {
-    "background": "already-transparent-only",
-    "background_removal_allowed": false,
+    "background": "transparent",
+    "background_removal_allowed": true,
     "generated_angles_allowed": false,
     "same_model_required": true,
-    "distinct_views_target": "2–3"
+    "distinct_views_target": "2–3",
+    "retouching_authorized": true
   },
   "summary": {
     "catalogue_entries": 189,
-    "reviewed_information_entries": 30,
+    "reviewed_information_entries": 38,
     "product_photo_searches": 20,
-    "products_with_approved_photo": 1,
-    "approved_distinct_photos": 1,
+    "products_with_approved_photo": 114,
+    "approved_distinct_photos": 114,
     "products_with_two_or_three_views": 0,
     "complete": false
   }

@@ -503,5 +503,130 @@
         "url": "/images/catalogue-real/photo-041.webp"
       }
     ]
+  },
+  "REAL-048": {
+    "name": "Chauffe-eau électrique Roch",
+    "brand": "Roch",
+    "category": "chauffe-eau",
+    "specs": {
+      "Type": "Chauffe-eau électrique",
+      "Indice indiqué": "IPX4",
+      "Pression maximale indiquée": "0,75 MPa"
+    },
+    "description": "Chauffe-eau électrique Roch avec cuve verticale, présenté avec un indice de protection IPX4 et une pression maximale de fonctionnement de 0,75 MPa sur son emballage. La référence complète et la capacité doivent être confirmées sur l’étiquette du modèle.",
+    "sources": [
+      {
+        "label": "Visuel original fourni",
+        "url": "/images/catalogue-real/photo-048.webp"
+      }
+    ]
+  },
+  "REAL-047": {
+    "name": "Système de filtration d’eau Eau-Puréa",
+    "brand": "Eau-Puréa",
+    "category": "filtration-eau",
+    "category_name": "Filtration d’eau",
+    "specs": {
+      "Usage indiqué": "Filtration de l’eau sous évier"
+    },
+    "description": "Système de filtration d’eau Eau-Puréa présenté pour une installation sous évier. La référence, la composition du système et les cartouches fournies sont à confirmer auprès du magasin.",
+    "sources": [
+      {
+        "label": "Emballage fourni pour identification",
+        "url": "/images/catalogue-real/photo-047.webp"
+      }
+    ]
+  },
+  "REAL-072": {
+    "name": "Presse-agrumes Tatch · 200 W",
+    "brand": "Tatch",
+    "category": "presse-agrumes",
+    "specs": {
+      "Puissance indiquée": "200 W",
+      "Type": "Presse-agrumes électrique avec levier"
+    },
+    "description": "Presse-agrumes électrique Tatch de 200 W, avec levier de pressage, cône métallique et bec verseur. La référence exacte, la capacité et les accessoires fournis sont à confirmer auprès du magasin.",
+    "sources": [
+      {
+        "label": "Emballage fourni",
+        "url": "/images/catalogue-real/photo-072.webp"
+      }
+    ]
+  },
+  "REAL-116": {
+    "name": "Plaque de cuisson gaz Venezia",
+    "brand": "Venezia",
+    "category": "plaques-de-cuisson",
+    "specs": {},
+    "description": "Plaque de cuisson à gaz Venezia présentée sur le visuel fourni. La référence complète, les dimensions et les caractéristiques doivent être confirmées auprès du magasin.",
+    "sources": [
+      {
+        "label": "Photographie du produit fournie",
+        "url": "/images/catalogue-real/photo-116.webp"
+      }
+    ]
+  },
+  "REAL-117": {
+    "name": "Plaque de cuisson gaz Venezia",
+    "brand": "Venezia",
+    "category": "plaques-de-cuisson",
+    "specs": {},
+    "description": "Plaque de cuisson à gaz Venezia présentée sur le visuel fourni. La référence complète, les dimensions et les caractéristiques doivent être confirmées auprès du magasin.",
+    "sources": [
+      {
+        "label": "Photographie du produit fournie",
+        "url": "/images/catalogue-real/photo-117.webp"
+      }
+    ]
+  },
+  "REAL-144": {
+    "name": "Réchaud à gaz Maclay · 4 feux · 55 cm",
+    "brand": "Maclay",
+    "category": "rechauds-gaz",
+    "specs": {
+      "Foyers": "4",
+      "Largeur indiquée": "55 cm",
+      "Type": "Réchaud à gaz de table"
+    },
+    "description": "Réchaud à gaz de table Maclay à quatre foyers, avec couvercle relevable et quatre manettes en façade. Le visuel indique une largeur de 55 cm. La référence et le type de raccordement doivent être confirmés avant commande.",
+    "sources": [
+      {
+        "label": "Visuel du produit fourni",
+        "url": "/images/catalogue-real/photo-144.webp"
+      }
+    ]
+  },
+  "REAL-077": {
+    "name": "Plaque de cuisson Kenz LG-917",
+    "brand": "Kenz",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "LG-917"
+    },
+    "description": "Plaque de cuisson Kenz LG-917 identifiée sur son emballage. La référence complète, le raccordement et les caractéristiques doivent être confirmés auprès du magasin.",
+    "sources": [
+      {
+        "label": "Emballage fourni pour identification",
+        "url": "/images/catalogue-real/photo-077.webp"
+      }
+    ]
+  },
+  "REAL-094": {
+    "name": "Autocuiseur KOLN · 4 L",
+    "brand": "Koln",
+    "category": "autocuiseurs",
+    "category_name": "Autocuiseurs",
+    "description": "Autocuiseur KOLN en acier inoxydable, d’une capacité indiquée de 4 litres. Le visuel fourni présente deux poignées latérales noires et un couvercle avec système de serrage central.",
+    "specs": {
+      "Référence visible": "KOLN-4L",
+      "Capacité indiquée": "4 L",
+      "Matériau indiqué": "Acier inoxydable"
+    },
+    "sources": [
+      {
+        "label": "Emballage photographié fourni",
+        "url": "/images/catalogue-real/photo-094.webp"
+      }
+    ]
   }
 }

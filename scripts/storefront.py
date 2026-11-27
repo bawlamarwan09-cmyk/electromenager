@@ -62,6 +62,10 @@ def snapshot(db):
         sources=list({source['url']:source for source in sources}.values())
         gallery=galleries.get(pid,[])
         if pid.startswith('REAL-'):
+            approved_urls={photo['url'] for photo in sourced.get(pid,[])}
+            gallery=[photo for photo in gallery if not photo['url'].startswith('/images/catalogue-sourced/') or photo['url'] in approved_urls]
+            if image and image.startswith('/images/catalogue-sourced/') and image not in approved_urls:
+                image=''
             # Warehouse/carton photographs identify the model; they are not
             # approved storefront photographs, even when no replacement exists.
             sources.extend(dict(label='Photo d’identification du produit',url=photo['url']) for photo in gallery if photo['url'].startswith('/images/catalogue-real/'))

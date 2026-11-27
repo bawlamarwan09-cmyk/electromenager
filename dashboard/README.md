@@ -28,7 +28,7 @@ Pour afficher ce lot sur le site local, lancer `python3 dashboard/manage.py publ
 
 ### Photos produit trouvées par référence
 
-Les photographies originales servent à identifier les produits. Les nouvelles photos du catalogue sont téléchargées depuis une fiche correspondant au même modèle et validées dans `database/imports/product-image-sourcing-review.json`. Seules les entrées `accepted_images` sont importées : fichiers déjà transparents, sources et empreinte SHA-256 conservées. Aucune vue reconstituée ou issue d'un détourage des cartons n'est utilisée.
+Les photographies originales servent à identifier les produits. Les nouvelles photos du catalogue sont téléchargées depuis une fiche correspondant au même modèle et validées dans `database/imports/product-image-sourcing-review.json`. Seules les entrées `accepted_images` sont importées : fichiers transparents relus face aux références, sources et empreinte SHA-256 conservées. Le détourage et la correction d’éclairage sont désormais autorisés. Les modèles, couleurs et détails visibles doivent être conservés ; aucune nouvelle vue cachée ne doit être inventée. Les prises de vue partielles ou ambiguës restent en attente.
 
 Après récupération des changements :
 

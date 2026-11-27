@@ -53,3 +53,4 @@
 @media(max-width:380px){.pdp-highlights{grid-template-columns:1fr}.pdp-order-row{flex-wrap:wrap}.pdp-order-row>.pdp-primary{min-width:100%}.pdp-section-heading{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){.pdp-primary,.pdp-secondary,.pdp .product-thumbnails button{transition:none}}
 .pdp .pdp-no-photo{display:flex;flex-direction:column;align-items:center;text-align:center;gap:15px;max-width:270px;padding:25px;color:#5b6e77}.pdp .pdp-no-photo svg{width:38px;height:38px;padding:0;color:#9d885f}.pdp-no-photo strong{font-size:18px;font-weight:600}.pdp-no-photo p{font-size:14px;line-height:1.7;margin:0;color:#667780}
+.pdp-photo-caption{font-size:14px;line-height:1.5;color:#6b7980;margin:12px 0 0}

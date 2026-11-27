@@ -37,8 +37,14 @@ def refine_batch(db):
             query(db,'INSERT INTO brand (id,slug,name) VALUES (?,?,?) ON CONFLICT DO NOTHING',(key,key,facts['brand']))
             desired['brand_id']=query(db,'SELECT id FROM brand WHERE slug=?',(key,)).fetchone()[0]
         if facts.get('category'):
-            desired['category_id']=query(db,'SELECT id FROM category WHERE slug=?',(facts['category'],)).fetchone()[0]
+            category=query(db,'SELECT id FROM category WHERE slug=?',(facts['category'],)).fetchone()
+            if not category:
+                query(db,'INSERT INTO category (id,slug,name,universe_id) VALUES (?,?,?,?) ON CONFLICT DO NOTHING',(facts['category'],facts['category'],facts['category_name'],'petit'))
+                category=query(db,'SELECT id FROM category WHERE slug=?',(facts['category'],)).fetchone()
+            desired['category_id']=category[0]
         approved=images.get(pid,[])
+        if not approved and baseline['image_key'].startswith('/images/catalogue-sourced/'):
+            desired['image_key']=item['images'][0]
         for pos,photo in enumerate(approved):
             url=photo['url']
             if photo.get('background')!='transparent' or not url.startswith('/images/catalogue-sourced/'):
