@@ -2,56 +2,56 @@ Identifiant,Produit,Référence visible,Photos approuvées,Vues manquantes pour 
 REAL-001,Lave-vaisselle LG · finition inox,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-001.webp
 REAL-002,Lave-vaisselle,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-002.webp
 REAL-003,Lave-vaisselle,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-003.webp
-REAL-004,Lave-linge,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-004.webp
-REAL-005,Lave-linge,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-005.webp
+REAL-004,Lave-linge Siera,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-004.webp
+REAL-005,Lave-linge Fresh WM-8000TL,WM-8000TL,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-005.webp
 REAL-006,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-006.webp
-REAL-007,Lave-linge,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-007.webp
-REAL-008,Lave-linge,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-008.webp
-REAL-009,Lave-linge,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-009.webp
-REAL-010,Lave-linge,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-010.webp
-REAL-011,Lave-linge,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-011.webp
-REAL-012,Lave-linge,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-012.webp
-REAL-013,Lave-linge Siera,,0,3,requires_real_product_photo_carton_only,/images/catalogue-real/photo-013.webp
-REAL-014,Lave-linge National,,0,3,requires_real_product_photo_carton_only,/images/catalogue-real/photo-014.webp
-REAL-015,Lave-linge Goldenstar,,0,3,requires_real_product_photo_carton_only,/images/catalogue-real/photo-015.webp
-REAL-016,Lave-linge Goldenstar,,0,3,requires_real_product_photo_carton_only,/images/catalogue-real/photo-016.webp
-REAL-017,Lave-linge Goldenstar,,0,3,requires_real_product_photo_carton_only,/images/catalogue-real/photo-017.webp
-REAL-018,Lave-linge General Tecnomatic,,0,3,requires_real_product_photo_carton_only,/images/catalogue-real/photo-018.webp
+REAL-007,Lave-linge General Tecnomatic XQB100,XQB100,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-007.webp
+REAL-008,Lave-linge WA-9K04PL-P,WA-9K04PL-P,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-008.webp
+REAL-009,Lave-linge Fitco FAWT-850XM,FAWT-850XM,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-009.webp
+REAL-010,Lave-linge Goldenstar,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-010.webp
+REAL-011,Lave-linge Fresh WM-6800TL,WM-6800TL,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-011.webp
+REAL-012,Lave-linge General Tecnomatic XQB80,XQB80,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-012.webp
+REAL-013,Lave-linge Siera,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-013.webp
+REAL-014,Lave-linge National Falcons,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-014.webp
+REAL-015,Lave-linge Goldenstar XPB150-2090,XPB150-2090,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-015.webp
+REAL-016,Lave-linge Goldenstar XPB105-0690,XPB105-0690,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-016.webp
+REAL-017,Lave-linge Goldenstar,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-017.webp
+REAL-018,Lave-linge General Tecnomatic XPB-9000STA,XPB-9000STA,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-018.webp
 REAL-019,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-019.webp
-REAL-020,Lave-linge Goldenstar,,0,3,requires_real_product_photo_carton_only,/images/catalogue-real/photo-020.webp
-REAL-021,Lave-linge KGLG,,0,3,requires_real_product_photo_carton_only,/images/catalogue-real/photo-021.webp
-REAL-022,Lave-linge KGLG,,0,3,requires_real_product_photo_carton_only,/images/catalogue-real/photo-022.webp
+REAL-020,Lave-linge Goldenstar XPB105-0690,XPB105-0690,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-020.webp
+REAL-021,Lave-linge KGLG XPB145-KQ145,XPB145-KQ145,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-021.webp
+REAL-022,Lave-linge KGLG XPB120-KQ120,XPB120-KQ120,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-022.webp
 REAL-023,Robot pâtissier Regal BT1448 · 9 L,BT1448DSV / BT1448DR,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-023.webp
 REAL-024,Pétrin digital Bonomi · 8 L,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-024.webp
 REAL-025,Réchaud à gaz Itimat · 3 feux,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-025.webp
 REAL-026,"Robot pâtissier General Tecnomatic · 7,5 L",,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-026.webp
 REAL-027,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-027.webp
 REAL-028,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-028.webp
-REAL-029,Chauffe-eau Junkers Bosch,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-029.webp
-REAL-030,Plaque de cuisson Venezia,,0,3,ambiguous_source_and_burner_mismatch,/images/catalogue-real/photo-030.webp
+REAL-029,Chauffe-eau gaz électronique Junkers Bosch · 6 L,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-029.webp
+REAL-030,Plaques de cuisson Venezia · références multiples,AXM60IX / HAL-46013,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-030.webp
 REAL-031,Robot pâtissier Venezia SM-1511N · 12 L,SM-1511N,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-031.webp
 REAL-032,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-032.webp
 REAL-033,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-033.webp
 REAL-034,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-034.webp
-REAL-035,Chauffe-eau Junkers Bosch,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-035.webp
+REAL-035,Chauffe-eau électrique Junkers Bosch Tronic · 30 L,Tronic 30,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-035.webp
 REAL-036,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-036.webp
 REAL-037,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-037.webp
 REAL-038,Four électrique Elexia ELX-TO-3246 · 45 L,ELX-TO-3246,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-038.webp
 REAL-039,Four posable Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-039.webp
 REAL-040,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-040.webp
 REAL-041,Four électrique Elexia ELX-TO-3270 · 70 L,ELX-TO-3270,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-041.webp
-REAL-042,Chauffe-eau Junkers Bosch,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-042.webp
+REAL-042,Chauffe-eau électrique Junkers Bosch Tronic · 50 L,Tronic 50,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-042.webp
 REAL-043,Four posable Techvision,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-043.webp
 REAL-044,Four posable Techvision,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-044.webp
-REAL-045,Chauffe-eau,,0,3,source_finish_not_verifiable,/images/catalogue-real/photo-045.webp
+REAL-045,Chauffe-eau électrique Roch RWH-50L-H · 50 L,RWH-50L-H,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-045.webp
 REAL-046,Chauffe-eau Ariston Andris R 30 PL,ANDRIS R 30 PL,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-046.webp
-REAL-047,Système de filtration d’eau Eau-Puréa,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-047.webp
+REAL-047,Système de filtration d’eau Eau-Puréa,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-047.webp
 REAL-048,Chauffe-eau électrique Roch,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-048.webp
 REAL-049,Réfrigérateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-049.webp
 REAL-056,Hachoir Koln,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-056.webp
 REAL-057,Four posable Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-057.webp
 REAL-058,Four posable Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-058.webp
-REAL-059,Four posable Itimat,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-059.webp
+REAL-059,Four posable Itimat Double Glass Turbo Fan,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-059.webp
 REAL-060,Four posable,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-060.webp
 REAL-061,Four posable Techvision,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-061.webp
 REAL-062,Four posable Elexia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-062.webp
@@ -66,61 +66,61 @@ REAL-070,Machine à café Koln,,1,2,retouched_view_approved_more_views_needed,/i
 REAL-071,Blender,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-071.webp
 REAL-072,Presse-agrumes Tatch · 200 W,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-072.webp
 REAL-073,Blender Atlanta,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-073.webp
-REAL-074,Hotte Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-074.webp
+REAL-074,Hotte Venezia DK6 · 60 cm,DK6,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-074.webp
 REAL-075,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-075.webp
 REAL-076,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-076.webp
-REAL-077,Plaque de cuisson Kenz LG-917,LG-917,0,3,requires_better_photo_for_exact_controls,/images/catalogue-real/photo-077.webp
-REAL-078,Plaque de cuisson Active Chef,,0,3,requires_better_photo_for_exact_controls,/images/catalogue-real/photo-078.webp
+REAL-077,Plaque de cuisson Kenz LG-917,LG-917,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-077.webp
+REAL-078,Plaque de cuisson Active Chef H4-70BD3-2T,H4-70BD3-2T,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-078.webp
 REAL-079,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-079.webp
-REAL-080,Plaque de cuisson Active Chef,,0,3,rejected_controls_and_burner_layout_changed,/images/catalogue-real/photo-080.webp
-REAL-081,Plaque de cuisson Active Chef,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-081.webp
-REAL-082,Plaque de cuisson Venezia,,0,3,rejected_burner_count_and_obscured_source,/images/catalogue-real/photo-082.webp
-REAL-083,Plaque de cuisson Active Chef,,0,3,requires_better_photo_for_exact_controls,/images/catalogue-real/photo-083.webp
-REAL-084,Plaque de cuisson Active Chef,,0,3,requires_better_photo_for_exact_controls,/images/catalogue-real/photo-084.webp
-REAL-085,Plaque de cuisson Active Chef,,0,3,rejected_knob_design_changed,/images/catalogue-real/photo-085.webp
-REAL-086,Plaque de cuisson Active Chef,,0,3,rejected_wrong_brand,/images/catalogue-real/photo-086.webp
+REAL-080,Plaque de cuisson Maclay E-64001 · 4 feux,E-64001,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-080.webp
+REAL-081,Plaque de cuisson Active Chef H4-60ES3,H4-60ES3,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-081.webp
+REAL-082,Plaque de cuisson Venezia BH-9500S · 5 feux,BH-9500S,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-082.webp
+REAL-083,Plaque de cuisson Active Chef H4-60R,H4-60R,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-083.webp
+REAL-084,Plaque de cuisson Active Chef H5-70D2,H5-70D2,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-084.webp
+REAL-085,Plaque de cuisson Active Chef H4-60B1,H4-60B1,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-085.webp
+REAL-086,Plaque de cuisson Active Chef H4-60B1,H4-60B1,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-086.webp
 REAL-087,Plaque de cuisson Active Chef,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-087.webp
-REAL-088,Plaque de cuisson Active Chef,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-088.webp
+REAL-088,Plaques de cuisson Active Chef · références multiples,H5-70BD3S / H5-70E2B / H5-70B6S,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-088.webp
 REAL-089,Cuisinière,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-089.webp
 REAL-091,Aspirateur,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-091.webp
 REAL-092,Aspirateur Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-092.webp
 REAL-093,Réchaud électrique,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-093.webp
 REAL-094,Autocuiseur KOLN · 4 L,KOLN-4L,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-094.webp
-REAL-099,Mixeur plongeant,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-099.webp
-REAL-101,Blender Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-101.webp
+REAL-099,Système de filtration d’eau Eau-Puréa,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-099.webp
+REAL-101,Moulin à épices Venezia HC-100,HC-100,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-101.webp
 REAL-102,Presse-panini Bonomi · 2 000 W,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-102.webp
-REAL-103,Téléviseur Star Vision,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-103.webp
+REAL-103,Téléviseur LG 43LM63 · 43 pouces,43LM63,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-103.webp
 REAL-104,Téléviseur Elexia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-104.webp
 REAL-105,Téléviseur Star Vision,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-105.webp
-REAL-106,Téléviseur Star Vision,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-106.webp
-REAL-108,Téléviseur Star Vision,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-108.webp
-REAL-109,Téléviseur Star Vision,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-109.webp
-REAL-110,Cuisinière,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-110.webp
+REAL-106,Téléviseur Star Vision 515043 · 43 pouces Full HD,515043,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-106.webp
+REAL-108,Téléviseur Hisense A4 · 32 pouces,A4,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-108.webp
+REAL-109,Téléviseur Star Vision 515043 · 43 pouces Full HD,515043,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-109.webp
+REAL-110,Cuisinière Venezia inox · 4 feux,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-110.webp
 REAL-111,Machine à pâtes manuelle KOLN,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-111.webp
-REAL-112,Cuisinière,,0,3,source_oven_window_and_base_obscured,/images/catalogue-real/photo-112.webp
-REAL-113,Cuisinière,,0,3,source_burners_obscured,/images/catalogue-real/photo-113.webp
+REAL-112,Cuisinière General Tecnomatic noire · 4 feux,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-112.webp
+REAL-113,Cuisinière General Tecnomatic noire · 4 feux,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-113.webp
 REAL-114,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-114.webp
 REAL-115,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-115.webp
-REAL-116,Plaque de cuisson gaz Venezia,,0,3,rejected_two_adjacent_appliances_merged,/images/catalogue-real/photo-116.webp
+REAL-116,Plaque gaz Venezia inox · 5 feux,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-116.webp
 REAL-117,Plaque de cuisson gaz Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-117.webp
 REAL-118,Plaque gaz Venezia PH-7500G · 70 cm,PH-7500G,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-118.webp
-REAL-119,Cuisinière,,0,3,source_oven_window_and_base_obscured,/images/catalogue-real/photo-119.webp
+REAL-119,Cuisinière General Tecnomatic large inox et noire,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-119.webp
 REAL-120,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-120.webp
 REAL-121,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-121.webp
 REAL-122,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-122.webp
 REAL-123,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-123.webp
 REAL-124,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-124.webp
-REAL-125,Plaque de cuisson Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-125.webp
-REAL-126,Réchaud électrique Koln,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-126.webp
-REAL-127,Chauffe-eau Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-127.webp
-REAL-128,Plaque de cuisson,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-128.webp
+REAL-125,Plaque gaz vitrée Venezia RCEV-57003G · 70 cm,RCEV-57003G,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-125.webp
+REAL-126,Réchauds électriques doubles KOLN,RCPM-DL-050 / RCPM-DL-010 / RCPM-DL-030,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-126.webp
+REAL-127,Chauffe-eau électriques digitaux Venezia,CHFELEC100L-VNZ-DIG / CHFELEC-50L-VNZ-DIG / CHFELEC-80L-VNZ-DIG,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-127.webp
+REAL-128,Plaque gaz Venezia inox · 5 feux,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-128.webp
 REAL-129,Plaque de cuisson Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-129.webp
-REAL-130,Chauffe-eau Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-130.webp
+REAL-130,Chauffe-eau électriques Venezia avec thermomètre,CHFELEC-30L-VNZ-2026 / CHFELEC-50L-VNZ-2026 / CHFELEC-80L-VNZ-2026 / CHFELEC-100L-VNZ-2026,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-130.webp
 REAL-131,Lave-linge Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-131.webp
 REAL-132,Chauffage Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-132.webp
 REAL-133,Lave-linge Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-133.webp
 REAL-134,Lave-linge Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-134.webp
-REAL-135,Réchaud électrique Koln,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-135.webp
+REAL-135,Réchauds électriques simples KOLN,RCPM-DL-040 / RCPM-DL-020,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-135.webp
 REAL-136,Plaque de cuisson Maclay,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-136.webp
 REAL-137,Plaque de cuisson Maclay,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-137.webp
 REAL-138,Chauffage Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-138.webp
@@ -132,18 +132,18 @@ REAL-143,Lave-linge Maclay,,1,2,retouched_view_approved_more_views_needed,/image
 REAL-144,Réchaud à gaz Maclay · 4 feux · 55 cm,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-144.webp
 REAL-145,Plaque de cuisson Maclay,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-145.webp
 REAL-146,Plaque de cuisson Maclay,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-146.webp
-REAL-147,Chauffage KGLG,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-147.webp
+REAL-147,Chauffage électrique portable KGLG rouge et noir,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-147.webp
 REAL-148,Cuisinière Maclay,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-148.webp
 REAL-149,Barbecue électrique Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-149.webp
 REAL-150,Barbecue électrique Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-150.webp
 REAL-151,Barbecue électrique Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-151.webp
-REAL-153,Broyeur alimentaire Koln,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-153.webp
-REAL-154,Broyeur alimentaire Koln,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-154.webp
+REAL-153,Broyeurs alimentaires KOLN série K,GRT-100 K / GRT-200 K / GRT-350 K,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-153.webp
+REAL-154,Broyeurs alimentaires KOLN série A,GRT-400 A / GRT-500 A / GRT-800 A / GRT-1000 A / GRT-2000 A / GRT-3000 A,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-154.webp
 REAL-155,Presse-agrumes Koln,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-155.webp
 REAL-156,Presse-agrumes KOLN D-8021B,D-8021B,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-156.webp
 REAL-157,Presse-agrumes KOLN D-8017B,D-8017B,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-157.webp
 REAL-158,Presse-agrumes KOLN D-8016B,D-8016B,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-158.webp
-REAL-159,Presse-agrumes KOLN D-8005B,D-8005B,0,3,exact_model_images_needed,/images/catalogue-real/photo-159.webp
+REAL-159,Presse-agrumes KOLN D-8005B,D-8005B / D-8005B,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-159.webp
 REAL-160,Presse-agrumes KOLN D-8006B,D-8006B,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-160.webp
 REAL-161,Four posable Venezia · 35 L,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-161.webp
 REAL-162,Four posable Venezia · 65 L,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-162.webp
@@ -151,13 +151,13 @@ REAL-163,Four posable Venezia · 45 L,,1,2,retouched_view_approved_more_views_ne
 REAL-164,Four posable Venezia · 27 L,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-164.webp
 REAL-165,Climatiseur Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-165.webp
 REAL-166,Climatiseur Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-166.webp
-REAL-167,Réfrigérateur Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-167.webp
+REAL-167,Mini-réfrigérateurs deux portes Venezia,MINB2P-BCD-1098A / MINB2P-BCD-1088A,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-167.webp
 REAL-168,Climatiseur Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-168.webp
 REAL-169,Réfrigérateur Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-169.webp
-REAL-170,Réfrigérateur Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-170.webp
+REAL-170,Réfrigérateurs deux portes No Frost Venezia,RFR2PNF-DS420N / RFR2PNF-DS480N / RFR2PNF-DS520N,0,3,multiple_identified_models_choice_needed,/images/catalogue-real/photo-170.webp
 REAL-171,Réfrigérateur Venezia M390,M390,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-171.webp
 REAL-172,Réfrigérateur Venezia M520N,M520N,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-172.webp
-REAL-173,Réfrigérateur Venezia M480N,M480N,0,3,source_banner_obscures_body,/images/catalogue-real/photo-173.webp
+REAL-173,Réfrigérateur Venezia M480N No Frost,M480N / M480N,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-173.webp
 REAL-174,Réfrigérateur Venezia M250,M250,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-174.webp
 REAL-175,Réfrigérateur Venezia M420N,M420N,1,2,one_verified_view_more_needed,/images/catalogue-real/photo-175.webp
 REAL-176,Réchaud à gaz Koln,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-176.webp
@@ -167,24 +167,24 @@ REAL-179,Réchaud à gaz Venezia,,1,2,retouched_view_approved_more_views_needed,
 REAL-180,Réchaud à gaz Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-180.webp
 REAL-181,Réchaud à gaz Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-181.webp
 REAL-182,Réchaud à gaz Koln,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-182.webp
-REAL-183,Réchaud à gaz Itimat,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-183.webp
-REAL-184,Réchaud à gaz Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-184.webp
-REAL-185,Réchaud à gaz Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-185.webp
-REAL-186,Réchaud à gaz Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-186.webp
+REAL-183,Réchaud gaz Itimat RCPI-I16B ITMAT-INOX · 3 feux,RCPI-I16B ITMAT-INOX,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-183.webp
+REAL-184,Réchaud gaz Venezia RCPI-0-200-BS · 2 feux,RCPI-0-200-BS,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-184.webp
+REAL-185,Réchaud gaz Venezia RCPI-0-200-BB · 2 feux,RCPI-0-200-BB,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-185.webp
+REAL-186,Réchaud gaz Venezia RCPI-0-200-KS · 2 feux,RCPI-0-200-KS,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-186.webp
 REAL-187,Aspirateur Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-187.webp
-REAL-188,Aspirateur filaire Best Mark ASP120,ASP120,0,3,source_hand_obscures_handle,/images/catalogue-real/photo-188.webp
+REAL-188,Aspirateur filaire Best Mark ASP120,ASP120 / ASP120,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-188.webp
 REAL-189,Aspirateur Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-189.webp
-REAL-190,Broyeur alimentaire KOLN,,0,3,exact_model_images_needed,/images/catalogue-real/photo-190.webp
-REAL-191,Distributeur d’eau Venezia,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-191.webp
+REAL-190,Broyeur alimentaire KOLN 350K,350K,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-190.webp
+REAL-191,Distributeur d’eau Venezia FJ-WD-202RF avec réfrigérateur,FJ-WD-202RF,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-191.webp
 REAL-193,Téléviseur Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-193.webp
 REAL-194,Téléviseur Elexia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-194.webp
-REAL-195,Téléviseur LG,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-195.webp
-REAL-196,Téléviseur Tecson,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-196.webp
-REAL-197,Téléviseur,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-197.webp
-REAL-198,Téléviseur Techvision,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-198.webp
-REAL-199,Téléviseur Star Vision,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-199.webp
+REAL-195,Téléviseur LG 43LM63 · 43 pouces,43LM63,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-195.webp
+REAL-196,Téléviseur Recson 0515206 · 50 pouces Google TV,0515206,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-196.webp
+REAL-197,Téléviseur LG UA73 · 55 pouces UHD AI,UA73,0,3,reference_read_full_variant_needed,/images/catalogue-real/photo-197.webp
+REAL-198,Téléviseur Techvision · 65 pouces 4K Android 15,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-198.webp
+REAL-199,Téléviseur Star Vision 515043 · 43 pouces Full HD Android 14,515043,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-199.webp
 REAL-201,Téléviseur Venezia,,1,2,retouched_view_approved_more_views_needed,/images/catalogue-real/photo-201.webp
-REAL-202,Téléviseur Koln,,0,3,retouch_background_halo,/images/catalogue-real/photo-202.webp
-REAL-203,Téléviseur Tecson,,0,3,reference_not_yet_confirmed,/images/catalogue-real/photo-203.webp
-REAL-204,Téléviseur Techvision,,0,3,retouch_background_halo,/images/catalogue-real/photo-204.webp
-REAL-205,Téléviseur Koln,,0,3,retouch_background_halo,/images/catalogue-real/photo-205.webp
+REAL-202,Téléviseur KOLN KH43SM · 43 pouces Full HD Android 14,KH43SM,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-202.webp
+REAL-203,Téléviseur Recson 0515209 · 43 pouces QLED Full HD Android 14,0515209,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-203.webp
+REAL-204,Téléviseur Techvision · 32 pouces QLED Full HD Android 15,,0,3,brand_identified_exact_reference_needed,/images/catalogue-real/photo-204.webp
+REAL-205,Téléviseur KOLN KH32SM · 32 pouces HD Android 14,KH32SM,0,3,identified_exact_model_photo_search_pending,/images/catalogue-real/photo-205.webp

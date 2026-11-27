@@ -69,23 +69,47 @@
     },
     {
       "product_id": "REAL-004",
-      "name": "Lave-linge",
+      "name": "Lave-linge Siera",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-004.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-004",
+        "brand": "Siera",
+        "model": null,
+        "name": "Lave-linge Siera",
+        "category": "lave-linge",
+        "confidence": "brand_only",
+        "notes": "MTL100604 tentative; tiny badge may read MTL1006.., full label needed.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-004.webp"
+      }
     },
     {
       "product_id": "REAL-005",
-      "name": "Lave-linge",
-      "visible_references": {},
+      "name": "Lave-linge Fresh WM-8000TL",
+      "visible_references": {
+        "Référence visible": "WM-8000TL"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-005.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-005",
+        "brand": "Fresh",
+        "model": "WM-8000TL",
+        "name": "Lave-linge Fresh WM-8000TL",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Front control fascia clearly printed WM-8000TL.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-005.webp"
+      }
     },
     {
       "product_id": "REAL-006",
@@ -111,63 +135,168 @@
     },
     {
       "product_id": "REAL-007",
-      "name": "Lave-linge",
-      "visible_references": {},
+      "name": "Lave-linge General Tecnomatic XQB100",
+      "visible_references": {
+        "Référence visible": "XQB100"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-007.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-007",
+        "brand": "General Tecnomatic",
+        "model": "XQB100",
+        "name": "Lave-linge General Tecnomatic XQB100",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Foremost black/glass top-loading unit. Do not use Fresh background unit.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-007.webp"
+      }
     },
     {
       "product_id": "REAL-008",
-      "name": "Lave-linge",
-      "visible_references": {},
+      "name": "Lave-linge WA-9K04PL-P",
+      "visible_references": {
+        "Référence visible": "WA-9K04PL-P"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-008.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-008",
+        "brand": null,
+        "model": "WA-9K04PL-P",
+        "name": "Lave-linge WA-9K04PL-P",
+        "category": "lave-linge",
+        "confidence": "model_high_brand_unconfirmed",
+        "notes": "Exact model WA-9K04PL-P clearly visible; stylized front logo reads possibly BOUSAT/BOWSAT, not reliably Royal. Need clearer brand label.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-008.webp"
+      }
     },
     {
       "product_id": "REAL-009",
-      "name": "Lave-linge",
-      "visible_references": {},
+      "name": "Lave-linge Fitco FAWT-850XM",
+      "visible_references": {
+        "Référence visible": "FAWT-850XM"
+      },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-009-v2.webp",
+          "alt": "Lave-linge Fitco FAWT-850XM — visuel retouché",
+          "source_page": "https://electrolexpert.com/product/machine-a-laver-fitco-8-5kg-top-lowding-fawt-850xm/",
+          "source_image": "https://electrolexpert.com/wp-content/uploads/2026/05/TOP7.5.png",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "aa6defc8528fe21bab99740aaf03595961d5da1d52e4647712451a6baf639ded"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-009.webp",
-      "missing_views": 3
+      "missing_views": 2,
+      "identification_review": {
+        "product_id": "REAL-009",
+        "brand": "Fitco",
+        "model": "FAWT-850XM",
+        "name": "Lave-linge Fitco FAWT-850XM",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Foremost 8.5kg top loader; exact model found at Electrolexpert. Source PNGs are400x400RGB whitebackdrop, not transparent. The sourcefilenameTOP7.5 reuse requires caution; productpage exact850XM, foregroundglassrim/digitalbuttons match.",
+        "photo_candidates": [
+          {
+            "source_page": "https://electrolexpert.com/product/machine-a-laver-fitco-8-5kg-top-lowding-fawt-850xm/",
+            "source_image": "https://electrolexpert.com/wp-content/uploads/2026/05/TOP7.5.png",
+            "local_path": "/workspace/scratch/5b38a37880f4/washer-crops/fitco-0.png",
+            "status": "matching_model_page_and_geometry_but_white_rgb_background",
+            "angle": "closed_front_three_quarter"
+          },
+          {
+            "source_page": "https://electrolexpert.com/product/machine-a-laver-fitco-8-5kg-top-lowding-fawt-850xm/",
+            "source_image": "https://electrolexpert.com/wp-content/uploads/2026/05/TOP.png",
+            "local_path": "/workspace/scratch/5b38a37880f4/washer-crops/fitco-1.png",
+            "status": "matching_model_page_and_geometry_but_white_rgb_background",
+            "angle": "open_lid_three_quarter"
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-009.webp",
+        "retouched_output": "/workspace/scratch/5b38a37880f4/generated_images/exec-85292c08-b9c4-4a0c-a190-d9c29955ae86.png",
+        "retouch_notes": "Exact sourcefitco-0.png whitebackgroundremoved with imagegen. Geometrymatches closedlid source; source400px causes finercontroltext generated/upscaled, do notuse lettering as factualsource. IndependentrootQA required."
+      }
     },
     {
       "product_id": "REAL-010",
-      "name": "Lave-linge",
+      "name": "Lave-linge Goldenstar",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-010.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-010",
+        "brand": "Goldenstar",
+        "model": null,
+        "name": "Lave-linge Goldenstar",
+        "category": "lave-linge",
+        "confidence": "brand_only",
+        "notes": "XQB120-1890A probable; glare makes photo010 badge weak. Background same pink washer on004 gives clearer XQB120-1890A but matching identity should be confirmed.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-010.webp"
+      }
     },
     {
       "product_id": "REAL-011",
-      "name": "Lave-linge",
-      "visible_references": {},
+      "name": "Lave-linge Fresh WM-6800TL",
+      "visible_references": {
+        "Référence visible": "WM-6800TL"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-011.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-011",
+        "brand": "Fresh",
+        "model": "WM-6800TL",
+        "name": "Lave-linge Fresh WM-6800TL",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Foremost black top-loading unit.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-011.webp"
+      }
     },
     {
       "product_id": "REAL-012",
-      "name": "Lave-linge",
-      "visible_references": {},
+      "name": "Lave-linge General Tecnomatic XQB80",
+      "visible_references": {
+        "Référence visible": "XQB80"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-012.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-012",
+        "brand": "General Tecnomatic",
+        "model": "XQB80",
+        "name": "Lave-linge General Tecnomatic XQB80",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Foremost black top-loading unit with blue/red round keys.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-012.webp"
+      }
     },
     {
       "product_id": "REAL-013",
@@ -175,39 +304,106 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_real_product_photo_carton_only",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-013.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-013",
+        "brand": "Siera",
+        "model": null,
+        "name": "Lave-linge Siera",
+        "category": "lave-linge",
+        "confidence": "brand_only",
+        "notes": "Siera single-tub carton; no model on photographed face.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-013.webp"
+      }
     },
     {
       "product_id": "REAL-014",
-      "name": "Lave-linge National",
+      "name": "Lave-linge National Falcons",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_real_product_photo_carton_only",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-014.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-014",
+        "brand": "National Falcons",
+        "model": null,
+        "name": "Lave-linge National Falcons",
+        "category": "lave-linge",
+        "confidence": "brand_only",
+        "notes": "Twin-tub carton. Small top-right specification label illegible in available675x900 image.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-014.webp"
+      }
     },
     {
       "product_id": "REAL-015",
-      "name": "Lave-linge Goldenstar",
-      "visible_references": {},
+      "name": "Lave-linge Goldenstar XPB150-2090",
+      "visible_references": {
+        "Référence visible": "XPB150-2090"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_real_product_photo_carton_only",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-015.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-015",
+        "brand": "Goldenstar",
+        "model": "XPB150-2090",
+        "name": "Lave-linge Goldenstar XPB150-2090",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Clearly printed MODEL XPB150-2090.",
+        "photo_candidates": [
+          {
+            "source_page": "https://darti.ma/produit/machine-a-laver-goldenstar-15kg-semi-automatique-xpb150-2090-cuve-inox/",
+            "source_image": "https://darti.ma/wp-content/uploads/2021/05/Machine-a-laver-Goldenstar-13Kg-semi-automatique-XPB150-2090-–-Cuve-inox.jpg",
+            "local_path": "/workspace/scratch/5b38a37880f4/washer-crops/golden2090-0.jpg",
+            "status": "matching_reference_and_twin_tub_geometry_but_opaque_watermarked_photo_do_not_publish"
+          },
+          {
+            "source_page": "https://darti.ma/produit/machine-a-laver-goldenstar-15kg-semi-automatique-xpb150-2090-cuve-inox/",
+            "source_image": "https://darti.ma/wp-content/uploads/2021/05/Machine-a-laver-Goldenstar-13Kg-semi-automatique-XPB150-2090-–-Cuve-inox-promo-maroc.jpg",
+            "local_path": "/workspace/scratch/5b38a37880f4/washer-crops/golden2090-1.jpg",
+            "status": "matching_reference_and_twin_tub_geometry_but_opaque_watermarked_photo_do_not_publish"
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-015.webp"
+      }
     },
     {
       "product_id": "REAL-016",
-      "name": "Lave-linge Goldenstar",
-      "visible_references": {},
+      "name": "Lave-linge Goldenstar XPB105-0690",
+      "visible_references": {
+        "Référence visible": "XPB105-0690"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_real_product_photo_carton_only",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-016.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-016",
+        "brand": "Goldenstar",
+        "model": "XPB105-0690",
+        "name": "Lave-linge Goldenstar XPB105-0690",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Carton says Volume5.5Kg,16kg gross14kg net,555x515x840; do not equate105 model with verified10.5kg capacity.",
+        "photo_candidates": [
+          {
+            "source_page": "https://www.jumia.ma/goldenstar-machine-a-laver-xpb105-0690-design-panorama-moteur-efficace-volume-5.5-kg-capacite-10.5-kg-68343456.html",
+            "source_image": "https://ma.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/65/434386/1.jpg",
+            "status": "exact_reference_page_found_but_direct_CDN_download403"
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-016.webp"
+      }
     },
     {
       "product_id": "REAL-017",
@@ -215,19 +411,43 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_real_product_photo_carton_only",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-017.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-017",
+        "brand": "Goldenstar",
+        "model": null,
+        "name": "Lave-linge Goldenstar",
+        "category": "lave-linge",
+        "confidence": "partial_reference",
+        "notes": "Model reads XPB150-2?70; strap covers digit after2. Must not assert2070 or2170.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-017.webp"
+      }
     },
     {
       "product_id": "REAL-018",
-      "name": "Lave-linge General Tecnomatic",
-      "visible_references": {},
+      "name": "Lave-linge General Tecnomatic XPB-9000STA",
+      "visible_references": {
+        "Référence visible": "XPB-9000STA"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_real_product_photo_carton_only",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-018.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-018",
+        "brand": "General Tecnomatic",
+        "model": "XPB-9000STA",
+        "name": "Lave-linge General Tecnomatic XPB-9000STA",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Single tube washing machine printed on carton.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-018.webp"
+      }
     },
     {
       "product_id": "REAL-019",
@@ -253,33 +473,78 @@
     },
     {
       "product_id": "REAL-020",
-      "name": "Lave-linge Goldenstar",
-      "visible_references": {},
+      "name": "Lave-linge Goldenstar XPB105-0690",
+      "visible_references": {
+        "Référence visible": "XPB105-0690"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_real_product_photo_carton_only",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-020.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-020",
+        "brand": "Goldenstar",
+        "model": "XPB105-0690",
+        "name": "Lave-linge Goldenstar XPB105-0690",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Same model as REAL016; front single-tub line art. Potential duplicate inventory entry.",
+        "photo_candidates": [
+          {
+            "source_page": "https://www.jumia.ma/goldenstar-machine-a-laver-xpb105-0690-design-panorama-moteur-efficace-volume-5.5-kg-capacite-10.5-kg-68343456.html",
+            "source_image": "https://ma.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/65/434386/1.jpg",
+            "status": "exact_reference_page_found_but_direct_CDN_download403"
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-020.webp"
+      }
     },
     {
       "product_id": "REAL-021",
-      "name": "Lave-linge KGLG",
-      "visible_references": {},
+      "name": "Lave-linge KGLG XPB145-KQ145",
+      "visible_references": {
+        "Référence visible": "XPB145-KQ145"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_real_product_photo_carton_only",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-021.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-021",
+        "brand": "KGLG",
+        "model": "XPB145-KQ145",
+        "name": "Lave-linge KGLG XPB145-KQ145",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Twin tub14.5KG printed left.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-021.webp"
+      }
     },
     {
       "product_id": "REAL-022",
-      "name": "Lave-linge KGLG",
-      "visible_references": {},
+      "name": "Lave-linge KGLG XPB120-KQ120",
+      "visible_references": {
+        "Référence visible": "XPB120-KQ120"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_real_product_photo_carton_only",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-022.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-022",
+        "brand": "KGLG",
+        "model": "XPB120-KQ120",
+        "name": "Lave-linge KGLG XPB120-KQ120",
+        "category": "lave-linge",
+        "confidence": "high",
+        "notes": "Twin tub12.0KG printed left.",
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-022.webp"
+      }
     },
     {
       "product_id": "REAL-023",
@@ -417,23 +682,50 @@
     },
     {
       "product_id": "REAL-029",
-      "name": "Chauffe-eau Junkers Bosch",
+      "name": "Chauffe-eau gaz électronique Junkers Bosch · 6 L",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-029.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-029",
+        "brand": "Junkers Bosch",
+        "model": null,
+        "models": [],
+        "name": "Chauffe-eau gaz électronique Junkers Bosch · 6 L",
+        "category": "chauffe-eau",
+        "confidence": "partial",
+        "notes": "Marque et 6 L électronique lisibles, référence technique absente.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-030",
-      "name": "Plaque de cuisson Venezia",
-      "visible_references": {},
+      "name": "Plaques de cuisson Venezia · références multiples",
+      "visible_references": {
+        "Références visibles": "AXM60IX / HAL-46013"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "ambiguous_source_and_burner_mismatch",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-030.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-030",
+        "brand": "Venezia",
+        "model": null,
+        "models": [
+          "AXM60IX",
+          "HAL-46013"
+        ],
+        "name": "Plaques de cuisson Venezia · références multiples",
+        "category": "plaques-de-cuisson",
+        "confidence": "partial",
+        "notes": "AXM60IX (haut), HAL-46013 (bas); autres cartons sans référence lisible. Choix du produit ambigu.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-031",
@@ -527,13 +819,26 @@
     },
     {
       "product_id": "REAL-035",
-      "name": "Chauffe-eau Junkers Bosch",
-      "visible_references": {},
+      "name": "Chauffe-eau électrique Junkers Bosch Tronic · 30 L",
+      "visible_references": {
+        "Référence visible": "Tronic 30"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-035.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-035",
+        "brand": "Junkers Bosch",
+        "model": "Tronic 30",
+        "models": [],
+        "name": "Chauffe-eau électrique Junkers Bosch Tronic · 30 L",
+        "category": "chauffe-eau",
+        "confidence": "partial",
+        "notes": "Tronic 30 visible; sous-série technique non indiquée, ne pas imposer Tronic 2000.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-036",
@@ -673,13 +978,26 @@
     },
     {
       "product_id": "REAL-042",
-      "name": "Chauffe-eau Junkers Bosch",
-      "visible_references": {},
+      "name": "Chauffe-eau électrique Junkers Bosch Tronic · 50 L",
+      "visible_references": {
+        "Référence visible": "Tronic 50"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-042.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-042",
+        "brand": "Junkers Bosch",
+        "model": "Tronic 50",
+        "models": [],
+        "name": "Chauffe-eau électrique Junkers Bosch Tronic · 50 L",
+        "category": "chauffe-eau",
+        "confidence": "partial",
+        "notes": "Tronic 50 visible; sous-série technique non indiquée.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-043",
@@ -727,13 +1045,34 @@
     },
     {
       "product_id": "REAL-045",
-      "name": "Chauffe-eau",
-      "visible_references": {},
+      "name": "Chauffe-eau électrique Roch RWH-50L-H · 50 L",
+      "visible_references": {
+        "Référence visible": "RWH-50L-H"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "source_finish_not_verifiable",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-045.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-045",
+        "brand": "Roch",
+        "model": "RWH-50L-H",
+        "models": [],
+        "name": "Chauffe-eau électrique Roch RWH-50L-H · 50 L",
+        "category": "chauffe-eau",
+        "confidence": "high",
+        "notes": "Étiquette nette:50 L,2000 W,220–240VAC50Hz.",
+        "photo_candidates": [
+          {
+            "source_page": "https://electrobayti.ma/roch-chauffe-eau-electrique-capacite-50-l/",
+            "source_image": "https://www.electrobayti.ma/wp-content/uploads/2025/12/Roch-RWH-50L-H-Maroc.webp",
+            "status": "exact_model_promotional_graphic_downloaded",
+            "alpha": "opaqueRGB",
+            "local_path": "/workspace/scratch/5b38a37880f4/source-candidates/cooking-candidate-1.png"
+          }
+        ]
+      }
     },
     {
       "product_id": "REAL-046",
@@ -765,9 +1104,20 @@
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-047.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-047",
+        "brand": "Eau-Puréa",
+        "model": null,
+        "models": [],
+        "name": "Système de filtration d’eau Eau-Puréa",
+        "category": "filtration-eau",
+        "confidence": "partial",
+        "notes": "Pas de référence visible, unité absente du visuel.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-048",
@@ -881,13 +1231,24 @@
     },
     {
       "product_id": "REAL-059",
-      "name": "Four posable Itimat",
+      "name": "Four posable Itimat Double Glass Turbo Fan",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-059.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-059",
+        "brand": "Itimat",
+        "model": null,
+        "models": [],
+        "name": "Four posable Itimat Double Glass Turbo Fan",
+        "category": "fours-posables",
+        "confidence": "partial",
+        "notes": "Modèle technique petit sur étiquettes, illisible dans fichier900px; conserve3grossescommandes et2boutonshorizontaux.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-060",
@@ -1203,13 +1564,32 @@
     },
     {
       "product_id": "REAL-074",
-      "name": "Hotte Venezia",
-      "visible_references": {},
+      "name": "Hotte Venezia DK6 · 60 cm",
+      "visible_references": {
+        "Référence visible": "DK6"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-074.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-074",
+        "brand": "Venezia",
+        "model": "DK6",
+        "models": [],
+        "name": "Hotte Venezia DK6 · 60 cm",
+        "category": "hottes",
+        "confidence": "partial",
+        "notes": "DK6-60cm visible; finition et suffixe611X non visibles, ne pas confirmer.",
+        "photo_candidates": [
+          {
+            "source_page": "https://electrokoban.ma/product/hotte-venezia-60cm-dk6-611x/",
+            "source_image": null,
+            "status": "candidate_only;suffix611Xnotvisibleoncarton"
+          }
+        ]
+      }
     },
     {
       "product_id": "REAL-075",
@@ -1263,19 +1643,43 @@
       },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_better_photo_for_exact_controls",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-077.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-077",
+        "brand": "Kenz",
+        "model": "LG-917",
+        "models": [],
+        "name": "Plaque de cuisson Kenz LG-917",
+        "category": "plaques-de-cuisson",
+        "confidence": "high",
+        "notes": "4brûleurs, référence nette.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-078",
-      "name": "Plaque de cuisson Active Chef",
-      "visible_references": {},
+      "name": "Plaque de cuisson Active Chef H4-70BD3-2T",
+      "visible_references": {
+        "Référence visible": "H4-70BD3-2T"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_better_photo_for_exact_controls",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-078.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-078",
+        "brand": "Active Chef",
+        "model": "H4-70BD3-2T",
+        "models": [],
+        "name": "Plaque de cuisson Active Chef H4-70BD3-2T",
+        "category": "plaques-de-cuisson",
+        "confidence": "partial",
+        "notes": "Le chiffre0 entre70etBD est masqué par sangle; lecture partielle H4-7[0]BD3-2T.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-079",
@@ -1301,73 +1705,224 @@
     },
     {
       "product_id": "REAL-080",
-      "name": "Plaque de cuisson Active Chef",
-      "visible_references": {},
+      "name": "Plaque de cuisson Maclay E-64001 · 4 feux",
+      "visible_references": {
+        "Référence visible": "E-64001"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "rejected_controls_and_burner_layout_changed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-080.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-080",
+        "brand": "Maclay",
+        "model": "E-64001",
+        "models": [],
+        "name": "Plaque de cuisson Maclay E-64001 · 4 feux",
+        "category": "plaques-de-cuisson",
+        "confidence": "high",
+        "notes": "Correction marque:Maclay écrit sur carton avant; E-64001 sous dessin avant.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-081",
-      "name": "Plaque de cuisson Active Chef",
-      "visible_references": {},
+      "name": "Plaque de cuisson Active Chef H4-60ES3",
+      "visible_references": {
+        "Référence visible": "H4-60ES3"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-081.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-081",
+        "brand": "Active Chef",
+        "model": "H4-60ES3",
+        "models": [],
+        "name": "Plaque de cuisson Active Chef H4-60ES3",
+        "category": "plaques-de-cuisson",
+        "confidence": "high",
+        "notes": "Référence nette sur plusieurs cartons.",
+        "photo_candidates": [
+          {
+            "source_page": "https://www.jumia.ma/active-chef-plaque-de-cuisson-a-gaz-encastrable-inox-premium-4-feux-60cm-grilles-en-fonte-renforcee-allumage-electrique-67823015.html",
+            "source_image": "https://ma.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/51/032876/1.jpg?4858=",
+            "status": "candidate_only;pageH4-60ESwithout3suffix"
+          }
+        ]
+      }
     },
     {
       "product_id": "REAL-082",
-      "name": "Plaque de cuisson Venezia",
-      "visible_references": {},
+      "name": "Plaque de cuisson Venezia BH-9500S · 5 feux",
+      "visible_references": {
+        "Référence visible": "BH-9500S"
+      },
       "target_views": 3,
-      "accepted_images": [],
-      "status": "rejected_burner_count_and_obscured_source",
+      "accepted_images": [
+        {
+          "url": "/images/catalogue-sourced/retouched-real-082-v2.webp",
+          "alt": "Plaque de cuisson Venezia BH-9500S · 5 feux — visuel retouché",
+          "source_page": "https://hikmashop.ma/product/plaque-de-cuisson-inox-avec-brulure-en-cuivre-venezia-90cm-bh-9500s-inox",
+          "source_image": "https://hikmashop.ma/public/uploads/all/MVT9yGimmAnFJNvwzQtE7hIrFj7hP91QBcp81qR3.png",
+          "background": "transparent",
+          "treatment": "background_removal_and_studio_retouch",
+          "tool": "built-in image generation edit",
+          "angle": "same_as_source",
+          "sha256": "2afba2105247b50f9ec768c22bd4cb809c781570bfac99ee9e64ba3ddc646e8d"
+        }
+      ],
+      "status": "retouched_view_approved_more_views_needed",
       "identification_photo": "/images/catalogue-real/photo-082.webp",
-      "missing_views": 3
+      "missing_views": 2,
+      "identification_review": {
+        "product_id": "REAL-082",
+        "brand": "Venezia",
+        "model": "BH-9500S",
+        "models": [],
+        "name": "Plaque de cuisson Venezia BH-9500S · 5 feux",
+        "category": "plaques-de-cuisson",
+        "confidence": "high",
+        "notes": "Référence et5brûleurs visibles; inox et brûleurs cuivre indiqués par photo.",
+        "photo_candidates": [
+          {
+            "source_page": "https://hikmashop.ma/product/plaque-de-cuisson-inox-avec-brulure-en-cuivre-venezia-90cm-bh-9500s-inox",
+            "source_image": "https://hikmashop.ma/public/uploads/all/MVT9yGimmAnFJNvwzQtE7hIrFj7hP91QBcp81qR3.png",
+            "status": "exact_model_page",
+            "alpha": "opaque_white",
+            "local_path": "/workspace/scratch/5b38a37880f4/source-candidates/REAL-082-candidate.png"
+          },
+          {
+            "source_page": "https://hikmashop.ma/product/plaque-de-cuisson-inox-avec-brulure-en-cuivre-venezia-90cm-bh-9500s-inox",
+            "source_image": "https://hikmashop.ma/public/uploads/all/pQ10JBpvFw0XdADh9ymUDskjjbrSXOnDMyaZehV2.jpg",
+            "status": "exact_model_page",
+            "alpha": "unverified",
+            "local_path": null
+          },
+          {
+            "source_page": "https://hikmashop.ma/product/plaque-de-cuisson-inox-avec-brulure-en-cuivre-venezia-90cm-bh-9500s-inox",
+            "source_image": "https://hikmashop.ma/public/uploads/all/RcAndEl04yMsKzG4zbML02ZU8PeKYduMz6FYfhhF.png",
+            "status": "exact_model_page",
+            "alpha": "unverified",
+            "local_path": null
+          },
+          {
+            "source_page": "https://hikmashop.ma/product/plaque-de-cuisson-inox-avec-brulure-en-cuivre-venezia-90cm-bh-9500s-inox",
+            "source_image": "https://hikmashop.ma/public/uploads/all/t2T0XeK0gHUTtzW5OVYiHtYfhWXDz2qUrdhg9Kte.png",
+            "status": "exact_model_page",
+            "alpha": "unverified",
+            "local_path": null
+          },
+          {
+            "source_page": "https://hikmashop.ma/product/plaque-de-cuisson-inox-avec-brulure-en-cuivre-venezia-90cm-bh-9500s-inox",
+            "source_image": "https://hikmashop.ma/public/uploads/all/VoEUT7f6S0jdJWedsTa6vLLerBZZPlnkMEfsGxV1.png",
+            "status": "exact_model_page",
+            "alpha": "unverified",
+            "local_path": null
+          }
+        ]
+      }
     },
     {
       "product_id": "REAL-083",
-      "name": "Plaque de cuisson Active Chef",
-      "visible_references": {},
+      "name": "Plaque de cuisson Active Chef H4-60R",
+      "visible_references": {
+        "Référence visible": "H4-60R"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_better_photo_for_exact_controls",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-083.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-083",
+        "brand": "Active Chef",
+        "model": "H4-60R",
+        "models": [],
+        "name": "Plaque de cuisson Active Chef H4-60R",
+        "category": "plaques-de-cuisson",
+        "confidence": "high",
+        "notes": "Référence partiellement sangle mais carton inférieur et web confirment H4-60R.",
+        "photo_candidates": [
+          {
+            "source_page": "https://eurovif.com/product/table-de-cuisson-active-chef-60-cm-h4-60r",
+            "source_image": null,
+            "status": "exact_model_page;image_download_not_resolved"
+          }
+        ]
+      }
     },
     {
       "product_id": "REAL-084",
-      "name": "Plaque de cuisson Active Chef",
-      "visible_references": {},
+      "name": "Plaque de cuisson Active Chef H5-70D2",
+      "visible_references": {
+        "Référence visible": "H5-70D2"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "requires_better_photo_for_exact_controls",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-084.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-084",
+        "brand": "Active Chef",
+        "model": "H5-70D2",
+        "models": [],
+        "name": "Plaque de cuisson Active Chef H5-70D2",
+        "category": "plaques-de-cuisson",
+        "confidence": "high",
+        "notes": "Référence nette.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-085",
-      "name": "Plaque de cuisson Active Chef",
-      "visible_references": {},
+      "name": "Plaque de cuisson Active Chef H4-60B1",
+      "visible_references": {
+        "Référence visible": "H4-60B1"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "rejected_knob_design_changed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-085.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-085",
+        "brand": "Active Chef",
+        "model": "H4-60B1",
+        "models": [],
+        "name": "Plaque de cuisson Active Chef H4-60B1",
+        "category": "plaques-de-cuisson",
+        "confidence": "high",
+        "notes": "Référence nette. Même carton que086, probable doublon.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-086",
-      "name": "Plaque de cuisson Active Chef",
-      "visible_references": {},
+      "name": "Plaque de cuisson Active Chef H4-60B1",
+      "visible_references": {
+        "Référence visible": "H4-60B1"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "rejected_wrong_brand",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-086.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-086",
+        "brand": "Active Chef",
+        "model": "H4-60B1",
+        "models": [],
+        "name": "Plaque de cuisson Active Chef H4-60B1",
+        "category": "plaques-de-cuisson",
+        "confidence": "high",
+        "notes": "Même angle/carton que085; doublon à vérifier.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-087",
@@ -1393,13 +1948,30 @@
     },
     {
       "product_id": "REAL-088",
-      "name": "Plaque de cuisson Active Chef",
-      "visible_references": {},
+      "name": "Plaques de cuisson Active Chef · références multiples",
+      "visible_references": {
+        "Références visibles": "H5-70BD3S / H5-70E2B / H5-70B6S"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-088.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-088",
+        "brand": "Active Chef",
+        "model": null,
+        "models": [
+          "H5-70BD3S",
+          "H5-70E2B",
+          "H5-70B6S"
+        ],
+        "name": "Plaques de cuisson Active Chef · références multiples",
+        "category": "plaques-de-cuisson",
+        "confidence": "partial",
+        "notes": "3modèles distincts:H5-70BD3S,H5-70E2B,H5-70B6S. Ne pas choisir arbitrairement.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-089",
@@ -1515,23 +2087,50 @@
     },
     {
       "product_id": "REAL-099",
-      "name": "Mixeur plongeant",
+      "name": "Système de filtration d’eau Eau-Puréa",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-099.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-099",
+        "brand": "Eau-Puréa",
+        "model": null,
+        "models": [],
+        "name": "Système de filtration d’eau Eau-Puréa",
+        "category": "filtration-eau",
+        "confidence": "partial",
+        "notes": "Correction catégorie:ceci est un système RO sous évier, pas mixeur. Référence absente.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-101",
-      "name": "Blender Venezia",
-      "visible_references": {},
+      "name": "Moulin à épices Venezia HC-100",
+      "visible_references": {
+        "Référence visible": "HC-100"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-101.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-101",
+        "brand": "Venezia",
+        "model": "HC-100",
+        "models": [
+          "HC-100",
+          "HC-400Y"
+        ],
+        "name": "Moulin à épices Venezia HC-100",
+        "category": "broyeurs-alimentaires",
+        "confidence": "partial",
+        "notes": "Correction catégorie:broyeur/moulin à épices. Boîte produit illustrée HC-100 et gros carton devantHC-400Y; choix à confirmer si les deux sont à importer.",
+        "photo_candidates": []
+      }
     },
     {
       "product_id": "REAL-102",
@@ -1557,13 +2156,27 @@
     },
     {
       "product_id": "REAL-103",
-      "name": "Téléviseur Star Vision",
-      "visible_references": {},
+      "name": "Téléviseur LG 43LM63 · 43 pouces",
+      "visible_references": {
+        "Référence visible": "43LM63"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-103.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-103",
+        "brand": "LG",
+        "model": "43LM63",
+        "name": "Téléviseur LG 43LM63 · 43 pouces",
+        "category": "televiseurs",
+        "confidence": "high_for_family_only",
+        "notes": "Foreground carton is LG, not Star Vision. Only 43LM63 family printed; full variant suffix not visible. Same carton family as REAL-195.",
+        "photo_candidates": [],
+        "source_photo": "/images/catalogue-real/photo-103.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-104",
@@ -1611,43 +2224,103 @@
     },
     {
       "product_id": "REAL-106",
-      "name": "Téléviseur Star Vision",
-      "visible_references": {},
+      "name": "Téléviseur Star Vision 515043 · 43 pouces Full HD",
+      "visible_references": {
+        "Référence visible": "515043"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-106.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-106",
+        "brand": "Star Vision",
+        "model": "515043",
+        "name": "Téléviseur Star Vision 515043 · 43 pouces Full HD",
+        "category": "televiseurs",
+        "confidence": "high",
+        "notes": "Foreground Star Vision carton51504343inFullHD; LG carton behind is unrelated. Same model as109/199.",
+        "photo_candidates": [],
+        "source_photo": "/images/catalogue-real/photo-106.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-108",
-      "name": "Téléviseur Star Vision",
-      "visible_references": {},
+      "name": "Téléviseur Hisense A4 · 32 pouces",
+      "visible_references": {
+        "Référence visible": "A4"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-108.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-108",
+        "brand": "Hisense",
+        "model": "A4",
+        "name": "Téléviseur Hisense A4 · 32 pouces",
+        "category": "televiseurs",
+        "confidence": "high_for_family_only",
+        "notes": "MisclassifiedStarVision; both foreground cartons Hisense32inA4VIDAA. Fullsuffixnotvisible, do not assume32A4K/Q.",
+        "photo_candidates": [],
+        "source_photo": "/images/catalogue-real/photo-108.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-109",
-      "name": "Téléviseur Star Vision",
-      "visible_references": {},
+      "name": "Téléviseur Star Vision 515043 · 43 pouces Full HD",
+      "visible_references": {
+        "Référence visible": "515043"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-109.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-109",
+        "brand": "Star Vision",
+        "model": "515043",
+        "name": "Téléviseur Star Vision 515043 · 43 pouces Full HD",
+        "category": "televiseurs",
+        "confidence": "high",
+        "notes": "Exact51504343inFullHD printed. Same model as106/199.",
+        "photo_candidates": [],
+        "source_photo": "/images/catalogue-real/photo-109.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-110",
-      "name": "Cuisinière",
+      "name": "Cuisinière Venezia inox · 4 feux",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-110.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-110",
+        "brand": "Venezia",
+        "name": "Cuisinière Venezia inox · 4 feux",
+        "category": "cuisinieres",
+        "models": [],
+        "model": null,
+        "confidence": "brand_and_type_only",
+        "notes": "Marque visible bas gauche du bandeau. Référence non visible; ne pas inférer depuis cartons en arrière-plan.",
+        "specs": {
+          "Feux visibles": "4",
+          "Commandes visibles": "7 boutons rotatifs"
+        },
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-110.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-111",
@@ -1673,23 +2346,73 @@
     },
     {
       "product_id": "REAL-112",
-      "name": "Cuisinière",
+      "name": "Cuisinière General Tecnomatic noire · 4 feux",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "source_oven_window_and_base_obscured",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-112.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-112",
+        "brand": "General Tecnomatic",
+        "name": "Cuisinière General Tecnomatic noire · 4 feux",
+        "category": "cuisinieres",
+        "models": [],
+        "model": null,
+        "confidence": "brand_and_type_only",
+        "notes": "Même appareil et même scène sous deux cadrages: doublon probable, à fusionner seulement après confirmation stock. Aucune référence lisible.",
+        "specs": {
+          "Feux visibles": "4",
+          "Commandes visibles": "7 boutons rotatifs"
+        },
+        "photo_candidates": [
+          {
+            "source_page": "https://oueldar.store/product/cuisiniere-general-tecnomatic-60-cm-4-feux/",
+            "source_image": "https://oueldar.store/wp-content/uploads/2026/08/Cuisiniere-GENERAL-TECNOMATIC-60-cm-4-feux-gaz.jpeg",
+            "match": "REJECT: downloaded image shows inox fascia and three leftpushbuttons; source target blackfascia,buttonsright. Differentvariant despite matchingbrand/type.",
+            "approved": false
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-112.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-113",
-      "name": "Cuisinière",
+      "name": "Cuisinière General Tecnomatic noire · 4 feux",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "source_burners_obscured",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-113.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-113",
+        "brand": "General Tecnomatic",
+        "name": "Cuisinière General Tecnomatic noire · 4 feux",
+        "category": "cuisinieres",
+        "models": [],
+        "model": null,
+        "confidence": "brand_and_type_only",
+        "notes": "Même appareil et même scène sous deux cadrages: doublon probable, à fusionner seulement après confirmation stock. Aucune référence lisible.",
+        "specs": {
+          "Feux visibles": "4",
+          "Commandes visibles": "7 boutons rotatifs"
+        },
+        "photo_candidates": [
+          {
+            "source_page": "https://oueldar.store/product/cuisiniere-general-tecnomatic-60-cm-4-feux/",
+            "source_image": "https://oueldar.store/wp-content/uploads/2026/08/Cuisiniere-GENERAL-TECNOMATIC-60-cm-4-feux-gaz.jpeg",
+            "match": "REJECT: downloaded image shows inox fascia and three leftpushbuttons; source target blackfascia,buttonsright. Differentvariant despite matchingbrand/type.",
+            "approved": false
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-113.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-114",
@@ -1737,13 +2460,30 @@
     },
     {
       "product_id": "REAL-116",
-      "name": "Plaque de cuisson gaz Venezia",
+      "name": "Plaque gaz Venezia inox · 5 feux",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "rejected_two_adjacent_appliances_merged",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-116.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-116",
+        "brand": "Venezia",
+        "name": "Plaque gaz Venezia inox · 5 feux",
+        "category": "plaques-de-cuisson",
+        "models": [],
+        "model": null,
+        "confidence": "brand_and_type_only",
+        "notes": "Deux plaques voisines dans source; cible principale à gauche. Marque lisible; référence absente.",
+        "specs": {
+          "Feux visibles": "5"
+        },
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-116.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-117",
@@ -1793,13 +2533,28 @@
     },
     {
       "product_id": "REAL-119",
-      "name": "Cuisinière",
+      "name": "Cuisinière General Tecnomatic large inox et noire",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "source_oven_window_and_base_obscured",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-119.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-119",
+        "brand": "General Tecnomatic",
+        "name": "Cuisinière General Tecnomatic large inox et noire",
+        "category": "cuisinieres",
+        "models": [],
+        "model": null,
+        "confidence": "brand_and_type_only",
+        "notes": "Marque lisible sur bandeau gauche. Référence absente de l’appareil et des cartons visibles. Cinq feux probables, ne pas fixer sans vue plus haute.",
+        "specs": {},
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-119.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-120",
@@ -1913,43 +2668,127 @@
     },
     {
       "product_id": "REAL-125",
-      "name": "Plaque de cuisson Venezia",
-      "visible_references": {},
+      "name": "Plaque gaz vitrée Venezia RCEV-57003G · 70 cm",
+      "visible_references": {
+        "Référence visible": "RCEV-57003G"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-125.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-125",
+        "brand": "Venezia",
+        "name": "Plaque gaz vitrée Venezia RCEV-57003G · 70 cm",
+        "category": "plaques-de-cuisson",
+        "models": [
+          "RCEV-57003G"
+        ],
+        "model": "RCEV-57003G",
+        "confidence": "high",
+        "notes": "",
+        "specs": {
+          "Largeur indiquée": "70 cm",
+          "Feux visibles": "5"
+        },
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-125.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-126",
-      "name": "Réchaud électrique Koln",
-      "visible_references": {},
+      "name": "Réchauds électriques doubles KOLN",
+      "visible_references": {
+        "Références visibles": "RCPM-DL-050 / RCPM-DL-010 / RCPM-DL-030"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-126.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-126",
+        "brand": "Koln",
+        "name": "Réchauds électriques doubles KOLN",
+        "category": "rechauds-electriques",
+        "models": [
+          "RCPM-DL-050",
+          "RCPM-DL-010",
+          "RCPM-DL-030"
+        ],
+        "model": null,
+        "confidence": "high",
+        "notes": "Trois modèles explicitement légendés, pas un modèle inconnu.050 mixte spirale/plaque;010 double spirale;030 doubles plaques. Créer variantes ou fiches distinctes après décision catalogue.",
+        "specs": {},
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-126.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-127",
-      "name": "Chauffe-eau Venezia",
-      "visible_references": {},
+      "name": "Chauffe-eau électriques digitaux Venezia",
+      "visible_references": {
+        "Références visibles": "CHFELEC100L-VNZ-DIG / CHFELEC-50L-VNZ-DIG / CHFELEC-80L-VNZ-DIG"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-127.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-127",
+        "brand": "Venezia",
+        "name": "Chauffe-eau électriques digitaux Venezia",
+        "category": "chauffe-eau",
+        "models": [
+          "CHFELEC100L-VNZ-DIG",
+          "CHFELEC-50L-VNZ-DIG",
+          "CHFELEC-80L-VNZ-DIG"
+        ],
+        "model": null,
+        "confidence": "high",
+        "notes": "Trois capacités50/80/100L sur affiche.100L imprimé sans tiret après CHFELEC. Une photo générique ne prouve pas les dimensions de chaque capacité.",
+        "specs": {
+          "Capacités indiquées": "50 / 80 / 100 L",
+          "Affichage": "Digital"
+        },
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-127.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-128",
-      "name": "Plaque de cuisson",
+      "name": "Plaque gaz Venezia inox · 5 feux",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-128.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-128",
+        "brand": "Venezia",
+        "name": "Plaque gaz Venezia inox · 5 feux",
+        "category": "plaques-de-cuisson",
+        "models": [],
+        "model": null,
+        "confidence": "brand_and_type_only",
+        "notes": "Marque en façade, référence absente. Cordon recouvre partie centrale; bord droit légèrement coupé.",
+        "specs": {
+          "Feux visibles": "5"
+        },
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-128.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-129",
@@ -1975,13 +2814,44 @@
     },
     {
       "product_id": "REAL-130",
-      "name": "Chauffe-eau Venezia",
-      "visible_references": {},
+      "name": "Chauffe-eau électriques Venezia avec thermomètre",
+      "visible_references": {
+        "Références visibles": "CHFELEC-30L-VNZ-2026 / CHFELEC-50L-VNZ-2026 / CHFELEC-80L-VNZ-2026 / CHFELEC-100L-VNZ-2026"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-130.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-130",
+        "brand": "Venezia",
+        "name": "Chauffe-eau électriques Venezia avec thermomètre",
+        "category": "chauffe-eau",
+        "models": [
+          "CHFELEC-30L-VNZ-2026",
+          "CHFELEC-50L-VNZ-2026",
+          "CHFELEC-80L-VNZ-2026",
+          "CHFELEC-100L-VNZ-2026"
+        ],
+        "model": null,
+        "confidence": "high",
+        "notes": "Quatre modèles lisibles, capacités30/50/80/100L. Ne pas traiter comme référence inconnue.",
+        "specs": {
+          "Capacités indiquées": "30 / 50 / 80 / 100 L",
+          "Affichage": "Thermomètre analogique"
+        },
+        "photo_candidates": [
+          {
+            "source_page": "https://hikmashop.ma/product/venezia-chauffe-eau-electrique-3050-litres",
+            "source_image": null,
+            "match": "Exact reference family in indexed retailer text; page fetch timed out; photo not yet validated"
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-130.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-131",
@@ -2073,13 +2943,33 @@
     },
     {
       "product_id": "REAL-135",
-      "name": "Réchaud électrique Koln",
-      "visible_references": {},
+      "name": "Réchauds électriques simples KOLN",
+      "visible_references": {
+        "Références visibles": "RCPM-DL-040 / RCPM-DL-020"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-135.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-135",
+        "brand": "Koln",
+        "name": "Réchauds électriques simples KOLN",
+        "category": "rechauds-electriques",
+        "models": [
+          "RCPM-DL-040",
+          "RCPM-DL-020"
+        ],
+        "model": null,
+        "confidence": "high",
+        "notes": "Deux modèles clairement légendés.040 plaque pleine à gauche;020 spirale à droite.",
+        "specs": {},
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-135.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-136",
@@ -2325,13 +3215,35 @@
     },
     {
       "product_id": "REAL-147",
-      "name": "Chauffage KGLG",
+      "name": "Chauffage électrique portable KGLG rouge et noir",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-147.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-147",
+        "brand": "KGLG",
+        "name": "Chauffage électrique portable KGLG rouge et noir",
+        "category": "chauffages",
+        "models": [],
+        "model": null,
+        "confidence": "brand_and_type_only",
+        "notes": "Aucune référence lisible sur affiche. Étiquette latérale trop petite pour modèle. KQ-3000 trouvé en ligne mais ne pas considérer identification confirmée avant comparaison photo.",
+        "specs": {},
+        "photo_candidates": [
+          {
+            "source_page": "https://www.marjanemall.ma/p/kglg-chauffage-electrique-portable-angle-reglable-a-90-ideal-pour-petits-espaces-abbb32012080203448",
+            "source_image": "https://cdnprd.marjanemall.ma/cn0picture0products0mm/da2de3cf-8ea0-4ded-b391-415ae65bcdc4.webp",
+            "match": "Visually similar KQ-3000 round red heater on white background; source147exactmodelunreadable and sideknob/bodydifferences, not approved",
+            "approved": false
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-147.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-148",
@@ -2423,23 +3335,68 @@
     },
     {
       "product_id": "REAL-153",
-      "name": "Broyeur alimentaire Koln",
-      "visible_references": {},
+      "name": "Broyeurs alimentaires KOLN série K",
+      "visible_references": {
+        "Références visibles": "GRT-100 K / GRT-200 K / GRT-350 K"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-153.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-153",
+        "brand": "Koln",
+        "name": "Broyeurs alimentaires KOLN série K",
+        "category": "broyeurs-alimentaires",
+        "models": [
+          "GRT-100 K",
+          "GRT-200 K",
+          "GRT-350 K"
+        ],
+        "model": null,
+        "confidence": "high",
+        "notes": "Trois références lisibles; une représentation générique, chaque capacité à sélectionner séparément.",
+        "specs": {},
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-153.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-154",
-      "name": "Broyeur alimentaire Koln",
-      "visible_references": {},
+      "name": "Broyeurs alimentaires KOLN série A",
+      "visible_references": {
+        "Références visibles": "GRT-400 A / GRT-500 A / GRT-800 A / GRT-1000 A / GRT-2000 A / GRT-3000 A"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-154.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-154",
+        "brand": "Koln",
+        "name": "Broyeurs alimentaires KOLN série A",
+        "category": "broyeurs-alimentaires",
+        "models": [
+          "GRT-400 A",
+          "GRT-500 A",
+          "GRT-800 A",
+          "GRT-1000 A",
+          "GRT-2000 A",
+          "GRT-3000 A"
+        ],
+        "model": null,
+        "confidence": "high",
+        "notes": "Six références lisibles. Ne pas attribuer la photo générique à une capacité précise sans contrôle.",
+        "specs": {},
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-154.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-155",
@@ -2539,13 +3496,33 @@
       "product_id": "REAL-159",
       "name": "Presse-agrumes KOLN D-8005B",
       "visible_references": {
-        "Référence constructeur": "D-8005B"
+        "Référence constructeur": "D-8005B",
+        "Référence visible": "D-8005B"
       },
       "target_views": 3,
       "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-159.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-159",
+        "brand": "Koln",
+        "name": "Presse-agrumes KOLN D-8005B",
+        "category": "presse-agrumes",
+        "models": [
+          "D-8005B"
+        ],
+        "model": "D-8005B",
+        "confidence": "high",
+        "notes": "Référence et marque confirmées sur affiche. Résultats Alpina/Henske D-8005B sont autre marque; ne pas utiliser.",
+        "specs": {
+          "Couleurs visibles": "Blanc et vert"
+        },
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-159.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-160",
@@ -2705,13 +3682,33 @@
     },
     {
       "product_id": "REAL-167",
-      "name": "Réfrigérateur Venezia",
-      "visible_references": {},
+      "name": "Mini-réfrigérateurs deux portes Venezia",
+      "visible_references": {
+        "Références visibles": "MINB2P-BCD-1098A / MINB2P-BCD-1088A"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-167.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-167",
+        "brand": "Venezia",
+        "name": "Mini-réfrigérateurs deux portes Venezia",
+        "category": "refrigerateurs",
+        "models": [
+          "MINB2P-BCD-1098A",
+          "MINB2P-BCD-1088A"
+        ],
+        "model": null,
+        "confidence": "high",
+        "notes": "Deux modèles explicitement légendés,1098A à gauche et1088A à droite.",
+        "specs": {},
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-167.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-168",
@@ -2759,13 +3756,34 @@
     },
     {
       "product_id": "REAL-170",
-      "name": "Réfrigérateur Venezia",
-      "visible_references": {},
+      "name": "Réfrigérateurs deux portes No Frost Venezia",
+      "visible_references": {
+        "Références visibles": "RFR2PNF-DS420N / RFR2PNF-DS480N / RFR2PNF-DS520N"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "multiple_identified_models_choice_needed",
       "identification_photo": "/images/catalogue-real/photo-170.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-170",
+        "brand": "Venezia",
+        "name": "Réfrigérateurs deux portes No Frost Venezia",
+        "category": "refrigerateurs",
+        "models": [
+          "RFR2PNF-DS420N",
+          "RFR2PNF-DS480N",
+          "RFR2PNF-DS520N"
+        ],
+        "model": null,
+        "confidence": "high",
+        "notes": "Trois modèles affichés et clairement légendés de gauche à droite. Ne pas confondre DS480N avec M480N.",
+        "specs": {},
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-170.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-171",
@@ -2817,15 +3835,47 @@
     },
     {
       "product_id": "REAL-173",
-      "name": "Réfrigérateur Venezia M480N",
+      "name": "Réfrigérateur Venezia M480N No Frost",
       "visible_references": {
-        "Référence constructeur": "M480N"
+        "Référence constructeur": "M480N",
+        "Référence visible": "M480N"
       },
       "target_views": 3,
       "accepted_images": [],
-      "status": "source_banner_obscures_body",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-173.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-173",
+        "brand": "Venezia",
+        "name": "Réfrigérateur Venezia M480N No Frost",
+        "category": "refrigerateurs",
+        "models": [
+          "M480N"
+        ],
+        "model": "M480N",
+        "confidence": "high",
+        "notes": "",
+        "specs": {
+          "Technologie indiquée": "No Frost"
+        },
+        "photo_candidates": [
+          {
+            "source_page": "https://electroest.ma/products/refrigerateur-deux-portes-no-frost-m-480n-inox-venezia-2",
+            "source_image": null,
+            "match": "Exact M-480N reference found; URL now404; actual image not validated"
+          },
+          {
+            "source_page": "https://hayatelk80.wixsite.com/comsysele/product-page/le-r%C3%A9frig%C3%A9rateur-double-porte-venezia-m480n?page=2",
+            "source_image": "https://static.wixstatic.com/media/c3ae81_06448c3527be4c0b88951768a06a8781~mv2.jpeg",
+            "match": "REJECT: downloaded and visually inspected; despite page titleM480N actual poster explicitly saysM420N",
+            "approved": false
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-173.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-174",
@@ -3028,43 +4078,152 @@
     },
     {
       "product_id": "REAL-183",
-      "name": "Réchaud à gaz Itimat",
-      "visible_references": {},
+      "name": "Réchaud gaz Itimat RCPI-I16B ITMAT-INOX · 3 feux",
+      "visible_references": {
+        "Référence visible": "RCPI-I16B ITMAT-INOX"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-183.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-183",
+        "brand": "Itimat",
+        "name": "Réchaud gaz Itimat RCPI-I16B ITMAT-INOX · 3 feux",
+        "category": "rechauds-gaz",
+        "models": [
+          "RCPI-I16B ITMAT-INOX"
+        ],
+        "model": "RCPI-I16B ITMAT-INOX",
+        "confidence": "high",
+        "notes": "Affiche imprime ITMAT (sanssecondi), marqueItimat. I16B apparent, stockPDFcorroboreR/3-I16B-INOX-ITIMAT.",
+        "specs": {
+          "Feux visibles": "3",
+          "Matériau indiqué": "100% inox"
+        },
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-183.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-184",
-      "name": "Réchaud à gaz Venezia",
-      "visible_references": {},
+      "name": "Réchaud gaz Venezia RCPI-0-200-BS · 2 feux",
+      "visible_references": {
+        "Référence visible": "RCPI-0-200-BS"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-184.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-184",
+        "brand": "Venezia",
+        "name": "Réchaud gaz Venezia RCPI-0-200-BS · 2 feux",
+        "category": "rechauds-gaz",
+        "models": [
+          "RCPI-0-200-BS"
+        ],
+        "model": "RCPI-0-200-BS",
+        "confidence": "high",
+        "notes": "Caractère aprèsRCPI semble zéro0 sur référence imprimée; conserver transcriptionphoto.",
+        "specs": {
+          "Feux visibles": "2",
+          "Couleur visible": "Noir"
+        },
+        "photo_candidates": [
+          {
+            "source_page": "https://www.jumia.ma/venezia-rechaud-a-gaz-2-feux-granite-portable-parfait-pour-la-maison-et-le-camping-68285629.html",
+            "source_image": null,
+            "match": "Similar family listing; exactRCPIreference not indexed and image not verified",
+            "approved": false
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-184.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-185",
-      "name": "Réchaud à gaz Venezia",
-      "visible_references": {},
+      "name": "Réchaud gaz Venezia RCPI-0-200-BB · 2 feux",
+      "visible_references": {
+        "Référence visible": "RCPI-0-200-BB"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-185.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-185",
+        "brand": "Venezia",
+        "name": "Réchaud gaz Venezia RCPI-0-200-BB · 2 feux",
+        "category": "rechauds-gaz",
+        "models": [
+          "RCPI-0-200-BB"
+        ],
+        "model": "RCPI-0-200-BB",
+        "confidence": "high",
+        "notes": "Caractère aprèsRCPI semble zéro0 sur référence imprimée; conserver transcriptionphoto.",
+        "specs": {
+          "Feux visibles": "2",
+          "Couleur visible": "Brun"
+        },
+        "photo_candidates": [
+          {
+            "source_page": "https://www.jumia.ma/venezia-rechaud-a-gaz-2-feux-granite-portable-parfait-pour-la-maison-et-le-camping-68285629.html",
+            "source_image": null,
+            "match": "Similar family listing; exactRCPIreference not indexed and image not verified",
+            "approved": false
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-185.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-186",
-      "name": "Réchaud à gaz Venezia",
-      "visible_references": {},
+      "name": "Réchaud gaz Venezia RCPI-0-200-KS · 2 feux",
+      "visible_references": {
+        "Référence visible": "RCPI-0-200-KS"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-186.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-186",
+        "brand": "Venezia",
+        "name": "Réchaud gaz Venezia RCPI-0-200-KS · 2 feux",
+        "category": "rechauds-gaz",
+        "models": [
+          "RCPI-0-200-KS"
+        ],
+        "model": "RCPI-0-200-KS",
+        "confidence": "high",
+        "notes": "Caractère aprèsRCPI semble zéro0 sur référence imprimée; conserver transcriptionphoto.",
+        "specs": {
+          "Feux visibles": "2",
+          "Couleur visible": "Gris moucheté"
+        },
+        "photo_candidates": [
+          {
+            "source_page": "https://www.jumia.ma/venezia-rechaud-a-gaz-2-feux-granite-portable-parfait-pour-la-maison-et-le-camping-68285629.html",
+            "source_image": null,
+            "match": "Similar family listing; exactRCPIreference not indexed and image not verified",
+            "approved": false
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-186.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-187",
@@ -3092,13 +4251,36 @@
       "product_id": "REAL-188",
       "name": "Aspirateur filaire Best Mark ASP120",
       "visible_references": {
-        "Référence constructeur": "ASP120"
+        "Référence constructeur": "ASP120",
+        "Référence visible": "ASP120"
       },
       "target_views": 3,
       "accepted_images": [],
-      "status": "source_hand_obscures_handle",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-188.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-188",
+        "brand": "Best Mark",
+        "name": "Aspirateur filaire Best Mark ASP120",
+        "category": "aspirateurs",
+        "models": [
+          "ASP120"
+        ],
+        "model": "ASP120",
+        "confidence": "high",
+        "notes": "Toutes informations lisibles sur boîte. Main touche poignée sur visuel emballage; source de substitution doit préserver modèle exact.",
+        "specs": {
+          "Puissance indiquée": "1200 W",
+          "Capacité poussière indiquée": "800 ml",
+          "Filtration indiquée": "HEPA",
+          "Type indiqué": "Cyclonic Stick"
+        },
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-188.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-189",
@@ -3124,23 +4306,76 @@
     },
     {
       "product_id": "REAL-190",
-      "name": "Broyeur alimentaire KOLN",
-      "visible_references": {},
+      "name": "Broyeur alimentaire KOLN 350K",
+      "visible_references": {
+        "Référence visible": "350K"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "exact_model_images_needed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-190.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-190",
+        "brand": "Koln",
+        "name": "Broyeur alimentaire KOLN 350K",
+        "category": "broyeurs-alimentaires",
+        "models": [
+          "350K"
+        ],
+        "model": "350K",
+        "confidence": "high",
+        "notes": "350K lisible sur carton et étiquette produit; ne pas automatiquement allonger enGRT-350K sans corroboration. Correspondance série153candidate.",
+        "specs": {
+          "Puissance indiquée": "1600 W",
+          "Alimentation indiquée": "220–240 V / 50–60 Hz"
+        },
+        "photo_candidates": [],
+        "identification_photo": "/images/catalogue-real/photo-190.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-191",
-      "name": "Distributeur d’eau Venezia",
-      "visible_references": {},
+      "name": "Distributeur d’eau Venezia FJ-WD-202RF avec réfrigérateur",
+      "visible_references": {
+        "Référence visible": "FJ-WD-202RF"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-191.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-191",
+        "brand": "Venezia",
+        "name": "Distributeur d’eau Venezia FJ-WD-202RF avec réfrigérateur",
+        "category": "fontaines-a-eau",
+        "models": [
+          "FJ-WD-202RF"
+        ],
+        "model": "FJ-WD-202RF",
+        "confidence": "high",
+        "notes": "Référence avantgauche lisible; côté droitFJ-WD-202partiellementmasqué. Descriptionwithfridgeconfirmée.",
+        "specs": {
+          "Fonctions indiquées": "Eau chaude, normale et froide",
+          "Tension indiquée": "220–240 V",
+          "Fréquence indiquée": "50–60 Hz",
+          "Puissance chauffe indiquée": "550 W"
+        },
+        "photo_candidates": [
+          {
+            "source_page": "https://voixelectro.com/produit/distributeur-d-eau-venezia-fj-wd-202rf",
+            "source_image": "https://voixelectro.com/assets/img/cat/water.svg",
+            "match": "REJECT: generic categorySVG, not actual product photograph",
+            "approved": false
+          }
+        ],
+        "identification_photo": "/images/catalogue-real/photo-191.webp",
+        "reviewed": true,
+        "search_status": "searched_no_verified_clean_replacement"
+      }
     },
     {
       "product_id": "REAL-193",
@@ -3188,53 +4423,134 @@
     },
     {
       "product_id": "REAL-195",
-      "name": "Téléviseur LG",
-      "visible_references": {},
+      "name": "Téléviseur LG 43LM63 · 43 pouces",
+      "visible_references": {
+        "Référence visible": "43LM63"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-195.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-195",
+        "brand": "LG",
+        "model": "43LM63",
+        "name": "Téléviseur LG 43LM63 · 43 pouces",
+        "category": "televiseurs",
+        "confidence": "high_for_family_only",
+        "notes": "Fullvariant suffix absent. Samefamily/carton as103. Do not assume43LM6370PVA.",
+        "photo_candidates": [],
+        "source_photo": "/images/catalogue-real/photo-195.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-196",
-      "name": "Téléviseur Tecson",
-      "visible_references": {},
+      "name": "Téléviseur Recson 0515206 · 50 pouces Google TV",
+      "visible_references": {
+        "Référence visible": "0515206"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-196.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-196",
+        "brand": "Recson",
+        "model": "0515206",
+        "name": "Téléviseur Recson 0515206 · 50 pouces Google TV",
+        "category": "televiseurs",
+        "confidence": "high",
+        "notes": "Brand printedRECSON notTecson. Model0515206 visible;4KUltraHD/GoogleTV/Bluetooth/DolbyAudio printed. Bothenginessearchedexactref;Recsonofficialshopcurrently showsgeneric/demo listings orothermodels, nottheseexactSKUs.",
+        "photo_candidates": [],
+        "source_photo": "/images/catalogue-real/photo-196.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-197",
-      "name": "Téléviseur",
-      "visible_references": {},
+      "name": "Téléviseur LG UA73 · 55 pouces UHD AI",
+      "visible_references": {
+        "Référence visible": "UA73"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "reference_read_full_variant_needed",
       "identification_photo": "/images/catalogue-real/photo-197.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-197",
+        "brand": "LG",
+        "model": "UA73",
+        "name": "Téléviseur LG UA73 · 55 pouces UHD AI",
+        "category": "televiseurs",
+        "confidence": "high_for_family_only",
+        "notes": "CartonLGUA7355in139cmwebOS. Fullvariantsuffix not visible;do not assume55UA73006LA.",
+        "photo_candidates": [
+          {
+            "source_page": "https://www.lg.com/ma/tv-barres-de-son/uhd-4k-tvs/55ua73006la/",
+            "image_url": null,
+            "match": "family_only_not_approved"
+          }
+        ],
+        "source_photo": "/images/catalogue-real/photo-197.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-198",
-      "name": "Téléviseur Techvision",
+      "name": "Téléviseur Techvision · 65 pouces 4K Android 15",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-198.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-198",
+        "brand": "Techvision",
+        "model": null,
+        "name": "Téléviseur Techvision · 65 pouces 4K Android 15",
+        "category": "televiseurs",
+        "confidence": "high_brand_size_only",
+        "notes": "65in4KUHDAndroid15Frameless/Dolby printed;barcode too small, exactmodel notvisible. Do not substituteDoubleGlass65.",
+        "photo_candidates": [],
+        "source_photo": "/images/catalogue-real/photo-198.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-199",
-      "name": "Téléviseur Star Vision",
-      "visible_references": {},
+      "name": "Téléviseur Star Vision 515043 · 43 pouces Full HD Android 14",
+      "visible_references": {
+        "Référence visible": "515043"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-199.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-199",
+        "brand": "Star Vision",
+        "model": "515043",
+        "name": "Téléviseur Star Vision 515043 · 43 pouces Full HD Android 14",
+        "category": "televiseurs",
+        "confidence": "high",
+        "notes": "Exact515043 and Android14/FullHD1080 printed. Same model as106/109.",
+        "photo_candidates": [
+          {
+            "source_page": "https://electroone.ma/produit/43-star-vision-smart-tv-star-vision-43-full-hd-android-14/",
+            "image_url": "https://cdnprd.marjanemall.ma/cn0picture0products0mm/eb6d27c8-8814-4e53-a8c8-dcfb4d020f72.webp",
+            "match": "REJECTED_WRONG_BRAND_ROXON",
+            "notes": "Downloaded and visually inspected: actual image says ROXON by Royal, not StarVision. Never publish."
+          }
+        ],
+        "source_photo": "/images/catalogue-real/photo-199.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-201",
@@ -3260,43 +4576,114 @@
     },
     {
       "product_id": "REAL-202",
-      "name": "Téléviseur Koln",
-      "visible_references": {},
+      "name": "Téléviseur KOLN KH43SM · 43 pouces Full HD Android 14",
+      "visible_references": {
+        "Référence visible": "KH43SM"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "retouch_background_halo",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-202.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-202",
+        "brand": "Koln",
+        "model": "KH43SM",
+        "name": "Téléviseur KOLN KH43SM · 43 pouces Full HD Android 14",
+        "category": "televiseurs",
+        "confidence": "high",
+        "notes": "ExactKH43SM printed;3HDMI2USBAndroid14. OnlineOroud candidate lacks ref and contradictsHDMI count, not approved. Search on both enginesfound noindexedKH43SM exactproductpage.",
+        "photo_candidates": [
+          {
+            "source_page": "https://www.oroud.ma/product-detail/koln-smart-tv-43-android-hd-recepteur-integre-tnt-hdmi-usb",
+            "image_url": null,
+            "match": "unverified_no_exact_ref"
+          }
+        ],
+        "source_photo": "/images/catalogue-real/photo-202.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-203",
-      "name": "Téléviseur Tecson",
-      "visible_references": {},
+      "name": "Téléviseur Recson 0515209 · 43 pouces QLED Full HD Android 14",
+      "visible_references": {
+        "Référence visible": "0515209"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "reference_not_yet_confirmed",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-203.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-203",
+        "brand": "Recson",
+        "model": "0515209",
+        "name": "Téléviseur Recson 0515209 · 43 pouces QLED Full HD Android 14",
+        "category": "televiseurs",
+        "confidence": "high",
+        "notes": "BrandRECSON notTecson; exact0515209 and43in/FullHD1080/QLED/Android14 printed. Bothenginessearchedexactref;Recsonofficialshopcurrently showsgeneric/demo listings orothermodels, nottheseexactSKUs.",
+        "photo_candidates": [],
+        "source_photo": "/images/catalogue-real/photo-203.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-204",
-      "name": "Téléviseur Techvision",
+      "name": "Téléviseur Techvision · 32 pouces QLED Full HD Android 15",
       "visible_references": {},
       "target_views": 3,
       "accepted_images": [],
-      "status": "retouch_background_halo",
+      "status": "brand_identified_exact_reference_needed",
       "identification_photo": "/images/catalogue-real/photo-204.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-204",
+        "brand": "Techvision",
+        "model": null,
+        "name": "Téléviseur Techvision · 32 pouces QLED Full HD Android 15",
+        "category": "televiseurs",
+        "confidence": "high_brand_size_only",
+        "notes": "32inQLEDFullHDAndroid15 printed;exactSKUabsent. Official siteFrameless32 offersTV-F32-001 but not proof cartonvariant matches. Two remotes printed.",
+        "photo_candidates": [
+          {
+            "source_page": "https://www.techvisiion.com/pages/tv-frameless-32",
+            "image_url": "https://www.techvisiion.com/image/shoot/tv/framless-design/1.webp",
+            "match": "candidate_family_not_exact_ref"
+          },
+          {
+            "source_page": "https://www.techvisiion.com/pages/tv-frameless-32",
+            "image_url": "https://www.techvisiion.com/image/shoot/tv/framless-design/2.webp",
+            "match": "candidate_family_not_exact_ref"
+          }
+        ],
+        "source_photo": "/images/catalogue-real/photo-204.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     },
     {
       "product_id": "REAL-205",
-      "name": "Téléviseur Koln",
-      "visible_references": {},
+      "name": "Téléviseur KOLN KH32SM · 32 pouces HD Android 14",
+      "visible_references": {
+        "Référence visible": "KH32SM"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "retouch_background_halo",
+      "status": "identified_exact_model_photo_search_pending",
       "identification_photo": "/images/catalogue-real/photo-205.webp",
-      "missing_views": 3
+      "missing_views": 3,
+      "identification_review": {
+        "product_id": "REAL-205",
+        "brand": "Koln",
+        "model": "KH32SM",
+        "name": "Téléviseur KOLN KH32SM · 32 pouces HD Android 14",
+        "category": "televiseurs",
+        "confidence": "high",
+        "notes": "ExactKH32SM32inHDAndroid14,3HDMI2USB printed. Search onbothenginesfoundnoindexedKH32SMexactproductpage.",
+        "photo_candidates": [],
+        "source_photo": "/images/catalogue-real/photo-205.webp",
+        "photo_search_status": "searched_no_exact_verified_photo"
+      }
     }
   ],
   "rejected_candidates": [
@@ -3386,11 +4773,12 @@
   },
   "summary": {
     "catalogue_entries": 189,
-    "reviewed_information_entries": 38,
+    "reviewed_information_entries": 106,
     "product_photo_searches": 20,
-    "products_with_approved_photo": 114,
-    "approved_distinct_photos": 114,
+    "products_with_approved_photo": 116,
+    "approved_distinct_photos": 116,
     "products_with_two_or_three_views": 0,
-    "complete": false
+    "complete": false,
+    "missing_photo_entries_reidentified": 75
   }
 }

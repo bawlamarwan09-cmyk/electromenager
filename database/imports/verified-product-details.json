@@ -218,23 +218,22 @@
     ]
   },
   "REAL-173": {
-    "name": "Réfrigérateur Venezia M480N",
+    "name": "Réfrigérateur Venezia M480N No Frost",
     "specs": {
       "Référence constructeur": "M480N",
       "Portes visibles": "2",
-      "Type de froid indiqué": "No Frost"
+      "Type de froid indiqué": "No Frost",
+      "Référence visible": "M480N"
     },
-    "description": "Réfrigérateur Venezia M480N à deux portes, avec congélateur en partie haute. Le visuel indique un système No Frost. Le volume utile et les dimensions doivent être confirmés sur la fiche technique.",
+    "description": "Réfrigérateur Venezia M480N No Frost. Référence relevée sur le visuel fourni : M480N. Les caractéristiques non indiquées sur cette fiche restent à confirmer.",
     "sources": [
       {
-        "label": "Visuel original fourni",
+        "label": "Identification sur le visuel fourni",
         "url": "/images/catalogue-real/photo-173.webp"
-      },
-      {
-        "label": "Fiche de référence consultée",
-        "url": "https://hayatelk80.wixsite.com/comsysele"
       }
-    ]
+    ],
+    "brand": "Venezia",
+    "category": "refrigerateurs"
   },
   "REAL-174": {
     "name": "Réfrigérateur Venezia M250",
@@ -341,15 +340,18 @@
     "name": "Presse-agrumes KOLN D-8005B",
     "specs": {
       "Référence constructeur": "D-8005B",
-      "Usage": "Extraction du jus des agrumes"
+      "Usage": "Extraction du jus des agrumes",
+      "Référence visible": "D-8005B"
     },
-    "description": "Presse-agrumes KOLN D-8005B, présenté avec son cône et son récipient collecteur. La capacité, la puissance et les éléments inclus sont à confirmer pour cette référence.",
+    "description": "Presse-agrumes KOLN D-8005B. Référence relevée sur le visuel fourni : D-8005B. Les caractéristiques non indiquées sur cette fiche restent à confirmer.",
     "sources": [
       {
-        "label": "Visuel original fourni",
+        "label": "Identification sur le visuel fourni",
         "url": "/images/catalogue-real/photo-159.webp"
       }
-    ]
+    ],
+    "brand": "Koln",
+    "category": "presse-agrumes"
   },
   "REAL-160": {
     "name": "Presse-agrumes KOLN D-8006B",
@@ -426,30 +428,35 @@
     "specs": {
       "Référence constructeur": "ASP120",
       "Alimentation": "Filaire",
-      "Filtre indiqué": "HEPA"
+      "Filtre indiqué": "HEPA",
+      "Référence visible": "ASP120"
     },
-    "description": "Aspirateur filaire Best Mark ASP120. Le coffret indique un filtre HEPA et présente les accessoires de nettoyage. La puissance et le contenu exact du colis restent à confirmer.",
+    "description": "Aspirateur filaire Best Mark ASP120. Référence relevée sur le visuel fourni : ASP120. Les caractéristiques non indiquées sur cette fiche restent à confirmer.",
     "sources": [
       {
-        "label": "Visuel original fourni",
+        "label": "Identification sur le visuel fourni",
         "url": "/images/catalogue-real/photo-188.webp"
       }
-    ]
+    ],
+    "brand": "Best Mark",
+    "category": "aspirateurs"
   },
   "REAL-190": {
-    "name": "Broyeur alimentaire KOLN",
+    "name": "Broyeur alimentaire KOLN 350K",
     "specs": {
       "Usage indiqué": "Broyage à sec",
-      "Corps visible": "Métallique"
+      "Corps visible": "Métallique",
+      "Référence visible": "350K"
     },
-    "description": "Broyeur alimentaire KOLN présenté pour réduire des ingrédients secs en poudre. Les matières autorisées, la puissance et la capacité de la cuve doivent être confirmées sur la référence du colis.",
+    "description": "Broyeur alimentaire KOLN 350K. Référence relevée sur le visuel fourni : 350K. Les caractéristiques non indiquées sur cette fiche restent à confirmer.",
     "sources": [
       {
-        "label": "Visuel original fourni",
+        "label": "Identification sur le visuel fourni",
         "url": "/images/catalogue-real/photo-190.webp"
       }
     ],
-    "category": "broyeurs-alimentaires"
+    "category": "broyeurs-alimentaires",
+    "brand": "Koln"
   },
   "REAL-025": {
     "name": "Réchaud à gaz Itimat · 3 feux",
@@ -532,7 +539,7 @@
     "description": "Système de filtration d’eau Eau-Puréa présenté pour une installation sous évier. La référence, la composition du système et les cartouches fournies sont à confirmer auprès du magasin.",
     "sources": [
       {
-        "label": "Emballage fourni pour identification",
+        "label": "Identification sur le visuel fourni",
         "url": "/images/catalogue-real/photo-047.webp"
       }
     ]
@@ -554,14 +561,14 @@
     ]
   },
   "REAL-116": {
-    "name": "Plaque de cuisson gaz Venezia",
+    "name": "Plaque gaz Venezia inox · 5 feux",
     "brand": "Venezia",
     "category": "plaques-de-cuisson",
     "specs": {},
     "description": "Plaque de cuisson à gaz Venezia présentée sur le visuel fourni. La référence complète, les dimensions et les caractéristiques doivent être confirmées auprès du magasin.",
     "sources": [
       {
-        "label": "Photographie du produit fournie",
+        "label": "Identification sur le visuel fourni",
         "url": "/images/catalogue-real/photo-116.webp"
       }
     ]
@@ -603,10 +610,10 @@
     "specs": {
       "Référence visible": "LG-917"
     },
-    "description": "Plaque de cuisson Kenz LG-917 identifiée sur son emballage. La référence complète, le raccordement et les caractéristiques doivent être confirmés auprès du magasin.",
+    "description": "Plaque de cuisson Kenz LG-917. Référence relevée sur le visuel fourni : LG-917. Les caractéristiques non indiquées sur cette fiche restent à confirmer.",
     "sources": [
       {
-        "label": "Emballage fourni pour identification",
+        "label": "Identification sur le visuel fourni",
         "url": "/images/catalogue-real/photo-077.webp"
       }
     ]
@@ -628,5 +635,961 @@
         "url": "/images/catalogue-real/photo-094.webp"
       }
     ]
+  },
+  "REAL-110": {
+    "brand": "Venezia",
+    "name": "Cuisinière Venezia inox · 4 feux",
+    "category": "cuisinieres",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-110.webp"
+      }
+    ]
+  },
+  "REAL-112": {
+    "brand": "General Tecnomatic",
+    "name": "Cuisinière General Tecnomatic noire · 4 feux",
+    "category": "cuisinieres",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-112.webp"
+      }
+    ]
+  },
+  "REAL-113": {
+    "brand": "General Tecnomatic",
+    "name": "Cuisinière General Tecnomatic noire · 4 feux",
+    "category": "cuisinieres",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-113.webp"
+      }
+    ]
+  },
+  "REAL-119": {
+    "brand": "General Tecnomatic",
+    "name": "Cuisinière General Tecnomatic large inox et noire",
+    "category": "cuisinieres",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-119.webp"
+      }
+    ]
+  },
+  "REAL-125": {
+    "brand": "Venezia",
+    "name": "Plaque gaz vitrée Venezia RCEV-57003G · 70 cm",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "RCEV-57003G"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-125.webp"
+      }
+    ],
+    "description": "Plaque gaz vitrée Venezia RCEV-57003G · 70 cm. Référence relevée sur le visuel fourni : RCEV-57003G. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-126": {
+    "brand": "Koln",
+    "name": "Réchauds électriques doubles KOLN",
+    "category": "rechauds-electriques",
+    "specs": {
+      "Références visibles": "RCPM-DL-050 / RCPM-DL-010 / RCPM-DL-030"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-126.webp"
+      }
+    ],
+    "description": "Réchauds électriques doubles KOLN. Le visuel fourni présente plusieurs références : RCPM-DL-050 / RCPM-DL-010 / RCPM-DL-030. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-127": {
+    "brand": "Venezia",
+    "name": "Chauffe-eau électriques digitaux Venezia",
+    "category": "chauffe-eau",
+    "specs": {
+      "Références visibles": "CHFELEC100L-VNZ-DIG / CHFELEC-50L-VNZ-DIG / CHFELEC-80L-VNZ-DIG"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-127.webp"
+      }
+    ],
+    "description": "Chauffe-eau électriques digitaux Venezia. Le visuel fourni présente plusieurs références : CHFELEC100L-VNZ-DIG / CHFELEC-50L-VNZ-DIG / CHFELEC-80L-VNZ-DIG. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-128": {
+    "brand": "Venezia",
+    "name": "Plaque gaz Venezia inox · 5 feux",
+    "category": "plaques-de-cuisson",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-128.webp"
+      }
+    ]
+  },
+  "REAL-130": {
+    "brand": "Venezia",
+    "name": "Chauffe-eau électriques Venezia avec thermomètre",
+    "category": "chauffe-eau",
+    "specs": {
+      "Références visibles": "CHFELEC-30L-VNZ-2026 / CHFELEC-50L-VNZ-2026 / CHFELEC-80L-VNZ-2026 / CHFELEC-100L-VNZ-2026"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-130.webp"
+      }
+    ],
+    "description": "Chauffe-eau électriques Venezia avec thermomètre. Le visuel fourni présente plusieurs références : CHFELEC-30L-VNZ-2026 / CHFELEC-50L-VNZ-2026 / CHFELEC-80L-VNZ-2026 / CHFELEC-100L-VNZ-2026. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-135": {
+    "brand": "Koln",
+    "name": "Réchauds électriques simples KOLN",
+    "category": "rechauds-electriques",
+    "specs": {
+      "Références visibles": "RCPM-DL-040 / RCPM-DL-020"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-135.webp"
+      }
+    ],
+    "description": "Réchauds électriques simples KOLN. Le visuel fourni présente plusieurs références : RCPM-DL-040 / RCPM-DL-020. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-147": {
+    "brand": "KGLG",
+    "name": "Chauffage électrique portable KGLG rouge et noir",
+    "category": "chauffages",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-147.webp"
+      }
+    ]
+  },
+  "REAL-153": {
+    "brand": "Koln",
+    "name": "Broyeurs alimentaires KOLN série K",
+    "category": "broyeurs-alimentaires",
+    "specs": {
+      "Références visibles": "GRT-100 K / GRT-200 K / GRT-350 K"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-153.webp"
+      }
+    ],
+    "description": "Broyeurs alimentaires KOLN série K. Le visuel fourni présente plusieurs références : GRT-100 K / GRT-200 K / GRT-350 K. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-154": {
+    "brand": "Koln",
+    "name": "Broyeurs alimentaires KOLN série A",
+    "category": "broyeurs-alimentaires",
+    "specs": {
+      "Références visibles": "GRT-400 A / GRT-500 A / GRT-800 A / GRT-1000 A / GRT-2000 A / GRT-3000 A"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-154.webp"
+      }
+    ],
+    "description": "Broyeurs alimentaires KOLN série A. Le visuel fourni présente plusieurs références : GRT-400 A / GRT-500 A / GRT-800 A / GRT-1000 A / GRT-2000 A / GRT-3000 A. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-167": {
+    "brand": "Venezia",
+    "name": "Mini-réfrigérateurs deux portes Venezia",
+    "category": "refrigerateurs",
+    "specs": {
+      "Références visibles": "MINB2P-BCD-1098A / MINB2P-BCD-1088A"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-167.webp"
+      }
+    ],
+    "description": "Mini-réfrigérateurs deux portes Venezia. Le visuel fourni présente plusieurs références : MINB2P-BCD-1098A / MINB2P-BCD-1088A. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-170": {
+    "brand": "Venezia",
+    "name": "Réfrigérateurs deux portes No Frost Venezia",
+    "category": "refrigerateurs",
+    "specs": {
+      "Références visibles": "RFR2PNF-DS420N / RFR2PNF-DS480N / RFR2PNF-DS520N"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-170.webp"
+      }
+    ],
+    "description": "Réfrigérateurs deux portes No Frost Venezia. Le visuel fourni présente plusieurs références : RFR2PNF-DS420N / RFR2PNF-DS480N / RFR2PNF-DS520N. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-183": {
+    "brand": "Itimat",
+    "name": "Réchaud gaz Itimat RCPI-I16B ITMAT-INOX · 3 feux",
+    "category": "rechauds-gaz",
+    "specs": {
+      "Référence visible": "RCPI-I16B ITMAT-INOX"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-183.webp"
+      }
+    ],
+    "description": "Réchaud gaz Itimat RCPI-I16B ITMAT-INOX · 3 feux. Référence relevée sur le visuel fourni : RCPI-I16B ITMAT-INOX. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-184": {
+    "brand": "Venezia",
+    "name": "Réchaud gaz Venezia RCPI-0-200-BS · 2 feux",
+    "category": "rechauds-gaz",
+    "specs": {
+      "Référence visible": "RCPI-0-200-BS"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-184.webp"
+      }
+    ],
+    "description": "Réchaud gaz Venezia RCPI-0-200-BS · 2 feux. Référence relevée sur le visuel fourni : RCPI-0-200-BS. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-185": {
+    "brand": "Venezia",
+    "name": "Réchaud gaz Venezia RCPI-0-200-BB · 2 feux",
+    "category": "rechauds-gaz",
+    "specs": {
+      "Référence visible": "RCPI-0-200-BB"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-185.webp"
+      }
+    ],
+    "description": "Réchaud gaz Venezia RCPI-0-200-BB · 2 feux. Référence relevée sur le visuel fourni : RCPI-0-200-BB. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-186": {
+    "brand": "Venezia",
+    "name": "Réchaud gaz Venezia RCPI-0-200-KS · 2 feux",
+    "category": "rechauds-gaz",
+    "specs": {
+      "Référence visible": "RCPI-0-200-KS"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-186.webp"
+      }
+    ],
+    "description": "Réchaud gaz Venezia RCPI-0-200-KS · 2 feux. Référence relevée sur le visuel fourni : RCPI-0-200-KS. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-191": {
+    "brand": "Venezia",
+    "name": "Distributeur d’eau Venezia FJ-WD-202RF avec réfrigérateur",
+    "specs": {
+      "Référence visible": "FJ-WD-202RF"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-191.webp"
+      }
+    ],
+    "description": "Distributeur d’eau Venezia FJ-WD-202RF avec réfrigérateur. Référence relevée sur le visuel fourni : FJ-WD-202RF. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-004": {
+    "brand": "Siera",
+    "name": "Lave-linge Siera",
+    "category": "machines-a-laver",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-004.webp"
+      }
+    ]
+  },
+  "REAL-005": {
+    "brand": "Fresh",
+    "name": "Lave-linge Fresh WM-8000TL",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "WM-8000TL"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-005.webp"
+      }
+    ],
+    "description": "Lave-linge Fresh WM-8000TL. Référence relevée sur le visuel fourni : WM-8000TL. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-007": {
+    "brand": "General Tecnomatic",
+    "name": "Lave-linge General Tecnomatic XQB100",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "XQB100"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-007.webp"
+      }
+    ],
+    "description": "Lave-linge General Tecnomatic XQB100. Référence relevée sur le visuel fourni : XQB100. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-008": {
+    "brand": "Marque à confirmer",
+    "name": "Lave-linge WA-9K04PL-P",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "WA-9K04PL-P"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-008.webp"
+      }
+    ],
+    "description": "Lave-linge WA-9K04PL-P. Référence relevée sur le visuel fourni : WA-9K04PL-P. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-009": {
+    "brand": "Fitco",
+    "name": "Lave-linge Fitco FAWT-850XM",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "FAWT-850XM"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-009.webp"
+      }
+    ],
+    "description": "Lave-linge Fitco FAWT-850XM. Référence relevée sur le visuel fourni : FAWT-850XM. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-010": {
+    "brand": "Goldenstar",
+    "name": "Lave-linge Goldenstar",
+    "category": "machines-a-laver",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-010.webp"
+      }
+    ]
+  },
+  "REAL-011": {
+    "brand": "Fresh",
+    "name": "Lave-linge Fresh WM-6800TL",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "WM-6800TL"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-011.webp"
+      }
+    ],
+    "description": "Lave-linge Fresh WM-6800TL. Référence relevée sur le visuel fourni : WM-6800TL. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-012": {
+    "brand": "General Tecnomatic",
+    "name": "Lave-linge General Tecnomatic XQB80",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "XQB80"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-012.webp"
+      }
+    ],
+    "description": "Lave-linge General Tecnomatic XQB80. Référence relevée sur le visuel fourni : XQB80. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-013": {
+    "brand": "Siera",
+    "name": "Lave-linge Siera",
+    "category": "machines-a-laver",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-013.webp"
+      }
+    ]
+  },
+  "REAL-014": {
+    "brand": "National Falcons",
+    "name": "Lave-linge National Falcons",
+    "category": "machines-a-laver",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-014.webp"
+      }
+    ]
+  },
+  "REAL-015": {
+    "brand": "Goldenstar",
+    "name": "Lave-linge Goldenstar XPB150-2090",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "XPB150-2090"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-015.webp"
+      }
+    ],
+    "description": "Lave-linge Goldenstar XPB150-2090. Référence relevée sur le visuel fourni : XPB150-2090. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-016": {
+    "brand": "Goldenstar",
+    "name": "Lave-linge Goldenstar XPB105-0690",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "XPB105-0690"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-016.webp"
+      }
+    ],
+    "description": "Lave-linge Goldenstar XPB105-0690. Référence relevée sur le visuel fourni : XPB105-0690. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-017": {
+    "brand": "Goldenstar",
+    "name": "Lave-linge Goldenstar",
+    "category": "machines-a-laver",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-017.webp"
+      }
+    ]
+  },
+  "REAL-018": {
+    "brand": "General Tecnomatic",
+    "name": "Lave-linge General Tecnomatic XPB-9000STA",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "XPB-9000STA"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-018.webp"
+      }
+    ],
+    "description": "Lave-linge General Tecnomatic XPB-9000STA. Référence relevée sur le visuel fourni : XPB-9000STA. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-020": {
+    "brand": "Goldenstar",
+    "name": "Lave-linge Goldenstar XPB105-0690",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "XPB105-0690"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-020.webp"
+      }
+    ],
+    "description": "Lave-linge Goldenstar XPB105-0690. Référence relevée sur le visuel fourni : XPB105-0690. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-021": {
+    "brand": "KGLG",
+    "name": "Lave-linge KGLG XPB145-KQ145",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "XPB145-KQ145"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-021.webp"
+      }
+    ],
+    "description": "Lave-linge KGLG XPB145-KQ145. Référence relevée sur le visuel fourni : XPB145-KQ145. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-022": {
+    "brand": "KGLG",
+    "name": "Lave-linge KGLG XPB120-KQ120",
+    "category": "machines-a-laver",
+    "specs": {
+      "Référence visible": "XPB120-KQ120"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-022.webp"
+      }
+    ],
+    "description": "Lave-linge KGLG XPB120-KQ120. Référence relevée sur le visuel fourni : XPB120-KQ120. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-029": {
+    "brand": "Junkers Bosch",
+    "name": "Chauffe-eau gaz électronique Junkers Bosch · 6 L",
+    "category": "chauffe-eau",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-029.webp"
+      }
+    ]
+  },
+  "REAL-030": {
+    "brand": "Venezia",
+    "name": "Plaques de cuisson Venezia · références multiples",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Références visibles": "AXM60IX / HAL-46013"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-030.webp"
+      }
+    ],
+    "description": "Plaques de cuisson Venezia · références multiples. Le visuel fourni présente plusieurs références : AXM60IX / HAL-46013. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-035": {
+    "brand": "Junkers Bosch",
+    "name": "Chauffe-eau électrique Junkers Bosch Tronic · 30 L",
+    "category": "chauffe-eau",
+    "specs": {
+      "Référence visible": "Tronic 30"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-035.webp"
+      }
+    ],
+    "description": "Chauffe-eau électrique Junkers Bosch Tronic · 30 L. Référence relevée sur le visuel fourni : Tronic 30. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-042": {
+    "brand": "Junkers Bosch",
+    "name": "Chauffe-eau électrique Junkers Bosch Tronic · 50 L",
+    "category": "chauffe-eau",
+    "specs": {
+      "Référence visible": "Tronic 50"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-042.webp"
+      }
+    ],
+    "description": "Chauffe-eau électrique Junkers Bosch Tronic · 50 L. Référence relevée sur le visuel fourni : Tronic 50. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-045": {
+    "brand": "Roch",
+    "name": "Chauffe-eau électrique Roch RWH-50L-H · 50 L",
+    "category": "chauffe-eau",
+    "specs": {
+      "Référence visible": "RWH-50L-H"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-045.webp"
+      }
+    ],
+    "description": "Chauffe-eau électrique Roch RWH-50L-H · 50 L. Référence relevée sur le visuel fourni : RWH-50L-H. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-059": {
+    "brand": "Itimat",
+    "name": "Four posable Itimat Double Glass Turbo Fan",
+    "category": "fours-posables",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-059.webp"
+      }
+    ]
+  },
+  "REAL-074": {
+    "brand": "Venezia",
+    "name": "Hotte Venezia DK6 · 60 cm",
+    "category": "hottes",
+    "specs": {
+      "Référence visible": "DK6"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-074.webp"
+      }
+    ],
+    "description": "Hotte Venezia DK6 · 60 cm. Référence relevée sur le visuel fourni : DK6. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-078": {
+    "brand": "Active Chef",
+    "name": "Plaque de cuisson Active Chef H4-70BD3-2T",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "H4-70BD3-2T"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-078.webp"
+      }
+    ],
+    "description": "Plaque de cuisson Active Chef H4-70BD3-2T. Référence relevée sur le visuel fourni : H4-70BD3-2T. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-080": {
+    "brand": "Maclay",
+    "name": "Plaque de cuisson Maclay E-64001 · 4 feux",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "E-64001"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-080.webp"
+      }
+    ],
+    "description": "Plaque de cuisson Maclay E-64001 · 4 feux. Référence relevée sur le visuel fourni : E-64001. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-081": {
+    "brand": "Active Chef",
+    "name": "Plaque de cuisson Active Chef H4-60ES3",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "H4-60ES3"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-081.webp"
+      }
+    ],
+    "description": "Plaque de cuisson Active Chef H4-60ES3. Référence relevée sur le visuel fourni : H4-60ES3. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-082": {
+    "brand": "Venezia",
+    "name": "Plaque de cuisson Venezia BH-9500S · 5 feux",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "BH-9500S"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-082.webp"
+      }
+    ],
+    "description": "Plaque de cuisson Venezia BH-9500S · 5 feux. Référence relevée sur le visuel fourni : BH-9500S. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-083": {
+    "brand": "Active Chef",
+    "name": "Plaque de cuisson Active Chef H4-60R",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "H4-60R"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-083.webp"
+      }
+    ],
+    "description": "Plaque de cuisson Active Chef H4-60R. Référence relevée sur le visuel fourni : H4-60R. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-084": {
+    "brand": "Active Chef",
+    "name": "Plaque de cuisson Active Chef H5-70D2",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "H5-70D2"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-084.webp"
+      }
+    ],
+    "description": "Plaque de cuisson Active Chef H5-70D2. Référence relevée sur le visuel fourni : H5-70D2. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-085": {
+    "brand": "Active Chef",
+    "name": "Plaque de cuisson Active Chef H4-60B1",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "H4-60B1"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-085.webp"
+      }
+    ],
+    "description": "Plaque de cuisson Active Chef H4-60B1. Référence relevée sur le visuel fourni : H4-60B1. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-086": {
+    "brand": "Active Chef",
+    "name": "Plaque de cuisson Active Chef H4-60B1",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Référence visible": "H4-60B1"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-086.webp"
+      }
+    ],
+    "description": "Plaque de cuisson Active Chef H4-60B1. Référence relevée sur le visuel fourni : H4-60B1. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-088": {
+    "brand": "Active Chef",
+    "name": "Plaques de cuisson Active Chef · références multiples",
+    "category": "plaques-de-cuisson",
+    "specs": {
+      "Références visibles": "H5-70BD3S / H5-70E2B / H5-70B6S"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-088.webp"
+      }
+    ],
+    "description": "Plaques de cuisson Active Chef · références multiples. Le visuel fourni présente plusieurs références : H5-70BD3S / H5-70E2B / H5-70B6S. Le modèle et la variante souhaités sont à préciser lors de la demande de devis."
+  },
+  "REAL-099": {
+    "brand": "Eau-Puréa",
+    "name": "Système de filtration d’eau Eau-Puréa",
+    "category": "filtration-eau",
+    "category_name": "Filtration d’eau",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-099.webp"
+      }
+    ]
+  },
+  "REAL-101": {
+    "brand": "Venezia",
+    "name": "Moulin à épices Venezia HC-100",
+    "category": "broyeurs-alimentaires",
+    "specs": {
+      "Référence visible": "HC-100"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-101.webp"
+      }
+    ],
+    "description": "Moulin à épices Venezia HC-100. Référence relevée sur le visuel fourni : HC-100. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-103": {
+    "brand": "LG",
+    "name": "Téléviseur LG 43LM63 · 43 pouces",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "43LM63"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-103.webp"
+      }
+    ],
+    "description": "Téléviseur LG 43LM63 · 43 pouces. Référence relevée sur le visuel fourni : 43LM63. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-106": {
+    "brand": "Star Vision",
+    "name": "Téléviseur Star Vision 515043 · 43 pouces Full HD",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "515043"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-106.webp"
+      }
+    ],
+    "description": "Téléviseur Star Vision 515043 · 43 pouces Full HD. Référence relevée sur le visuel fourni : 515043. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-108": {
+    "brand": "Hisense",
+    "name": "Téléviseur Hisense A4 · 32 pouces",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "A4"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-108.webp"
+      }
+    ],
+    "description": "Téléviseur Hisense A4 · 32 pouces. Référence relevée sur le visuel fourni : A4. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-109": {
+    "brand": "Star Vision",
+    "name": "Téléviseur Star Vision 515043 · 43 pouces Full HD",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "515043"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-109.webp"
+      }
+    ],
+    "description": "Téléviseur Star Vision 515043 · 43 pouces Full HD. Référence relevée sur le visuel fourni : 515043. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-195": {
+    "brand": "LG",
+    "name": "Téléviseur LG 43LM63 · 43 pouces",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "43LM63"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-195.webp"
+      }
+    ],
+    "description": "Téléviseur LG 43LM63 · 43 pouces. Référence relevée sur le visuel fourni : 43LM63. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-196": {
+    "brand": "Recson",
+    "name": "Téléviseur Recson 0515206 · 50 pouces Google TV",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "0515206"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-196.webp"
+      }
+    ],
+    "description": "Téléviseur Recson 0515206 · 50 pouces Google TV. Référence relevée sur le visuel fourni : 0515206. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-197": {
+    "brand": "LG",
+    "name": "Téléviseur LG UA73 · 55 pouces UHD AI",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "UA73"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-197.webp"
+      }
+    ],
+    "description": "Téléviseur LG UA73 · 55 pouces UHD AI. Référence relevée sur le visuel fourni : UA73. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-198": {
+    "brand": "Techvision",
+    "name": "Téléviseur Techvision · 65 pouces 4K Android 15",
+    "category": "televiseurs",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-198.webp"
+      }
+    ]
+  },
+  "REAL-199": {
+    "brand": "Star Vision",
+    "name": "Téléviseur Star Vision 515043 · 43 pouces Full HD Android 14",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "515043"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-199.webp"
+      }
+    ],
+    "description": "Téléviseur Star Vision 515043 · 43 pouces Full HD Android 14. Référence relevée sur le visuel fourni : 515043. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-202": {
+    "brand": "Koln",
+    "name": "Téléviseur KOLN KH43SM · 43 pouces Full HD Android 14",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "KH43SM"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-202.webp"
+      }
+    ],
+    "description": "Téléviseur KOLN KH43SM · 43 pouces Full HD Android 14. Référence relevée sur le visuel fourni : KH43SM. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-203": {
+    "brand": "Recson",
+    "name": "Téléviseur Recson 0515209 · 43 pouces QLED Full HD Android 14",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "0515209"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-203.webp"
+      }
+    ],
+    "description": "Téléviseur Recson 0515209 · 43 pouces QLED Full HD Android 14. Référence relevée sur le visuel fourni : 0515209. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+  },
+  "REAL-204": {
+    "brand": "Techvision",
+    "name": "Téléviseur Techvision · 32 pouces QLED Full HD Android 15",
+    "category": "televiseurs",
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-204.webp"
+      }
+    ]
+  },
+  "REAL-205": {
+    "brand": "Koln",
+    "name": "Téléviseur KOLN KH32SM · 32 pouces HD Android 14",
+    "category": "televiseurs",
+    "specs": {
+      "Référence visible": "KH32SM"
+    },
+    "sources": [
+      {
+        "label": "Identification sur le visuel fourni",
+        "url": "/images/catalogue-real/photo-205.webp"
+      }
+    ],
+    "description": "Téléviseur KOLN KH32SM · 32 pouces HD Android 14. Référence relevée sur le visuel fourni : KH32SM. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
   }
 }
