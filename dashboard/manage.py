@@ -1,5 +1,9 @@
 """Private catalogue manager. Run 'python dashboard/manage.py --help'."""
-from interface import shell, summary, listing
+from interface import shell, listing
+import catalogue_ui
+from decimal import Decimal, InvalidOperation
+import re
+import unicodedata
 import argparse
 import contextlib
 import datetime
@@ -54,8 +58,8 @@ def refresh_storefront(force=False):
         SNAPSHOT_UPDATED=time.monotonic()
 
 STYLE = Path(__file__).with_name('admin.css').read_text()
-NAV_LABELS = dict(LABELS, home='Vue d’ensemble', stock='Stock')
-FIELDS.update(availability='Disponibilité', position='Ordre')
+NAV_LABELS = dict(LABELS, home='Catégories', stock='Stock')
+FIELDS.update(availability='Disponibilité', position='Ordre', description='Description', image_url='Lien de la photo', alt_text='Description de la photo')
 
 @contextlib.contextmanager
 def database():
@@ -116,7 +120,7 @@ class Dashboard(BaseHTTPRequestHandler):
         self.send_response(status)
         self.send_header('Content-Type','text/html; charset=utf-8')
         self.send_header('Cache-Control','no-store')
-        self.send_header('Content-Security-Policy',"default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'")
+        self.send_header('Content-Security-Policy',"default-src 'none'; style-src 'unsafe-inline'; img-src 'self' https:; form-action 'self'; frame-ancestors 'none'; base-uri 'none'")
         if redirect: self.send_header('Location',redirect)
         if cookie is not None:
             self.send_header('Set-Cookie','av_session='+cookie+'; Path=/; HttpOnly; SameSite=Strict'+('; Secure' if ORIGIN.startswith('https://') else '')+('; Max-Age=0' if not cookie else ''))
@@ -164,9 +168,10 @@ class Dashboard(BaseHTTPRequestHandler):
             if not user:
                 return self.respond('<h1>Connexion</h1><form action="/login" method="post"><label>E-mail<input type="email" name="email" required></label><label>Mot de passe<input type="password" name="password" required></label><button>Se connecter</button></form>')
             table=args.get('table','home' if url.path=='/' else 'product')
-            if url.path=='/' and table in ('home','stock'):
-                content=summary(db,query,NAV_LABELS) if table=='home' else ''
-                content+=listing(db,query,'product' if table=='home' else 'stock',META,FIELDS,NAV_LABELS,href,'Produits du catalogue' if table=='home' else None)
+            if url.path=='/' and table in ('home','stock','product'):
+                if table=='home': content=catalogue_ui.home(db,query)
+                elif table=='product': content=catalogue_ui.products(db,query,args,href)
+                else: content=listing(db,query,'stock',META,FIELDS,NAV_LABELS,href)
                 return self.respond(shell(content,table,NAV_LABELS))
             if table not in META: return self.respond('Introuvable',404)
             columns,keys,refs=META[table]
@@ -177,13 +182,13 @@ class Dashboard(BaseHTTPRequestHandler):
                     if len(keyvals)!=len(keys): return self.respond('Clé incomplète',400)
                     row=query(db,f"SELECT * FROM {table} WHERE "+' AND '.join(k+'=?' for k in keys),tuple(keyvals.values())).fetchone()
                     if not row: return self.respond('Introuvable',404)
-                content=self.editor(db,table,columns,refs,row,keyvals)
+                content=catalogue_ui.product_editor(db,query,columns,row,keyvals,href,digest,args) if table=='product' else self.editor(db,table,columns,refs,row,keyvals,args)
             elif url.path=='/':
                 content=listing(db,query,table,META,FIELDS,NAV_LABELS,href)
             else: return self.respond('Introuvable',404)
             self.respond(shell(content,table,NAV_LABELS))
 
-    def editor(self,db,table,columns,refs,row,keys):
+    def editor(self,db,table,columns,refs,row,keys,prefill=None):
         def hidden(k,v): return f'<input type="hidden" name="{ESC(k)}" value="{ESC(v)}">'
         identity=hidden('table',table)+''.join(hidden('k_'+k,v) for k,v in keys.items())
         action='Modifier' if row else 'Ajouter'
@@ -197,6 +202,7 @@ class Dashboard(BaseHTTPRequestHandler):
             out+=hidden('version',digest(json.dumps(list(row),default=str)))
         for i,(_,name,kind,required,default,_) in enumerate(columns):
             value=row[i] if row else (str(default).strip("'") if default is not None else '')
+            if not row and name in refs and prefill: value=prefill.get(name,value)
             value='' if value is None else str(value)
             options=None
             if name in refs:
@@ -253,11 +259,25 @@ class Dashboard(BaseHTTPRequestHandler):
                 if self.path=='/delete' and ids and form.get('confirm')=='yes':
                     query(db,f'DELETE FROM {table} WHERE '+where,ids)
                 elif self.path=='/save':
+                    if table=='product' and form.get('simple_product')=='1':
+                        price=form.get('price_dh','').strip()
+                        if price:
+                            try: amount=Decimal(price)*100
+                            except InvalidOperation: raise ValueError()
+                            if not amount.is_finite() or amount<0 or amount>10**12 or amount!=amount.to_integral_value(): raise ValueError()
+                            form['price_centimes']=str(int(amount))
+                        else: form['price_centimes']=''
+                        if not form.get('slug','').strip():
+                            slug=re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',form['name']).encode('ascii','ignore').decode().lower()).strip('-') or 'produit'
+                            form['slug']=slug+'-'+form['id'][:8]
+                        if not form.get('sku','').strip(): form['sku']='AV-'+form['id'][:8].upper()
+                        form['stock_quantity']=form.get('stock_quantity','').strip() or '0'
                     values=[]
                     for _,name,kind,required,_,_ in columns:
                         raw=form[name].strip()
-                        if required and not raw: raise ValueError()
-                        val=None if not raw else int(raw) if kind.upper()=='INTEGER' else raw
+                        allow_empty=table=='product' and name=='description' and form.get('simple_product')=='1'
+                        if required and not raw and not allow_empty: raise ValueError()
+                        val='' if allow_empty and not raw else None if not raw else int(raw) if kind.upper()=='INTEGER' else raw
                         if kind.upper()=='DATE': datetime.date.fromisoformat(raw)
                         values.append(val)
                     if ids: query(db,f'UPDATE {table} SET '+','.join(n+'=?' for n in names)+' WHERE '+where,values+ids)
@@ -268,7 +288,13 @@ class Dashboard(BaseHTTPRequestHandler):
                     refresh_storefront(force=True)
                 except Exception:
                     return self.respond('La modification est enregistrée, mais la synchronisation a échoué. Rechargez puis réessayez après vérification du service.',503)
-                self.respond('',303,'/?table='+table)
+                destination='/?table='+table
+                if table=='product':
+                    category=form.get('category_id') or (dict(zip(names,row)).get('category_id','') if ids else '')
+                    destination='/?'+urlencode(dict(table='product',category=category))
+                elif table in ('product_image','product_specification') and form.get('product_id'):
+                    destination='/edit?'+urlencode(dict(table='product',k_id=form['product_id']))
+                self.respond('',303,destination)
         except Exception as error:
             if isinstance(error,(ValueError, KeyError,sqlite3.IntegrityError)) or (getattr(error,'sqlstate','') or '')[:2] in ('22','23'):
                 return self.respond('Vérifiez les champs, les doublons et les fiches liées. <a href="/">Retour</a>',400)

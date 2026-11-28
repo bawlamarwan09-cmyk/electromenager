@@ -27,8 +27,10 @@ def shell(content, active, labels):
         current=' aria-current="page"' if key==active else ''
         return f'<a href="{url(key)}"{current}>{labels[key]}</a>'
     items='<nav aria-label="Navigation principale">'+link('home')
-    for group,keys in GROUPS.items():
+    for group,keys in {'Catalogue':('product','brand'), 'Commerce':('stock','promotion'), 'Contenu':('article',)}.items():
         items+=f'<h2>{group}</h2>'+''.join(link(key) for key in keys)
+    advanced=('category','catalogue_universe','product_image','product_specification','product_comparison','promotion_product','article_section','article_source','article_product','article_category','article_brand')
+    items+='<details class="advanced-nav"><summary>Réglages avancés</summary>'+''.join(link(key) for key in advanced)+'</details>'
     items+='</nav><form action="/logout" method="post"><button class="signout">Déconnexion</button></form>'
     return ('<div class="layout"><aside><div class="brand">Aura <b>Volt</b></div>'
             '<div class="desktop">'+items+'</div><details class="mobile"><summary>Menu du dashboard</summary>'
