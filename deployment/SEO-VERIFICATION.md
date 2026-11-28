@@ -22,3 +22,5 @@ Le domaine public et leVPS, les identifiantsSearchConsole/GA4 et les coordonnée
 Les modèles partiels et les posters multi-références restent signalés pour validation ; aucune référence ni photo constructeur n’est inventée. Les fichesSieraMTL100E04 etFreshWM-9000TL ont été corrigées à partir des photos rapprochées du propriétaire. Les photos manquantes n’ont pas été prétendues résolues par la correctionSEO.
 
 Consulter `SEO-LAUNCH.md` pour l’activation sur le domaine réel et `scripts/audit-seo.py` pour reproduire le contrôleHTML.
+
+Optimisation du transfert : le catalogue partagé est chargé une seule fois dans le bundle statique, au lieu d’être sérialisé dans chaque page. Taille du dossierexport mesurée :279Mio avant,68Mio après. Cette mesure de volume ne constitue pas un score de vitesseLighthouse. Le mode serveur conserve son instantané par requête.
