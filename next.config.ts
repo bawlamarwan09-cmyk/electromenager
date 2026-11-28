@@ -11,7 +11,7 @@ export default function config(phase: string): NextConfig {
     images: { unoptimized: true },
     trailingSlash: true,
     ...( (development || live) && {
-      async rewrites(){return live?[{source:'/catalogue-live.json',destination:`http://127.0.0.1:${process.env.DASHBOARD_PORT||'8100'}/catalogue.json`}]:[]},
+      async rewrites(){return {beforeFiles:live?[{source:'/sitemap.xml',destination:`http://127.0.0.1:${process.env.DASHBOARD_PORT||'8100'}/catalogue-sitemap.xml`},{source:'/catalogue-live.json',destination:`http://127.0.0.1:${process.env.DASHBOARD_PORT||'8100'}/catalogue.json`}]:[]}},
       async redirects() {
         return ['/dashboard/', '/dashbord/'].map(source => ({
           source, destination: new URL('/', dashboardOrigin).href, permanent: false,

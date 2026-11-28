@@ -1,12 +1,10 @@
+import {staticMeta} from '@/lib/seo';
 import Link from 'next/link';
 import { Store, Building2, BedDouble, PackageCheck, Check, ChevronRight } from 'lucide-react';
 import Appliance from '@/components/Appliance';
 import KitchenHero from '@/components/KitchenHero';
 import HomeCatalogue from '@/components/HomeCatalogue';
-export const metadata = {
-  title: 'Électroménager au Maroc · Vente en gros et au détail',
-  description: 'Aura Volt, un savoir-faire familial depuis 1970. Découvrez notre électroménager pour la maison, les revendeurs, les hôtels et les projets immobiliers au Maroc.',
-};
+export const metadata=staticMeta('/');
 export default function Home(){return <>
 <KitchenHero>
   <div className="hero-editorial-copy">

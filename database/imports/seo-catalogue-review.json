@@ -1,0 +1,366 @@
+{
+  "audit_scope": "Non-destructive canonical suggestions only; stock, prices, IDs, images and relations must not be merged or deleted automatically.",
+  "verified_canonical_groups": [
+    {
+      "canonical_id": "REAL-085",
+      "alias_ids": [
+        "REAL-086"
+      ],
+      "brand": "Active Chef",
+      "reference": "H4-60B1",
+      "evidence": "Both full source images visually inspected: same foreground carton, same SKU sticker, same inox hob drawing, same surroundings and packaging. Difference is angle/exposure. No finish or option distinction indicated.",
+      "canonical_url": "/produits/plaques-de-cuisson-photo-085/",
+      "alias_urls": [
+        "/produits/plaques-de-cuisson-photo-086/"
+      ],
+      "action": "Use canonical085 for086, remove086fromindexablesitemap; preservebothdatabaseentries. Optional redirect only after preservingoriginalphotoassociation."
+    },
+    {
+      "canonical_id": "REAL-016",
+      "alias_ids": [
+        "REAL-020"
+      ],
+      "brand": "Goldenstar",
+      "reference": "XPB105-0690",
+      "evidence": "Both full source images visually inspected: identical explicit model XPB105-0690 on blue-white Goldenstar packaging;016is specificationface,020is frontillustration. Neither has a separatelyidentifiedfinishvariant. 016carton says volume5.5kg; do NOT infer10.5kg frommodel105.",
+      "canonical_url": "/produits/machines-a-laver-photo-016/",
+      "alias_urls": [
+        "/produits/machines-a-laver-photo-020/"
+      ],
+      "action": "Canonical modelpage016 may representbothsourcephotos; keepinventoryIDsseparate. No automaticphysicalstockmerge."
+    }
+  ],
+  "candidate_groups_do_not_auto_merge": [
+    {
+      "ids": [
+        "REAL-106",
+        "REAL-109",
+        "REAL-199"
+      ],
+      "brand": "Star Vision",
+      "reference": "515043",
+      "reason": "All exactmodel51504343inFHD, but106/109cartonsmark2E while199explicitAndroid14andnewpackaging. Cannotprovehardware/softwarevariantidentity.106/109maycanonicalpairafterownerconfirms2E; do notgroup199bySKUalone."
+    },
+    {
+      "ids": [
+        "REAL-103",
+        "REAL-195"
+      ],
+      "brand": "LG",
+      "reference_family": "43LM63",
+      "reason": "Onlyfamilycodeprinted; fullvariantsuffixabsent. CanonicalgroupwouldassumeidenticalactualSKU."
+    },
+    {
+      "ids": [
+        "REAL-112",
+        "REAL-113"
+      ],
+      "brand": "General Tecnomatic",
+      "reason": "Imagesappearofsameblack4burnercooker, butexactmodelnotvisible. Preserveasuncertainuntilidentification; no automaticinventorymerge."
+    },
+    {
+      "ids": [
+        "REAL-153",
+        "REAL-190"
+      ],
+      "brand": "Koln",
+      "reason": "153multi-modelserieslistsGRT-100K/GRT-200K/GRT-350K;190only350K. Cannotextend350KtoGRT-350Kwithoutcorroboration."
+    }
+  ],
+  "multi_model_pages": [
+    {
+      "id": "REAL-126",
+      "url": "/produits/rechauds-electriques-photo-126/",
+      "models": [
+        "RCPM-DL-050",
+        "RCPM-DL-010",
+        "RCPM-DL-030"
+      ],
+      "notes": "Trois modèles explicitement légendés, pas un modèle inconnu.050 mixte spirale/plaque;010 double spirale;030 doubles plaques. Créer variantes ou fiches distinctes après décision catalogue."
+    },
+    {
+      "id": "REAL-127",
+      "url": "/produits/chauffe-eau-photo-127/",
+      "models": [
+        "CHFELEC100L-VNZ-DIG",
+        "CHFELEC-50L-VNZ-DIG",
+        "CHFELEC-80L-VNZ-DIG"
+      ],
+      "notes": "Trois capacités50/80/100L sur affiche.100L imprimé sans tiret après CHFELEC. Une photo générique ne prouve pas les dimensions de chaque capacité."
+    },
+    {
+      "id": "REAL-130",
+      "url": "/produits/chauffe-eau-photo-130/",
+      "models": [
+        "CHFELEC-30L-VNZ-2026",
+        "CHFELEC-50L-VNZ-2026",
+        "CHFELEC-80L-VNZ-2026",
+        "CHFELEC-100L-VNZ-2026"
+      ],
+      "notes": "Quatre modèles lisibles, capacités30/50/80/100L. Ne pas traiter comme référence inconnue."
+    },
+    {
+      "id": "REAL-135",
+      "url": "/produits/rechauds-electriques-photo-135/",
+      "models": [
+        "RCPM-DL-040",
+        "RCPM-DL-020"
+      ],
+      "notes": "Deux modèles clairement légendés.040 plaque pleine à gauche;020 spirale à droite."
+    },
+    {
+      "id": "REAL-153",
+      "url": "/produits/broyeurs-alimentaires-photo-153/",
+      "models": [
+        "GRT-100 K",
+        "GRT-200 K",
+        "GRT-350 K"
+      ],
+      "notes": "Trois références lisibles; une représentation générique, chaque capacité à sélectionner séparément."
+    },
+    {
+      "id": "REAL-154",
+      "url": "/produits/broyeurs-alimentaires-photo-154/",
+      "models": [
+        "GRT-400 A",
+        "GRT-500 A",
+        "GRT-800 A",
+        "GRT-1000 A",
+        "GRT-2000 A",
+        "GRT-3000 A"
+      ],
+      "notes": "Six références lisibles. Ne pas attribuer la photo générique à une capacité précise sans contrôle."
+    },
+    {
+      "id": "REAL-167",
+      "url": "/produits/refrigerateurs-photo-167/",
+      "models": [
+        "MINB2P-BCD-1098A",
+        "MINB2P-BCD-1088A"
+      ],
+      "notes": "Deux modèles explicitement légendés,1098A à gauche et1088A à droite."
+    },
+    {
+      "id": "REAL-170",
+      "url": "/produits/refrigerateurs-photo-170/",
+      "models": [
+        "RFR2PNF-DS420N",
+        "RFR2PNF-DS480N",
+        "RFR2PNF-DS520N"
+      ],
+      "notes": "Trois modèles affichés et clairement légendés de gauche à droite. Ne pas confondre DS480N avec M480N."
+    },
+    {
+      "id": "REAL-030",
+      "url": "/produits/plaques-de-cuisson-photo-030/",
+      "models": [
+        "AXM60IX",
+        "HAL-46013"
+      ],
+      "notes": "AXM60IX (haut), HAL-46013 (bas); autres cartons sans référence lisible. Choix du produit ambigu."
+    },
+    {
+      "id": "REAL-088",
+      "url": "/produits/plaques-de-cuisson-photo-088/",
+      "models": [
+        "H5-70BD3S",
+        "H5-70E2B",
+        "H5-70B6S"
+      ],
+      "notes": "3modèles distincts:H5-70BD3S,H5-70E2B,H5-70B6S. Ne pas choisir arbitrairement."
+    },
+    {
+      "id": "REAL-101",
+      "url": "/produits/blenders-photo-101/",
+      "models": [
+        "HC-100",
+        "HC-400Y"
+      ],
+      "notes": "Correction catégorie:broyeur/moulin à épices. Boîte produit illustrée HC-100 et gros carton devantHC-400Y; choix à confirmer si les deux sont à importer."
+    },
+    {
+      "id": "REAL-023",
+      "url": "/produits/robots-patissiers-photo-023/",
+      "models": [
+        "BT1448DSV",
+        "BT1448DR"
+      ],
+      "notes": "Verifiedfactsstatebothsilverandredvariants. Do notarbitrarilychoosecolororcreateOfferforbothasoneSKU."
+    }
+  ],
+  "partial_reference_pages": [
+    {
+      "id": "REAL-008",
+      "url": "/produits/machines-a-laver-photo-008/",
+      "model_read": "WA-9K04PL-P",
+      "confidence": "model_high_brand_unconfirmed",
+      "notes": "Exact model WA-9K04PL-P clearly visible; stylized front logo reads possibly BOUSAT/BOWSAT, not reliably Royal. Need clearer brand label."
+    },
+    {
+      "id": "REAL-035",
+      "url": "/produits/chauffe-eau-photo-035/",
+      "model_read": "Tronic 30",
+      "confidence": "partial",
+      "notes": "Tronic 30 visible; sous-série technique non indiquée, ne pas imposer Tronic 2000."
+    },
+    {
+      "id": "REAL-042",
+      "url": "/produits/chauffe-eau-photo-042/",
+      "model_read": "Tronic 50",
+      "confidence": "partial",
+      "notes": "Tronic 50 visible; sous-série technique non indiquée."
+    },
+    {
+      "id": "REAL-074",
+      "url": "/produits/hottes-photo-074/",
+      "model_read": "DK6",
+      "confidence": "partial",
+      "notes": "DK6-60cm visible; finition et suffixe611X non visibles, ne pas confirmer."
+    },
+    {
+      "id": "REAL-078",
+      "url": "/produits/plaques-de-cuisson-photo-078/",
+      "model_read": "H4-70BD3-2T",
+      "confidence": "partial",
+      "notes": "Le chiffre0 entre70etBD est masqué par sangle; lecture partielle H4-7[0]BD3-2T."
+    },
+    {
+      "id": "REAL-103",
+      "url": "/produits/televiseurs-photo-103/",
+      "model_read": "43LM63",
+      "confidence": "high_for_family_only",
+      "notes": "Foreground carton is LG, not Star Vision. Only 43LM63 family printed; full variant suffix not visible. Same carton family as REAL-195."
+    },
+    {
+      "id": "REAL-108",
+      "url": "/produits/televiseurs-photo-108/",
+      "model_read": "A4",
+      "confidence": "high_for_family_only",
+      "notes": "MisclassifiedStarVision; both foreground cartons Hisense32inA4VIDAA. Fullsuffixnotvisible, do not assume32A4K/Q."
+    },
+    {
+      "id": "REAL-195",
+      "url": "/produits/televiseurs-photo-195/",
+      "model_read": "43LM63",
+      "confidence": "high_for_family_only",
+      "notes": "Fullvariant suffix absent. Samefamily/carton as103. Do not assume43LM6370PVA."
+    },
+    {
+      "id": "REAL-197",
+      "url": "/produits/televiseurs-photo-197/",
+      "model_read": "UA73",
+      "confidence": "high_for_family_only",
+      "notes": "CartonLGUA7355in139cmwebOS. Fullvariantsuffix not visible;do not assume55UA73006LA."
+    }
+  ],
+  "unknown_model_pages": [
+    {
+      "id": "REAL-110",
+      "url": "/produits/cuisinieres-photo-110/",
+      "brand": "Venezia",
+      "notes": "Marque visible bas gauche du bandeau. Référence non visible; ne pas inférer depuis cartons en arrière-plan."
+    },
+    {
+      "id": "REAL-112",
+      "url": "/produits/cuisinieres-photo-112/",
+      "brand": "General Tecnomatic",
+      "notes": "Même appareil et même scène sous deux cadrages: doublon probable, à fusionner seulement après confirmation stock. Aucune référence lisible."
+    },
+    {
+      "id": "REAL-113",
+      "url": "/produits/cuisinieres-photo-113/",
+      "brand": "General Tecnomatic",
+      "notes": "Même appareil et même scène sous deux cadrages: doublon probable, à fusionner seulement après confirmation stock. Aucune référence lisible."
+    },
+    {
+      "id": "REAL-116",
+      "url": "/produits/cuisinieres-photo-116/",
+      "brand": "Venezia",
+      "notes": "Deux plaques voisines dans source; cible principale à gauche. Marque lisible; référence absente."
+    },
+    {
+      "id": "REAL-119",
+      "url": "/produits/cuisinieres-photo-119/",
+      "brand": "General Tecnomatic",
+      "notes": "Marque lisible sur bandeau gauche. Référence absente de l’appareil et des cartons visibles. Cinq feux probables, ne pas fixer sans vue plus haute."
+    },
+    {
+      "id": "REAL-128",
+      "url": "/produits/plaques-de-cuisson-photo-128/",
+      "brand": "Venezia",
+      "notes": "Marque en façade, référence absente. Cordon recouvre partie centrale; bord droit légèrement coupé."
+    },
+    {
+      "id": "REAL-147",
+      "url": "/produits/chauffages-photo-147/",
+      "brand": "KGLG",
+      "notes": "Aucune référence lisible sur affiche. Étiquette latérale trop petite pour modèle. KQ-3000 trouvé en ligne mais ne pas considérer identification confirmée avant comparaison photo."
+    },
+    {
+      "id": "REAL-010",
+      "url": "/produits/machines-a-laver-photo-010/",
+      "brand": "Goldenstar",
+      "notes": "XQB120-1890A probable; glare makes photo010 badge weak. Background same pink washer on004 gives clearer XQB120-1890A but matching identity should be confirmed."
+    },
+    {
+      "id": "REAL-013",
+      "url": "/produits/machines-a-laver-photo-013/",
+      "brand": "Siera",
+      "notes": "Siera single-tub carton; no model on photographed face."
+    },
+    {
+      "id": "REAL-014",
+      "url": "/produits/machines-a-laver-photo-014/",
+      "brand": "National Falcons",
+      "notes": "Twin-tub carton. Small top-right specification label illegible in available675x900 image."
+    },
+    {
+      "id": "REAL-017",
+      "url": "/produits/machines-a-laver-photo-017/",
+      "brand": "Goldenstar",
+      "notes": "Model reads XPB150-2?70; strap covers digit after2. Must not assert2070 or2170."
+    },
+    {
+      "id": "REAL-029",
+      "url": "/produits/chauffe-eau-photo-029/",
+      "brand": "Junkers Bosch",
+      "notes": "Marque et 6 L électronique lisibles, référence technique absente."
+    },
+    {
+      "id": "REAL-047",
+      "url": "/produits/mixeurs-plongeants-photo-047/",
+      "brand": "Eau-Puréa",
+      "notes": "Pas de référence visible, unité absente du visuel."
+    },
+    {
+      "id": "REAL-059",
+      "url": "/produits/fours-posables-photo-059/",
+      "brand": "Itimat",
+      "notes": "Modèle technique petit sur étiquettes, illisible dans fichier900px; conserve3grossescommandes et2boutonshorizontaux."
+    },
+    {
+      "id": "REAL-099",
+      "url": "/produits/mixeurs-plongeants-photo-099/",
+      "brand": "Eau-Puréa",
+      "notes": "Correction catégorie:ceci est un système RO sous évier, pas mixeur. Référence absente."
+    },
+    {
+      "id": "REAL-198",
+      "url": "/produits/televiseurs-photo-198/",
+      "brand": "Techvision",
+      "notes": "65in4KUHDAndroid15Frameless/Dolby printed;barcode too small, exactmodel notvisible. Do not substituteDoubleGlass65."
+    },
+    {
+      "id": "REAL-204",
+      "url": "/produits/televiseurs-photo-204/",
+      "brand": "Techvision",
+      "notes": "32inQLEDFullHDAndroid15 printed;exactSKUabsent. Official siteFrameless32 offersTV-F32-001 but not proof cartonvariant matches. Two remotes printed."
+    }
+  ],
+  "policy": {
+    "multi_model": "Noindex individualProduct page until split into verifiedmodel/variant pages; caninsteadbecomeindexableseriesCollectionPageonlywithhonestseriescontent, notProductOffer. Do notinventchoiceorstock.",
+    "partial_reference": "Keep visiblefacts andsource; noindex until fullvariantconfirmed if pagecouldrepresentmultipleSKU. Do notcanonicaltodifferentfullmodelfoundonline.",
+    "brand_only": "Do notinventreference,dimensionsorcapacity; noindexthinprovisionalproductpages. Brands/categoriescanremainindexableifusefulandunique.",
+    "canonical": "Canonical mustpointtoaccessible200page; onlycanonicaldestinationappearsinindexablesitemap; prefercanonicalratherthandestructivemergingwhenstockrecordsnotresolved."
+  }
+}

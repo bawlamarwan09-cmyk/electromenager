@@ -1,3 +1,6 @@
+import {productMeta} from '@/lib/seo';
+import JsonLd from '@/components/JsonLd';
+import {productSchema,breadcrumbs} from '@/lib/structured-data';
 import {families} from '@/lib/families';
 import {notFound} from 'next/navigation';
 import Link from 'next/link';
@@ -12,7 +15,7 @@ export function generateStaticParams(){return products.map(p=>({slug:p.slug}))}
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}) {
   const {slug}=await params;
   const product=products.find(p=>p.slug===slug);
-  return {title:product?.name||'Produit',description:product?.description};
+  return product?productMeta(product):{};
 }
 function reference(p:Product) {
   return p.specs['Référence constructeur']||p.specs['Référence visible']||p.specs['Références visibles'];
@@ -35,7 +38,7 @@ export default async function Page({params}:{params:Promise<{slug:string}>}) {
   const promotion=p.price!==null&&p.originalPrice!==null&&p.originalPrice>p.price;
   const availability=p.availability||'unconfirmed';
   return <article className="container page-section pdp">
-    <nav className="breadcrumbs" aria-label="Fil d’Ariane">
+    <JsonLd data={productSchema(p,brand)}/><JsonLd data={breadcrumbs([{name:'Accueil',path:'/'},{name:p.category,path:`/${p.family}/`},{name:p.name,path:`/produits/${p.slug}/`}])}/><nav className="breadcrumbs" aria-label="Fil d’Ariane">
       <Link href="/">Accueil</Link><span>/</span><Link href="/produits/">Produits</Link><span>/</span>
       <Link href={`/${p.family}/`}>{family?.name||p.category}</Link><span>/</span><span aria-current="page">{p.name}</span>
     </nav>
@@ -68,7 +71,7 @@ export default async function Page({params}:{params:Promise<{slug:string}>}) {
       <section id="description" className="pdp-section pdp-description"><span className="pdp-kicker">FAITES CONNAISSANCE AVEC VOTRE ÉQUIPEMENT</span><h2>{p.name}</h2><p>{p.description}</p>
         {highlights.length>0&&<><h3>Les points à retenir</h3><dl className="pdp-feature-lines">{highlights.map(([label,value])=><div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></>}
         {family?.advice&&<div className="pdp-choice-advice"><strong>Pour bien choisir</strong><p>{family.advice}</p>{family.guide&&<Link href={`/conseils/${family.guide}/`}>Consulter notre guide de choix</Link>}</div>}
-        <Link className="pdp-text-link" href={`/${p.family}/`}>Explorer {family?.name.toLowerCase()||p.category.toLowerCase()}</Link>
+        <Link className="pdp-text-link" href={`/marques/${p.brand}/${p.family}/`}>Explorer {family?.name.toLowerCase()||p.category.toLowerCase()}</Link>
       </section>
       <section id="caracteristiques" className="pdp-section pdp-specifications"><span className="pdp-kicker">TOUTES LES INFORMATIONS, AU MÊME ENDROIT</span><h2>Fiche technique</h2><table><caption className="pdp-sr-only">Caractéristiques de {p.name}</caption><tbody><tr><th scope="row">Marque</th><td>{brandKnown?<Link href={`/marques/${p.brand}/`}>{brand}</Link>:'À confirmer'}</td></tr><tr><th scope="row">Catégorie</th><td><Link href={`/${p.family}/`}>{p.category}</Link></td></tr>{specs.map(([key,value])=><tr key={key}><th scope="row">{key}</th><td>{value}</td></tr>)}{!reference(p)&&<tr><th scope="row">Référence constructeur</th><td>À confirmer avec le magasin</td></tr>}<tr><th scope="row">Disponibilité</th><td>{statuses[availability]}</td></tr></tbody></table>
         {specs.length===0&&<p className="pdp-data-note">Besoin des dimensions, de la capacité ou de la puissance ? Demandez la fiche complète de cette référence.</p>}

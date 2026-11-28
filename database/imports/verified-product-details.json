@@ -913,29 +913,36 @@
   },
   "REAL-004": {
     "brand": "Siera",
-    "name": "Lave-linge Siera",
+    "name": "Lave-linge Siera MTL100E04",
     "category": "machines-a-laver",
     "sources": [
       {
-        "label": "Identification sur le visuel fourni",
-        "url": "/images/catalogue-real/photo-004.webp"
+        "label": "Photo rapprochée fournie : référence lisible",
+        "url": "/images/catalogue-real/clarification-004.webp"
       }
-    ]
+    ],
+    "description": "Lave-linge Siera MTL100E04, lave-linge à chargement par le dessus avec panneau de commandes en façade. La référence MTL100E04 est lisible sur la photo rapprochée fournie. Les dimensions, la capacité et les autres caractéristiques restent à confirmer.",
+    "specs": {
+      "Référence visible": "MTL100E04"
+    }
   },
   "REAL-005": {
     "brand": "Fresh",
-    "name": "Lave-linge Fresh WM-8000TL",
+    "name": "Lave-linge Fresh WM-9000TL",
     "category": "machines-a-laver",
     "specs": {
-      "Référence visible": "WM-8000TL"
+      "Référence visible": "WM-9000TL"
     },
     "sources": [
       {
-        "label": "Identification sur le visuel fourni",
-        "url": "/images/catalogue-real/photo-005.webp"
+        "label": "Photo rapprochée fournie : référence lisible",
+        "url": "/images/catalogue-real/clarification-005.webp"
       }
     ],
-    "description": "Lave-linge Fresh WM-8000TL. Référence relevée sur le visuel fourni : WM-8000TL. Les caractéristiques non indiquées sur cette fiche restent à confirmer."
+    "description": "Lave-linge Fresh WM-9000TL, lave-linge à chargement par le dessus avec panneau de commandes en façade. La référence WM-9000TL est lisible sur la photo rapprochée fournie. Les dimensions, la capacité et les autres caractéristiques restent à confirmer.",
+    "previous_specs": {
+      "Référence visible": "WM-8000TL"
+    }
   },
   "REAL-007": {
     "brand": "General Tecnomatic",

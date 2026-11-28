@@ -29,3 +29,5 @@
 .product-thumbnails{display:flex;gap:10px;overflow:auto;margin-top:12px}.product-thumbnails button{width:78px;height:95px;flex-shrink:0;border:1px solid var(--line);background:white;padding:3px}
 .product-thumbnails button[aria-pressed=true]{border-color:var(--orange)}.product-thumbnails img{width:100%;height:100%;object-fit:contain}
 @media(max-width:700px){.product-gallery-public .detail-art{min-height:280px}}
+
+.audience-choice{position:fixed;bottom:16px;left:16px;right:16px;z-index:100;background:#fff;border:1px solid #ddd;padding:16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap;box-shadow:0 3px 20px #0002;font-size:1rem}.audience-choice button{padding:10px 16px;background:#142a35;color:#fff;border-radius:4px}

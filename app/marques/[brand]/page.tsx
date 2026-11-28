@@ -1,3 +1,4 @@
+import {pageMeta} from '@/lib/seo';
 import Link from 'next/link';
 import {notFound} from 'next/navigation';
 import {brands, products} from '@/lib/catalogue';
@@ -13,7 +14,7 @@ async function current({params}: Props) {
   return products.find(product => product.brand === brand)?.brand ?? notFound();
 }
 export async function generateMetadata(props: Props) {
-  return {title: brands[await current(props)] + ' · Électroménager au Maroc'};
+  const key=await current(props);return pageMeta(`/marques/${key}/`,brands[key]+' · Électroménager au Maroc',`Explorez les équipements ${brands[key]} par catégorie. Consultez les références disponibles chez Aura Volt et préparez votre demande de prix.`,key!=='marque-a-confirmer');
 }
 export default async function Page(props: Props) {
   const key = await current(props);
@@ -24,7 +25,7 @@ export default async function Page(props: Props) {
     {families.filter(f => items.some(p => p.category === f.name)).map(f =>
       <section key={f.slug}><h2>{f.name}</h2>
         <div className="products-grid">{items.filter(p => p.category === f.name).map(p => <ProductCard key={p.slug} product={p}/>)}</div>
-        <Link href={`/${f.slug}/`}>Voir toute la famille · {f.name}</Link>
+        <Link href={`/marques/${key}/${f.slug}/`}>Voir {f.name} · {brands[key]}</Link>
       </section>)}
   </section>;
 }

@@ -1,1 +1,4 @@
-import type {MetadataRoute} from 'next';export const dynamic='force-static';export default function robots():MetadataRoute.Robots{return {rules:{userAgent:'*',disallow:'/'}}}
+import type {MetadataRoute} from 'next';
+import {indexable,absolute} from '@/lib/seo';
+export const dynamic='force-static';
+export default function robots():MetadataRoute.Robots{return {rules:{userAgent:'*',...(indexable?{allow:'/',disallow:['/dashboard/','/dashbord/','/catalogue-live.json']}:{disallow:'/'})},sitemap:absolute('/sitemap.xml')}}

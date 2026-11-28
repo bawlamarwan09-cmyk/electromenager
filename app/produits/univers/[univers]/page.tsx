@@ -1,3 +1,4 @@
+import {pageMeta} from '@/lib/seo';
 import Link from 'next/link';
 import {notFound} from 'next/navigation';
 import {families, universes} from '@/lib/families';
@@ -11,7 +12,7 @@ async function current({params}: Props) {
   return generateStaticParams().find(item => item.univers === univers)?.univers as keyof typeof universes || notFound();
 }
 export async function generateMetadata(props: Props) {
-  return {title: universes[await current(props)]};
+  const key=await current(props);return pageMeta(`/produits/univers/${key}/`,universes[key]+' au Maroc',`Découvrez les catégories de ${universes[key].toLowerCase()} Aura Volt, les références disponibles et les informations pour préparer votre achat.`);
 }
 export default async function Page(props: Props) {
   const key = await current(props);

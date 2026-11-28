@@ -83,7 +83,7 @@ export default function KitchenHero({children}:{children:ReactNode}) {
     {!active && <span className="room-hint"><Hand size={16}/> Touchez un appareil</span>}
     {active && model && <div className="kitchen-stage" onClick={event=>{if(event.target===event.currentTarget) close()}}>
       <button type="button" autoFocus className="kitchen-close" aria-label="Revenir à la pièce" onClick={close}><X/></button>
-      <div key={model.slug} className="kitchen-object"><ProductPhoto image={model.image}/></div>
+      <div key={model.slug} className="kitchen-object"><ProductPhoto image={model.image} alt={model.name}/></div>
       <div className="kitchen-card">
         <div aria-live="polite" aria-atomic="true"><small>{active.label}</small><h2>{model.name}</h2><strong>{money(model.price)}</strong></div>
         <div className="kitchen-actions">

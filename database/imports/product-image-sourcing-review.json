@@ -69,44 +69,46 @@
     },
     {
       "product_id": "REAL-004",
-      "name": "Lave-linge Siera",
-      "visible_references": {},
+      "name": "Lave-linge Siera MTL100E04",
+      "visible_references": {
+        "Référence visible": "MTL100E04"
+      },
       "target_views": 3,
       "accepted_images": [],
-      "status": "brand_identified_exact_reference_needed",
-      "identification_photo": "/images/catalogue-real/photo-004.webp",
+      "status": "identified_exact_model_photo_search_pending",
+      "identification_photo": "/images/catalogue-real/clarification-004.webp",
       "missing_views": 3,
       "identification_review": {
         "product_id": "REAL-004",
         "brand": "Siera",
-        "model": null,
-        "name": "Lave-linge Siera",
+        "model": "MTL100E04",
+        "name": "Lave-linge Siera MTL100E04",
         "category": "lave-linge",
-        "confidence": "brand_only",
-        "notes": "MTL100604 tentative; tiny badge may read MTL1006.., full label needed.",
+        "confidence": "high",
+        "notes": "Reference confirmed on user-supplied close-up photo, 27 November 2026.",
         "photo_candidates": [],
         "identification_photo": "/images/catalogue-real/photo-004.webp"
       }
     },
     {
       "product_id": "REAL-005",
-      "name": "Lave-linge Fresh WM-8000TL",
+      "name": "Lave-linge Fresh WM-9000TL",
       "visible_references": {
-        "Référence visible": "WM-8000TL"
+        "Référence visible": "WM-9000TL"
       },
       "target_views": 3,
       "accepted_images": [],
       "status": "identified_exact_model_photo_search_pending",
-      "identification_photo": "/images/catalogue-real/photo-005.webp",
+      "identification_photo": "/images/catalogue-real/clarification-005.webp",
       "missing_views": 3,
       "identification_review": {
         "product_id": "REAL-005",
         "brand": "Fresh",
-        "model": "WM-8000TL",
-        "name": "Lave-linge Fresh WM-8000TL",
+        "model": "WM-9000TL",
+        "name": "Lave-linge Fresh WM-9000TL",
         "category": "lave-linge",
         "confidence": "high",
-        "notes": "Front control fascia clearly printed WM-8000TL.",
+        "notes": "Reference confirmed on user-supplied close-up photo, 27 November 2026.",
         "photo_candidates": [],
         "identification_photo": "/images/catalogue-real/photo-005.webp"
       }

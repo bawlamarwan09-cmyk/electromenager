@@ -65,6 +65,9 @@ def refine_batch(db):
         query(db,'''INSERT INTO product_import_state (product_id,applied_values) VALUES (?,?)
             ON CONFLICT (product_id) DO UPDATE SET applied_values=excluded.applied_values''',
             (pid,json.dumps(desired,ensure_ascii=False)))
+        for label,previous in facts.get('previous_specs',{}).items():
+            if label in facts.get('specs',{}):
+                query(db,'UPDATE product_specification SET value=? WHERE product_id=? AND label=? AND value=?',(facts['specs'][label],pid,label,previous))
         for order,(label,value) in enumerate(facts.get('specs',{}).items()):
             query(db,'INSERT INTO product_specification (product_id,label,value,display_order) VALUES (?,?,?,?) ON CONFLICT DO NOTHING',(pid,label,value,order))
 

@@ -1,3 +1,4 @@
+import {staticMeta} from '@/lib/seo';
 import ContactForm from '@/components/ContactForm';
-export const metadata={title:'Demander un catalogue ou un devis'};
+export const metadata=staticMeta('/demande-de-devis/');
 export default function Page(){return <div className="container page-section contact-page"><div><span className="eyebrow">À VOTRE ÉCOUTE</span><h1>Demander un catalogue ou un devis</h1><p className="page-lead">Un équipement pour votre maison ou une commande pour votre activité ? Partagez votre besoin.</p><div className="contact-note"><strong>Une proposition qui part de vous.</strong><p>Précisez les produits, les quantités et votre ville pour préparer une demande utile.</p></div><div className="contact-note"><strong>Professionnels, partout au Maroc.</strong><p>Revendeurs, promoteurs et établissements hôteliers : un parcours adapté à votre activité.</p></div><p className="fine">Prototype : les coordonnées réelles d’Aura Volt seront ajoutées après validation.</p></div><ContactForm/></div>}

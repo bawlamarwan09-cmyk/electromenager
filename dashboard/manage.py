@@ -132,14 +132,17 @@ class Dashboard(BaseHTTPRequestHandler):
 
     def do_GET(self):
         url=urlsplit(self.path)
-        if url.path=='/catalogue.json' and os.environ.get('LIVE_CATALOGUE')=='1':
+        if url.path in ('/catalogue.json','/catalogue-sitemap.xml') and os.environ.get('LIVE_CATALOGUE')=='1':
             try:
                 refresh_storefront()
                 data=Path(os.environ.get('STOREFRONT_PATH',ROOT/'lib/storefront.generated.json')).read_bytes()
+                if url.path=='/catalogue-sitemap.xml':
+                    from seo_sitemap import render
+                    data=render(json.loads(data))
             except Exception:
                 return self.respond('Catalogue temporairement indisponible',503)
             self.send_response(200)
-            self.send_header('Content-Type','application/json; charset=utf-8')
+            self.send_header('Content-Type',('application/xml' if url.path=='/catalogue-sitemap.xml' else 'application/json')+'; charset=utf-8')
             self.send_header('Cache-Control','no-store')
             self.send_header('Content-Length',str(len(data)))
             self.end_headers()
